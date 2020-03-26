@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+      <fileDesc>
+         <titleStmt>
+            <title>Aihole temple foundation of Ravikīrti of the time of Pulakeśin II</title>
+      <respStmt>
+            <resp>initial etext</resp>
+            <persName><forename>Perrine</forename><surname>Estienne-Monod</surname></persName>
+            </respStmt>
+         <respStmt>
+               <resp>creation of file</resp>
+               <persName ref="part:daba"><forename>Dániel</forename><surname>Balogh</surname></persName>
+         </respStmt>
+         <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName>
+                  <forename>Lorenz Franz</forename>
+                  <surname>Kielhorn</surname>
+               </persName>
+         </respStmt>
+         </titleStmt>         
+         <publicationStmt>
+            <authority>DHARMA
+               <note>This project has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).</note>
+            </authority>
+            <pubPlace>Berlin</pubPlace>
+            <idno type="filename">CalE05-Aihole-Pulakesin2</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+               	<p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p><!-- not to be filled in at this stage --></p>
+         </sourceDesc>
+      </fileDesc>
+     <revisionDesc>
+        <change who="part:daba" when="2020-03-05" status="draft">Initial encoding of the file</change>
+        <!-- Add a <change> entry for each significant change to the file. -->
+     </revisionDesc>
+  </teiHeader>
+  <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="san-Latn">
+<lg n="1" met="āryā">
+   <l n="ab"><lb n="1"/>jayati bhagavā<orig>n</orig> jinendro <unclear>vī</unclear>ta-ja<unclear>rā-ma</unclear>raṇa-janmano yasya</l>
+   <l n="cd">jñāna-samudrāntargga<unclear>ta</unclear>m akhilañ jagad antarīpam iva<unclear>|</unclear></l>
+</lg>
+<lg n="2" met="āryā">
+   <l n="ab">tad anu ciram apari<unclear>me</unclear>yaś calukya-kula-vipula-jalanidhir jjayati<unclear><g type="symbol" subtype="dash"/></unclear></l>
+   <l n="cd">pr̥thivī-mauli-lalāmnāṁ yaḫ prabhavaḫ puruṣa-ratnānāM<unclear>||</unclear></l>
+</lg>
+<lg n="3" met="āryā">
+   <l n="ab">śūre viduṣi ca vibhajan dānam mānañ ca yugapad ekatra<unclear><g type="symbol" subtype="dash"/></unclear></l>
+   <l n="cd"><lb n="2"/>Avihita-yāthāsaṁ<unclear>kh</unclear>y<unclear>o ja</unclear>yati ca satyāśrayas suciraM||</l>
+</lg>
+<lg n="4" met="āryā">
+   <l n="ab">pr̥thivī-vallabha-śabdo yeṣām anvartthatāñ cirañ jātaḥ</l>
+   <l n="cd">tad-vaṁśeṣu jigīṣuṣu teṣu bahuṣv apy atīteṣu||</l>
+</lg>
+<lg n="5" met="śārdūlavikrīḍita">
+   <l n="a">nānā-heti-śatābhighāta-patita-bhrāntāśva-patti-dvipe <space/> </l>
+   <l n="b">nr̥tyad-bhīma-kavandha-kh<subst><del rend="corrected">ā</del><add place="overstrike">a</add></subst>ḍga-kiraṇa-jvālā-sahasr<unclear>e</unclear> raṇe</l>
+   <l n="c"><lb n="3"/>lakṣmīr bhāvita-cāpalāpi ca kr̥tā śauryyeṇa yenātmasāT</l>
+   <l n="d">rājāsīj jayasi<orig>ṅ</orig>havallabha Iti khyātaś calukyānvayaḥ<unclear>||</unclear></l>
+</lg>
+<lg n="6" met="upajāti">
+   <l n="a">tad-ātmajo <supplied reason="omitted">’</supplied>bhūd <surplus>ra</surplus>raṇarāga-nāmā</l>
+   <l n="b">divyānubhāvo jagad-eka-nāthaḥ <space/></l>
+   <l n="c">Amānuṣatvaṁ kila yasya lokaḥ <space/></l>
+   <l n="d"><surplus>s</surplus>suptasya jānāti vapuḫ-prakarṣāT <space/></l>
+</lg>
+<lg n="7" met="āryā">
+   <l n="ab">tasyābhavat tanūjaḫ pol<choice><unclear>e</unclear><unclear>i</unclear></choice>keś<choice><sic>i</sic><corr>ī</corr></choice> <add place="above">ya</add><supplied reason="omitted">ḥ</supplied> śritendu-kāntir api</l>
+   <l n="cd"><lb n="4"/>śrī-vallabho <supplied reason="omitted">’</supplied>py ayāsīd vātāpipurī-vadhū-varatāM<unclear>||</unclear></l>
+</lg>
+<lg n="8" met="rathoddhatā">
+   <l n="a">yat-tri-vargga-padavīm alaṁ kṣitau <space/></l>
+   <l n="b">nānugantum adhunāpi rājakaM</l>
+   <l n="c">bhūś ca yena haya-medha-yājinā <space/></l>
+   <l n="d">prāpitāvabhr̥tha-majjanā babhau <space/></l>
+</lg>
+<lg n="9" met="mālabhāriṇī">
+   <l n="a">naḷa-mauryya-kadamba-kāḷarātriḥ</l>
+   <l n="b"><surplus>s</surplus>tanayas tasya babhū<unclear>va</unclear> kīrttivarmmā</l>
+   <l n="c">para-dāra-nivr̥tta-citt<subst><del rend="corrected">e</del><add place="overstrike">a</add></subst>-<add place="below" rend="mark">vr̥tt<unclear>e</unclear></add>r</l>
+   <l n="d">api dhī<orig>r y</orig>asya ripu-śri<lb n="5" break="no"/>yānukr̥ṣṭā||</l>
+</lg>
+<lg n="10" met="drutavilambita">
+   <l n="a">raṇa-parākkrama-labdha-jaya-śriyā <space/></l>
+   <l n="b">sapadi yena virug<choice><sic>ṇ</sic><corr>n</corr></choice>am aśeṣataḥ</l>
+   <l n="c">nr̥pati-gandha-gajena mahaujasā</l>
+   <l n="d">pr̥thu-kadamba-kadamba-kadambakaM</l>
+</lg>
+<lg n="11" met="vasantatilakā">
+   <l n="a">tasmin sureśvara-vibhūti-gatābhilāṣe</l>
+   <l n="b">rājābhavat tad-anujaẖ kila maṅgaleśaḥ</l>
+   <l n="c" enjamb="yes">yaḫ pūrvva-paścima-samudra-taṭoṣitāśva</l>
+   <l n="d">-senā-rajaḫ-paṭa-vinirmmita-dig-vitānaḥ</l>
+</lg>
+<lg n="12" met="vaṁśastha">
+   <l n="a">sphuran-mayūkhair asi-dīpikā-śataiḥ</l>
+   <l n="b"><lb n="6"/>vyudasya mātaṅga-tamisra-sañcayaM</l>
+   <l n="c">avāptavān yo raṇa-raṅga-mandire</l>
+   <l n="d">kaṭaccuri-śrī-lalanā-parigrahaM</l>
+</lg>
+<lg n="13" met="mālinī">
+   <l n="a">punar api ca jighr̥kṣos sainyam ākkrānta-sālaM</l>
+   <l n="b">rucira-bahu-patākaṁ revatī-dvīpam āśu</l>
+   <l n="c">sapadi mahad-udanvat-toya-saṁkkrānta-bimbaM</l>
+   <l n="d">var<choice><sic>a</sic><corr>u</corr></choice>ṇa-balam ivābhūd āgataṁ yasya vācā||</l>
+</lg>
+<lg n="14" met="vasantatilakā">
+   <l n="a">tasyāgrajasya tanaye nahuṣānubhā<choice><sic>g</sic><corr>v</corr></choice>e</l>
+   <l n="b">lakṣmyā kilābhi<lb n="7" break="no"/>laṣite p<subst><del rend="corrected">u</del><add place="overstrike">o</add></subst>l<choice><unclear>e</unclear><unclear>i</unclear></choice>keśi-nāmni</l>
+   <l n="c">sāsūyam ātmani bhavantam ataḫ pitr̥vyaM</l>
+   <l n="d">jñātvāparuddha-carita-vyavasāya-buddhau</l>
+</lg>
+<lg n="15" met="mālinī">
+   <l n="a" enjamb="yes">sa yad-upacita-<unclear>ma</unclear>ntrotsāha-śakti-prayoga</l>
+   <l n="b">-kṣapita-bala-viśeṣo maṅgaleśas samantāT</l>
+   <l n="c">sva-tanaya-gata-rājyārambha-yatnena sārddhaṁ</l>
+   <l n="d">nijam atanu ca rājyañ jīvitañ cojjhati sma||</l>
+</lg>
+<lg n="16" met="sragdharā">
+   <l n="a">tāvat tac-cha<orig>tr</orig>a-bhaṅge jagad akhilam arātyandhakāroparuddhaṁ</l>
+   <l n="b"><lb n="8"/>yasyāsahya-pratāpa-dyuti-tatibhir ivākkrāntam āsīt prabhātaM</l>
+   <l n="c">nr̥tyad-vidyut-patākaiḫ prajavini maruti kṣuṇṇa-pa<unclear>r</unclear>yyanta-bhāgair</l>
+   <l n="d">ggarjjadbhir <orig>vvāri-vāsair</orig> aḷi-kula-malinaṁ vyoma yātaṁ kadā vā||</l>
+</lg>
+<lg n="17" met="mandākrāntā">
+   <l n="a">labdh<supplied reason="omitted">v</supplied>ā kālaṁ bhuvam upagate jetum āppāyikākhye</l>
+   <l n="b">govinde ca dvirada-nikarair uttarām bhaimarathyāḥ</l>
+   <l n="c">yasyānīkair yudhi bhaya-rasa-jñatvam ekaḫ prayātas</l>
+   <l n="d">tatrāvāptam phalam upakr̥tasyā<lb n="9" break="no"/>pareṇāpi sadyaḥ<unclear>|</unclear></l>
+</lg>
+<lg n="18" met="mattebhavikrīḍita">
+   <l n="a">varadā-tuṅga-taraṅga-raṅga-vilasad-dhaṁsā<unclear>vaḷī-mekhalāṁ</unclear></l>
+   <l n="b">vanavāsīm avamr̥dnatas surapura-prasparddh<unclear>i</unclear>nīṁ sampadā</l>
+   <l n="c">mahatā yasya balārṇṇavena paritas sañchāditorvvītalaṁ|</l>
+   <l n="d">sthala-durgañ jala-durgga<del><unclear>tām iva ga</unclear></del>tām iva gataṁ tat ta<unclear>t-kṣa</unclear>ṇe paśyatāM</l>
+</lg>
+<lg n="19" met="indravajrā">
+   <l n="a">gaṅgāḷupendrā vyasanāni sapta</l>
+   <l n="b">hitvā puropārjjita-sampado <supplied reason="subaudible">’</supplied>pi</l>
+   <l n="c">yasyānubhāvopanatās sadāsann</l>
+   <l n="d">ā<lb n="10" break="no"/>sanna-sevāmr̥ta-pāna-śauṇḍ<choice><sic>a</sic><corr>ā</corr></choice>ḥ</l>
+</lg>
+<lg n="20" met="anuṣṭubh">
+   <l n="b" enjamb="yes">koṅkaṇeṣu yad-ādiṣṭa</l>
+   <l n="a">-caṇḍa-daṇḍāmbu-vīcibhiḥ</l>
+   <l n="c" enjamb="yes">Udastās tarasā mauryya</l>
+   <l n="d">-palvalāmbu-samr̥ddhayaḥ|</l>
+</lg>
+<lg n="21" met="hariṇī">
+   <l n="a">Apara-jaladher llakṣmī<unclear>ṁ</unclear> yasmin purīm purabhit-prabhe</l>
+   <l n="b">mada-gaja-ghaṭākārair nnāvāṁ śatair avamr̥dnati</l>
+   <l n="c">jalada-paṭalānīkāk<choice><sic>i</sic><corr>ī</corr></choice>rṇṇan navotpala-mecakañ</l>
+   <l n="d">jala-nidhir iva vyoma vyomnas sa<lb n="11" break="no"/>mo <supplied reason="subaudible">’</supplied>bhavad ambu<choice><sic>bh</sic><corr>dh</corr></choice>iḥ</l>
+</lg>
+<lg n="22" met="anuṣṭubh">
+   <l n="a">pratāpopanatā yasya</l>
+   <l n="b">lāṭa-māḷava-gūrjjarāḥ</l>
+   <l n="c" enjamb="yes">daṇḍopanata-sāmanta</l>
+   <l n="d">-caryyāc<unclear cert="low">ā</unclear>ryyā IvābhavaN<unclear>||</unclear></l>
+</lg>
+<lg n="23" met="mālinī">
+   <l n="a" enjamb="yes">Aparimita-vibhūti-sphīta-sāmanta-senā</l>
+   <l n="b">makuṭa-maṇi-mayūkhākkrānta-pādāravindaḥ</l>
+   <l n="c">yudhi patita-gaj<choice><sic>a</sic><corr>e</corr></choice>ndrānīka-<choice><orig>v</orig><reg>b</reg></choice>ībhatsa-bhūto</l>
+   <l n="d">bhaya-vigaḷita-harṣo yena cākāri harṣaḥ||</l>
+</lg>
+<lg n="24" met="mālinī">
+   <l n="a" enjamb="yes">bhuvam urubhir anīkaiś śā<lb n="12" break="no"/>sato yasya rev<choice><sic>o</sic><corr>ā</corr></choice></l>
+   <l n="b">-vividha-puḷina-śobhāvandhya-vindhyopakaṇṭh<choice><sic>ā</sic><corr>aḥ</corr></choice></l>
+   <l n="c">Adhikataram arājat svena tejo-mahimnā</l>
+   <l n="d">śikharibhir ibha-varjy<choice><sic>ā</sic><corr>o</corr></choice> var<unclear>ṣ</unclear>maṇā sparddhayeva</l>
+</lg>
+<lg n="25" met="mālinī">
+   <l n="a">vidhivad upacitābhiś śaktibhiś śakkra-kalpas</l>
+   <l n="b">tisr̥bhir api guṇaughais svaiś ca māhākulādyaiḥ</l>
+   <l n="c">Agamad adhipatitvaṁ yo mahārāṣṭrakāṇāṁ</l>
+    <l n="d">navanavati-sahasra-grāma-bhājāṁ trayāṇā<unclear>ṁ</unclear> <space/></l>
+</lg>
+<lg n="26" met="mālabhāriṇī">
+   <l n="a">gr̥hiṇāṁ <surplus>sva</surplus><lb n="13"/>sva-guṇais trivargga-tuṅgā</l>
+   <l n="b">vihitānya-kṣiti-pāla-māna-bhaṅgā<unclear>ḥ</unclear></l>
+   <l n="c">Abhavann upajāta-bhīti-liṅgā</l>
+   <l n="d">yad-anīkena sa-ko<supplied reason="omitted">sa</supplied>lāẖ kaliṅgā<supplied reason="omitted">ḥ</supplied></l>
+</lg>
+<lg n="27" met="anuṣṭubh">
+   <l n="a">piṣṭaṁ piṣṭapuraṁ yena</l>
+   <l n="b">jātaṁ durggam adurggamañ</l>
+   <l n="c">citraṁ yasya kaler vr̥ttaM</l>
+   <l n="d">jātaṁ durggama-durggamaM|</l>
+</lg>
+<lg n="28" met="vasantatilakā">
+   <l n="a">sannaddha-vāraṇa-ghaṭā-sthagitāntarāḷaM</l>
+   <l n="b">nānāyudha-kṣata-nara-kṣatajāṅgarāgaM</l>
+   <l n="c">Āsīj jalaṁ yad-avamardditam abhra-garbhaṁ</l>
+   <l n="d">kaunāḷam a<lb n="14" break="no"/>mbaram ivo<choice><sic><unclear cert="low">j</unclear></sic><corr>d</corr></choice>ita-sāndhya-rāgaM<g type="symbol" subtype="dashDouble"/></l>
+</lg>
+<lg n="29" met="śārdūlavikrīḍita">
+   <l n="a">Uddhūtāmala-<orig>cā<unclear>ṁ</unclear>vara</orig>-dhvaja-śata-cchatrāndhakārair <orig>vv</orig>alaiḥ</l>
+   <l n="b">śauryyotsāha-rasoddh<subst><del rend="corrected">i</del><add place="overstrike">a</add></subst>tāri-mathanair mmaul<choice><sic>a</sic><corr>ā</corr></choice>dibhi<orig>ṣ ṣ</orig>aḍvidhaiḥ</l>
+   <l n="c" enjamb="yes">Ākkrāntātma-balonnatim bala-rajas-sañchanna-kāñcīpura<surplus>ḥ</surplus></l>
+   <l n="d">-prākārāntarita-pratāpam akarod yaḫ pallavānām patimM||</l>
+</lg>
+<lg n="30" met="praharṣiṇī">
+   <l n="a">kāverī d<choice><sic>r̥</sic><corr>ru</corr></choice>ta-śapharī-vilola-netrā</l>
+   <l n="b">coḷānāṁ sapadi jayodyatasya yasya<unclear><g type="symbol" subtype="dash"/></unclear></l>
+   <l n="c">praścyotan-mada-gaja-se<lb n="15" break="no"/>tu-ruddha-nīrā</l>
+   <l n="d">saṁsparśaṁ pariharati sma ratna-rāśeḥ|</l>
+</lg>
+<lg n="31" met="anuṣṭubh">
+   <l n="a">coḷa-keraḷa-pāṇḍyānāM</l>
+   <l n="b">yo <supplied reason="subaudible">’</supplied>bhūt tatra maharddhaye<unclear>|</unclear></l>
+   <l n="c" enjamb="yes">pallavānīka-nīhāra</l>
+   <l n="d">-tuhinetara-dīdhitiḥ||</l>
+</lg>
+<lg n="32" met="śārdūlavikrīḍita">
+   <l n="a">Utsāha-prabhu-mantra-śakti-sahite yasmin samastā diśo</l>
+   <l n="b">jitvā bhūmi-patīn visr̥jya mahitān ārāddhya deva-dvijāN</l>
+   <l n="c">vātāpīn nagarīm praviśya nagarīm ekām ivorvvīm imā<add place="above">M</add></l>
+   <l n="d">cañcan-nīradh<choice><sic>ī</sic><corr>i</corr></choice>-nīla-nīra-parikhāṁ <lb n="16"/>satyāśraye śāsati||</l>
+</lg>
+<lg n="33" met="anuṣṭubh">
+   <l n="a">triṁśatsu tri-sahasreṣu <space/></l>
+   <l n="b">bhāratād āhavād itaḥ <space/> </l>
+   <l n="c">saptābda-śata-yukteṣu <space/></l>
+   <l n="d"><choice><sic>ś</sic><corr>g</corr></choice>ateṣv abdeṣu pañcasu <space/> </l>
+</lg>
+<lg n="34" met="anuṣṭubh">
+   <l n="a">pañcāśatsu kalau kāle <space/></l>
+   <l n="b">ṣaṭsu pañca-śatāsu ca</l>
+   <l n="c">samāsu samatītāsu <space/></l>
+   <l n="d">śakānām api bhū-bhujāM<g type="symbol" subtype="dash"/></l>
+</lg>
+<lg n="35" met="vasantatilakā">
+   <l n="a">tasyāmbudhi-traya-nivārita-śāsanasya</l>
+   <l n="b"><lb n="17"/>satyāśrayasya param āptavatā prasādaṁ</l>
+   <l n="c">śailañ jinendrabhavanam bhavana<del>ṁ</del>m mahimnān</l>
+   <l n="d">nirmmāpitam matimatā ravikīrttinedaM||</l>
+</lg>
+<lg n="36" met="anuṣṭubh">
+   <l n="a">praśaster vvasateś cāsyā<orig>ḥ</orig></l>
+   <l n="b">jinasya trijagad-guroḥ</l>
+   <l n="c">karttā kārāyitā cāpi <space/></l>
+   <l n="d">ravikīrttiẖ kr̥tī svayaM</l>
+</lg>
+<lg n="37" met="āryāgīti">
+   <l n="ab">yenāyoji nave <supplied reason="subaudible">’</supplied>śma-sthiram arttha-vidhau vivekinā jina-veśma</l>
+   <l n="cd">sa vijayatāṁ ravikīrttiẖ kavitā<lb n="18" break="no"/>śrita-kāḷidāsa-bhāravi-kīrttiḥ|<unclear><g type="symbol" subtype="spiralL"/></unclear></l>
+</lg>
+<p>mūlavaḷḷi-veḷmaḻtikavāḍa-<choice><unclear>m</unclear><unclear>p</unclear></choice>a<unclear>cc</unclear>anūr-ggaṅgavūr-puḷigeṟe-ga<unclear>ṇḍ</unclear>ava-grāma Iti Asya bhukti<supplied reason="omitted">|</supplied>
+gir<choice><sic>i</sic><corr>e</corr></choice><unclear>s ta</unclear>ṭāt paścim<choice><sic>a</sic><corr>ā</corr></choice>bhigata nimūvārir <orig>yyāva</orig> mahā-pathānta-purasya s<choice><sic>i</sic><corr>ī</corr></choice>mā Uttarataḥ
+dakṣi<unclear>ṇato</unclear>
+<lb n="19"/><gap reason="illegible" quantity="2" unit="character" precision="low"/> ga <gap reason="illegible" quantity="1" unit="character" precision="low"/> na <g type="symbol" subtype="spiralR"/>
+</p>
+
+         </div>
+
+
+
+
+         <div type="apparatus">
+               <listApp>
+                  <app loc="2">
+                     <lem source="bib:Kielhorn1900_01">jātaḥ</lem>
+                     <rdg source="bib:Fleet1867_01 bib:Fleet1879_02"><choice><sic>j</sic><corr>y</corr></choice>ātaḥ</rdg>
+                  </app>
+                  <app loc="3">                     <lem>pol<choice><unclear>e</unclear><unclear>i</unclear></choice>keś<choice><sic>i</sic><corr>ī</corr></choice></lem>
+                     <rdg source="bib:Fleet1879_02 bib:Kielhorn1900_01">polekeś<choice><sic>i</sic><corr>ī</corr></choice></rdg>
+                     <rdg source="bib:Fleet1867_01">pulikeś<choice><sic>i</sic><corr>ī</corr></choice></rdg>
+                     <note>While the vowel of <foreign>ḫ po</foreign> is clear, the next character may be either <foreign>li</foreign> (with the stem closed into a loop, as in l8, <foreign>malinaṁ</foreign>) or <foreign>le</foreign> (with the vowel marker added inside the curl of the stem, as in l5, <foreign>maṅgaleśaḥ</foreign>).
+                        The mora-counting verse makes it clear that this <foreign>o</foreign> (and, if inscribed, <foreign>e</foreign> too) was definitely meant to be short, even if not distinguished from regular Sanskrit <foreign>o</foreign> and <foreign>e</foreign>.
+                        The fact that <foreign>i</foreign> was engraved in place of <foreign>ī</foreign> at the end of the name is unrelated and accidental: shortening it by one mora would not restore the metre if the preceding <foreign>o</foreign> (or <foreign>o</foreign> and <foreign>e</foreign>) had been long.
+                        More interestingly, the metre would scan correctly with a long <foreign>o</foreign> and <foreign>e</foreign> (and <foreign>ī</foreign>) if the subsequently inserted <foreign>yaḥ</foreign> were disregarded.
+                        However, <foreign>yaḥ</foreign> seems essential for the syntax (without it there would be two finite verbs with the same subject), so the omission of this word also seems to be simple scribal error and not the deliberate product of someone who pronounced the name with long vowels.
+                     Fleet <bibl><ptr target="bib:Fleet1879_02"/><citedRange>237-238</citedRange></bibl> discusses the reading and the relevant palaeography at length.</note>
+                  </app>
+                  <app loc="4">
+                     <lem>majjanā</lem>
+                     <note>Kielhorn notes that <foreign>majjanā</foreign> may have been corrected to <foreign>majjanaṁ</foreign> in the stone, and if so, the text would parse as <foreign>prāpitā avabhr̥tha-majjanaṁ</foreign>, which he finds better.  In the rubbing, there is no visible indication of <foreign>ā</foreign> being deleted. There is something above <foreign>tā</foreign> that may be an <foreign>anusvāra</foreign>, but it may also form part of the descender of <foreign>ka</foreign> (in <foreign>ekanāthaḥ</foreign>) above, or be simply damage.</note>
+                  </app>
+                  <app loc="4">
+                     <lem>babhū<unclear>va</unclear></lem>
+                     <rdg source="bib:Fleet1867_01">babhūva</rdg>
+                     <rdg source="bib:Fleet1879_02 bib:Kielhorn1900_01">babhū<choice><sic>m</sic><corr>v</corr></choice>a</rdg>
+                     <note>Though the problematic character has an extra stroke that resembles the right arm of <foreign>ma</foreign>, the body looks more like <foreign>va</foreign> (my impression is that <foreign>ma</foreign> has a wider and more angular body). I assume it is <foreign>va</foreign> with an erroneous stroke of the chisel. The word is followed by a space of about one character because of the descenders of <foreign>ḫpraka</foreign> above. The next character, <foreign>kī</foreign>, slants to the right to minimise the skipped space, and its vowel mark touches the descender of <foreign>ka</foreign>.</note>
+                  </app>
+                  <app loc="4">
+                     <lem>citt<subst><del rend="corrected">e</del><add place="overstrike">a</add></subst>-<add place="below">vr̥tt<unclear>e</unclear></add>r</lem>
+                     <note>The pre-correction reading, <foreign>citter</foreign>, seems to be a result of eyeskip. A <foreign>kākapada</foreign> in the shape of a plain vertical line above head height between <foreign>tte</foreign> and <foreign>ra</foreign> indicates the locus of insertion.</note>
+                  </app>
+                  <app loc="7">
+                     <lem source="bib:Kielhorn1900_01">p<subst><del rend="corrected">u</del><add place="overstrike">o</add></subst>l<choice><unclear>e</unclear><unclear>i</unclear></choice>keśi</lem>
+                     <rdg source="bib:Fleet1867_01 bib:Fleet1879_02">pulikeśi</rdg>
+                     <note>Kielhorn believes that <foreign>p</foreign> has markers for both <foreign>u</foreign> and <foreign>o</foreign> attached, and that the former seems to have been struck out. He is uncertain whether the next character is <foreign>le</foreign> or <foreign>li</foreign> (I concur; see also the name in line 3), and seems to imply that <foreign>la</foreign> was at first engraved, then corrected into either <foreign>le</foreign> or <foreign>li</foreign>. This latter presumed correction is not encoded in this file.</note>
+                  </app>
+                  <app loc="8">
+                     <lem><orig>vvāri-vāsair</orig></lem>
+                     <note>Kielhorn and Fleet both emend to <foreign>vārivāhair</foreign>. The latter is definitely attested for cloud according to the PWG, but <foreign>s</foreign> for <foreign>h</foreign> does not look like a scribal mistake. The poet may have considered <foreign>vārivāsa</foreign> a legitimate word (abode of water = cloud?), though it seems to be attested (<foreign>Abhidhānacintāmaṇi</foreign>) only as a distiller of spirits.</note>
+                  </app>
+                  <app loc="8">
+                     <lem source="bib:Fleet1879_02">labdh<supplied reason="omitted">v</supplied>ā</lem>
+                     <rdg source="bib:Fleet1867_01">labdhvā</rdg>
+                     <rdg source="bib:Kielhorn1900_01">lab<unclear>dhv</unclear>ā</rdg>
+                     <note>In the rubbing, <foreign>labdhā</foreign> can be made out with some difficulty, but I see no trace of a <foreign>v</foreign>.</note>
+                  </app>
+                  <app loc="9">
+                     <lem>dhaṁsā<unclear>vaḷī-mekhalāṁ</unclear></lem>
+                     <rdg source="bib:Kielhorn1900_01">dhaṁsāvaḷī-mekhalāṁ</rdg>
+                     <rdg source="bib:Fleet1867_01">dhaṁsānadī-mekhalāṁ</rdg>
+                     <rdg source="bib:Fleet1879_02">dhaṁsānad<choice><sic>i</sic><corr>ī</corr></choice>-mekhalāṁ</rdg>
+                     <note>Although Fleet and Kielhorn both print their readings as clear, in the facsimile the segment tagged here as unclear is indistinct; only <foreign>me</foreign> and <foreign>lā</foreign> are recognisable. In addition to damage, the descenders of <foreign>tyadvidyutpa</foreign> above interfere with these characters. Going by the sense, Kielhorn's reading seems more likely.</note>
+                  </app>
+                  <app loc="9">
+                     <lem source="bib:Kielhorn1900_01 bib:Fleet1879_02">durgga<del><unclear>tām iva ga</unclear></del>tām iva gataṁ</lem>
+                     <rdg source="bib:Fleet1867_01">durgga<del><unclear>tamitaga</unclear></del>tām iva gataṁ</rdg>
+                     <note>Since the vestiges of the deleted characters seem to be correct and properly shaped, the only reason for their deletion that I can think of is to correct dittography by eyeskip: the artisan engraved <foreign>durggatām iva ga</foreign>, then skipped back thinking he was in the word <foreign>durgga</foreign> (which implies that he understood the text and mouthed it as he worked, otherwise he would not have mixed up <foreign>ga</foreign> with <foreign>rgga</foreign>), thus ending up with <foreign>durggatām iva gatām iva</foreign>, and the dittography was noticed later and struck out.</note>
+                  </app>
+                  <app loc="9">
+                     <lem>ta<unclear>t-kṣa</unclear>ṇe</lem>
+                     <note>Although Fleet and Kielhorn both print this reading as clear and it fits the context perfectly, in the rubbing the character read as <foreign>tkṣa</foreign> looks more like <foreign>dgra</foreign>.</note>
+                  </app>
+                  <app loc="11">
+                     <lem source="bib:Kielhorn1900_01">caryyāc<unclear cert="low">ā</unclear>ryyā</lem>
+                     <rdg source="bib:Fleet1867_01 bib:Fleet1879_02">caryyā varyyā</rdg>
+                     <note>The scanned estampage seems to confirm Fleet's reading, but <foreign>ca</foreign> cannot be excluded, and the fact that no <foreign>ā</foreign> is discernible does not count for much, since I cannot see one in <foreign>cākāri</foreign> later in this line, either. Kielhorn's reading and interpretation may be slightly better, mainly because in Fleet's reading and interpretation, <foreign>pratāpopanatā</foreign> and <foreign>daṇḍopanata</foreign> essentially mean the same and have the same referent.</note>
+                  </app>
+                  <app loc="12">
+                     <lem source="bib:Kielhorn1900_01 bib:Fleet1879_02">rev<choice><sic>o</sic><corr>ā</corr></choice>°</lem>
+                     <rdg source="bib:Fleet1867_01">revā</rdg>
+                  </app>
+                  <app loc="12">
+                     <lem source="bib:Kielhorn1900_01">śobhāvandhya</lem>
+                     <rdg source="bib:Fleet1867_01 bib:Fleet1879_02">śobhā van<choice><sic>dh</sic><corr>d</corr></choice>ya</rdg>
+                  </app>
+                  <app loc="12">
+                     <lem>°opakaṇṭh<choice><sic>ā</sic><corr>aḥ</corr></choice></lem>
+                     <rdg source="bib:Fleet1867_01 bib:Fleet1879_02">°opakaṇṭhā</rdg>
+                     <rdg source="bib:Kielhorn1900_01">°opakaṇṭh<subst><del rend="corrected">o</del><add place="overstrike">aḥ</add></subst></rdg>
+                     <note>In Kielhorn's opinion, <foreign>°opakaṇṭho</foreign> was initially engraved, but the two lines for the <foreign>o</foreign> were struck out again, (I assume, but he does not say so, that he believes a <foreign>visarga</foreign> was inserted subsequently). As far as the scanned rubbing is concerned, I see no indication of this: the <foreign>ā</foreign> marker is quite clear, but I see no trace of a second marker attached to the wings (compare <foreign>daṇḍopanata</foreign>, l11), nor of one attached to the body, nor does there even seem to have been space for a marker on the left. I also see no <foreign>visarga</foreign>. Nonetheless, I agree with Kielhorn that the intended reading was this.</note>
+                  </app>
+                  <app loc="12">
+                     <lem source="bib:Kielhorn1900_01">varjy<choice><sic>ā</sic><corr>o</corr></choice> </lem>
+                     <rdg source="bib:Fleet1867_01 bib:Fleet1879_02">varjyā</rdg>
+                  </app>
+                  <app loc="12">
+                     <lem source="bib:Kielhorn1900_01">var<unclear>ṣ</unclear>maṇā</lem>
+                     <rdg source="bib:Fleet1867_01 bib:Fleet1879_02">var<choice><sic>p</sic><corr>ṣ</corr></choice>maṇā<supplied reason="omitted">ṁ</supplied></rdg>
+                  </app>
+                  <app loc="12">
+                     <lem><surplus>sva</surplus></lem>
+                     <note>As both Fleet and Kielhorn observe, one instance of <foreign>sva</foreign> is redundant and hypermetrical. Kielhorn thinks the one at the end of line 12 may already have been struck out in the original, but I see no indication of this in the estampage.</note>
+                  </app>
+                  <app loc="12">
+                     <lem>sa-ko<supplied reason="omitted">sa</supplied>lāẖ</lem>
+                     <note>I wonder: possibly what looks like a superfluous <foreign>i</foreign> attached to <foreign>ddha</foreign> in the lext line is in fact a <foreign>sa</foreign> to be inserted here? Probably not; an interlinear addition could have been better placed slightly higher and to the right.</note>
+                  </app>
+                  <app loc="13">
+                     <lem>piṣṭaṁ</lem>
+                     <note>These characters are very narrow and unclear in the facsimile. My hunch is that initially there may have been a <foreign>visarga</foreign> and a punctuation mark belonging to the end of stanza 26 here, followed by just one <foreign>piṣṭa</foreign> (eyeskip haplography). Later, <foreign>piṣṭaṁ</foreign> may have been engraved over these.</note>
+                  </app>
+                  <app loc="14">
+                     <lem source="bib:Kielhorn1900_01">ivo<choice><sic><unclear cert="low">j</unclear></sic><corr>d</corr></choice>ita</lem>
+                     <rdg source="bib:Fleet1867_01">ivorjjita</rdg>
+                     <rdg source="bib:Fleet1879_02">ivo<choice><sic>j</sic><corr>rjj</corr></choice>ita</rdg>
+                  </app>
+                  <app loc="14">
+                     <lem><orig>cā<unclear>ṁ</unclear>vara</orig></lem>
+                     <rdg source="bib:Fleet1867_01">cāmara</rdg>
+                     <rdg source="bib:Fleet1879_02 bib:Kielhorn1900_01">cā<choice><sic>v</sic><corr>m</corr></choice>ara</rdg>
+                     <note>Though not clear in the rubbing, there is something above <foreign>cā</foreign>, which may well be an <foreign>anusvāra</foreign>.</note>
+                  </app>
+                  <app loc="16">
+                     <lem source="bib:Fleet1879_02 bib:Kielhorn1900_01"><choice><sic>ś</sic><corr>g</corr></choice>ateṣv</lem>
+                     <rdg source="bib:Fleet1867_01">śateṣv</rdg>
+                  </app>
+                  <app loc="16">
+                     <lem>kāle <space/></lem>
+                     <note>According to Kielhorn, a second <foreign>le</foreign> may have been engraved in this space, and then struck out. The vestiges/scratches visible in the scan do not look like <foreign>le</foreign>, but I cannot exclude the possibility. I can also imagine that we have a horizontal punctuation mark here, or an aborted character overstruck with one.</note>
+                  </app>
+                  <app loc="18">
+                     <lem><choice><unclear>p</unclear></choice>a<unclear>cc</unclear>anūr</lem>
+                     <rdg source="bib:Kielhorn1900_01">paccanūr</rdg>
+                     <rdg source="bib:Fleet1867_01">sarvvanūr</rdg>
+                     <rdg source="bib:Fleet1879_02">pa<choice><unclear>cc</unclear><unclear>vv</unclear></choice>anūr</rdg>
+                     <note>Kielhorn reads maccanūr and notes that Fleet may be right in reading paccanūr.</note>
+                  </app>
+                  <app loc="19">
+                     <lem source="bib:Fleet1879_02 bib:Kielhorn1900_01"><gap reason="illegible" quantity="2" unit="character" precision="low"/> ga <gap reason="illegible" quantity="1" unit="character" precision="low"/> na</lem>
+                     <rdg source="bib:Fleet1867_01"><supplied reason="lost" cert="low">a</supplied><unclear>va</unclear>sāna</rdg>
+                  </app>
+                  
+                  
+                  
+                  
+               </listApp>
+         </div>
+         
+         
+         
+         <div type="translation" xml:lang="eng" source="bib:Kielhorn1900_01">
+<p rend="stanza" n="1">Victorious is the holy <persName>Jinendra</persName>—he who is exempt from old age, death and birth—in the sea of whose knowledge the whole world is comprised like an island.</p>
+            <p rend="stanza" n="2">And next, long victorious is the immeasurable, wide ocean of the <persName>Calukya</persName> family, which is the birth-place of jewels of men that are ornaments of the diadem of the earth.</p>
+            <p rend="stanza" n="3">And victorious for very long is <persName>Satyāśraya</persName>, who in bestowing gifts and honours on the brave and on the learned, both together on either, observes not the rule of correspondency of number.
+               <note>Interpreted by Pāṇini’s rule, I. 3, 10, <foreign>yathā-saṁkhyam anudeśaḥ samānām</foreign>, the statement that Satyāśraya bestowed ‘gifts and honours on the brave and on the learned’ would mean, that he bestowed gifts on the brave and honours on the learned. But the fact that the king really bestowed gifts and honours, both together, on the brave as well as on the learned, shews that the above statement should not be interpreted by, or, as the poet puts it, that Satyāśraya did not act in accordance with, Pāṇini’s <foreign>yāthāsaṁkhya</foreign>-rule. As Ravikīrti here refers to Pāṇini, I. 3, 10, so Bhāravi in the <title>Kirātārjunīya</title>, XIII. 19, clearly refers to the immediately preceding rule of Pāṇini’s, I. 3, 9, <foreign>tasya lopaḥ</foreign>; compare Mallinātha’s commentary on the verse. Similarly, to give only one more instance, Kālidāsa in the <title>Raghuvaṁśa</title>, XII. 58 (<foreign>dhātoḥ sthāna ivādeśam</foreign>), alludes to Pāṇini, I. 1, 56, <foreign>sthānivad ādeśo nalvidhau</foreign>.</note>
+            <!--Encode the <foreign> citations in the note as <q xml:lang="san-Latn"> instead?--></p>
+            <p rend="stanza" n="4">When many members of that race, bent on conquest, applied to whom the title of Favourite of the Earth had at last become appropriate, had passed away,—</p>
+            <p rend="stanza" n="5">There was, of the <persName>Calukya</persName> lineage, the king named <persName>Jayasiṁha-vallabha</persName>, who in battle—where horses, footsoldiers and elephants, bewildered, fell down under the strokes of many hundreds of weapons, and where thousands of frightful headless trunks and of flashes of rays of swords were leaping to and fro<note resp="part:daba">Kielhorn notes that the literal expression is “dancing,” which reminds him of <title>Ragh</title> 7. 48, <foreign>nr̥tyat-kabandha</foreign>.</note>—by his bravery made Fortune his own, even though she is suspected of fickleness.<note resp="part:daba">Kielhorn again mentions a <title>Ragh</title> parallel (17. 46), but I think <foreign>śrī</foreign> as <foreign>capalā</foreign> is common enough not to view this as a particular instance of intertextuality.</note></p>
+            <p rend="stanza" n="6">His son was he who was named <persName>Raṇarāga</persName>, of divine dignity, the one master of the world, whose superhuman nature, <supplied reason="subaudible">even</supplied> when he was asleep, people knew from the pre-eminence of his form. 
+            <note resp="part:daba">Kielhorn notes that this alludes the gods being animiṣa/animeṣa; Raṇarāga did close his eyes occasionally, but he was nonetheless recognisable as a god. He also points to some matches of phrasing with <title>Ragh</title> 5. 23.</note></p>
+            <p rend="stanza" n="7">His son was <persName>Polekeśin</persName>, who, though endowed with the moon’s Beauty, and though the favourite of Fortune, became the bridegroom of <placeName>Vātāpipurī</placeName>.
+            <note resp="part:daba">Kielhorn points out that Kānti is the wife of the Moon and indicates a textual parallel in <title>Ragh</title> 17. 25 (town as bride).</note></p>
+            <p rend="stanza" n="8">Whose path in the pursuit of the three objects of life the kings on earth even now are unable to follow; and bathed by whom with the water of the purificatory rite, when he performed the horse-sacrifice, the earth beamed with brightness.</p>
+            <p rend="stanza" n="9">His son was <persName>Kīrtivarman</persName>, the night of doom to the <persName>Naḷas</persName>, <persName>Mauryas</persName> and <persName>Kadambas</persName>, whose mind, although his thoughts kept aloof from others’ wives, was attracted by the Fortune of his adversary.</p>
+            <p rend="stanza" n="10">Who, having secured the fortune of victory by his valour in war, being a scent-elephant of a king, of great strength, at once completely broke down the multitude of the broad <foreign>kadamba</foreign> trees—the <persName>Kadambas</persName>.
+            <note>The expression <foreign>pr̥thu-kadamba-kadamba-kadambakam</foreign> apparently was suggested to our author by the <foreign>pr̥thu-kadamba-kadambaka</foreign> in <title>Kir.</title> V. 9. In the Tāḷgund Kadamba inscription the <foreign>kadamba</foreign> tree and the Kadamba family have the epithet <foreign>uru</foreign>, corresponding to the adjective <foreign>pr̥thu</foreign> in the present inscription and in the Kauṭhem plates.</note></p>
+            <p rend="stanza" n="11">When his desire was bent on the dominion of the lord of the gods,<note>I.e. when he died.</note>
+               his younger brother <persName>Maṅgaleśa</persName> became king, who by the sheets of dust of his army of horse, encamped on the shores of the eastern and western seas, stretched an awning over the quarters.
+            <note>Kielhorn notes <title>Ragh</title> 18.22 for armies on shores and 9.50 for dust in the sky.</note></p>
+            <p rend="stanza" n="12">Who in that house which was the battle-field took in marriage the damsel, the Fortune of the <persName>Kaṭaccuris</persName>, having scattered the gathering gloom, <supplied reason="subaudible">viz.</supplied> the array of elephants <supplied reason="explanation">of the adversary</supplied>, with hundreds of bright-rayed lamps, <supplied reason="subaudible">viz.</supplied> the swords <supplied reason="explanation">of his followers</supplied>.</p>
+            <p rend="stanza" n="13">And again, when he was desirous of taking the island of <placeName>Revatī</placeName>, his great army with many bright banners, which has ascended the ramparts, as it was reflected in the water of the sea appeared like <persName>Varuṇa</persName>’s forces, quickly come there at once at his word <supplied reason="explanation">of command</supplied>.</p>
+            <p rend="stanza" n="14">When his elder brother’s son, named <persName>Polekeśin</persName>, of a dignity like <persName>Nahuṣa</persName>’s, was coveted by Fortune,<note>A comparison with <title>Ragh</title> 38 suggests the interpretation that it was desired to confer on Polekeśin the dignity of <foreign>Yuvarāja</foreign>, or heir apparent.</note> 
+               and finding his uncle to be jealous of him thereat, had formed the resolution to wander abroas as an exile—
+               <note>Kielhorn mentions several textual occurrences of <foreign>apa-rudh</foreign>, often with <foreign>rāṣṭrāt</foreign>, in the sense of exile; beginning with the <title>Atharvaveda</title>. Also in the phrase in the phrase <foreign>aparuddhaḥ + carati</foreign>, with the implication that the exile seeks a way to return. Thus, “From all this it is clear that what our poet wishes us to understand, is, that Polekeśin, either banished by Maṅgaleśa or having left the country from fear of him, went to neighbouring princes and asked their assistance in the recovery of his rights.”</note></p>
+            <p rend="stanza" n="15">That <persName>Maṅgaleśa</persName>, whose great strength became on all sides reduced by the application of powers of good counsel and energy gathered by Him,<note resp="part:daba">I.e. Polekeśin. Kielhorn capitalises He when it refers to Polekeśin from here onward.</note>
+               abandoned, together with the effort to secure the kingdom for his own son, both that no mean kingdom of his and his life.</p>
+            <p rend="stanza" n="16">Then, on the subversion of that rule encompassed by the darkness of enemies, the whole world grew light again, invaded as it were by the lustrous rays of His irresistible splendour. Or when was it that the sky ceased to be black like a swarm of bees with thundering clouds, in which flashes of lightning were dancing like banners, and the edges of which were crushed in the rushing wind?
+               <note>The first half of the verse states that, as the rising sun dissipates the darkness of night, so Polekeśin dispersed the enemies who on the destruction of Maṅgaleśa’s rule … on all sides beset the realm. And the second hald impresses on the reader the fact that only then, on Polekeśin’s rise to power, and at no other time, the troubles attending Maṅgaleśa’s destruction were put an end to. Though the poet, employing the rhetorical figure of <foreign>aprastutapraśaṁsā</foreign>, in the second half of the verse actually speaks of a phenomenon of nature …, the context and his choice of the words (<foreign>patāka</foreign>, <foreign>paryanta-bhāga</foreign>, the verb <foreign>garj</foreign> … and <foreign>aḷi-kula</foreign> which recalls <foreign>ari-kula</foreign>) at once suggest to the reader what is intended to be conveyed.  — The question ending with <foreign>kadā vā</foreign> undoubtedly requires an answer in the negative (<foreign>na kadāpi</foreign>). The word <foreign>tāvat</foreign> with which the verse commences I take in the sense of <foreign>tasminn avasare</foreign> or <foreign>tatkāla eva</foreign> …</note>
+            </p>
+            <p rend="stanza" n="17">When, having found the opportunity, he who was named <persName>Āppāyika</persName>, and <persName>Govinda</persName> approached with their troops of elephants to conquer the country north of the <placeName>Bhaimarathī</placeName>, the one in battle through His armies came to know the taste of fear, while the other at once received the reward of the services rendered by him.</p>
+            <p rend="stanza" n="18">When He was besieging <placeName>Vanavāsī</placeName>, which for a girdle<note resp="part:daba">Kielhorn notes that the <foreign>haṁsa</foreign>s make a pleasant sound like a tinkling girdle, and points to <title>Ragh</title> 9.37 and 19.40 and to <title>Kir</title> 4. 1 for textual parallels.</note>
+               has the rows of <foreign>haṁsa</foreign> birds that sport on the high waves of the <placeName>Varadā</placeName> as their play-place, and which by its wealth rivalled the city of the gods, that fortress on land, having the surface of the earth all around covered with the great sea of his army, to the looker-on seemed at once converted into a fortress in the water.</p>
+            <p rend="stanza" n="19">Although in former days they had acquired happiness by renouncing the seven sins, the <persName>Gaṅga</persName> and <persName>Āḷupa</persName> lords, being subdued by His dignity, were always intoxicated by drinking the nectar of close attendance upon him.
+            <note resp="part:daba">Kielhorn notes that the seven sins include drunkenness; cites <title>Indische Sprüche</title> 2994.</note></p>
+            <p rend="stanza" n="20">In the <placeName>Koṅkaṇas</placeName> the impetuous waves of the forces directed by Him speedily swept away the rising wavelets of pools—the <persName>Mauryas</persName>.</p>
+            <p rend="stanza" n="21">When, radiant like the destroyer of Pura, He besieged <placeName>Purī</placeName>, the Fortune of the western sea, with hundreds of ships in appearance like arrays of rutting elephants, the sky, dark-blue as a young lotus and covered with tiers of massive clouds, resembled the sea, and the sea was like the sky.</p>
+            <p rend="stanza" n="22">Subdued by His splendour, the <persName>Lāṭas</persName>, <persName>Māḷavas</persName> and <persName>Gūrjaras</persName> became as it were teachers of how feudatories, subdued by force, ought to behave.
+            <note resp="part:daba">Kielhorn explains that they submitted voluntarily, impressed by his majesty, but were so humble and obedient that this could have set an example to others who were subjected by force.</note></p>
+            <p rend="stanza" n="23"><persName>Harṣa</persName>, whose lotus-feet were arrayed with the rays of the jewels of the diadems of hosts of feudatories prosperous with unmeasured might, through Him had his mirth <supplied reason="explanation"><foreign>harṣa</foreign></supplied> melted away by fear, having become loathsome with his rows of lordly elephants fallen in battle.</p>
+            <p rend="stanza" n="24">While He was ruling the earth with his broad armies, the neighbourhood of the <placeName>Vindhya</placeName>, by no means destitute of the lustre of the many sandbanks of the <placeName>Revā</placeName>, shone even more brightly by his great personal splendour, having to be avoided by his elephants because, as it seemed, they by their bulk rivalled the mountains.
+            <note>Really the mountainous country of the Vindhya had to be avoided by the king’s elephants, because it was impassable for them; but the poet’s reason is, that the elephants were higher than the Vindhya. If they had gone there, the Vindhya by the presence of these mountain-like elephants would have transgressed the command of the sage Agastya … that it should not grow higher so long as Agastya remained in the south. In this way the very absence of the king’s elephants becomes an additional token of his might.</note>
+            <note resp="part:daba">Kielhorn also notes a textual parallel with <title>Ragh</title> 16.31 and I. 86</note></p>
+            <p rend="stanza" n="25">Almost equal to <persName>Indra</persName>,<note>He was like Indra because, like that deity, he possessed certain <foreign>śakti</foreign>s; but was inferior to him because his <foreign>śakti</foreign>s were only three (the powers of mastery, good counsel and energy), while Indra possesses eight Śaktis (Indrāṇī, etc.).</note> 
+               he by means of all the three powers, gathered by him according to rule, and by his noble birth<note resp="part:daba">Kielhorn refers to Pāṇini IV.1,141 for <foreign>māhākula</foreign> = “born in a noble family.”</note> 
+               and other excellent qualities, acquired the sovereignty over the three <persName>Mahārāṣṭrakas</persName> with their nine and ninety thousand villages.</p>
+            <p rend="stanza" n="26">Through the excellencies of their householders prominent in the pursuit of the three objects of life, and having broken the pride of other rulers of the earth, the <persName>Kaliṅgas</persName> with the <persName>Kosalas</persName> by His army were made to evince signs of fear.</p>
+            <p rend="stanza" n="27">Hard pressed <supplied reason="explanation"><foreign>piṣṭa</foreign></supplied> by Him, <placeName>Piṣṭapura</placeName> became a fortress not difficult to access; wonderful <supplied reason="explanation">to relate</supplied>, the ways of the Kali age to Him were quite inaccessible!</p>
+            <p rend="stanza" n="28">Ravaged by Him, the water of <placeName>Kuṇāḷa</placeName><note resp="part:daba">Kielhorn identifies Kuṇāla as the lake Kolanu/Kolleru; he discusses this on page 2ff.</note>
+               —coloured with the blood of men killed with many weapons, and the land within it overspread with arrays of accoutred elephants—was like the cloud-covered sky in which the red evening-twilight has risen.<note resp="part:daba">Kielhorn points to <title>Ragh</title> 16.58, 11.60 and <title>Kir</title> 9.9.</note></p>
+            <p rend="stanza" n="29">With his sixfold forces,<note resp="part:daba">Kielhorn points to <title>Ragh</title> 4.26 and 17.67 for <foreign>ṣaḍvidha bala.</foreign></note> 
+             the hereditary troops and the rest, who raised spotless chowries, hundreds of flags, umbrellas, and darkness, and who churned the enemy elated with the sentiments of heroism and energy, He caused the splendour of the lord of the <persName>Pallavas</persName>, who had opposed the rise of his power, to be obscured by the dust of his army, and to vanish behind the walls of <placeName>Kāñcīpura</placeName>.
+            <note resp="part:daba">Kielhorn explains: 1. <foreign>andhakāra</foreign> refers to dust, <foreign>rajo’ndhakāra</foreign> in <title>Ragh</title> 7.39 (compare <foreign>śarāndhakāra</foreign> in <title>Kir</title> 17.20 and <foreign>khaḍgāndhakāra</foreign> in <title>Vikramāṅkadevacarita</title> 1.75), 
+               and “the poetical beauty … lies in the fact that darkness is enumerated together with such very different things as chowries etc.”; 
+               2. he construes <foreign>bala-rajas</foreign>-etc. with two composite sections qualifying <foreign>pratāpa</foreign> sequentially: his splendour was at first only obscured (when he was defeated in the open), and afterwards (when he had to retire within the walls of his fortress) it entirely vanished. I cannot agree with Kielhorn on these points. 
+               1, I think the darkness of his armies actually consisted of the things listed in the verse, just as suggested by the parallels Kielhorn cites. The fact that these bright things constitute darkness is indeed striking and must have been used for poetic effect. 
+               As for 2, his explanation cannot be ruled out, but a more regular compound structure, with the first part qualifying the walls, also produces good sense. Fleet too seems to think along such lines, translating “armies, which were darkened by the spotless chowris that were waved over them and with hundreds of banners and umbrellas” and “caused the leader of the Pallavas … to hide his prowess behind the ramparts of the city of Kāñcīpur, which was concealed under the dust of his army.” 
+               Further, I also disagree with Kielhorn about his translation of <foreign>ākkrāntātma-balonnatim</foreign> as “who had opposed the rise of his power.” I feel that <foreign>ātma</foreign> must mean the Pallava ruler, whose smugness (<foreign>unnati</foreign>) over his power was toppled (<foreign>ākrānta</foreign>) by Polekeśin. Fleet offers a thirs interpretation: “who aimed at the eminence of his own power”.</note></p>
+            <p rend="stanza" n="30">When straightway He strove to conquer the <persName>Coḷas</persName>, the <placeName>Kāverī</placeName>, who has the darting carps for her tremulous eyes, had her current obstructed by the causeway formed by his elephants whose rutting-juice was dripping down, and avoided the contact with the ocean.
+            <note>The verse clearly was suggested to our author by <title>Ragh</title> IV. 45: <foreign>sa sainya-parighogena gajadāna-sugandhinā| kāverīṁ saritāṁ patyuḥ śaṅkanīyām ivākarot||</foreign> 
+               <q>By the fact that his soldiers used the water of the river for bathing etc., and in doing so made it fragrant with the rutting-juice of their elephants, Raghu made the (river) Kāverī an object of suspicion for the ocean, her husband, who by the smell of her body would be led to believe that she had had intercourse with other men.</q> 
+               Ravikīrti too mentions the rutting-juice, but does so in a mere epitheton ornans, which he might as well have omitted, because in his verse the real reason for the Kāverī’s keeping away from the ocean is, that her current was obstructed by the bulky elephants on which Polekeśin crossed the river. 
+               Ravikīrti has spoiled Kālidāsa’s verse by crowding into in an idea from <title>Ragh</title> IV. 38 (<foreign>sa tīrtvā kapiśāṁ sainyair baddha-dvirada-setubhiḥ</foreign>).—
+               The epithet of the Kāverī, <foreign>druta-śapharī-vilola-netrā</foreign>, apparently was suggested by the epithet <foreign>śapharī-parisphurita-cāru-dr̥śaḥ</foreign> in <title>Kir</title> VI. 16 (compare also ibid. IV. 3); <foreign>praścyotan-mada</foreign> occurs ibid. VII. 35.</note></p>
+            <p rend="stanza" n="31">There He caused great prosperity to the <persName>Coḷas</persName>, <persName>Keraḷas</persName> and <persName>Pāṇḍyas</persName>, he being the hot-rayed sun to the hoar-frost—the army of the <persName>Pallavas</persName>.</p>
+            <p rend="stanza" n="32">While He, <persName>Satyāśraya</persName>, endowed with the powers of energy, mastery and good counsel,—having conquered all the quarters, having dismissed the kings full of honours, having done homage to gods and Brāhmaṇs, having entered the city of <placeName>Vātāpī</placeName>—is ruling, like one city, this earth which has the dark-blue waters of the surging sea for its moat;
+            <note resp="part:daba">Kielhorn marks RaghV 4.85-87 and I. 30 for parallels.</note></p>
+            <p rend="stanza" n="33"><supplied reason="explanation">Now</supplied> when thirty <supplied reason="subaudible">and</supplied> three thousand and five years besides, joined with seven hundred years, have passed since the Bhārata war;</p>
+            <p rend="stanza" n="34">And when fifty <supplied reason="subaudible">and</supplied> six and five hundred years of the Śaka kings also have gone by in the Kali age;</p>
+            <p rend="stanza" n="35">This stone mansion of <persName>Jinendra</persName>, a mansion of every kind of greatness, has been caused to be built by the wise Ravikīrti, who has obtained the highest favour of that <persName>Satyāśraya</persName> whose rule is bounded by the three oceans.</p>
+            <p rend="stanza" n="36">Of this eulogy and of this dwelling of the Jina revered in the three worlds,<note>Or ‘the preceptor of the three worlds.’</note> the wise <persName>Ravikīrti</persName> himself is the author and also the founder.</p>
+            <p rend="stanza" n="37">May that <persName>Ravikīrti</persName> be victorious, who full of discernment has used the abode of the Jina, firmly built of stone, for a new treatment of his theme, and who thus by his poetic skill has attained to the fame of <persName>Kāḷidāsa</persName> and of <persName>Bhāravi</persName>!
+               <note>I purposely omit from my translation the line which follows in the original, and which is a later addition to the poem. The first part of it enumerates six villages, the revenues of which apparently were assigned to the temple of Jinendra founded by Ravikīrti. The concluding part of it, which speaks of boundaries, I do not understand.</note>
+</p>
+           </div>
+         
+         
+         
+         <div type="translation" xml:lang="eng" source="bib:Fleet1879_02">
+            <note type="credit">Of Fleet's translation, only the appended passage is reproduced here, as this is not translated by Kielhorn.</note>
+            <p n="18-19">This is the possession of this <supplied reason="explanation">god</supplied>;—<supplied reason="explanation">The hamlet of?<!--add certainty low?--></supplied> <placeName>Mūlavaḷḷi</placeName>; <supplied reason="explanation">the town of</supplied> <placeName>Veḷmaḻtikavāḍa</placeName>; <supplied reason="explanation">the village of?<!--add certainty low?--></supplied> <placeName>Paccanūr</placeName>; <supplied reason="explanation">the village of</supplied> <placeName>Gaṅgavūr</placeName>; <supplied reason="explanation">the village of</supplied> <placeName>Puḷigeṟe</placeName>; <supplied reason="explanation">and the village of</supplied> <placeName>Gaṇḍavagrāma</placeName>. 
+               To the west of the slope of the mountain, <supplied reason="explanation">there is?<!--add certainty low?--></supplied> <supplied reason="explanation">the field called</supplied> <placeName>Nimūvāri</placeName> extending up to the boundary of <supplied reason="explanation">the city of</supplied> <placeName>Mahāpathāntapura</placeName>;<note>Or, ‘of the city which is at the edge of the main road’</note> 
+               and on the north and on the south. ...<note>The last word of the inscription is only partly legible, and the effaced letters cannot be supplied. It is probably the name of some place.</note>
+            </p>
+         </div>
+
+
+         <div type="translation" xml:lang="fra" source="bib:Estienne-Monod2008_01">
+<p rend="stanza" n="1">Victoire au bienheureux Jinendra qui s’est dépourvu de la vieillesse, de la mort et de la naissance !
+Les eaux de la connaissance de cet être entourent le monde entier comme une île.</p>
+            <p rend="stanza" n="2">Puis, que soit longtemps victorieux l’incommensurable et abondant océan qu’est la lignée des Calukya,
+origine de ces joyaux que sont ces hommes, ornements du diadème de la terre !</p>
+            <p rend="stanza" n="3">Accordant au brave et au savant don et honneur, simultanément à chacun,
+n’appliquant pas la règle de la correspondance numérique, que soit très longtemps victorieux Satyāśraya !</p>
+            <p rend="stanza" n="4">Et quand furent décédés ces (rois) nombreux, issus de cette lignée, avides de conquêtes,
+dont le nom « favoris de la terre » était conforme à la réalité depuis longtemps,</p>
+            <p rend="stanza" n="5">dans la bataille où les chevaux, les fantassins et les éléphants, agités, tombaient sous l’assaut de centaines de traits divers,
+où dansaient d’effrayants corps sans tête et mille flammes, éclats émanant des épées,
+faisant sienne Lakṣmī, dont pourtant l’inconstance était manifeste, grâce à son héroïsme,
+naquit un roi appelé Jayasiṁha Vallabha, du lignage des Calukya,</p>
+            <p rend="stanza" n="6">Son fils, nommé Raṇarāga,
+doué d’une majesté divine, (était) seigneur unique de l’univers,
+le monde, dit-on, prenait connaissance de sa nature surhumaine
+lorsqu’il dormait, grâce à son extrême beauté.</p>
+            <p rend="stanza" n="7">Son fils fut Polekeśin, qui, bien qu’il possédât la beauté de la lune,
+bien qu’il fût le favori de la fortune, devint l’époux de cette jeune femme, Vātāpipurī.</p>
+            <p rend="stanza" n="8">Le grand nombre des rois n’est pas capable, aujourd’hui encore,
+de suivre sur terre son cheminement vers les Trois Buts,
+la terre, grâce au sacrifice du cheval qu’il accomplit,
+immergée par l’eau de son bain purificatoire, resplendit.</p>
+            <p rend="stanza" n="9">Pour les Naḷa, Maurya et Kadamba,
+son fils Kīrtivarman fut la fin des temps ;
+bien que la tournure de son esprit se détournât de la femme d’autrui,
+sa pensée fut attirée par la Fortune de ses ennemis.</p>
+            <p rend="stanza" n="10">Ayant conquis par son héroïsme au combat la fortune de la victoire,
+en un instant, il fit voler en éclat,
+éléphant royal en rut, très puissant,
+toutes les fleurs de kadamba que sont les puissants Kadamba.</p>
+            <p rend="stanza" n="11">Ce dernier désirant la puissance du seigneur des dieux,
+son frère cadet, Maṅgaleśa, fut, il est vrai, roi.
+Il campa sur les rives des océans de l’Est et de l’Ouest,
+tendant sur les horizons un dais de poussière (soulevée) par sa cavalerie.</p>
+            <p rend="stanza" n="12">Grâce aux cent lumières de son épée, aux éclatants rayons,
+Ayant dispersé les ténébreuses nuées d’éléphants,
+il obtint dans le pavillon que fut le champ de bataille
+l’union avec une femme volage, qui était la Fortune des Kaṭaccuri.</p>
+            <p rend="stanza" n="13">Puis, l’armée de celui-ci, désireux de prendre l’île de Revatī,
+escalada rapidement les remparts, avec ses nombreuses bannières flamboyantes,
+son reflet traversant les eaux du grand océan,
+elle fut pareille aux forces de Varuṇa, venue aussitôt sur son ordre.</p>
+            <p rend="stanza" n="14">Le fils de son frère aîné, doué de la puissance de Nahuṣa,
+aimé, dit-on, par Lakṣmī, le nommé Polekeśin,
+sachant que son oncle nourrissait alors de la jalousie à son égard,
+résolut de partir en exil.</p>
+            <p rend="stanza" n="15">Usant de la puissance et des bons conseils, pouvoirs qui se concentraient en lui,
+il détruisit partout l’ensemble des armées de Maṅgaleśa,
+qui, avec ses efforts pour léguer un royaume à son propre fils,
+abandonna sa propre vie et son important royaume.</p>
+            <p rend="stanza" n="16">Puis, lorsque son parasol fut brisé, le monde entier, qui avait été obstrué par les ténèbres ennemis,
+comme envahi par la propagation de l’éclat de son insoutenable majesté, fut illuminé ;
+quand le ciel, aussi noir qu’un essaim d’abeilles, fut-il éclairci par des nuées grondantes,
+dans lesquelles dansaient les bannières des éclairs, dont les bords, dans les vents rapides, étaient déchirés ?</p>
+            <p rend="stanza" n="17">Ayant saisi l’occasion, le dénommé Āppāyika et Govinda s’approchèrent,
+pour conquérir avec une multitude d’éléphants la région au Nord de Bhaimarathī,
+l’un connut le rasa de la peur au combat à cause des armées de ce dernier,
+tandis que l’autre reçut aussitôt la récompense de son aide.<note>anacoluthe : les agents sont exprimés dans le locatif absolu des <foreign>pāda</foreign> a et b, ils sont repris sous la forme de pronoms dans les <foreign>pāda</foreign> c et d, mais dans le <foreign>pāda</foreign> c les constructions impersonnelle <foreign>jñatvam</foreign> et personnelle <foreign>ekaḥ</foreign> sont juxtaposées.</note></p>
+            <p rend="stanza" n="18">Tandis qu’il attaquait Vanavāsī, qu’enserrait une rangée d’oies sauvages, s’ébattant sur le théâtre des hautes vagues de la Varadā,
+et qui rivalisait avec la cité des dieux par sa prospérité,
+cette forteresse terrestre, dont le sol était recouvert par les flots puissants de son armée, sembla devenir soudainement une forteresse maritime, aux yeux de ceux qui regardaient.</p>
+            <p rend="stanza" n="19">Les princes des Gaṅga et des Āḷupa, ayant renoncé aux sept vices,<note>Les sept vices sont les suivants : <foreign>dyūtaṁ māṁsaṁ surā veśyākheṭa-caurya-parānganāḥ[+|] māhāpāpāni saptaiva vyasanāni tyajed budhaḥ[+||]</foreign>, (Böhtlingk’s <title>Ind. Sprüche</title>, 2994). (N. D. T.)</note> 
+qui, pourtant, s’étaient procurés auparavant la félicité,
+soumis à sa puissance, furent toujours
+ivres de l’absorption du nectar d’immortalité qu’est le fait de servir celui-ci.</p>
+            <p rend="stanza" n="20">Chez les Koṅkaṇa, grâce aux vagues de l’armée impétueuse qu’il dirigeait,
+la prospérité des étangs que sont les Maurya fut rapidement refluée.</p>
+            <p rend="stanza" n="21">Tandis que, possédant l’éclat du destructeur de Pura,<note>Śiva.</note> il écrasait Purī, Fortune de l’océan occidental,
+avec des centaines de navires semblables à une troupe d’éléphants en rut,
+couvert du voile épais des nombreux nuages, bleu foncé comme un jeune lotus,
+le ciel devint pareil à l’océan, l’océan devenant semblable au ciel.</p>
+            <p rend="stanza" n="22">Inclinés devant son éclat, les Lāṭa, Māḷava et Gūrjjara,
+furent comme des enseignants professant la conduite que doivent suivre les feudataires, inclinés devant son autorité.</p>
+            <p rend="stanza" n="23">L’armée des riches feudataires, dont la puissance est sans limite,
+par les éclats des pierres de leurs diadèmes illumine ses pieds de lotus ;
+éprouvant du dégoût devant son armée de grands éléphants tombés au combat
+grâce à lui, Harṣa vit sa joie se dissoudre dans la peur.</p>
+            <p rend="stanza" n="24">Lorsque il gouvernait la terre avec ses grandes armées,
+les parages des Vindhya, qui n’étaient pas dépourvus de beauté, grâce aux divers rivages sablonneux de la Revā,
+brillaient davantage encore grâce à la puissance de son propre tejas,
+eux qui devaient être évités par les éléphants, comme si leur hauteur rivalisait avec celle des montagnes.</p>
+            <p rend="stanza" n="25">Lui, qui est égal à Śakra grâce aux pouvoirs qu’il a rassemblés selon les règles,
+bien qu’il n’en possède que trois,<note>Indra possède 8 śaktis. (N.D.T.)</note> et grâce à ses vertus, à commencer par celle de sa noble naissance,<note><foreign>māhākula</foreign> : « né dans une famille noble », Pāṇini, IV, 1, 141. (N.D.T.)</note>
+en vint à acquérir la souveraineté des trois Mahārāṣṭraka,
+pourvus de leurs quatre vingt dix neuf mille villages.</p>
+            <p rend="stanza" n="26">Par les vertus propres de leurs maîtres de maison, éminents par la possession des trois buts, chez eux, qui obtinrent de briser l’orgueil des autres seigneurs de la terre,
+des manifestations de peur naquirent
+chez les Kaliṅga et Kosala à cause de son armée.</p>
+            <p rend="stanza" n="27">Ecrasée par celui-ci, la citadelle de Piṣṭapura
+ne fut pas inacccessible,
+les événements de l’âge de Kali, ô merveille,
+furent absolument inaccessibles pour lui.</p>
+            <p rend="stanza" n="28">Ile qui s’effaçait sous les troupes d’éléphants équipés,
+rougie par le sang des hommes blessés par les diverses armes,
+l’eau de Kaunāḷa qu’il avait ravagée fut comme
+le ciel couvert de nuages et dans lequel se lève la rougeur du crépusule.</p>
+            <p rend="stanza" n="29">Avec ses armées de six corps, les forces héréditaires et les autres, dont les panaches, les bannières et les centaines de parasols, immaculés, répandaient, quand ils étaient levés, les ténèbres,
+et qui broyaient les ennemis, exaltés par le sentiment de sa vaillance et de sa fougue,
+il fit couvrir par la poussière (soulevée par) son armée la majesté du seigneur des Pallava,
+qui avait attaqué l’essor de sa puissance, derrière l’enceinte de Kāñcīpura.</p>
+            <p rend="stanza" n="30">La Kāverī, où frémissait l’œil des carpes rapides,
+dès qu’il se mit en route pour vaincre les Coḷa,
+voyant ses eaux refluées par le pont de ses éléphants, suant de mada,
+évita le contact de l’océan.</p>
+            <p rend="stanza" n="31">Aux Coḷa, Kerala et Pāṇḍya, il apporta ensuite une grande prospérité,
+soleil dissipant les frimas qu’était le brouillard de l’armée des Pallava.</p>
+            <p rend="stanza" n="32">tandis que celui-ci était muni des pouvoirs de l’énergie, de la puissance et des bons conseils, ayant conquis tous les horizons,
+ayant congédié les seigneurs de la terre, renommés, ayant satisfait les dieux et les brahmanes,
+ayant pénétré dans la cité de Vātāpī, Satyāśraya gouvernait cette terre comme une cité unique,
+dont les fossés regorgeaient de l’eau sombre de l’océan agité.</p>
+            <p rend="stanza" n="33">Lorsque depuis la guerre de Bhārata, trois mille trente
+cinq ajoutées à sept cent années se furent écoulées,</p>
+            <p rend="stanza" n="34">quand dans l’âge Kali<note>556 <foreign>śaka</foreign> = 634 apr. J. C.</note> cinq cent cinquante six
+années des souverains Śaka furent passées,</p>
+            <p rend="stanza" n="35">De celui dont l’autorité n’avait d’autres limites que les trois océans,
+de Satyāśraya ayant reçu la grande faveur,
+un temple de Jinendra en pierre, temple des grandeurs,
+fut construit par ce sage Ravikīrti.</p>
+            <p rend="stanza" n="36">De cette praśasti et de cette demeure
+du Jina, maître des trois mondes,
+Ravikīrti lui-même
+est l’auteur et aussi l’ordonnateur de la construction.</p>
+            <p rend="stanza" n="37">Celui-ci, plein de discernement,
+employa la très solide demeure du Jina, pour une nouvelle disposition du sujet.
+Victoire à Ravikīrti
+dont la gloire, en raison de son talent poétique, est celle de Kāḷidāsa et Bhāravi !</p>
+            <p n="18-19"><note>Ce passage a été ajouté ultérieurement à l’inscription.</note>La bhukti de celui-ci<note>Division territoriale, dont les revenus sont peut-être attribués au temple du Jina. Pour le terme <foreign>bhukti</foreign> cf., D. C . Sircar, 1966, p. 57.</note> se constitue des villages suivants : Mālavaḷḷi, Veḷmaḻtikavāḍa, [Ma]ccanūr, Gaṅgavūr, Puḷigeṟe et Gaṇḍava. A partir du flanc de la montagne, en allant vers l’ouest, aussi loin que s’étend Nimūvāri, sont les frontières de Mahāpathāntapura, au nord et au sud, * * * <note>Les trois ou quatre dernières lettres sont illisibles.</note>  
+</p>
+         </div>
+
+
+         <div type="commentary">
+            <!--DB Some notes on punctuation marks
+               1ab: definitely no punctuation; no space whatsoever between sya and the next character. 
+               1cd: a single vertical, very tall (from bottom of descenders to top of ascenders)
+               2ab: not quite clear, but there definitely seems to be a punctuation mark in the shape of a short horizontal dash. 
+               2cd: seems to be a short double vertical
+               3ab: Kielhorn prints a double daṇḍa. There seems to be a single, possibly a double horizontal dash here.
+               3cd: a short double vertical, the first one may have a curved extension downward to the right.
+               4ab: none; the visarga may double as punctuation.
+               4cd: short double vertical
+               5a: space
+               5b: none, but it's the end of the physical line
+               5c: none, but there's a halanta T and hiatus instead of expected sandhi.
+               5d: Kielhorn prints double daṇḍa. Rubbing unclear, perhaps just a single vertical
+               6a: probably none
+               6b: space
+               6c: visarga and space, followed by superfluous s-sandhi
+               6d: halanta T and space
+               7ab: none
+               7cd: may be a single or double vertical
+               8a space
+               8b: halanta M
+               8c: space
+               8d: space
+               9a: visarga, followed by superfluous s-sandhi
+               9b,c: none
+               9d: clear double vertical
+               10a: space
+               10b,c: none
+               10d: halanta M 
+               11a,b,c,d: none
+               12a: hiatus
+               12b: halanta M
+               12c: none
+               12d: halanta M 
+               13a: halanta M instead of sandhi (Kielhorn emends to anusvāra, but this is clearly deliberate)
+               13b: none
+               13c: halanta M instead of sandhi (Kielhorn emends to anusvāra, but this is clearly deliberate)
+               13d: a double vertical, very short, with the top at headline height
+               14a,b: none
+               14c: halanta M instead of sandhi
+               14d: none
+               15a: none
+               15b: halanta T
+               15c: none (and anusvāra sandhi is present)
+               15d: clear short double vertical a little below headline height
+               16a: none and anusvāra sandhi is present if Kielhorn is correct in reading an anusvāra here. ddha is at the edge of the stone and partly chipped, but it is unlikely that the chipping was extensive enough to destroy a halanta m.
+               16b: halanta M instead of sandhi
+               16c: none, sandhi present
+               16d: a short double vertical at or near headline height
+               17a,b,c: none; sandhi present where applicable (not in a)
+               17d: seems to be a single vertical. Kielhorn prints a single daṇḍa here.
+               18a,b: none, sandhi where applicable
+               18c: short single vertical
+               18d: halanta M
+               19a,b,c,d: none (d ends in visarga)
+               20ab: none
+               20cd: seems to be a single short vertical
+               21a,b,c,d: none (with homorganic nasal sandhi after b; visarga at end of d)
+               22ab: none (visarga)
+               22cd: halanta N and a punctuation mark that may be a short double vertical, but there are other scratches involved. Kielhorn transcribes it as a double daṇḍa.
+               23a,b,c: none (visarga in b)
+               23d: looks like a big dot; probably another short double vertical, transcribed as double by Kielhorn
+               24a,b,c,d: none (visarga in b)
+               25a,b,c: none (visarga in hiatus in b)
+               25d: space
+               26a: none
+               26b: visarga in hiatus, possibly followed by a single vertical
+               26c: none
+               26d: none, but the missing final visarga and a punctuation mark may have been engraved and then overwritten
+               27ab: none, homorganic nasal sandhi present
+               27cd: final halanta M and single vertical; also halanta M instead of sandhi at end of b!
+               28a,b: halanta M instead of sandhi
+               28c: none
+               28d: double horizontal
+               29a: none; visarga in regular sandhi
+               29b: visarga in hiatus
+               29c: superfluous visarga within a compound (or is this a punctuation mark?)
+               29d: damaged, but definitely a double vertical
+               30a: none
+               30b: not read by Kielhorn, but I think there is a single horizontal punctuation mark
+               30c: none
+               30d: single vertical (though possibly two thin lines close by and merged by flaking)
+               31a: halanta M in hiatus
+               31b: punctuation indistinct, but there is a space with marks inside it, which Kielhorn transcribes as an unclear single daṇḍa
+               31c: none
+               31d: a definite double vertical
+               32a: none, sandhi present
+               32b: halanta N in hiatus
+               32c: halanta M in hiatus
+               32d: probably a double vertical
+               33a: space
+               33b: visarga and space
+               33c: space
+               33d: space
+               34a: space
+               34b: none
+               34c: space
+               34d: halanta M and a single horizontal
+               35a,b,c: none, sandhi present
+               35d: halanta M and probably a double vertical
+               36a: visarga in hiatus. there is also a space after the visarga, but it can be ascribed to the descenders of tsuka in pañcāśatsu kalau and seems not to be for verse segmentation.
+               36b: visarga in regular sandhi
+               36c: space
+               36d: halanta M
+               37ab: none
+               37cd: visarga and punctuation that is indistinct; probably a single vertical.
+            -->
+            <!--DB Notes on halanta characters
+               v2 ratnānāM: slightly lowered, but not noticeably reduced in size; with a horizontal line quite high above it.
+               v3 suciraM: appears to be a full-sized, regular ma without a line above.
+               v5 ātmasāT: seems to be a full-fledged ta.
+               v6 prakarṣāT: may be a full-fledged form or a reduced one with the line at the height where the headmark would be.
+               v8 rājakaM: looks like a full ma
+               v10 kadambakaM: seems to be reduced with a line above; Kielhorn thinks it may have been corrected from a visarga
+               v12 sañcayaM: reduced but probably has no line above
+               v12 parigrahaM: full size but seems simplified (loop with two arms)
+               v13 sālaM: seems reduced
+               v13 bimbaM: full-sized
+               v14 pitr̥vyaM: much reduced and may have a short line above it
+               v15 samantāT: reduced and lowered, with definite line above.
+               v16 prabhātaM: reduced
+               v18 paśyatāM: reduced and simplified, no line
+               v22 IvābhavaN: indistinct; seems to be reduced and lowered
+               v27 vr̥ttaM, durggamaM: reduced and simplified without a line
+               v28 āntarāḷaM: reduced and simplified without a line
+               v28 āṅgarāgaM: reduced and simplified but with a line 
+               v28 rāgaM: full sized but simplified
+               v29 patimM: damaged but seems to be reduced with a line above
+               v31 pāṇḍyānāM: seems to be full sized but probably simplified
+               v32 dvijāN: simplified but nearly full size, no line
+               v32 imāM: a small and simplified form, but it is at head height and was probably inserted subsequently
+               v34 bhujāM: simplified and slightly reduced
+               v35 edaM: seems to be full sized 
+               v36 svayaM: full sized 
+            -->
+            <!--Notes on versification
+               v11 vasantatilakā compound straddling cd boundary
+               v15 mālinī obscured caesura in a and c, also a compound straddling ab boundary.
+               v16 sragdharā: obscured caesurae in 16a2 and b2
+               v23 mālinī: cpd straddling ab boundary
+               v24 mālinī: cpd straddling ab boundary
+               v26 mālabhāriṇī rhyme at end of each pāda
+               v28 vasantatilakā probable rhyme at end of a, b, d
+               v29 śārdūlavikrīḍita: cpd across pāda cd 
+            -->
+            <!--DB L3. The ya of calukyānvayaḥ seems to be a cursive bipartite form, but the rubbing is not quite clear. A bipartite y is definitely used in ye of yena, l11 -->
+            <!--DB L6. I wonder if kaṭaccuri could instead be read as kaḷaccuri. I see no branching at the end of the stroke, but then again, e.g. aḷi in l8 looks much the same. Fleet’s note to his translation says that the letter is “distinctly” ṭa, but he suspects that the engraver, working from a copy, mistakenly engraved ṭa instead of ḷa. -->
+            <!--Stanza 24 is problematic on several levels. I adopt Kielhorn's emendations (including one which he says is a reading, not an emendation) because it seems slightly more likely that the subject of the verse is the Vindhyas (vindhyopakaṇṭhaḥ) than that it is the Revā. This notwithstanding, I am not satisfied with Kielhorn's interpretation and I fail to see why the Vindhyas shone all the more because of Polekeśin's rule. I am also uncertain whether svena can indeed mean "the king's". Fleet's translation of the stanza (in both his editions) is: "While he was governing the earth with his great armies, the Revā, which is near to the venerable (mountain of) Vindhya and which is beauteous wih its varied sandy stretches, shone the more by virtue of its own glory, though it was deserted by its elephants from the envy of the mountains in the matter of their size." -->
+            <!--DB: the barely intelligible final bit (after the spiral in l18) is probably a later addition, so it should perhaps be encoded as a separate inscription. Kielhorn 1901_01, 7 n. 10 specifically claims that the writing of this bit “differs from, and seems undoubtedly more modern than, that of the preceding part of the inscription.” Fleet's initial comment (1867_01, 71n) is more ambiguous: "The characters here are of the same original type as those of the rest of the inscription; but they are larger and not so neat; in fact, they are fully developed Old Canarese letters, as if this portion was added later." But his later one (1879_02, 243n17) is more affirmative: "The characters here differ somewhat from those of the body of the inscription, as if this part was added later, or by a different hand." -->
+
+
+
+
+
+         </div>
+
+         
+         <div type="bibliography">
+	<!--bibliography encoded as per section §9.4 -->
+	<!-- NB: you are encouraged to experiment with encoding bibliography to the extent you have the bibliographic data available, but it is not mandatory at this stage, because our bibliographic data are normally assembled along with other metadata in spreadsheets and will be imported from there into our xml files by a semi-automated process at a later stage. -->
+           <p><!-- formulate epigraphic lemma here, using the items of primary bibliography -->
+           <!--
+              First reported in BhauDaji1872_01 p315, probably with a plate on p. ccxcix; this was published, or at least sent to press, before Fleet1867_01
+              bib:Fleet1867_01 initial edition with a photo-lithograph
+              bib:Fleet1879_02 revised edition with an improved photo-lithograph
+              Kielhorn (1900_01, 1) says Fleet's revised edition was also published in ASWI III p129ff. Not traced. Not in ASWI Reports 3 or Memoranda 3, and I could not find vol 3 of the main ASWI series, nor even any further information about it such as full title or publication year.
+              bib:Kielhorn1900_01 re-edition
+              Kielhorn notes that the rubbing published with his article is the first true facsimile (implying that the intervening editions had distorted reproductions, since they are apparently also rubbings, not eye copies), and that the rubbing was actually made by Fleet and given to him for publication [it thus may be the same improved facsimile that Fleet (1879_02, 237) talks about, or an even further improved one]
+              
+           --></p>
+           <listBibl type="secondary">
+              <bibl/><!-- one <bibl/> per item of secondary bibliography -->
+           </listBibl>
+        </div>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+      <fileDesc>
+         <titleStmt>
+            <title>Kāndalgām plates of Pulakeśin II</title>
+      <respStmt>
+            <resp>initial etext</resp>
+            <persName><forename>Perrine</forename><surname>Estienne-Monod</surname></persName>
+            </respStmt>
+         <respStmt>
+               <resp>creation of file</resp>
+               <persName ref="part:daba"><forename>Dániel</forename><surname>Balogh</surname></persName>
+         </respStmt>
+         <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName>
+                  <forename>Kashinath Trimbak</forename>
+                  <surname>Telang</surname>
+               </persName>
+         </respStmt>
+         </titleStmt>         
+         <publicationStmt>
+            <authority>DHARMA
+               <note>This project has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).</note>
+            </authority>
+            <pubPlace>Berlin</pubPlace>
+            <idno type="filename">CalE02-Kandalgam-Pulakesin2</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+               	<p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p><!-- not to be filled in at this stage --></p>
+         </sourceDesc>
+      </fileDesc>
+     <revisionDesc>
+        <change who="part:daba" when="2020-03-02" status="draft">Initial encoding of the file</change>
+        <!-- Add a <change> entry for each significant change to the file. -->
+     </revisionDesc>
+  </teiHeader>
+  <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="san-Latn">
+<pb n="1r"/>
+<ab>
+<pb n="1v"/>
+<lb n="1"/>svasti
+</ab>
+<lg n="1" met="anuṣṭubh">
+   <l n="a">jayaty āviṣk<orig>ri</orig>t<choice><sic>i</sic><corr>aṁ</corr></choice> viṣṇor</l>
+   <l n="b">vvārāha<supplied reason="omitted">ṁ</supplied> kṣobhitārṇava<supplied reason="omitted">M</supplied></l>
+   <l n="c" enjamb="yes">dakṣi<lb n="2" break="no"/>ṇon<supplied reason="omitted">n</supplied>ata-da<supplied reason="omitted">ṁ</supplied>ṣṭrāgra</l>
+   <l n="d">-viśrānta-bhuvana<supplied reason="omitted">ṁ</supplied> vapu<supplied reason="omitted">ḥ</supplied></l>
+</lg>
+<p>śrīmatā<supplied reason="omitted">ṁ</supplied> sakala-bhu<lb 
+   n="3" break="no"/>vana-sa<supplied reason="omitted">ṁ</supplied>stūyamāna-mānavya-sagotrāṇ<unclear>ā</unclear><supplied reason="omitted">ṁ</supplied> hār<orig>i</orig>t<orig>i</orig>-putrāṇā<supplied reason="omitted">ṁ</supplied> <lb
+   n="4"/>sa<space type="binding-hole"/>pta-loka-māt<orig>ri</orig>bhi<supplied reason="omitted">ḥ</supplied> sapta-māt<orig>ri</orig>bhir abhivardhitānā<supplied reason="omitted">ṁ</supplied> kārti<lb
+   n="5" break="no"/>keya-parirakṣaṇa-prāpta-kalyāṇa-paraṁparāṇā<supplied reason="omitted">ṁ</supplied> bhagavan-<supplied reason="omitted">n</supplied>ārā<lb
+   n="6" break="no"/>yaṇa-prasāda-samāsādita-vārāha-<choice><orig>lācchan</orig><reg>lāñchan</reg></choice>ekṣaṇa-kṣaṇa-vaś<choice><sic>i</sic><corr>ī</corr></choice><lb
+   n="7" break="no"/>k<orig>ri</orig>tāśeṣa-mah<choice><sic>i</sic><corr>ī</corr></choice>bh<orig>ri</orig>tāṁ <orig>calukyā</orig>nā<supplied reason="omitted">ṁ</supplied> kulam ala<supplied reason="omitted">ṁ</supplied>kariṣṇ<unclear>o</unclear>r aśvam<choice><sic>a</sic><corr>e</corr></choice><lb
+   n="8" break="no"/>dhāva<pb
+   n="2r" break="no"/><lb
+   n="9" break="no"/>bh<orig>ri</orig>tha-snāna-pavitrīk<orig>ri</orig>ta-gātrasya satyāśraya-śr<choice><sic>i</sic><corr>ī</corr></choice>-p<orig>ri</orig>thiv<choice><sic>i</sic><corr>ī</corr></choice>-va<lb
+   n="10" break="no"/>l<supplied reason="omitted">l</supplied>abha-mahārājādhirāja-parameśvara-śr<choice><sic>i</sic><corr>ī</corr></choice>-pulakeśi-val<supplied reason="omitted">l</supplied>abha<lb
+      n="11" break="no"/>-mahārājādhirāja-parameśva<supplied reason="omitted">ra</supplied>-bhaṭṭāraka-samadhigata-pañca<lb
+      n="12" break="no"/>-mahāśa<surplus>r</surplus>bd<choice><sic>a-A</sic><corr>ā</corr></choice>vāpta-parama-pauruṣāpara-nāmadheya-saka<lb 
+      n="13" break="no"/>lo<choice><sic><unclear>rt</unclear></sic><corr>tt</corr></choice>arāpathādhipati-śr<choice><sic>i</sic><corr>ī</corr></choice>-harṣavarddhana-parājayopa
+<lb n="14" break="no"/>la<surplus>r</surplus>bdha-parama-nāmadheyasya vijaya-rājya-saṁva<supplied reason="omitted">t</supplied>sare pa
+<lb n="15" break="no"/>ñcame māgha-māsa-saptamyāṁ mākoṭāvagāhana-kr̥ta<pb
+   n="2v" break="no"/><lb
+   n="16" break="no"/>-śar<choice><sic>i</sic><corr>ī</corr></choice>reṇa draviḍa-viṣaya-vāstavya-kāśyapa-sagotrāya somasvā<lb
+   n="17" break="no"/>mi-pu<supplied reason="omitted">trā</supplied>ya kumārasvā<supplied reason="omitted">mi</supplied>-pautrāya pomasvāmi-<orig>naptāya</orig> nārāyaṇasvāmi<lb
+   n="18" break="no"/>ne <choice><orig>brāhmaṇasya</orig><reg>brāhmaṇāya</reg></choice> sodaka-pūrva<supplied reason="omitted">ṁ</supplied> dat<supplied reason="omitted">t</supplied>aḥ revatī-dv<choice><sic>i</sic><corr>ī</corr></choice>pe <orig>mahānadyottara</orig>-k<unclear reason="form">ūḷ</unclear>e vi<lb
+   n="19" break="no"/>ndiri<space type="binding-hole"/>-purastā<supplied reason="omitted">t</supplied><!--Or mark up as non-standard purastā normalised to purastāt?--> khuddikā-dakṣiṇata<unclear>ḥ</unclear> churāvaṇasya paścimena <lb
+   n="20"/>pirigipa-nāma-grām<choice><orig>a</orig><reg>o</reg></choice> <surplus>r</surplus>bali-caru-vaiśvadevārttha<supplied reason="omitted">ṁ</supplied> mātā-pi<lb
+   n="21" break="no"/>tror ātmanaś ca <supplied reason="omitted">puṇyābhivr̥ddhaye</supplied> <orig>A</orig>cāṭa-bhaṭa-praveśya<supplied reason="omitted">ḥ</supplied> sarva-parihāraḥ <lb
+   n="22"/>sarva-nirādeyaḥ sarva-s<choice><sic>i</sic><corr>ī</corr></choice>mā-pari<orig>ch</orig>inna<supplied reason="omitted">ḥ</supplied> samast<choice><orig>a</orig><reg>o</reg></choice> <pb
+   n="3r"/><lb
+   n="23"/>y<choice><sic>e</sic><corr>o</corr></choice> <supplied reason="subaudible">’</supplied>smad-vaṁśyair anyair v<orig>ā A</orig>bhipratipālan<choice><sic>i</sic><corr>ī</corr></choice>yo mānan<choice><sic>i</sic><corr>ī</corr></choice>yaś ca<supplied reason="omitted">|</supplied> <lb
+   n="24"/>yas tasya vik<orig>r<unclear>i</unclear></orig>tiṁ <orig>vujato</orig> sa pañcabhir mahāpātakair upa<lb
+   n="25" break="no"/>pātakaiś ca saṁyukto narake maj<supplied reason="omitted">j</supplied>ati<supplied reason="omitted">|</supplied> Uktañ ca bhagavatā veda-vyāse<lb
+   n="26" break="no"/>na vyā<space type="binding-hole"/>sena<supplied reason="omitted">|</supplied>
+</p>
+<lg n="2" met="anuṣṭubh">
+   <l n="a">sva-dat<supplied reason="omitted">t</supplied>āṁ para-dat<supplied reason="omitted">t</supplied>āṁ vā </l>
+   <l n="b">yo hareta vasundharā<unclear cert="low">ṁ</unclear></l>
+   <l n="c">ṣaṣṭi<lb n="27"/>-varṣa-sahasrāṇi </l>
+   <l n="d">viṣṭhāyāṁ <supplied reason="omitted">jāyate</supplied> k<orig>ri</orig>mi<unclear cert="low">ḥ</unclear></l>
+</lg>
+<lg n="3" met="anuṣṭubh">
+   <l n="a"><surplus>r</surplus>bahubhir vasudhā bhuktā </l>
+   <l n="b"><lb n="28"/>rājabhi<supplied reason="omitted">ḥ</supplied> sagarādibhiḥ</l>
+   <l n="c">yasya yasya yadā bhūmis </l>
+   <l n="d">tasya tasya <lb n="29"/>tadā phalaṁ</l>
+</lg>
+<p>Iti<supplied reason="omitted">|</supplied> likhitaṁ ca guṇadevena lekhakena<supplied reason="omitted">|</supplied>
+</p>
+<pb n="3r"/>
+         </div>
+         <div type="apparatus">
+               <listApp>
+                  <app loc="7">
+                     <lem>°kariṣṇ<unclear>o</unclear>r aśvam<choice><sic>a</sic><corr>e</corr></choice>dhā°</lem>
+                     <rdg source="bib:Telang1885_01">°kariṣṇ<choice><sic>ā</sic><corr>o</corr></choice>r aśvamedhā°</rdg>
+                  </app>
+                  <app loc="14">
+                     <lem>°la<surplus>r</surplus>bdha-parama-nāma°</lem>
+                     <rdg source="bib:Telang1885_01">la<surplus>r</surplus>bdh<choice><sic>a</sic><corr>ā</corr></choice>para-nāma</rdg>
+                     <note>While Telang's <foreign>apara</foreign> makes good sense, <foreign>parama</foreign> is certain in the text. Possibly a double scribal error, to be emended as Telang would; or perhaps a larger scribal error involving eyeskip, for an original <foreign>°labdha-parama-something-apara-nāma°</foreign>.</note>
+                  </app>
+                  <app loc="18">
+                     <lem>mahānadyottara</lem>
+                     <note>Telang normalises to <foreign>mahānady-uttara</foreign>, which is perfectly plausible. Alternatively, this may be hypersandhi for <foreign>mahānadyāḥ+uttara</foreign>.</note>
+                  </app>
+                  <app loc="24">
+                     <lem>vik<orig>r<unclear>i</unclear></orig>tiṁ <orig>vujato</orig></lem>
+                     <note>Telang emends to <foreign>vikr̥tiṁ bhuñjato</foreign>. But <foreign>vikritiṁ</foreign> actually looks like <foreign>vikrītiṁ</foreign>, while <foreign>vujato</foreign> looks rather like <foreign>vrajato</foreign>. Estienne-Monod translates "Celui qui cause du tort à cette (donation)", but even with emendations, the text does not really mean that. Maybe sale, <foreign>vikrīti</foreign>, is actually meant? Normally, I would expect a clearer phrase meaning "prevents the donee from enjoying it".</note>
+                  </app>
+               </listApp>
+         </div>
+         
+         
+         
+         <div type="translation" xml:lang="fra" source="bib:Estienne-Monod2008_01">
+<p n="1">Prospérité !</p>
+<p rend="stanza" n="1">Victoire à la forme de Viṣṇu, manifestée en sanglier, dont la pointe des défenses, levées vers le Sud, soutient le monde aux flots agités !<note>L’ordre des pāda n’a pu être restitué.</note></p>
+<p n="2-26"><supplied reason="subaudible">Par le frère</supplied> de celui qui orne la lignée des Calukya,
+   illustres, du même gotra que les descendants de Manu, honorés dans l’univers entier, fils de Hāriti, rendus prospères par les Sept mères, mères des sept mondes, qui perpétuent la prospérité obtenue grâce à la protection de Kārtikeya, auxquels tous les rois furent soumis en un instant à la vue du signe du sanglier, obtenu grâce à la faveur du bienheureux Nārāyaṇa,
+   dont le corps fut lavé par les bains purificatoires de l’aśvamedha, l’illustre Satyāśraya Pr̥thivī Vallabha,
+   souverain suprême des grands rois, illustre seigneur, l’illustre Satyāśraya Pulakeśin Vallabha, souverain suprême des grands rois, seigneur suprême,<note>Cette répétition soulève une difficulté : si le premier Satyāśraya correspond à Pulakeśin I et le deuxième à Pulakeśin II, alors le scribe aurait omis Kīrtivarman.</note>
+   illustre seigneur, qui rassembla les cinq grands sons, obtint cet autre nom par son excellente force, seigneur de tout le Nord, ayant reçu cet autre nom en vainquant l’illustre Harṣavardhana, lors de la cinquième année de son règne victorieux, le septième jour du mois de Māgha, celui-ci<note>Il faut ici suppléer <foreign>tena bhrātrā</foreign>, « par ce frère ». [DB: understand <foreign>tasya bhrātrā</foreign>. But I do not know what grounds she has for this, instead of simply supplying or understanding <foreign>tena</foreign>, with Telang.]</note>
+   dont le corps excellent fut baigné dans le Mākoṭa<note>Lieu sacré de Dākṣāyāṇī.</note>
+   donne au brahmane Nārāyaṇasvāmi, habitant le viṣaya de Draviḍa, du gotra de Kaśyapa, fils de Somasvāmi, petit-fils de Kumārasvāmi, arrière petit-fils de Pomasvāmi, après avoir fait une libation d’eau,
+   le village nommé Piri, sur une île de la Revatī, dans le kula<note>Division territoriale. [DB: surely not?]</note> de Mahānadyuttara, à l’est de Vindiri, au sud de Khuddikā, à l’ouest de Churāvaṇa, en vue <supplied reason="subaudible">de l’accomplissement</supplied> du bali,
+   caru<note>Oblations consistants en offrandes de nourriture. Sur le caru, cf. VS. xxix. 6 TS. i ŚBr. Ait. Br. i , 1 &amp; 7 KātyŚr. &amp;c. (pl. Yājñ. i , 298) ; sur le bali, cf. RTL. 411 , 421 ; Gr̥ŚrS. Mn. (esp. iii , 69 , 71) in Monier-Williams. Le bali et le caru sont aussi mentionnés in insc. nos 7 et 10.</note>
+   et du vaiśvadeva,<note>Sur ce sacrifice, consistant en offrande de nourriture cuite, cf. Kane, 1974, II, part. II, p. 741-748.</note>
+   <supplied reason="subaudible">pour l’accroissement du mérite de</supplied> sa mère, son père et le sien,<note>Nous suppléons une formule telle que puṇyābhivarddhaye afin de préciser la fonction de ces génitifs.</note>
+   <supplied reason="subaudible">village</supplied> dont l’entrée est interdite aux troupes régulières et irrégulières, exempté de toute taxe, libre de tout prélèvement, et dont toutes les frontières sont délimitées. Tout ceci doit être protégé et respecté dans son intégrité par le rois de notre lignée et par les autres.
+   Celui qui cause du tort à cette <supplied reason="subaudible">donation</supplied> est lié aux cinq grands crimes et aux crimes secondaires et plonge en enfer. Et ceci a été dit par le bienheureux, compilateur des Veda, Vyāsa.
+</p>
+<p rend="stanza" n="2">Qu’elle soit donnée par lui ou par un autre, celui qui prend une terre renaît ver de terre dans les excréments pendant soixante mille ans.</p>
+<p rend="stanza" n="3">Beaucoup de rois ont joui de la terre, Sagara le premier ; celui qui possède la terre en possède le fruit.</p>
+<p n="29">Ceci a été gravé par le scribe Guṇadeva.</p>
+         </div>
+
+
+         <div type="commentary">
+<!--Telang 1885, 330 reports Fleet’s opinion that the plates are spurious (because of poor language and irregular characters), but the seal is probably genuine.-->
+<!--All lines are spaced very closely, with practically no vertical distance between them. As a result, a line in many places twists to make room for characters above; occasionally there are spaces (not marked up) to accommodate descenders: l2 vi_śrānta. Lines also twist in other places, apparently with the purpose of fitting a certain number of characters into each line (perhaps to preserve the original specimen's number of characters per line, on a smaller support?). Thus, in sakala-bhu at the end of l2, ka and la are very small, and are engraved on a diagonal, with ka below and to the right of sa, and la to the left of the top of bhu. -->
+<!--L8 consists only of these two characters, at the left-hand edge. They were probably not inserted subsequently; rather, the engraver thought he could start another line, but after engraving these two, he realised that the line above dips and he can’t make it a full line, so he went on to the next page. -->
+<!--L12. Nearly all instances of b in the text are engraved as rb. Is this a result of a later copyist/forger trying to imitate the script of the original grant, but misinterpreting some strokes? Perhaps the original had v-s instead of (at least some) b-s, and somewhere along the copying/forging process, someone who knew these words ought to be spelt with b corrected that, but someone else interpreted the stems of v-s as rephas and added them back in? Or plain hyperSanskritisation? Positive examples are l12 śarbda; l14 larbdha; l20 grāmarbali; l27 rbahubhir. The only counterexample is l18 brāhmaṇasya, which is unclear in my scan, but probably indeed without a repha. It may be possible to explain grāmarbali and rbahubhir (following krimiḥ with a very unclear and possibly nonexistent visarga) as sandhi (though very non-standard in the first case), but given the other examples, this seems unlikely.  -->
+<!--DB L15. Telang adds a daṇḍa after saptamyāṁ which I find unnecessary; it’s all one sentence with dattaḥ below as the main verb. Telang also says "tena" next to °śarīreṇa if we are to assume that Pulikeśin is the donor. This is probably correct, but it may perhaps be simply understood. At any rate, there seems to be more missing here; perhaps °āvagāhana-pavitrīkr̥ta-? -->
+<!--DB L17. The second to fourth characters (puyaku) are indistinct in my scan but seem to be correct and are probably legible in the actual facsimile. -->
+<!--DB L17. Telang says pomasvāmi may be paumasvāmi. The reading is clearly po; he may be thinking of emending to pauma as a Prakritic form of padma. Perhaps more likely, poma could be a scribal mistake for soma, in which case his great-grandfather had the same name as his father. -->
+<!--DB L17. Telang: naptāya em. naptre, or perhaps praṇaptre. Indeed, the intent of the composer must clearly have been great-grandson. -->
+
+
+         </div>
+
+         
+         <div type="bibliography">
+	<!--bibliography encoded as per section §9.4 -->
+	<!-- NB: you are encouraged to experiment with encoding bibliography to the extent you have the bibliographic data available, but it is not mandatory at this stage, because our bibliographic data are normally assembled along with other metadata in spreadsheets and will be imported from there into our xml files by a semi-automated process at a later stage. -->
+           <p><!-- formulate epigraphic lemma here, using the items of primary bibliography --></p>
+           <listBibl type="secondary">
+              <bibl/><!-- one <bibl/> per item of secondary bibliography -->
+           </listBibl>
+        </div>
+      </body>
+  </text>
+</TEI>
