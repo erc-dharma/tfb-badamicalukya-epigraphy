@@ -272,11 +272,11 @@ dakṣi<unclear>ṇato</unclear>
          <div type="apparatus">
                <listApp>
                   <app loc="2">
-                     <lem source="bib:Kielhorn1900_01">jātaḥ</lem>
+                     <lem source="bib:Kielhorn1900-1901_01">jātaḥ</lem>
                      <rdg source="bib:Fleet1867_01 bib:Fleet1879_02"><choice><sic>j</sic><corr>y</corr></choice>ātaḥ</rdg>
                   </app>
                   <app loc="3">                     <lem>pol<choice><unclear>e</unclear><unclear>i</unclear></choice>keś<choice><sic>i</sic><corr>ī</corr></choice></lem>
-                     <rdg source="bib:Fleet1879_02 bib:Kielhorn1900_01">polekeś<choice><sic>i</sic><corr>ī</corr></choice></rdg>
+                     <rdg source="bib:Fleet1879_02 bib:Kielhorn1900-1901_01">polekeś<choice><sic>i</sic><corr>ī</corr></choice></rdg>
                      <rdg source="bib:Fleet1867_01">pulikeś<choice><sic>i</sic><corr>ī</corr></choice></rdg>
                      <note>While the vowel of <foreign>ḫ po</foreign> is clear, the next character may be either <foreign>li</foreign> (with the stem closed into a loop, as in l8, <foreign>malinaṁ</foreign>) or <foreign>le</foreign> (with the vowel marker added inside the curl of the stem, as in l5, <foreign>maṅgaleśaḥ</foreign>).
                         The mora-counting verse makes it clear that this <foreign>o</foreign> (and, if inscribed, <foreign>e</foreign> too) was definitely meant to be short, even if not distinguished from regular Sanskrit <foreign>o</foreign> and <foreign>e</foreign>.
@@ -292,7 +292,7 @@ dakṣi<unclear>ṇato</unclear>
                   <app loc="4">
                      <lem>babhū<unclear>va</unclear></lem>
                      <rdg source="bib:Fleet1867_01">babhūva</rdg>
-                     <rdg source="bib:Fleet1879_02 bib:Kielhorn1900_01">babhū<choice><sic>m</sic><corr>v</corr></choice>a</rdg>
+                     <rdg source="bib:Fleet1879_02 bib:Kielhorn1900-1901_01">babhū<choice><sic>m</sic><corr>v</corr></choice>a</rdg>
                      <note>Though the problematic character has an extra stroke that resembles the right arm of <foreign>ma</foreign>, the body looks more like <foreign>va</foreign> (my impression is that <foreign>ma</foreign> has a wider and more angular body). I assume it is <foreign>va</foreign> with an erroneous stroke of the chisel. The word is followed by a space of about one character because of the descenders of <foreign>ḫpraka</foreign> above. The next character, <foreign>kī</foreign>, slants to the right to minimise the skipped space, and its vowel mark touches the descender of <foreign>ka</foreign>.</note>
                   </app>
                   <app loc="4">
@@ -300,7 +300,7 @@ dakṣi<unclear>ṇato</unclear>
                      <note>The pre-correction reading, <foreign>citter</foreign>, seems to be a result of eyeskip. A <foreign>kākapada</foreign> in the shape of a plain vertical line above head height between <foreign>tte</foreign> and <foreign>ra</foreign> indicates the locus of insertion.</note>
                   </app>
                   <app loc="7">
-                     <lem source="bib:Kielhorn1900_01">p<subst><del rend="corrected">u</del><add place="overstrike">o</add></subst>l<choice><unclear>e</unclear><unclear>i</unclear></choice>keśi</lem>
+                     <lem source="bib:Kielhorn1900-1901_01">p<subst><del rend="corrected">u</del><add place="overstrike">o</add></subst>l<choice><unclear>e</unclear><unclear>i</unclear></choice>keśi</lem>
                      <rdg source="bib:Fleet1867_01 bib:Fleet1879_02">pulikeśi</rdg>
                      <note>Kielhorn believes that <foreign>p</foreign> has markers for both <foreign>u</foreign> and <foreign>o</foreign> attached, and that the former seems to have been struck out. He is uncertain whether the next character is <foreign>le</foreign> or <foreign>li</foreign> (I concur; see also the name in line 3), and seems to imply that <foreign>la</foreign> was at first engraved, then corrected into either <foreign>le</foreign> or <foreign>li</foreign>. This latter presumed correction is not encoded in this file.</note>
                   </app>
@@ -311,18 +311,18 @@ dakṣi<unclear>ṇato</unclear>
                   <app loc="8">
                      <lem source="bib:Fleet1879_02">labdh<supplied reason="omitted">v</supplied>ā</lem>
                      <rdg source="bib:Fleet1867_01">labdhvā</rdg>
-                     <rdg source="bib:Kielhorn1900_01">lab<unclear>dhv</unclear>ā</rdg>
+                     <rdg source="bib:Kielhorn1900-1901_01">lab<unclear>dhv</unclear>ā</rdg>
                      <note>In the rubbing, <foreign>labdhā</foreign> can be made out with some difficulty, but I see no trace of a <foreign>v</foreign>.</note>
                   </app>
                   <app loc="9">
                      <lem>dhaṁsā<unclear>vaḷī-mekhalāṁ</unclear></lem>
-                     <rdg source="bib:Kielhorn1900_01">dhaṁsāvaḷī-mekhalāṁ</rdg>
+                     <rdg source="bib:Kielhorn1900-1901_01">dhaṁsāvaḷī-mekhalāṁ</rdg>
                      <rdg source="bib:Fleet1867_01">dhaṁsānadī-mekhalāṁ</rdg>
                      <rdg source="bib:Fleet1879_02">dhaṁsānad<choice><sic>i</sic><corr>ī</corr></choice>-mekhalāṁ</rdg>
                      <note>Although Fleet and Kielhorn both print their readings as clear, in the facsimile the segment tagged here as unclear is indistinct; only <foreign>me</foreign> and <foreign>lā</foreign> are recognisable. In addition to damage, the descenders of <foreign>tyadvidyutpa</foreign> above interfere with these characters. Going by the sense, Kielhorn's reading seems more likely.</note>
                   </app>
                   <app loc="9">
-                     <lem source="bib:Kielhorn1900_01 bib:Fleet1879_02">durgga<del><unclear>tām iva ga</unclear></del>tām iva gataṁ</lem>
+                     <lem source="bib:Kielhorn1900-1901_01 bib:Fleet1879_02">durgga<del><unclear>tām iva ga</unclear></del>tām iva gataṁ</lem>
                      <rdg source="bib:Fleet1867_01">durgga<del><unclear>tamitaga</unclear></del>tām iva gataṁ</rdg>
                      <note>Since the vestiges of the deleted characters seem to be correct and properly shaped, the only reason for their deletion that I can think of is to correct dittography by eyeskip: the artisan engraved <foreign>durggatām iva ga</foreign>, then skipped back thinking he was in the word <foreign>durgga</foreign> (which implies that he understood the text and mouthed it as he worked, otherwise he would not have mixed up <foreign>ga</foreign> with <foreign>rgga</foreign>), thus ending up with <foreign>durggatām iva gatām iva</foreign>, and the dittography was noticed later and struck out.</note>
                   </app>
@@ -331,30 +331,30 @@ dakṣi<unclear>ṇato</unclear>
                      <note>Although Fleet and Kielhorn both print this reading as clear and it fits the context perfectly, in the rubbing the character read as <foreign>tkṣa</foreign> looks more like <foreign>dgra</foreign>.</note>
                   </app>
                   <app loc="11">
-                     <lem source="bib:Kielhorn1900_01">caryyāc<unclear cert="low">ā</unclear>ryyā</lem>
+                     <lem source="bib:Kielhorn1900-1901_01">caryyāc<unclear cert="low">ā</unclear>ryyā</lem>
                      <rdg source="bib:Fleet1867_01 bib:Fleet1879_02">caryyā varyyā</rdg>
                      <note>The scanned estampage seems to confirm Fleet's reading, but <foreign>ca</foreign> cannot be excluded, and the fact that no <foreign>ā</foreign> is discernible does not count for much, since I cannot see one in <foreign>cākāri</foreign> later in this line, either. Kielhorn's reading and interpretation may be slightly better, mainly because in Fleet's reading and interpretation, <foreign>pratāpopanatā</foreign> and <foreign>daṇḍopanata</foreign> essentially mean the same and have the same referent.</note>
                   </app>
                   <app loc="12">
-                     <lem source="bib:Kielhorn1900_01 bib:Fleet1879_02">rev<choice><sic>o</sic><corr>ā</corr></choice>°</lem>
+                     <lem source="bib:Kielhorn1900-1901_01 bib:Fleet1879_02">rev<choice><sic>o</sic><corr>ā</corr></choice>°</lem>
                      <rdg source="bib:Fleet1867_01">revā</rdg>
                   </app>
                   <app loc="12">
-                     <lem source="bib:Kielhorn1900_01">śobhāvandhya</lem>
+                     <lem source="bib:Kielhorn1900-1901_01">śobhāvandhya</lem>
                      <rdg source="bib:Fleet1867_01 bib:Fleet1879_02">śobhā van<choice><sic>dh</sic><corr>d</corr></choice>ya</rdg>
                   </app>
                   <app loc="12">
                      <lem>°opakaṇṭh<choice><sic>ā</sic><corr>aḥ</corr></choice></lem>
                      <rdg source="bib:Fleet1867_01 bib:Fleet1879_02">°opakaṇṭhā</rdg>
-                     <rdg source="bib:Kielhorn1900_01">°opakaṇṭh<subst><del rend="corrected">o</del><add place="overstrike">aḥ</add></subst></rdg>
+                     <rdg source="bib:Kielhorn1900-1901_01">°opakaṇṭh<subst><del rend="corrected">o</del><add place="overstrike">aḥ</add></subst></rdg>
                      <note>In Kielhorn's opinion, <foreign>°opakaṇṭho</foreign> was initially engraved, but the two lines for the <foreign>o</foreign> were struck out again, (I assume, but he does not say so, that he believes a <foreign>visarga</foreign> was inserted subsequently). As far as the scanned rubbing is concerned, I see no indication of this: the <foreign>ā</foreign> marker is quite clear, but I see no trace of a second marker attached to the wings (compare <foreign>daṇḍopanata</foreign>, l11), nor of one attached to the body, nor does there even seem to have been space for a marker on the left. I also see no <foreign>visarga</foreign>. Nonetheless, I agree with Kielhorn that the intended reading was this.</note>
                   </app>
                   <app loc="12">
-                     <lem source="bib:Kielhorn1900_01">varjy<choice><sic>ā</sic><corr>o</corr></choice> </lem>
+                     <lem source="bib:Kielhorn1900-1901_01">varjy<choice><sic>ā</sic><corr>o</corr></choice> </lem>
                      <rdg source="bib:Fleet1867_01 bib:Fleet1879_02">varjyā</rdg>
                   </app>
                   <app loc="12">
-                     <lem source="bib:Kielhorn1900_01">var<unclear>ṣ</unclear>maṇā</lem>
+                     <lem source="bib:Kielhorn1900-1901_01">var<unclear>ṣ</unclear>maṇā</lem>
                      <rdg source="bib:Fleet1867_01 bib:Fleet1879_02">var<choice><sic>p</sic><corr>ṣ</corr></choice>maṇā<supplied reason="omitted">ṁ</supplied></rdg>
                   </app>
                   <app loc="12">
@@ -370,18 +370,18 @@ dakṣi<unclear>ṇato</unclear>
                      <note>These characters are very narrow and unclear in the facsimile. My hunch is that initially there may have been a <foreign>visarga</foreign> and a punctuation mark belonging to the end of stanza 26 here, followed by just one <foreign>piṣṭa</foreign> (eyeskip haplography). Later, <foreign>piṣṭaṁ</foreign> may have been engraved over these.</note>
                   </app>
                   <app loc="14">
-                     <lem source="bib:Kielhorn1900_01">ivo<choice><sic><unclear cert="low">j</unclear></sic><corr>d</corr></choice>ita</lem>
+                     <lem source="bib:Kielhorn1900-1901_01">ivo<choice><sic><unclear cert="low">j</unclear></sic><corr>d</corr></choice>ita</lem>
                      <rdg source="bib:Fleet1867_01">ivorjjita</rdg>
                      <rdg source="bib:Fleet1879_02">ivo<choice><sic>j</sic><corr>rjj</corr></choice>ita</rdg>
                   </app>
                   <app loc="14">
                      <lem><orig>cā<unclear>ṁ</unclear>vara</orig></lem>
                      <rdg source="bib:Fleet1867_01">cāmara</rdg>
-                     <rdg source="bib:Fleet1879_02 bib:Kielhorn1900_01">cā<choice><sic>v</sic><corr>m</corr></choice>ara</rdg>
+                     <rdg source="bib:Fleet1879_02 bib:Kielhorn1900-1901_01">cā<choice><sic>v</sic><corr>m</corr></choice>ara</rdg>
                      <note>Though not clear in the rubbing, there is something above <foreign>cā</foreign>, which may well be an <foreign>anusvāra</foreign>.</note>
                   </app>
                   <app loc="16">
-                     <lem source="bib:Fleet1879_02 bib:Kielhorn1900_01"><choice><sic>ś</sic><corr>g</corr></choice>ateṣv</lem>
+                     <lem source="bib:Fleet1879_02 bib:Kielhorn1900-1901_01"><choice><sic>ś</sic><corr>g</corr></choice>ateṣv</lem>
                      <rdg source="bib:Fleet1867_01">śateṣv</rdg>
                   </app>
                   <app loc="16">
@@ -390,13 +390,13 @@ dakṣi<unclear>ṇato</unclear>
                   </app>
                   <app loc="18">
                      <lem><choice><unclear>p</unclear></choice>a<unclear>cc</unclear>anūr</lem>
-                     <rdg source="bib:Kielhorn1900_01">paccanūr</rdg>
+                     <rdg source="bib:Kielhorn1900-1901_01">paccanūr</rdg>
                      <rdg source="bib:Fleet1867_01">sarvvanūr</rdg>
                      <rdg source="bib:Fleet1879_02">pa<choice><unclear>cc</unclear><unclear>vv</unclear></choice>anūr</rdg>
                      <note>Kielhorn reads maccanūr and notes that Fleet may be right in reading paccanūr.</note>
                   </app>
                   <app loc="19">
-                     <lem source="bib:Fleet1879_02 bib:Kielhorn1900_01"><gap reason="illegible" quantity="2" unit="character" precision="low"/> ga <gap reason="illegible" quantity="1" unit="character" precision="low"/> na</lem>
+                     <lem source="bib:Fleet1879_02 bib:Kielhorn1900-1901_01"><gap reason="illegible" quantity="2" unit="character" precision="low"/> ga <gap reason="illegible" quantity="1" unit="character" precision="low"/> na</lem>
                      <rdg source="bib:Fleet1867_01"><supplied reason="lost" cert="low">a</supplied><unclear>va</unclear>sāna</rdg>
                   </app>
                   
@@ -408,7 +408,7 @@ dakṣi<unclear>ṇato</unclear>
          
          
          
-         <div type="translation" xml:lang="eng" source="bib:Kielhorn1900_01">
+         <div type="translation" xml:lang="eng" source="bib:Kielhorn1900-1901_01">
 <p rend="stanza" n="1">Victorious is the holy <persName>Jinendra</persName>—he who is exempt from old age, death and birth—in the sea of whose knowledge the whole world is comprised like an island.</p>
             <p rend="stanza" n="2">And next, long victorious is the immeasurable, wide ocean of the <persName>Calukya</persName> family, which is the birth-place of jewels of men that are ornaments of the diadem of the earth.</p>
             <p rend="stanza" n="3">And victorious for very long is <persName>Satyāśraya</persName>, who in bestowing gifts and honours on the brave and on the learned, both together on either, observes not the rule of correspondency of number.
@@ -793,7 +793,7 @@ dont la gloire, en raison de son talent poétique, est celle de Kāḷidāsa et 
               bib:Fleet1867_01 initial edition with a photo-lithograph
               bib:Fleet1879_02 revised edition with an improved photo-lithograph
               Kielhorn (1900_01, 1) says Fleet's revised edition was also published in ASWI III p129ff. Not traced. Not in ASWI Reports 3 or Memoranda 3, and I could not find vol 3 of the main ASWI series, nor even any further information about it such as full title or publication year.
-              bib:Kielhorn1900_01 re-edition
+              bib:Kielhorn1900-1901_01 re-edition
               Kielhorn notes that the rubbing published with his article is the first true facsimile (implying that the intervening editions had distorted reproductions, since they are apparently also rubbings, not eye copies), and that the rubbing was actually made by Fleet and given to him for publication [it thus may be the same improved facsimile that Fleet (1879_02, 237) talks about, or an even further improved one]
               
            --></p>
