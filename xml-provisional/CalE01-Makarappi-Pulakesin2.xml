@@ -85,29 +85,29 @@
    <l n="d">tasya tasya <pb n="3r"/><lb n="24"/>tadā phala<orig>ṁ</orig></l>
 </lg>
 <lg n="2" met="anuṣṭubh">
-   <l>sva-dattāṁ para-dattāṁ vā</l>
-   <l>yatnād rakṣa yudhiṣṭhira</l>
-   <l>mahīṁ mahī<lb n="25" break="no"/>matāṁ śreṣṭha<surplus>ṁ</surplus></l>
-   <l>dānāc cchreyo <supplied reason="subaudible">’</supplied>nupālana<orig>ṁ</orig></l>
+   <l n="a">sva-dattāṁ para-dattāṁ vā</l>
+   <l n="b">yatnād rakṣa yudhiṣṭhira</l>
+   <l n="c">mahīṁ mahī<lb n="25" break="no"/>matāṁ śreṣṭha<surplus>ṁ</surplus></l>
+   <l n="d">dānāc cchreyo <supplied reason="subaudible">’</supplied>nupālana<orig>ṁ</orig></l>
 </lg>
 <lg n="3" met="anuṣṭubh">
-   <l>ṣaṣṭim varṣa-sahasrāṇi</l>
-   <l>svargge <lb n="26"/>modati bhūmi-daḥ</l>
-   <l>Ācch<choice><sic>a</sic><corr>e</corr></choice>ttā cānumantā ca</l>
-   <l>tāny <choice><sic>a</sic><corr>e</corr></choice>va narake vaseT</l>
+   <l n="a">ṣaṣṭim varṣa-sahasrāṇi</l>
+   <l n="b">svargge <lb n="26"/>modati bhūmi-daḥ</l>
+   <l n="c">Ācch<choice><sic>a</sic><corr>e</corr></choice>ttā cānumantā ca</l>
+   <l n="d">tāny <choice><sic>a</sic><corr>e</corr></choice>va narake vaseT</l>
 </lg>
 <lg n="4" met="anuṣṭubh">
-   <l>vindhyā<lb n="27" break="no"/><space type="binding-hole"/>ṭavīṣv atoyāsu</l>
-   <l>śuṣka-koṭara-vāsinaḥ</l>
-   <l>kr̥ṣṇāhayo hi jā<lb n="28" break="no"/>yante</l>
-   <l>bhūmi-dānaṁ haranti ye<g type="symbol" subtype="circle_high"/></l>
+   <l n="a">vindhyā<lb n="27" break="no"/><space type="binding-hole"/>ṭavīṣv atoyāsu</l>
+   <l n="b">śuṣka-koṭara-vāsinaḥ</l>
+   <l n="c">kr̥ṣṇāhayo hi jā<lb n="28" break="no"/>yante</l>
+   <l n="d">bhūmi-dānaṁ haranti ye<g type="symbol" subtype="circle_high"/></l>
 </lg>
 <lg n="5" met="indravajrā">
-   <l>dattāni yānīha purā narendraiḥ</l>
-   <l>dānāni dha<lb n="29" break="no"/>rmmārttha-yaśas-karāṇi<space/></l>
-   <l>nirmālya-vānta-pratimāni tāni<space/></l>
+   <l n="a">dattāni yānīha purā narendraiḥ</l>
+   <l n="b">dānāni dha<lb n="29" break="no"/>rmmārttha-yaśas-karāṇi<space/></l>
+   <l n="c">nirmālya-vānta-pratimāni tāni<space/></l>
    <!--CHECK Revise alignment markup with @rend or as decided. -->
-   <l>ko nāma sā<lb n="30" break="no" style="text-align: center"/>dhuḫ punar ādadīta<surplus>ḥ</surplus><g type="symbol" subtype="circle_high"/></l>
+   <l n="d">ko nāma sā<lb n="30" break="no" style="text-align: center"/>dhuḫ punar ādadīta<surplus>ḥ</surplus><g type="symbol" subtype="circle_high"/></l>
 </lg>
 <ab>Iti<g type="symbol" subtype="dash_convex"/><!--The final punctuation mark (not transcribed by Fleet) is a single horizontal stroke with a strong bulge upward and to the left, like a ? without the dot, rotated 90° counterclockwise. -->
 </ab>
