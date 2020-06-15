@@ -87,7 +87,7 @@
    <l n="d">prāpitāvabhr̥tha-majjanā babhau <space/></l>
 </lg>
 <lg n="9" met="mālabhāriṇī">
-   <l n="a">naḷa-mauryya-kadamba-kāḷarātriḥ</l>
+   <l n="a">na<choice><orig>ḷ</orig><reg>l</reg></choice>a-mauryya-kadamba-kā<choice><orig>ḷ</orig><reg>l</reg></choice>arātriḥ</l>
    <l n="b"><surplus>s</surplus>tanayas tasya babhū<unclear>va</unclear> kīrttivarmmā</l>
    <l n="c">para-dāra-nivr̥tta-citt<subst><del rend="corrected">e</del><add place="overstrike">a</add></subst>-<add place="below" rend="mark">vr̥tt<unclear>e</unclear></add>r</l>
    <l n="d">api dhī<orig>r y</orig>asya ripu-śri<lb n="5" break="no"/>yānukr̥ṣṭā||</l>
@@ -132,7 +132,7 @@
    <l n="a">tāvat tac-cha<orig>tr</orig>a-bhaṅge jagad akhilam arātyandhakāroparuddhaṁ</l>
    <l n="b"><lb n="8"/>yasyāsahya-pratāpa-dyuti-tatibhir ivākkrāntam āsīt prabhātaM</l>
    <l n="c">nr̥tyad-vidyut-patākaiḫ prajavini maruti kṣuṇṇa-pa<unclear>r</unclear>yyanta-bhāgair</l>
-   <l n="d">ggarjjadbhir <orig>vvāri-vāsair</orig> aḷi-kula-malinaṁ vyoma yātaṁ kadā vā||</l>
+   <l n="d">ggarjjadbhir <orig>vvāri-vāsair</orig> a<choice><orig>ḷ</orig><reg>l</reg></choice>i-kula-malinaṁ vyoma yātaṁ kadā vā||</l>
 </lg>
 <lg n="17" met="mandākrāntā">
    <l n="a">labdh<supplied reason="omitted">v</supplied>ā kālaṁ bhuvam upagate jetum āppāyikākhye</l>
@@ -141,7 +141,7 @@
    <l n="d">tatrāvāptam phalam upakr̥tasyā<lb n="9" break="no"/>pareṇāpi sadyaḥ<unclear>|</unclear></l>
 </lg>
 <lg n="18" met="mattebhavikrīḍita">
-   <l n="a">varadā-tuṅga-taraṅga-raṅga-vilasad-dhaṁsā<unclear>vaḷī-mekhalāṁ</unclear></l>
+   <l n="a">varadā-tuṅga-taraṅga-raṅga-vilasad-dhaṁsā<unclear>va</unclear><choice><orig><unclear>ḷ</unclear></orig><reg>l</reg></choice><unclear>ī-mekhalāṁ</unclear></l>
    <l n="b">vanavāsīm avamr̥dnatas surapura-prasparddh<unclear>i</unclear>nīṁ sampadā</l>
    <l n="c">mahatā yasya balārṇṇavena paritas sañchāditorvvītalaṁ|</l>
    <l n="d">sthala-durgañ jala-durgga<del><unclear>tām iva ga</unclear></del>tām iva gataṁ tat ta<unclear>t-kṣa</unclear>ṇe paśyatāM</l>
@@ -166,7 +166,7 @@
 </lg>
 <lg n="22" met="anuṣṭubh">
    <l n="a">pratāpopanatā yasya</l>
-   <l n="b">lāṭa-māḷava-gūrjjarāḥ</l>
+   <l n="b">lāṭa-mā<choice><orig>ḷ</orig><reg>l</reg></choice>ava-gūrjjarāḥ</l>
    <l n="c" enjamb="yes">daṇḍopanata-sāmanta</l>
    <l n="d">-caryyāc<unclear cert="low">ā</unclear>ryyā IvābhavaN<unclear>||</unclear></l>
 </lg>
@@ -174,11 +174,11 @@
    <l n="a" enjamb="yes">Aparimita-vibhūti-sphīta-sāmanta-senā</l>
    <l n="b">makuṭa-maṇi-mayūkhākkrānta-pādāravindaḥ</l>
    <l n="c">yudhi patita-gaj<choice><sic>a</sic><corr>e</corr></choice>ndrānīka-<choice><orig>v</orig><reg>b</reg></choice>ībhatsa-bhūto</l>
-   <l n="d">bhaya-vigaḷita-harṣo yena cākāri harṣaḥ||</l>
+   <l n="d">bhaya-viga<choice><orig>ḷ</orig><reg>l</reg></choice>ita-harṣo yena cākāri harṣaḥ||</l>
 </lg>
 <lg n="24" met="mālinī">
    <l n="a" enjamb="yes">bhuvam urubhir anīkaiś śā<lb n="12" break="no"/>sato yasya rev<choice><sic>o</sic><corr>ā</corr></choice></l>
-   <l n="b">-vividha-puḷina-śobhāvandhya-vindhyopakaṇṭh<choice><sic>ā</sic><corr>aḥ</corr></choice></l>
+   <l n="b">-vividha-pu<choice><orig>ḷ</orig><reg>l</reg></choice>ina-śobhāvandhya-vindhyopakaṇṭh<choice><sic>ā</sic><corr>aḥ</corr></choice></l>
    <l n="c">Adhikataram arājat svena tejo-mahimnā</l>
    <l n="d">śikharibhir ibha-varjy<choice><sic>ā</sic><corr>o</corr></choice> var<unclear>ṣ</unclear>maṇā sparddhayeva</l>
 </lg>
@@ -201,7 +201,7 @@
    <l n="d">jātaṁ durggama-durggamaM|</l>
 </lg>
 <lg n="28" met="vasantatilakā">
-   <l n="a">sannaddha-vāraṇa-ghaṭā-sthagitāntarāḷaM</l>
+   <l n="a">sannaddha-vāraṇa-ghaṭā-sthagitāntarā<choice><orig>ḷ</orig><reg>l</reg></choice>aM</l>
    <l n="b">nānāyudha-kṣata-nara-kṣatajāṅgarāgaM</l>
    <l n="c">Āsīj jalaṁ yad-avamardditam abhra-garbhaṁ</l>
    <l n="d">kaunāḷam a<lb n="14" break="no"/>mbaram ivo<choice><sic><unclear cert="low">j</unclear></sic><corr>d</corr></choice>ita-sāndhya-rāgaM<g type="symbol" subtype="dashDouble"/></l>
@@ -256,7 +256,7 @@
 </lg>
 <lg n="37" met="āryāgīti">
    <l n="ab">yenāyoji nave <supplied reason="subaudible">’</supplied>śma-sthiram arttha-vidhau vivekinā jina-veśma</l>
-   <l n="cd">sa vijayatāṁ ravikīrttiẖ kavitā<lb n="18" break="no"/>śrita-kāḷidāsa-bhāravi-kīrttiḥ|<unclear><g type="symbol" subtype="spiralL"/></unclear></l>
+   <l n="cd">sa vijayatāṁ ravikīrttiẖ kavitā<lb n="18" break="no"/>śrita-kā<choice><orig>ḷ</orig><reg>l</reg></choice>idāsa-bhāravi-kīrttiḥ|<unclear><g type="symbol" subtype="spiralL"/></unclear></l>
 </lg>
 <p>mūlavaḷḷi-veḷmaḻtikavāḍa-<choice><unclear>m</unclear><unclear>p</unclear></choice>a<unclear>cc</unclear>anūr-ggaṅgavūr-puḷigeṟe-ga<unclear>ṇḍ</unclear>ava-grāma Iti Asya bhukti<supplied reason="omitted">|</supplied>
 gir<choice><sic>i</sic><corr>e</corr></choice><unclear>s ta</unclear>ṭāt paścim<choice><sic>a</sic><corr>ā</corr></choice>bhigata nimūvārir <orig>yyāva</orig> mahā-pathānta-purasya s<choice><sic>i</sic><corr>ī</corr></choice>mā Uttarataḥ
@@ -315,7 +315,7 @@ dakṣi<unclear>ṇato</unclear>
                      <note>In the rubbing, <foreign>labdhā</foreign> can be made out with some difficulty, but I see no trace of a <foreign>v</foreign>.</note>
                   </app>
                   <app loc="9">
-                     <lem>dhaṁsā<unclear>vaḷī-mekhalāṁ</unclear></lem>
+                     <lem>dhaṁsā<unclear>va</unclear><choice><orig><unclear>ḷ</unclear></orig><reg>l</reg></choice><unclear>ī-mekhalāṁ</unclear></lem>
                      <rdg source="bib:Kielhorn1900-1901_01">dhaṁsāvaḷī-mekhalāṁ</rdg>
                      <rdg source="bib:Fleet1867_01">dhaṁsānadī-mekhalāṁ</rdg>
                      <rdg source="bib:Fleet1879_02">dhaṁsānad<choice><sic>i</sic><corr>ī</corr></choice>-mekhalāṁ</rdg>
@@ -444,7 +444,7 @@ dakṣi<unclear>ṇato</unclear>
             <note resp="part:daba">Kielhorn notes that the seven sins include drunkenness; cites <title>Indische Sprüche</title> 2994.</note></p>
             <p rend="stanza" n="20">In the <placeName>Koṅkaṇas</placeName> the impetuous waves of the forces directed by Him speedily swept away the rising wavelets of pools—the <persName>Mauryas</persName>.</p>
             <p rend="stanza" n="21">When, radiant like the destroyer of Pura, He besieged <placeName>Purī</placeName>, the Fortune of the western sea, with hundreds of ships in appearance like arrays of rutting elephants, the sky, dark-blue as a young lotus and covered with tiers of massive clouds, resembled the sea, and the sea was like the sky.</p>
-            <p rend="stanza" n="22">Subdued by His splendour, the <persName>Lāṭas</persName>, <persName>Māḷavas</persName> and <persName>Gūrjaras</persName> became as it were teachers of how feudatories, subdued by force, ought to behave.
+            <p rend="stanza" n="22">Subdued by His splendour, the <persName>Lāṭas</persName>, <persName>Mālavas</persName> and <persName>Gūrjaras</persName> became as it were teachers of how feudatories, subdued by force, ought to behave.
             <note resp="part:daba">Kielhorn explains that they submitted voluntarily, impressed by his majesty, but were so humble and obedient that this could have set an example to others who were subjected by force.</note></p>
             <p rend="stanza" n="23"><persName>Harṣa</persName>, whose lotus-feet were arrayed with the rays of the jewels of the diadems of hosts of feudatories prosperous with unmeasured might, through Him had his mirth <supplied reason="explanation"><foreign>harṣa</foreign></supplied> melted away by fear, having become loathsome with his rows of lordly elephants fallen in battle.</p>
             <p rend="stanza" n="24">While He was ruling the earth with his broad armies, the neighbourhood of the <placeName>Vindhya</placeName>, by no means destitute of the lustre of the many sandbanks of the <placeName>Revā</placeName>, shone even more brightly by his great personal splendour, having to be avoided by his elephants because, as it seemed, they by their bulk rivalled the mountains.
@@ -478,7 +478,7 @@ dakṣi<unclear>ṇato</unclear>
             <p rend="stanza" n="34">And when fifty <supplied reason="subaudible">and</supplied> six and five hundred years of the Śaka kings also have gone by in the Kali age;</p>
             <p rend="stanza" n="35">This stone mansion of <persName>Jinendra</persName>, a mansion of every kind of greatness, has been caused to be built by the wise Ravikīrti, who has obtained the highest favour of that <persName>Satyāśraya</persName> whose rule is bounded by the three oceans.</p>
             <p rend="stanza" n="36">Of this eulogy and of this dwelling of the Jina revered in the three worlds,<note>Or ‘the preceptor of the three worlds.’</note> the wise <persName>Ravikīrti</persName> himself is the author and also the founder.</p>
-            <p rend="stanza" n="37">May that <persName>Ravikīrti</persName> be victorious, who full of discernment has used the abode of the Jina, firmly built of stone, for a new treatment of his theme, and who thus by his poetic skill has attained to the fame of <persName>Kāḷidāsa</persName> and of <persName>Bhāravi</persName>!
+            <p rend="stanza" n="37">May that <persName>Ravikīrti</persName> be victorious, who full of discernment has used the abode of the Jina, firmly built of stone, for a new treatment of his theme, and who thus by his poetic skill has attained to the fame of <persName>Kālidāsa</persName> and of <persName>Bhāravi</persName>!
                </p>
 <p n="18-19"><gap reason="ellipsis"/><note>I purposely omit from my translation the line which follows in the original, and which is a later addition to the poem. The first part of it enumerates six villages, the revenues of which apparently were assigned to the temple of Jinendra founded by Ravikīrti. The concluding part of it, which speaks of boundaries, I do not understand.</note>
 </p>

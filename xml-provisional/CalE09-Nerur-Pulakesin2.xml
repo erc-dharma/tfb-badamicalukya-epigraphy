@@ -54,16 +54,16 @@
 <lb n="02"/>svasti||
 </ab>
 <lg n="1" met="mālinī">
-   <l n="a"><lb n="1"/>jayati vimaḷa-daṁṣṭrā-rājitaṁ loka-bharttuḥ||</l>
+   <l n="a"><lb n="1"/>jayati vima<choice><orig>ḷ</orig><reg>l</reg></choice>a-daṁṣṭrā-rājitaṁ loka-bharttuḥ||</l>
    <l n="b">praśamita-ripu-<seg met="+++-++"><gap reason="lost" quantity="6" unit="character" /></seg> <supplied reason="lost" cert="low">mu</supplied> <lb n="2"/>rāreḥ||</l>
-   <l n="c">Avani-taḷa-vi<seg met="+"><gap reason="illegible" quantity="1" unit="character" /></seg>tābhinna-pātāla-mūlaM||</l>
+   <l n="c">Avani-ta<choice><orig>ḷ</orig><reg>l</reg></choice>a-vi<seg met="+"><gap reason="illegible" quantity="1" unit="character" /></seg>tābhinna-pātāla-mūlaM||</l>
    <l n="d">sva-bhuja-<seg met="---++"><gap reason="lost" quantity="5" unit="character" /></seg><lb n="3" break="no"/>d ūrddhvam <choice><sic>ū</sic><corr>u</corr></choice>rvv<choice><sic>i</sic><corr>ī</corr></choice>n dadhānaṁ||</l>
 </lg>
 <lg n="2" met="mālinī">
 <!--DB V2. There are only three pādas to this stanza. -->
    <l n="a">tad anu jayati nityaṁ vallabhasyāpi bāhu<supplied reason="lost">ḥ||</supplied></l>
    <l n="b"><seg met="------++"><gap reason="lost" quantity="8" unit="character" /></seg><lb n="4" />harṣṣa-viccheda-hetuḥ||</l>
-   <l n="c">dvija-vara-kr̥ta-śāntiḥ sarvva-lokasya pāḷaḥ||</l>
+   <l n="c">dvija-vara-kr̥ta-śāntiḥ sarvva-lokasya pā<choice><orig>ḷ</orig><reg>l</reg></choice>aḥ||</l>
 </lg>
 <p>a<unclear>ne</unclear><supplied reason="lost" cert="low">ka-rāja-parājayopārjjita</supplied><lb 
    n="5" break="no"/>-kīrttīnāṁ deva-dvija-<unclear>g</unclear><supplied reason="lost">u</supplied><unclear>r</unclear><supplied reason="lost">u</supplied> <gap reason="lost" quantity="6" unit="character" precision="low"/> <supplied reason="lost">hā</supplied>ritī-putrāṇāṁ mānavya-sa<unclear>g</unclear><supplied reason="lost">otrāṇām</supplied> <gap reason="lost" quantity="6" unit="character" precision="low"/><pb 
