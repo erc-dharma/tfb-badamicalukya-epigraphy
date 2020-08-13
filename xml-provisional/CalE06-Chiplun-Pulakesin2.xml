@@ -16,10 +16,10 @@
          </respStmt>
          <respStmt>
                <resp>intellectual authorship of edition</resp>
-               <persName>
-                  <forename>John Faithfull</forename>
-                  <surname>Fleet</surname>
-               </persName>
+            <persName ref="part:daba">
+               <forename>Dániel</forename>
+               <surname>Balogh</surname>
+            </persName>
          </respStmt>
          </titleStmt>         
          <publicationStmt>
@@ -52,9 +52,8 @@
           </msContents>
           <physDesc>
             <handDesc>
-              <p>
-                <!--Halantas.  -->
-                <!--Original punctuation.  -->
+               <p>Halantas. The halanta T in L8 is a small subscript form with a horizontal line above. L13, slightly reduced, aligned with footline, and has a large horizontal line above it, at or slightly above headline height. L14, also slightly reduced, but is aligned to the headline, and its horizontal line is higher up. L16, is also slightly reduced, aligned to the footline, with a horizontal above, aligned to headline.</p>
+<p>Original punctuation. L18. The punctuation mark after ādadīta is indistinct in the scan; if may be a single vertical followed by a single horizontal, but that would be unique. Fleet transliterates it as a double daṇḍa. The mark after mahīyate l19 mark may be a progression of diminishing verticals like that at the very end. The spiral at the end, which Fleet transcribes as om, is a dextrorse spiral starting downward from the centre and ending around 10 o’clock after about one and a half circles. The sign following it seems to be a series of 5 or so progressively shortening verticals.  
                 <!--Other palaeographic observations. -->
                 <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
               <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
@@ -69,8 +68,8 @@
       </fileDesc>
      <revisionDesc>
         <change who="part:daba" when="2020-03-11" status="draft">Initial encoding of the file</change>
-        <change who="part:daba" when="2020-08-12" status="draft">Updated to template v2</change>
-<!-- Add a <change> entry for each significant change to the file. -->
+        <change who="part:daba" when="2020-08-13" status="draft">Updated to template v2, encoded bibliography and commentary</change>
+        <!-- Add a <change> entry for each significant change to the file. -->
      </revisionDesc>
   </teiHeader>
   <text xml:space="preserve">
@@ -80,8 +79,7 @@
 <lg n="1" met="āryā">
    <l n="ab">
    <pb n="1v"/>
-   <lb n="1"/>
-   jayati jagatāṁ vidhātus tri-vikkramākkrānta-saka<unclear>la</unclear>-bhuva<unclear cert="low">na</unclear><unclear>s</unclear>ya</l>
+   <lb n="1"/>jayati jagatāṁ vidhātus tri-vikkramākkrānta-saka<unclear>la</unclear>-bhuva<unclear cert="low">na</unclear><unclear>s</unclear>ya</l>
    <l n="cd"><unclear cert="low">na</unclear>ta-<unclear cert="low">na</unclear> <gap reason="illegible" quantity="2" unit="character" precision="low"/> <unclear cert="low">ṇa</unclear> <gap reason="illegible" quantity="4" unit="character" precision="low"/> ṇa-nakhā<unclear>ṁ</unclear>śu-jaṭilaṁ padaṁ viṣṇoḥ
    </l>
 </lg>
@@ -146,7 +144,6 @@ sarvva<lb
    <l n="d">pitr̥bhis saha pacyate<g type="dashDouble">.</g></l>
 </lg>
 <lg n="9" met="anuṣṭubh">
-<!-- DB L18. The punctuation mark after ādadīta is indistinct in the scan; if may be a single vertical followed by a single horizontal, but that would be unique. Fleet transliterates it as a double daṇḍa. -->
    <l n="a">yā<choice><sic>hi</sic><corr>nī</corr></choice>ha dattāni purā <lb n="18"/>narendrair</l>
    <l n="b"><orig>d</orig>ānāni dharmmārttha-yaśas-karāṇi<g type="dashDouble">.</g></l>
    <l n="c">nirbbhukta-mālya-pratimāni tāni</l>
@@ -156,9 +153,9 @@ sarvva<lb
    <l n="a"><lb n="19"/><unclear>ph</unclear>āla-k<unclear>r̥</unclear>ṣṭāṁ māhī<supplied reason="omitted">ṁ</supplied> dadyāt</l>
    <l n="b">sab<choice><sic>i</sic><corr>ī</corr></choice>jāṁ sasya-mā<surplus>ṁ</surplus>linīm</l>
    <l n="b">yāvat s<choice><sic>u</sic><corr>ū</corr></choice>ryya-kr̥tā lokās</l>
-   <l n="d">tāva<supplied reason="omitted">t</supplied> svargge mahīyate<unclear>||<!--This punctuation mark may be a progression of diminishing verticals like that at the very end.--></unclear></l>
+   <l n="d">tāva<supplied reason="omitted">t</supplied> svargge mahīyate<unclear>||</unclear></l>
 </lg>
-<p><lb n="20"/><unclear>s</unclear>vasty astu lekhaka-vācaka-śrotr̥bhyaḥ<unclear>||</unclear> <g type="spiralR"/><g type="gomutraFinal"/><!-- DB L20. The spiral at the end, which Fleet transcribes as om, is a dextrorse spiral starting downward from the centre and ending around 10 o’clock after about one and a half circles. The sign following it seems to be a series of 5 or so progressively shortening verticals, here described as a finalGomutra, but we may want a better label for such progressions of bars. --></p>
+<p><lb n="20"/><unclear>s</unclear>vasty astu lekhaka-vācaka-śrotr̥bhyaḥ<unclear>||</unclear> <g type="spiralR"/><g type="gomutraFinalBars"/></p>
 <pb n="2v"/>
          </div>
 
@@ -168,33 +165,32 @@ sarvva<lb
          <div type="apparatus">
                <listApp>
                   <app loc="1">
-                     <lem><unclear cert="low">na</unclear>ta-<unclear cert="low">na</unclear> <gap reason="illegible" quantity="2" unit="character" precision="low"/> <unclear cert="low">ṇa</unclear> <gap reason="illegible" quantity="4" unit="character" precision="low"/> ṇa</lem>
-                     <rdg source="bib:Fleet1894-1895_02">nata-na <seg met="---"><gap reason="illegible" quantity="3" unit="character"/></seg> ṇa <seg met="----"><gap reason="illegible" quantity="4" unit="character"/></seg> ṇa</rdg>
-                     <note>The gap as a whole is more likely only 7 characters long, and if Fleet’s <foreign>ṇa</foreign> in the middle of this gap is where I think I see it in the rubbing (straight above <foreign>tu</foreign> in <foreign>vidhātur</foreign>), then there are more likely to be only 2, not 3 lost characters before it. I thus prefer to mark up lacunae of approximate length and unknown prosody, since the single long syllable required could be in multiple places. The last syllables of the gap may be tentatively restored as <foreign>cara</foreign> to produce <foreign>caraṇa-nakha</foreign>, which may have also been Fleet's opinion, since he has "toenails" in his translation. In that case, another short syllable is required before <foreign>cara</foreign> (I cannot think of anything better than <foreign>su</foreign>), and the long syllable may have been a neuter nominative ending at some point before this.</note>
+                     <lem><unclear cert="low">na</unclear>ta-<unclear cert="low">na</unclear> <gap reason="illegible" quantity="2" unit="character" precision="low"/> <unclear cert="low">ṇa</unclear> <gap reason="illegible" quantity="4" unit="character" precision="low"/> ṇa-</lem>
+                     <rdg source="bib:Fleet1894-1895_02">nata-na <seg met="---"><gap reason="illegible" quantity="3" unit="character"/></seg> ṇa <seg met="----"><gap reason="illegible" quantity="4" unit="character"/></seg> ṇa-</rdg>
+                     <note>The gap as a whole is more likely only 7 characters long, and if Fleet’s <foreign>ṇa</foreign> in the middle of this gap is where I think I see it in the rubbing (straight above <foreign>tu</foreign> in <foreign>vidhātur</foreign>), then there are more likely to be only 2, not 3 lost characters before it. I thus prefer to mark up lacunae of approximate length and unknown prosody, since the single long syllable required could be in multiple places. The last syllables of the gap may be tentatively restored as <foreign>cara</foreign> to produce <foreign>caraṇa-nakha</foreign>, which may have also been Fleet's opinion, since he has "toenails" in his translation.</note>
                   </app>
                   <app loc="2">
-                     <lem>m<choice><sic>a</sic><corr>ū</corr></choice>rtt<unclear cert="low">eḥ</unclear></lem>
-                     <rdg source="bib:Fleet1894-1895_02"><choice><sic>matti|</sic><corr>mūrtteḥ</corr></choice></rdg>
+                     <lem>-m<choice><sic>a</sic><corr>ū</corr></choice>rtt<unclear cert="low">eḥ</unclear></lem>
+                     <rdg source="bib:Fleet1894-1895_02">-<choice><sic>matti|</sic><corr>mūrtteḥ</corr></choice></rdg>
                      <note>What Fleet reads as a <foreign>daṇḍa</foreign> could, at least on the basis of the scanned estampage, be a <foreign>visarga</foreign>. The mark atop <foreign>tt</foreign> looks more like a <foreign>repha</foreign> (with a small but distinct headmark of its own) and an <foreign>e</foreign> marker on top of that, than an <foreign>i</foreign> marker.</note>
                   </app>
                   <!-- DB L3. Fleet: kīrtyā and kīrttivarmmaṇaḫ. Both these ī-s seem short to me. Fleet further emends kīrtyā to kīrttyā, but I’m averse to such intervention and only add sic markup. I think this needn't be recorded in the apparatus.  -->
                   <!-- DB L3. Fleet reads and deletes a superfluous anusvāra: -vrataṁ kamalālayā etc. The scan only shows a small dot that may well be noise. -->
                   <app loc="4">
-                     <lem>āṅgan<unclear>o</unclear>pagīyamāna</lem>
-                     <rdg source="bib:Fleet1894-1895_02">āṅgan<choice><sic>ā</sic><corr>o</corr></choice>pagīyamāna</rdg>
+                     <lem>°āṅgan<unclear>o</unclear>pagīyamāna-</lem>
+                     <rdg source="bib:Fleet1894-1895_02">°āṅgan<choice><sic>ā</sic><corr>o</corr></choice>pagīyamāna-</rdg>
                      <note>Here too I prefer to give the engraver the benefit of doubt: it is plausible to assume that an <foreign>o</foreign> <foreign>mātrā</foreign> was present, and its left arm is mostly obliterated.</note>
                   </app>
                   <app loc="8">
                      <lem source="bib:Fleet1894-1895_02"> ś<choice><sic>o</sic><corr>a</corr></choice>trūṇā<supplied reason="omitted">ṁ</supplied></lem>
-                     <rdg source="bib:AuthorYear_01"></rdg>
                      <note>Perhaps a partial eyeskip for <foreign>śauryyeṇa</foreign>.</note>
                   </app>
                   <app loc="9">
-                     <lem source="bib:Fleet1894-1895_02">mārgg<choice><sic>a U</sic><corr>o</corr></choice>nmā<space type="binding-hole"/>rggaḥ</lem>
-                     <note>I retain Fleet's emendation because I see no way of <foreign>unmārggaḥ</foreign> as a separate adjective to Senānanda. Still, it is a strange mistake to make. However, <foreign>hr̥dayodgatā rudhira-dhārā</foreign> (for <foreign>hr̥dayodgata-rudhira-dhārā</foreign>) may be a parallel to it, both indicating that the scribe had some knowledge of Sanskrit, but did not fully understand the text.</note>
+                     <lem source="bib:Fleet1894-1895_02">-mārgg<choice><sic>a U</sic><corr>o</corr></choice>nmā<space type="binding-hole"/>rggaḥ</lem>
+                     <note>I retain Fleet's emendation because I see no way of construing <foreign>unmārggaḥ</foreign> as a separate adjective to Senānanda. Still, it is a strange mistake to make. However, <foreign>hr̥dayodgatā rudhira-dhārā</foreign> (for <foreign>hr̥dayodgata-rudhira-dhārā</foreign>) may be a parallel to it, both indicating that the scribe had some knowledge of Sanskrit, but did not fully understand the text.</note>
                   </app>
                  <app loc="11">
-                    <lem>sūnave m<surplus>m</surplus>aheśvarāye°</lem>
+                    <lem>-sūnave m<surplus>m</surplus>aheśvarāye°</lem>
                     <note>It seems possible that this is a correction from <foreign>sunor mmaheśvarāye°</foreign>. Neither an <foreign>o</foreign> nor a <foreign>repha</foreign> can be made out in the scan, but <foreign>ve</foreign> is squeezed into a very small space, no larger than what may have been left blank initially between <foreign>na</foreign> and <foreign>mma</foreign>.</note>
                  </app>
                   <app loc="11">
@@ -208,7 +204,7 @@ sarvva<lb
                   </app>
                   <app loc="16">
                      <lem source="bib:Fleet1894-1895_02">yudhiṣṭhira<surplus>ḥ</surplus></lem>
-                     <note>Here I agree with Fleet about the presence of a superfluous <foreign>visarga</foreign> (rather than a punctuation mark). The rubbing is unclear, but the mark seems to be a double circle.</note>
+                     <note>Here I agree with Fleet about the presence of a superfluous <foreign>visarga</foreign> (rather than a punctuation mark). The rubbing is unclear, but the sign seems to be a double circle.</note>
                   </app>
                   <app loc="17">
                      <lem>pacyate<g type="dashDouble">.</g></lem>
@@ -216,12 +212,12 @@ sarvva<lb
                      <note>See note to line 13 above.</note>
                   </app>
                   <app loc="18">
-                     <lem>karāṇi<g type="dashDouble">.</g></lem>
+                     <lem>-karāṇi<g type="dashDouble">.</g></lem>
                      <rdg source="bib:Fleet1894-1895_02">karāṇi</rdg>
                      <note>Here Fleet reads no <foreign>visarga</foreign>, though a double dash is definitely present.</note>
                   </app>
                   <app loc="19">
-                     <lem><unclear>ph</unclear>āla</lem>
+                     <lem><unclear>ph</unclear>āla-</lem>
                      <rdg source="bib:Fleet1894-1895_02"><choice><sic>ḍh</sic><corr>ph</corr></choice>āla</rdg>
                      <note>Fleet suggests emending to <foreign>phāla</foreign> or <foreign>hāla</foreign>. The character is unclear in the scan, but I think <foreign>ḍhā</foreign> and <foreign>phā</foreign> would be very hard to distinguish even in a clear facsimile, so I show this as an unclear <foreign>phā</foreign>, giving the engraver the benefit of the doubt. An originally engraved <foreign>hā</foreign> seems unlikely.</note>
                   </app>
@@ -287,31 +283,21 @@ aussi longtemps que les mondes créés par le soleil, est honoré dans le ciel.
 
 
          <div type="commentary">
-<!-- DB: In line 1, Fleet shows all transliterated characters as clear and present; I’m marking up unclear and restoration on the basis of the scanned rubbing, which is quite poor. More may be legible in the original rubbing. -->
-            <!-- DB L6. PEM on -ottr̥tta: Cette forme de l’adjectif verbal de TR̥D- n’est pas recensée, la forme attendue est tr̥ṇṇa.  -->
-            <!-- DB L8. the halanta t is a small subscript form with a horizontal line above. -->
-            <!-- DB L13. Halanta t is slightly reduced, aligned with footline, and has a large horizontal line above it, at or slightly above headline height. -->
-            <!-- DB L14. This halanta t is also slightly reduced, but is aligned to the headline, and its horizontal line is higher up. -->
-            <!-- DB L16. This halanta t is also slightly reduced, aligned to the footline, with a horizontal above, aligned to headline. -->
-            <!-- DB L10. Fleet: emend tena rājñā to sa rājā OR emend prādāt (l12) to pradattam. I choose not to make either emendation in the text, but indeed, one or the other is required to correct the syntax. -->
-            
-
-
-
-         </div>
+<p n="1">Fleet shows all transliterated characters as clear and present; I’m marking up unclear and restoration on the basis of the scanned rubbing, which is quite poor. More may be legible in the original rubbing.</p>
+<p n="6">PEM on -ottr̥tta: Cette forme de l’adjectif verbal de TR̥D- n’est pas recensée, la forme attendue est tr̥ṇṇa.</p>
+<p n="10">Fleet: emend tena rājñā to sa rājā OR emend prādāt (l12) to pradattam. I choose not to make either emendation in the text, but indeed, one or the other is required to correct the syntax.
+         </p></div>
 
          
          <div type="bibliography">
   <!--bibliography encoded as per section §9.4 -->
   <!-- NB: you are encouraged to experiment with encoding bibliography to the extent you have the bibliographic data available, but it is not mandatory at this stage, because our bibliographic data are normally assembled along with other metadata in spreadsheets and will be imported from there into our xml files by a semi-automated process at a later stage. -->
-           <p><!-- formulate epigraphic lemma here, using the items of primary bibliography -->
-           <!--Edited in (<bibl rend="omitname"><ptr target="bib:Fleet1894-1895_02."/></bibl>) Fleet says the plates were once edited by Bhagwanlal Indraji, whose paper on them was sent to the BBRAS and mislaid. Fleet stumbled on the original plates in 1889 in the library of the BBRAS and re-edited them. (Incidentally, this means that EI3, theoretically 1894-95, was published no sooner than 1889.)
-           --></p>
+           <p>Edited by J. F. Fleet (<bibl rend="omitname"><ptr target="bib:Fleet1894-1895_02."/></bibl>) with a translation and inked estampages. Fleet says the plates were once edited by Bhagwanlal Indraji, whose paper on them was sent to the BBRAS and mislaid. Fleet stumbled on the original plates in 1889 in the library of the BBRAS and re-edited them.<note>Incidentally, this means that EI3, theoretically 1894-95, was published no sooner than 1889.</note>           </p>
            <listBibl type="primary">
-             <bibl n="siglum"/><!-- one <bibl/> per item of primary bibliography. Every entry mentionned in apparatus  should hava a @n to declare its sigla -->
+             <bibl n="JFF"><ptr target="bib:Fleet1894-1895_02."/></bibl>
            </listBibl>
            <listBibl type="secondary">
-             <bibl/><!-- one <bibl/> per item of secondary bibliography -->
+             <bibl></bibl><!-- one <bibl/> per item of secondary bibliography -->
            </listBibl>
         </div>
       </body>

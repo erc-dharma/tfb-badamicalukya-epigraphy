@@ -16,10 +16,10 @@
          </respStmt>
          <respStmt>
                <resp>intellectual authorship of edition</resp>
-               <persName>
-                  <forename>Lorenz Franz</forename>
-                  <surname>Kielhorn</surname>
-               </persName>
+            <persName ref="part:daba">
+               <forename>Dániel</forename>
+               <surname>Balogh</surname>
+            </persName>
          </respStmt>
          </titleStmt>         
          <publicationStmt>
@@ -55,7 +55,7 @@
               <p>
                 <!--Halantas.  -->
                 <!--Original punctuation.  -->
-                <!--Other palaeographic observations. -->
+                 <!--Other palaeographic observations. The ya of l3 calukyānvayaḥ seems to be a cursive bipartite form, but the rubbing is not quite clear. A bipartite y is definitely used in ye of yena, l11.-->
                 <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
               <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
             <summary><p><p/></summary>
@@ -69,7 +69,7 @@
       </fileDesc>
      <revisionDesc>
         <change who="part:daba" when="2020-03-05" status="draft">Initial encoding of the file</change>
-        <change who="part:daba" when="2020-08-12" status="draft">Updated to template v2</change>
+        <change who="part:daba" when="2020-08-13" status="draft">Updated to template v2, encoded bibliography and commentary</change>
 <!-- Add a <change> entry for each significant change to the file. -->
      </revisionDesc>
   </teiHeader>
@@ -93,7 +93,7 @@
    <l n="cd">tad-vaṁśeṣu jigīṣuṣu teṣu bahuṣv apy atīteṣu||</l>
 </lg>
 <lg n="5" met="śārdūlavikrīḍita">
-   <l n="a">nānā-heti-śatābhighāta-patita-bhrāntāśva-patti-dvipe <space/> </l>
+   <l n="a">nānā-heti-śatābhighāta-patita-bhrāntāśva-patti-dvipe <space/></l>
    <l n="b">nr̥tyad-bhīma-kavandha-kh<subst><del rend="corrected">ā</del><add place="overstrike">a</add></subst>ḍga-kiraṇa-jvālā-sahasr<unclear>e</unclear> raṇe</l>
    <l n="c"><lb n="3"/>lakṣmīr bhāvita-cāpalāpi ca kr̥tā śauryyeṇa yenātmasāT</l>
    <l n="d">rājāsīj jayasi<orig>ṅ</orig>ha-vallabha Iti khyātaś calukyānvayaḥ<unclear>||</unclear></l>
@@ -136,7 +136,7 @@
    <l n="a">sphuran-mayūkhair asi-dīpikā-śataiḥ</l>
    <l n="b"><lb n="6"/>vyudasya mātaṅga-tamisra-sañcayaM</l>
    <l n="c">avāptavān yo raṇa-raṅga-mandire</l>
-   <l n="d">kaṭaccuri-śrī-lalanā-parigrahaM</l>
+   <l n="d">ka<orig>ṭ</orig>accuri-śrī-lalanā-parigrahaM</l>
 </lg>
 <lg n="13" met="mālinī">
    <l n="a">punar api ca jighr̥kṣos sainyam ākkrānta-sālaM</l>
@@ -301,35 +301,34 @@ dakṣi<unclear>ṇato</unclear>
                <listApp>
                   <app loc="2">
                      <lem source="bib:Kielhorn1900-1901_01">jātaḥ</lem>
-                     <rdg source="bib:Fleet1867_01 bib:Fleet1879_02"><choice><sic>j</sic><corr>y</corr></choice>ātaḥ</rdg>
+                     <rdg source="bib:Fleet1876_05 bib:Fleet1879_02"><choice><sic>j</sic><corr>y</corr></choice>ātaḥ</rdg>
                   </app>
                   <app loc="3">                     <lem>pol<choice><unclear>e</unclear><unclear>i</unclear></choice>keś<choice><sic>i</sic><corr>ī</corr></choice></lem>
                      <rdg source="bib:Fleet1879_02 bib:Kielhorn1900-1901_01">polekeś<choice><sic>i</sic><corr>ī</corr></choice></rdg>
-                     <rdg source="bib:Fleet1867_01">pulikeś<choice><sic>i</sic><corr>ī</corr></choice></rdg>
-                     <note>While the vowel of <foreign>ḫ po</foreign> is clear, the next character may be either <foreign>li</foreign> (with the stem closed into a loop, as in l8, <foreign>malinaṁ</foreign>) or <foreign>le</foreign> (with the vowel marker added inside the curl of the stem, as in l5, <foreign>maṅgaleśaḥ</foreign>).
-                        The mora-counting verse makes it clear that this <foreign>o</foreign> (and, if inscribed, <foreign>e</foreign> too) was definitely meant to be short, even if not distinguished from regular Sanskrit <foreign>o</foreign> and <foreign>e</foreign>.
-                        The fact that <foreign>i</foreign> was engraved in place of <foreign>ī</foreign> at the end of the name is unrelated and accidental: shortening it by one mora would not restore the metre if the preceding <foreign>o</foreign> (or <foreign>o</foreign> and <foreign>e</foreign>) had been long.
-                        More interestingly, the metre would scan correctly with a long <foreign>o</foreign> and <foreign>e</foreign> (and <foreign>ī</foreign>) if the subsequently inserted <foreign>yaḥ</foreign> were disregarded.
-                        However, <foreign>yaḥ</foreign> seems essential for the syntax (without it there would be two finite verbs with the same subject), so the omission of this word also seems to be simple scribal error and not the deliberate product of someone who pronounced the name with long vowels.
-                     Fleet <bibl><ptr target="bib:Fleet1879_02"/><citedRange>237-238</citedRange></bibl> discusses the reading and the relevant palaeography at length.</note>
+                     <rdg source="bib:Fleet1876_05">pulikeś<choice><sic>i</sic><corr>ī</corr></choice></rdg>
+                     <note>While the vowel of <foreign>ḫ po</foreign> is clear, the next character may be either <foreign>li</foreign> (with the stem closed into a loop, as in l8, <foreign>malinaṁ</foreign>) or <foreign>le</foreign> (with the vowel marker added inside the curl of the stem, as in l5, <foreign>maṅgaleśaḥ</foreign>). The mora-counting verse makes it clear that this <foreign>o</foreign> (and, if inscribed, <foreign>e</foreign> too) was definitely meant to be short, even if not distinguished from regular Sanskrit <foreign>o</foreign> and <foreign>e</foreign>. The fact that <foreign>i</foreign> was engraved in place of <foreign>ī</foreign> at the end of the name is unrelated and accidental: shortening it by one mora would not restore the metre if the preceding <foreign>o</foreign> (or <foreign>o</foreign> and <foreign>e</foreign>) had been long. More interestingly, the metre would scan correctly with a long <foreign>o</foreign> and <foreign>e</foreign> (and <foreign>ī</foreign>) if the subsequently inserted <foreign>yaḥ</foreign> were disregarded. However, <foreign>yaḥ</foreign> seems essential for the syntax (without it there would be two finite verbs with the same subject), so the omission of this word also seems to be simple scribal error and not the deliberate product of someone who pronounced the name with long vowels. Fleet <bibl><ptr target="bib:Fleet1879_02"/><citedRange>237-238</citedRange></bibl> discusses the reading and the relevant palaeography at length.</note>
                   </app>
                   <app loc="4">
-                     <lem>majjanā</lem>
+                     <lem>-majjanā</lem>
                      <note>Kielhorn notes that <foreign>majjanā</foreign> may have been corrected to <foreign>majjanaṁ</foreign> in the stone, and if so, the text would parse as <foreign>prāpitā avabhr̥tha-majjanaṁ</foreign>, which he finds better.  In the rubbing, there is no visible indication of <foreign>ā</foreign> being deleted. There is something above <foreign>tā</foreign> that may be an <foreign>anusvāra</foreign>, but it may also form part of the descender of <foreign>ka</foreign> (in <foreign>ekanāthaḥ</foreign>) above, or be simply damage.</note>
                   </app>
                   <app loc="4">
                      <lem>babhū<unclear>va</unclear></lem>
-                     <rdg source="bib:Fleet1867_01">babhūva</rdg>
+                     <rdg source="bib:Fleet1876_05">babhūva</rdg>
                      <rdg source="bib:Fleet1879_02 bib:Kielhorn1900-1901_01">babhū<choice><sic>m</sic><corr>v</corr></choice>a</rdg>
                      <note>Though the problematic character has an extra stroke that resembles the right arm of <foreign>ma</foreign>, the body looks more like <foreign>va</foreign> (my impression is that <foreign>ma</foreign> has a wider and more angular body). I assume it is <foreign>va</foreign> with an erroneous stroke of the chisel. The word is followed by a space of about one character because of the descenders of <foreign>ḫpraka</foreign> above. The next character, <foreign>kī</foreign>, slants to the right to minimise the skipped space, and its vowel mark touches the descender of <foreign>ka</foreign>.</note>
                   </app>
                   <app loc="4">
-                     <lem>citt<subst><del rend="corrected">e</del><add place="overstrike">a</add></subst>-<add place="below">vr̥tt<unclear>e</unclear></add>r</lem>
+                     <lem>-citt<subst><del rend="corrected">e</del><add place="overstrike">a</add></subst>-<add place="below">vr̥tt<unclear>e</unclear></add>r</lem>
                      <note>The pre-correction reading, <foreign>citter</foreign>, seems to be a result of eyeskip. A <foreign>kākapada</foreign> in the shape of a plain vertical line above head height between <foreign>tte</foreign> and <foreign>ra</foreign> indicates the locus of insertion.</note>
                   </app>
+                  <app loc="6">
+                     <lem>ka<orig>ṭ</orig>accuri-</lem>
+                     <note>I wonder if <foreign>kaṭaccuri</foreign> could instead be read as <foreign>kaḷaccuri</foreign>. I see no branching at the end of the stroke, but then again, e.g. <foreign>aḷi</foreign> in l8 looks much the same. Fleet’s note to his translation says that the letter is “distinctly” <foreign>ṭa</foreign>, but he suspects that the engraver, working from a copy, mistakenly engraved <foreign>ṭa</foreign> instead of <foreign>ḷa</foreign>.</note>
+                  </app>
                   <app loc="7">
-                     <lem source="bib:Kielhorn1900-1901_01">p<subst><del rend="corrected">u</del><add place="overstrike">o</add></subst>l<choice><unclear>e</unclear><unclear>i</unclear></choice>keśi</lem>
-                     <rdg source="bib:Fleet1867_01 bib:Fleet1879_02">pulikeśi</rdg>
+                     <lem source="bib:Kielhorn1900-1901_01">p<subst><del rend="corrected">u</del><add place="overstrike">o</add></subst>l<choice><unclear>e</unclear><unclear>i</unclear></choice>keśi-</lem>
+                     <rdg source="bib:Fleet1876_05 bib:Fleet1879_02">pulikeśi-</rdg>
                      <note>Kielhorn believes that <foreign>p</foreign> has markers for both <foreign>u</foreign> and <foreign>o</foreign> attached, and that the former seems to have been struck out. He is uncertain whether the next character is <foreign>le</foreign> or <foreign>li</foreign> (I concur; see also the name in line 3), and seems to imply that <foreign>la</foreign> was at first engraved, then corrected into either <foreign>le</foreign> or <foreign>li</foreign>. This latter presumed correction is not encoded in this file.</note>
                   </app>
                   <app loc="8">
@@ -338,20 +337,20 @@ dakṣi<unclear>ṇato</unclear>
                   </app>
                   <app loc="8">
                      <lem source="bib:Fleet1879_02">labdh<supplied reason="omitted">v</supplied>ā</lem>
-                     <rdg source="bib:Fleet1867_01">labdhvā</rdg>
+                     <rdg source="bib:Fleet1876_05">labdhvā</rdg>
                      <rdg source="bib:Kielhorn1900-1901_01">lab<unclear>dhv</unclear>ā</rdg>
                      <note>In the rubbing, <foreign>labdhā</foreign> can be made out with some difficulty, but I see no trace of a <foreign>v</foreign>.</note>
                   </app>
                   <app loc="9">
-                     <lem>dhaṁsā<unclear>va</unclear><choice><orig><unclear>ḷ</unclear></orig><reg>l</reg></choice><unclear>ī-mekhalāṁ</unclear></lem>
-                     <rdg source="bib:Kielhorn1900-1901_01">dhaṁsāvaḷī-mekhalāṁ</rdg>
-                     <rdg source="bib:Fleet1867_01">dhaṁsānadī-mekhalāṁ</rdg>
-                     <rdg source="bib:Fleet1879_02">dhaṁsānad<choice><sic>i</sic><corr>ī</corr></choice>-mekhalāṁ</rdg>
+                     <lem>-dhaṁsā<unclear>va</unclear><choice><orig><unclear>ḷ</unclear></orig><reg>l</reg></choice><unclear>ī-mekhalāṁ</unclear></lem>
+                     <rdg source="bib:Kielhorn1900-1901_01">-dhaṁsāvaḷī-mekhalāṁ</rdg>
+                     <rdg source="bib:Fleet1876_05">-dhaṁsānadī-mekhalāṁ</rdg>
+                     <rdg source="bib:Fleet1879_02">-dhaṁsānad<choice><sic>i</sic><corr>ī</corr></choice>-mekhalāṁ</rdg>
                      <note>Although Fleet and Kielhorn both print their readings as clear, in the facsimile the segment tagged here as unclear is indistinct; only <foreign>me</foreign> and <foreign>lā</foreign> are recognisable. In addition to damage, the descenders of <foreign>tyadvidyutpa</foreign> above interfere with these characters. Going by the sense, Kielhorn's reading seems more likely.</note>
                   </app>
                   <app loc="9">
-                     <lem source="bib:Kielhorn1900-1901_01 bib:Fleet1879_02">durgga<del><unclear>tām iva ga</unclear></del>tām iva gataṁ</lem>
-                     <rdg source="bib:Fleet1867_01">durgga<del><unclear>tamitaga</unclear></del>tām iva gataṁ</rdg>
+                     <lem source="bib:Kielhorn1900-1901_01 bib:Fleet1879_02">-durgga<del><unclear>tām iva ga</unclear></del>tām iva gataṁ</lem>
+                     <rdg source="bib:Fleet1876_05">-durgga<del><unclear>tamitaga</unclear></del>tām iva gataṁ</rdg>
                      <note>Since the vestiges of the deleted characters seem to be correct and properly shaped, the only reason for their deletion that I can think of is to correct dittography by eyeskip: the artisan engraved <foreign>durggatām iva ga</foreign>, then skipped back thinking he was in the word <foreign>durgga</foreign> (which implies that he understood the text and mouthed it as he worked, otherwise he would not have mixed up <foreign>ga</foreign> with <foreign>rgga</foreign>), thus ending up with <foreign>durggatām iva gatām iva</foreign>, and the dittography was noticed later and struck out.</note>
                   </app>
                   <app loc="9">
@@ -359,31 +358,31 @@ dakṣi<unclear>ṇato</unclear>
                      <note>Although Fleet and Kielhorn both print this reading as clear and it fits the context perfectly, in the rubbing the character read as <foreign>tkṣa</foreign> looks more like <foreign>dgra</foreign>.</note>
                   </app>
                   <app loc="11">
-                     <lem source="bib:Kielhorn1900-1901_01">caryyāc<unclear cert="low">ā</unclear>ryyā</lem>
-                     <rdg source="bib:Fleet1867_01 bib:Fleet1879_02">caryyā varyyā</rdg>
+                     <lem source="bib:Kielhorn1900-1901_01">-caryyāc<unclear cert="low">ā</unclear>ryyā</lem>
+                     <rdg source="bib:Fleet1876_05 bib:Fleet1879_02">-caryyā varyyā</rdg>
                      <note>The scanned estampage seems to confirm Fleet's reading, but <foreign>ca</foreign> cannot be excluded, and the fact that no <foreign>ā</foreign> is discernible does not count for much, since I cannot see one in <foreign>cākāri</foreign> later in this line, either. Kielhorn's reading and interpretation may be slightly better, mainly because in Fleet's reading and interpretation, <foreign>pratāpopanatā</foreign> and <foreign>daṇḍopanata</foreign> essentially mean the same and have the same referent.</note>
                   </app>
                   <app loc="12">
-                     <lem source="bib:Kielhorn1900-1901_01 bib:Fleet1879_02">rev<choice><sic>o</sic><corr>ā</corr></choice>°</lem>
-                     <rdg source="bib:Fleet1867_01">revā</rdg>
+                     <lem source="bib:Kielhorn1900-1901_01 bib:Fleet1879_02">rev<choice><sic>o</sic><corr>ā</corr></choice>-</lem>
+                     <rdg source="bib:Fleet1876_05">revā-</rdg>
                   </app>
                   <app loc="12">
-                     <lem source="bib:Kielhorn1900-1901_01">śobhāvandhya</lem>
-                     <rdg source="bib:Fleet1867_01 bib:Fleet1879_02">śobhā van<choice><sic>dh</sic><corr>d</corr></choice>ya</rdg>
+                     <lem source="bib:Kielhorn1900-1901_01">-śobhāvandhya-</lem>
+                     <rdg source="bib:Fleet1876_05 bib:Fleet1879_02">-śobhā van<choice><sic>dh</sic><corr>d</corr></choice>ya-</rdg>
                   </app>
                   <app loc="12">
                      <lem>°opakaṇṭh<choice><sic>ā</sic><corr>aḥ</corr></choice></lem>
-                     <rdg source="bib:Fleet1867_01 bib:Fleet1879_02">°opakaṇṭhā</rdg>
+                     <rdg source="bib:Fleet1876_05 bib:Fleet1879_02">°opakaṇṭhā</rdg>
                      <rdg source="bib:Kielhorn1900-1901_01">°opakaṇṭh<subst><del rend="corrected">o</del><add place="overstrike">aḥ</add></subst></rdg>
                      <note>In Kielhorn's opinion, <foreign>°opakaṇṭho</foreign> was initially engraved, but the two lines for the <foreign>o</foreign> were struck out again, (I assume, but he does not say so, that he believes a <foreign>visarga</foreign> was inserted subsequently). As far as the scanned rubbing is concerned, I see no indication of this: the <foreign>ā</foreign> marker is quite clear, but I see no trace of a second marker attached to the wings (compare <foreign>daṇḍopanata</foreign>, l11), nor of one attached to the body, nor does there even seem to have been space for a marker on the left. I also see no <foreign>visarga</foreign>. Nonetheless, I agree with Kielhorn that the intended reading was this.</note>
                   </app>
                   <app loc="12">
-                     <lem source="bib:Kielhorn1900-1901_01">varjy<choice><sic>ā</sic><corr>o</corr></choice> </lem>
-                     <rdg source="bib:Fleet1867_01 bib:Fleet1879_02">varjyā</rdg>
+                     <lem source="bib:Kielhorn1900-1901_01">-varjy<choice><sic>ā</sic><corr>o</corr></choice> </lem>
+                     <rdg source="bib:Fleet1876_05 bib:Fleet1879_02">-varjyā</rdg>
                   </app>
                   <app loc="12">
                      <lem source="bib:Kielhorn1900-1901_01">var<unclear>ṣ</unclear>maṇā</lem>
-                     <rdg source="bib:Fleet1867_01 bib:Fleet1879_02">var<choice><sic>p</sic><corr>ṣ</corr></choice>maṇā<supplied reason="omitted">ṁ</supplied></rdg>
+                     <rdg source="bib:Fleet1876_05 bib:Fleet1879_02">var<choice><sic>p</sic><corr>ṣ</corr></choice>maṇā<supplied reason="omitted">ṁ</supplied></rdg>
                   </app>
                   <app loc="12">
                      <lem><surplus>sva</surplus></lem>
@@ -398,34 +397,34 @@ dakṣi<unclear>ṇato</unclear>
                      <note>These characters are very narrow and unclear in the facsimile. My hunch is that initially there may have been a <foreign>visarga</foreign> and a punctuation mark belonging to the end of stanza 26 here, followed by just one <foreign>piṣṭa</foreign> (eyeskip haplography). Later, <foreign>piṣṭaṁ</foreign> may have been engraved over these.</note>
                   </app>
                   <app loc="14">
-                     <lem source="bib:Kielhorn1900-1901_01">ivo<choice><sic><unclear cert="low">j</unclear></sic><corr>d</corr></choice>ita</lem>
-                     <rdg source="bib:Fleet1867_01">ivorjjita</rdg>
-                     <rdg source="bib:Fleet1879_02">ivo<choice><sic>j</sic><corr>rjj</corr></choice>ita</rdg>
+                     <lem source="bib:Kielhorn1900-1901_01">ivo<choice><sic><unclear cert="low">j</unclear></sic><corr>d</corr></choice>ita-</lem>
+                     <rdg source="bib:Fleet1876_05">ivorjjita-</rdg>
+                     <rdg source="bib:Fleet1879_02">ivo<choice><sic>j</sic><corr>rjj</corr></choice>ita-</rdg>
                   </app>
                   <app loc="14">
-                     <lem><orig>cā<unclear>ṁ</unclear>vara</orig></lem>
-                     <rdg source="bib:Fleet1867_01">cāmara</rdg>
-                     <rdg source="bib:Fleet1879_02 bib:Kielhorn1900-1901_01">cā<choice><sic>v</sic><corr>m</corr></choice>ara</rdg>
+                     <lem>-<orig>cā<unclear>ṁ</unclear>vara</orig>-</lem>
+                     <rdg source="bib:Fleet1876_05">-cāmara-</rdg>
+                     <rdg source="bib:Fleet1879_02 bib:Kielhorn1900-1901_01">-cā<choice><sic>v</sic><corr>m</corr></choice>ara-</rdg>
                      <note>Though not clear in the rubbing, there is something above <foreign>cā</foreign>, which may well be an <foreign>anusvāra</foreign>.</note>
                   </app>
                   <app loc="16">
                      <lem source="bib:Fleet1879_02 bib:Kielhorn1900-1901_01"><choice><sic>ś</sic><corr>g</corr></choice>ateṣv</lem>
-                     <rdg source="bib:Fleet1867_01">śateṣv</rdg>
+                     <rdg source="bib:Fleet1876_05">śateṣv</rdg>
                   </app>
                   <app loc="16">
                      <lem>kāle <space/></lem>
                      <note>According to Kielhorn, a second <foreign>le</foreign> may have been engraved in this space, and then struck out. The vestiges/scratches visible in the scan do not look like <foreign>le</foreign>, but I cannot exclude the possibility. I can also imagine that we have a horizontal punctuation mark here, or an aborted character overstruck with one.</note>
                   </app>
                   <app loc="18">
-                     <lem><choice><unclear>p</unclear></choice>a<unclear>cc</unclear>anūr</lem>
-                     <rdg source="bib:Kielhorn1900-1901_01">paccanūr</rdg>
-                     <rdg source="bib:Fleet1867_01">sarvvanūr</rdg>
-                     <rdg source="bib:Fleet1879_02">pa<choice><unclear>cc</unclear><unclear>vv</unclear></choice>anūr</rdg>
+                     <lem>-<choice><unclear>p</unclear></choice>a<unclear>cc</unclear>anūr-</lem>
+                     <rdg source="bib:Kielhorn1900-1901_01">-paccanūr-</rdg>
+                     <rdg source="bib:Fleet1876_05">-sarvvanūr-</rdg>
+                     <rdg source="bib:Fleet1879_02">-pa<choice><unclear>cc</unclear><unclear>vv</unclear></choice>anūr-</rdg>
                      <note>Kielhorn reads maccanūr and notes that Fleet may be right in reading paccanūr.</note>
                   </app>
                   <app loc="19">
                      <lem source="bib:Fleet1879_02 bib:Kielhorn1900-1901_01"><gap reason="illegible" quantity="2" unit="character" precision="low"/> ga <gap reason="illegible" quantity="1" unit="character" precision="low"/> na</lem>
-                     <rdg source="bib:Fleet1867_01"><supplied reason="lost" cert="low">a</supplied><unclear>va</unclear>sāna</rdg>
+                     <rdg source="bib:Fleet1876_05"><supplied reason="lost" cert="low">a</supplied><unclear>va</unclear>sāna</rdg>
                   </app>
                   
                   
@@ -516,9 +515,8 @@ dakṣi<unclear>ṇato</unclear>
          
          <div type="translation" xml:lang="eng" source="bib:Fleet1879_02">
             <note type="credit">Of Fleet's translation, only the appended passage is reproduced here, as this is not translated by Kielhorn.</note>
-            <p n="18-19">This is the possession of this <supplied reason="explanation">god</supplied>;—<supplied reason="explanation">The hamlet of?<!--add certainty low?--></supplied> <placeName>Mūlavaḷḷi</placeName>; <supplied reason="explanation">the town of</supplied> <placeName>Veḷmaḻtikavāḍa</placeName>; <supplied reason="explanation">the village of?<!--add certainty low?--></supplied> <placeName>Paccanūr</placeName>; <supplied reason="explanation">the village of</supplied> <placeName>Gaṅgavūr</placeName>; <supplied reason="explanation">the village of</supplied> <placeName>Puḷigeṟe</placeName>; <supplied reason="explanation">and the village of</supplied> <placeName>Gaṇḍavagrāma</placeName>. 
-               To the west of the slope of the mountain, <supplied reason="explanation">there is?<!--add certainty low?--></supplied> <supplied reason="explanation">the field called</supplied> <placeName>Nimūvāri</placeName> extending up to the boundary of <supplied reason="explanation">the city of</supplied> <placeName>Mahāpathāntapura</placeName>;<note>Or, ‘of the city which is at the edge of the main road’</note> 
-               and on the north and on the south. ...<note>The last word of the inscription is only partly legible, and the effaced letters cannot be supplied. It is probably the name of some place.</note>
+            <p n="18-19">This is the possession of this <supplied reason="explanation">god</supplied>;—<supplied reason="explanation"><seg cert="low">The hamlet of</seg></supplied> <placeName>Mūlavaḷḷi</placeName>; <supplied reason="explanation">the town of</supplied> <placeName>Veḷmaḻtikavāḍa</placeName>; <supplied reason="explanation">the village of?<!--add certainty low?--></supplied> <placeName>Paccanūr</placeName>; <supplied reason="explanation">the village of</supplied> <placeName>Gaṅgavūr</placeName>; <supplied reason="explanation">the village of</supplied> <placeName>Puḷigeṟe</placeName>; <supplied reason="explanation">and the village of</supplied> <placeName>Gaṇḍavagrāma</placeName>. 
+               To the west of the slope of the mountain, <supplied reason="explanation"><seg cert="low">there is</seg></supplied> <supplied reason="explanation">the field called</supplied> <placeName>Nimūvāri</placeName> extending up to the boundary of <supplied reason="explanation">the city of</supplied> <placeName>Mahāpathāntapura</placeName>;<note>Or, ‘of the city which is at the edge of the main road’</note> and on the north and on the south. ...<note>The last word of the inscription is only partly legible, and the effaced letters cannot be supplied. It is probably the name of some place.</note>
             </p>
          </div>
 
@@ -655,182 +653,172 @@ dont la gloire, en raison de son talent poétique, est celle de Kāḷidāsa et 
          </div>
 
 
-         <div type="commentary">
-            <!--DB Some notes on punctuation marks
-               1ab: definitely no punctuation; no space whatsoever between sya and the next character. 
-               1cd: a single vertical, very tall (from bottom of descenders to top of ascenders)
-               2ab: not quite clear, but there definitely seems to be a punctuation mark in the shape of a short horizontal dash. 
-               2cd: seems to be a short double vertical
-               3ab: Kielhorn prints a double daṇḍa. There seems to be a single, possibly a double horizontal dash here.
-               3cd: a short double vertical, the first one may have a curved extension downward to the right.
-               4ab: none; the visarga may double as punctuation.
-               4cd: short double vertical
-               5a: space
-               5b: none, but it's the end of the physical line
-               5c: none, but there's a halanta T and hiatus instead of expected sandhi.
-               5d: Kielhorn prints double daṇḍa. Rubbing unclear, perhaps just a single vertical
-               6a: probably none
-               6b: space
-               6c: visarga and space, followed by superfluous s-sandhi
-               6d: halanta T and space
-               7ab: none
-               7cd: may be a single or double vertical
-               8a space
-               8b: halanta M
-               8c: space
-               8d: space
-               9a: visarga, followed by superfluous s-sandhi
-               9b,c: none
-               9d: clear double vertical
-               10a: space
-               10b,c: none
-               10d: halanta M 
-               11a,b,c,d: none
-               12a: hiatus
-               12b: halanta M
-               12c: none
-               12d: halanta M 
-               13a: halanta M instead of sandhi (Kielhorn emends to anusvāra, but this is clearly deliberate)
-               13b: none
-               13c: halanta M instead of sandhi (Kielhorn emends to anusvāra, but this is clearly deliberate)
-               13d: a double vertical, very short, with the top at headline height
-               14a,b: none
-               14c: halanta M instead of sandhi
-               14d: none
-               15a: none
-               15b: halanta T
-               15c: none (and anusvāra sandhi is present)
-               15d: clear short double vertical a little below headline height
-               16a: none and anusvāra sandhi is present if Kielhorn is correct in reading an anusvāra here. ddha is at the edge of the stone and partly chipped, but it is unlikely that the chipping was extensive enough to destroy a halanta m.
-               16b: halanta M instead of sandhi
-               16c: none, sandhi present
-               16d: a short double vertical at or near headline height
-               17a,b,c: none; sandhi present where applicable (not in a)
-               17d: seems to be a single vertical. Kielhorn prints a single daṇḍa here.
-               18a,b: none, sandhi where applicable
-               18c: short single vertical
-               18d: halanta M
-               19a,b,c,d: none (d ends in visarga)
-               20ab: none
-               20cd: seems to be a single short vertical
-               21a,b,c,d: none (with homorganic nasal sandhi after b; visarga at end of d)
-               22ab: none (visarga)
-               22cd: halanta N and a punctuation mark that may be a short double vertical, but there are other scratches involved. Kielhorn transcribes it as a double daṇḍa.
-               23a,b,c: none (visarga in b)
-               23d: looks like a big dot; probably another short double vertical, transcribed as double by Kielhorn
-               24a,b,c,d: none (visarga in b)
-               25a,b,c: none (visarga in hiatus in b)
-               25d: space
-               26a: none
-               26b: visarga in hiatus, possibly followed by a single vertical
-               26c: none
-               26d: none, but the missing final visarga and a punctuation mark may have been engraved and then overwritten
-               27ab: none, homorganic nasal sandhi present
-               27cd: final halanta M and single vertical; also halanta M instead of sandhi at end of b!
-               28a,b: halanta M instead of sandhi
-               28c: none
-               28d: double horizontal
-               29a: none; visarga in regular sandhi
-               29b: visarga in hiatus
-               29c: superfluous visarga within a compound (or is this a punctuation mark?)
-               29d: damaged, but definitely a double vertical
-               30a: none
-               30b: not read by Kielhorn, but I think there is a single horizontal punctuation mark
-               30c: none
-               30d: single vertical (though possibly two thin lines close by and merged by flaking)
-               31a: halanta M in hiatus
-               31b: punctuation indistinct, but there is a space with marks inside it, which Kielhorn transcribes as an unclear single daṇḍa
-               31c: none
-               31d: a definite double vertical
-               32a: none, sandhi present
-               32b: halanta N in hiatus
-               32c: halanta M in hiatus
-               32d: probably a double vertical
-               33a: space
-               33b: visarga and space
-               33c: space
-               33d: space
-               34a: space
-               34b: none
-               34c: space
-               34d: halanta M and a single horizontal
-               35a,b,c: none, sandhi present
-               35d: halanta M and probably a double vertical
-               36a: visarga in hiatus. there is also a space after the visarga, but it can be ascribed to the descenders of tsuka in pañcāśatsu kalau and seems not to be for verse segmentation.
-               36b: visarga in regular sandhi
-               36c: space
-               36d: halanta M
-               37ab: none
-               37cd: visarga and punctuation that is indistinct; probably a single vertical.
-            -->
-            <!--DB Notes on halanta characters
-               v2 ratnānāM: slightly lowered, but not noticeably reduced in size; with a horizontal line quite high above it.
-               v3 suciraM: appears to be a full-sized, regular ma without a line above.
-               v5 ātmasāT: seems to be a full-fledged ta.
-               v6 prakarṣāT: may be a full-fledged form or a reduced one with the line at the height where the headmark would be.
-               v8 rājakaM: looks like a full ma
-               v10 kadambakaM: seems to be reduced with a line above; Kielhorn thinks it may have been corrected from a visarga
-               v12 sañcayaM: reduced but probably has no line above
-               v12 parigrahaM: full size but seems simplified (loop with two arms)
-               v13 sālaM: seems reduced
-               v13 bimbaM: full-sized
-               v14 pitr̥vyaM: much reduced and may have a short line above it
-               v15 samantāT: reduced and lowered, with definite line above.
-               v16 prabhātaM: reduced
-               v18 paśyatāM: reduced and simplified, no line
-               v22 IvābhavaN: indistinct; seems to be reduced and lowered
-               v27 vr̥ttaM, durggamaM: reduced and simplified without a line
-               v28 āntarāḷaM: reduced and simplified without a line
-               v28 āṅgarāgaM: reduced and simplified but with a line 
-               v28 rāgaM: full sized but simplified
-               v29 patimM: damaged but seems to be reduced with a line above
-               v31 pāṇḍyānāM: seems to be full sized but probably simplified
-               v32 dvijāN: simplified but nearly full size, no line
-               v32 imāM: a small and simplified form, but it is at head height and was probably inserted subsequently
-               v34 bhujāM: simplified and slightly reduced
-               v35 edaM: seems to be full sized 
-               v36 svayaM: full sized 
-            -->
-            <!--Notes on versification
-               v11 vasantatilakā compound straddling cd boundary
-               v15 mālinī obscured caesura in a and c, also a compound straddling ab boundary.
-               v16 sragdharā: obscured caesurae in 16a2 and b2
-               v23 mālinī: cpd straddling ab boundary
-               v24 mālinī: cpd straddling ab boundary
-               v26 mālabhāriṇī rhyme at end of each pāda
-               v28 vasantatilakā probable rhyme at end of a, b, d
-               v29 śārdūlavikrīḍita: cpd across pāda cd 
-            -->
-            <!--DB L3. The ya of calukyānvayaḥ seems to be a cursive bipartite form, but the rubbing is not quite clear. A bipartite y is definitely used in ye of yena, l11 -->
-            <!--DB L6. I wonder if kaṭaccuri could instead be read as kaḷaccuri. I see no branching at the end of the stroke, but then again, e.g. aḷi in l8 looks much the same. Fleet’s note to his translation says that the letter is “distinctly” ṭa, but he suspects that the engraver, working from a copy, mistakenly engraved ṭa instead of ḷa. -->
-            <!--Stanza 24 is problematic on several levels. I adopt Kielhorn's emendations (including one which he says is a reading, not an emendation) because it seems slightly more likely that the subject of the verse is the Vindhyas (vindhyopakaṇṭhaḥ) than that it is the Revā. This notwithstanding, I am not satisfied with Kielhorn's interpretation and I fail to see why the Vindhyas shone all the more because of Polekeśin's rule. I am also uncertain whether svena can indeed mean "the king's". Fleet's translation of the stanza (in both his editions) is: "While he was governing the earth with his great armies, the Revā, which is near to the venerable (mountain of) Vindhya and which is beauteous wih its varied sandy stretches, shone the more by virtue of its own glory, though it was deserted by its elephants from the envy of the mountains in the matter of their size." -->
-            <!--DB: the barely intelligible final bit (after the spiral in l18) is probably a later addition, so it should perhaps be encoded as a separate inscription. Kielhorn 1901_01, 7 n. 10 specifically claims that the writing of this bit “differs from, and seems undoubtedly more modern than, that of the preceding part of the inscription.” Fleet's initial comment (1867_01, 71n) is more ambiguous: "The characters here are of the same original type as those of the rest of the inscription; but they are larger and not so neat; in fact, they are fully developed Old Canarese letters, as if this portion was added later." But his later one (1879_02, 243n17) is more affirmative: "The characters here differ somewhat from those of the body of the inscription, as if this part was added later, or by a different hand." -->
-
-
-
-
-
-         </div>
+         <div type="commentary"><p>Some notes on punctuation marks:
+<list>
+<item>1ab: definitely no punctuation; no space whatsoever between sya and the next character. </item>
+<item>1cd: a single vertical, very tall (from bottom of descenders to top of ascenders)</item>
+<item>2ab: not quite clear, but there definitely seems to be a punctuation mark in the shape of a short horizontal dash. </item>
+<item>2cd: seems to be a short double vertical</item>
+<item>3ab: Kielhorn prints a double daṇḍa. There seems to be a single, possibly a double horizontal dash here.</item>
+<item>3cd: a short double vertical, the first one may have a curved extension downward to the right.</item>
+<item>4ab: none; the visarga may double as punctuation.</item>
+<item>4cd: short double vertical</item>
+<item>5a: space</item>
+<item>5b: none, but it's the end of the physical line</item>
+<item>5c: none, but there's a halanta T and hiatus instead of expected sandhi.</item>
+<item>5d: Kielhorn prints double daṇḍa. Rubbing unclear, perhaps just a single vertical</item>
+<item>6a: probably none</item>
+<item>6b: space</item>
+<item>6c: visarga and space, followed by superfluous s-sandhi</item>
+<item>6d: halanta T and space</item>
+<item>7ab: none</item>
+<item>7cd: may be a single or double vertical</item>
+<item>8a space</item>
+<item>8b: halanta M</item>
+<item>8c: space</item>
+<item>8d: space</item>
+<item>9a: visarga, followed by superfluous s-sandhi</item>
+<item>9b,c: none</item>
+<item>9d: clear double vertical</item>
+<item>10a: space</item>
+<item>10b,c: none</item>
+<item>10d: halanta M </item>
+<item>11a,b,c,d: none</item>
+<item>12a: hiatus</item>
+<item>12b: halanta M</item>
+<item>12c: none</item>
+<item>12d: halanta M </item>
+<item>13a: halanta M instead of sandhi (Kielhorn emends to anusvāra, but this is clearly deliberate)</item>
+<item>13b: none</item>
+<item>13c: halanta M instead of sandhi (Kielhorn emends to anusvāra, but this is clearly deliberate)</item>
+<item>13d: a double vertical, very short, with the top at headline height</item>
+<item>14a,b: none</item>
+<item>14c: halanta M instead of sandhi</item>
+<item>14d: none</item>
+<item>15a: none</item>
+<item>15b: halanta T</item>
+<item>15c: none (and anusvāra sandhi is present)</item>
+<item>15d: clear short double vertical a little below headline height</item>
+<item>16a: none and anusvāra sandhi is present if Kielhorn is correct in reading an anusvāra here. ddha is at the edge of the stone and partly chipped, but it is unlikely that the chipping was extensive enough to destroy a halanta m.</item>
+<item>16b: halanta M instead of sandhi</item>
+<item>16c: none, sandhi present</item>
+<item>16d: a short double vertical at or near headline height</item>
+<item>17a,b,c: none; sandhi present where applicable (not in a)</item>
+<item>17d: seems to be a single vertical. Kielhorn prints a single daṇḍa here.</item>
+<item>18a,b: none, sandhi where applicable</item>
+<item>18c: short single vertical</item>
+<item>18d: halanta M</item>
+<item>19a,b,c,d: none (d ends in visarga)</item>
+<item>20ab: none</item>
+<item>20cd: seems to be a single short vertical</item>
+<item>21a,b,c,d: none (with homorganic nasal sandhi after b; visarga at end of d)</item>
+<item>22ab: none (visarga)</item>
+<item>22cd: halanta N and a punctuation mark that may be a short double vertical, but there are other scratches involved. Kielhorn transcribes it as a double daṇḍa.</item>
+<item>23a,b,c: none (visarga in b)</item>
+<item>23d: looks like a big dot; probably another short double vertical, transcribed as double by Kielhorn</item>
+<item>24a,b,c,d: none (visarga in b)</item>
+<item>25a,b,c: none (visarga in hiatus in b)</item>
+<item>25d: space</item>
+<item>26a: none</item>
+<item>26b: visarga in hiatus, possibly followed by a single vertical</item>
+<item>26c: none</item>
+<item>26d: none, but the missing final visarga and a punctuation mark may have been engraved and then overwritten</item>
+<item>27ab: none, homorganic nasal sandhi present</item>
+<item>27cd: final halanta M and single vertical; also halanta M instead of sandhi at end of b!</item>
+<item>28a,b: halanta M instead of sandhi</item>
+<item>28c: none</item>
+<item>28d: double horizontal</item>
+<item>29a: none; visarga in regular sandhi</item>
+<item>29b: visarga in hiatus</item>
+<item>29c: superfluous visarga within a compound (or is this a punctuation mark?)</item>
+<item>29d: damaged, but definitely a double vertical</item>
+<item>30a: none</item>
+<item>30b: not read by Kielhorn, but I think there is a single horizontal punctuation mark</item>
+<item>30c: none</item>
+<item>30d: single vertical (though possibly two thin lines close by and merged by flaking)</item>
+<item>31a: halanta M in hiatus</item>
+<item>31b: punctuation indistinct, but there is a space with marks inside it, which Kielhorn transcribes as an unclear single daṇḍa</item>
+<item>31c: none</item>
+<item>31d: a definite double vertical</item>
+<item>32a: none, sandhi present</item>
+<item>32b: halanta N in hiatus</item>
+<item>32c: halanta M in hiatus</item>
+<item>32d: probably a double vertical</item>
+<item>33a: space</item>
+<item>33b: visarga and space</item>
+<item>33c: space</item>
+<item>33d: space</item>
+<item>34a: space</item>
+<item>34b: none</item>
+<item>34c: space</item>
+<item>34d: halanta M and a single horizontal</item>
+<item>35a,b,c: none, sandhi present</item>
+<item>35d: halanta M and probably a double vertical</item>
+<item>36a: visarga in hiatus. there is also a space after the visarga, but it can be ascribed to the descenders of tsuka in pañcāśatsu kalau and seems not to be for verse segmentation.</item>
+<item>36b: visarga in regular sandhi</item>
+<item>36c: space</item>
+<item>36d: halanta M</item>
+<item>37ab: none</item>
+<item>37cd: visarga and punctuation that is indistinct; probably a single vertical.</item>
+</list>
+</p>
+<p>Notes on halanta characters:
+<list>
+<item>v2 ratnānāM: slightly lowered, but not noticeably reduced in size; with a horizontal line quite high above it.</item>
+<item>v3 suciraM: appears to be a full-sized, regular ma without a line above.</item>
+<item>v5 ātmasāT: seems to be a full-fledged ta.</item>
+<item>v6 prakarṣāT: may be a full-fledged form or a reduced one with the line at the height where the headmark would be.</item>
+<item>v8 rājakaM: looks like a full ma</item>
+<item>v10 kadambakaM: seems to be reduced with a line above; Kielhorn thinks it may have been corrected from a visarga</item>
+<item>v12 sañcayaM: reduced but probably has no line above</item>
+<item>v12 parigrahaM: full size but seems simplified (loop with two arms)</item>
+<item>v13 sālaM: seems reduced</item>
+<item>v13 bimbaM: full-sized</item>
+<item>v14 pitr̥vyaM: much reduced and may have a short line above it</item>
+<item>v15 samantāT: reduced and lowered, with definite line above.</item>
+<item>v16 prabhātaM: reduced</item>
+<item>v18 paśyatāM: reduced and simplified, no line</item>
+<item>v22 IvābhavaN: indistinct; seems to be reduced and lowered</item>
+<item>v27 vr̥ttaM, durggamaM: reduced and simplified without a line</item>
+<item>v28 āntarāḷaM: reduced and simplified without a line</item>
+<item>v28 āṅgarāgaM: reduced and simplified but with a line </item>
+<item>v28 rāgaM: full sized but simplified</item>
+<item>v29 patimM: damaged but seems to be reduced with a line above</item>
+<item>v31 pāṇḍyānāM: seems to be full sized but probably simplified</item>
+<item>v32 dvijāN: simplified but nearly full size, no line</item>
+<item>v32 imāM: a small and simplified form, but it is at head height and was probably inserted subsequently</item>
+<item>v34 bhujāM: simplified and slightly reduced</item>
+<item>v35 edaM: seems to be full sized </item>
+<item>v36 svayaM: full sized </item>
+</list>
+</p>
+<p>Notes on versification:
+<list>
+<item>v11 vasantatilakā compound straddling cd boundary</item>
+<item>v15 mālinī obscured caesura in a and c, also a compound straddling ab boundary.</item>
+<item>v16 sragdharā: obscured caesurae in 16a2 and b2</item>
+<item>v23 mālinī: cpd straddling ab boundary</item>
+<item>v24 mālinī: cpd straddling ab boundary</item>
+<item>v26 mālabhāriṇī rhyme at end of each pāda</item>
+<item>v28 vasantatilakā probable rhyme at end of a, b, d</item>
+<item>v29 śārdūlavikrīḍita: cpd across pāda cd</item>
+</list>
+</p>
+<p>Stanza 24 is problematic on several levels. I adopt Kielhorn's emendations (including one which he says is a reading, not an emendation, see apparatus on <foreign>°opakaṇṭh<choice><sic>ā</sic><corr>aḥ</corr></choice></foreign> in l12) because it seems slightly more likely that the subject of the verse is the Vindhyas (<foreign>vindhyopakaṇṭhaḥ</foreign>) than that it is the Revā. This notwithstanding, I am not satisfied with Kielhorn's interpretation and I fail to see why the Vindhyas shone all the more because of Polekeśin's rule. I am also uncertain whether <foreign>svena</foreign> can indeed mean "the king's". Fleet's translation of the stanza (in both his editions) is: "While he was governing the earth with his great armies, the Revā, which is near to the venerable (mountain of) Vindhya and which is beauteous wih its varied sandy stretches, shone the more by virtue of its own glory, though it was deserted by its elephants from the envy of the mountains in the matter of their size."</p>
+<p>DB: the barely intelligible final bit (after the spiral in l18) is probably a later addition, so it should perhaps be encoded as a separate inscription. Kielhorn (<bibl rend="omitname"><ptr target="bib:Kielhorn1900-1901_01"/><citedRange unit="page">7</citedRange><citedRange unit="note">10</citedRange></bibl>) specifically claims that the writing of this bit “differs from, and seems undoubtedly more modern than, that of the preceding part of the inscription.” Fleet's initial comment (<bibl rend="omitname"><ptr target="bib:Fleet1876_05"/><citedRange unit="page">71n<!--The notes are not numbered here but marked with various symbols. The note in question has a pilcrow sign; I see no point in encoding <citedRange unit="note">¶</citedRange>--></citedRange></bibl>) is more ambiguous: "The characters here are of the same original type as those of the rest of the inscription; but they are larger and not so neat; in fact, they are fully developed Old Canarese letters, as if this portion was added later." But his later one (<bibl rend="omitname"><ptr target="bib:Fleet1879_02"/><citedRange unit="page">243</citedRange><citedRange unit="note">17</citedRange></bibl>) is more affirmative: "The characters here differ somewhat from those of the body of the inscription, as if this part was added later, or by a different hand."</p></div>
 
          
          <div type="bibliography">
   <!--bibliography encoded as per section §9.4 -->
   <!-- NB: you are encouraged to experiment with encoding bibliography to the extent you have the bibliographic data available, but it is not mandatory at this stage, because our bibliographic data are normally assembled along with other metadata in spreadsheets and will be imported from there into our xml files by a semi-automated process at a later stage. -->
-           <p><!-- formulate epigraphic lemma here, using the items of primary bibliography -->
-           <!--
-              First reported in BhauDaji1872_01 p315, probably with a plate on p. ccxcix; this was published, or at least sent to press, before Fleet1867_01
-              (<bibl rend="omitname"><ptr target="bib:Fleet1867_01"/></bibl>) initial edition with a photo-lithograph
-              (<bibl rend="omitname"><ptr target="bib:Fleet1879_02"/></bibl>) revised edition with an improved photo-lithograph
-              Kielhorn (1900_01, 1) says Fleet's revised edition was also published in ASWI III p129ff. Not traced. Not in ASWI Reports 3 or Memoranda 3, and I could not find vol 3 of the main ASWI series, nor even any further information about it such as full title or publication year.
-              (<bibl rend="omitname"><ptr target="bib:Kielhorn1900-1901_01"/></bibl>) re-edition
-              Kielhorn notes that the rubbing published with his article is the first true facsimile (implying that the intervening editions had distorted reproductions, since they are apparently also rubbings, not eye copies), and that the rubbing was actually made by Fleet and given to him for publication [it thus may be the same improved facsimile that Fleet (1879_02, 237) talks about, or an even further improved one]
-              
-           --></p>
+           <p>First reported by Bhau Daji (<bibl rend="omitname"><ptr target="bib:BhauDaji1872_01"/><citedRange>315</citedRange></bibl>), probably with a plate on p. ccxcix; this was published, or at least sent to press, before Fleet's initial edition (<bibl rend="omitname"><ptr target="bib:Fleet1876_05"/></bibl>), which was accompanied by a photo-lithograph and a translation. Fleet then revised his edition (<bibl rend="omitname"><ptr target="bib:Fleet1879_02"/></bibl>) with an improved photo-lithograph and translation.<note>Kielhorn (<bibl rend="omitname"><ptr target="bib:Kielhorn1900-1901_01"/><citedRange>1</citedRange></bibl>) says Fleet's revised edition was also published in ASWI III p129ff. Not traced. Not in ASWI Reports 3 or Memoranda 3, and I could not find vol 3 of the main ASWI series, nor even any further information about it such as full title or publication year.</note> Re-edited by Kielhorn (<bibl rend="omitname"><ptr target="bib:Kielhorn1900-1901_01"/></bibl>), who notes that the rubbing published with his article is the first true facsimile (implying that the intervening editions had distorted reproductions, since they are apparently also rubbings, not eye copies), and that the rubbing was actually made by Fleet and given to him for publication [it thus may be the same improved facsimile that Fleet (<bibl rend="omitname"><ptr target="bib:Fleet1879_02"/><citedRange>237</citedRange></bibl>) talks about, or an even further improved one]. The present edition by Dániel Balogh is based on a collation of the above editions with Kielhorn's published facsimile.</p>
            <listBibl type="primary">
-             <bibl n="siglum"/><!-- one <bibl/> per item of primary bibliography. Every entry mentionned in apparatus  should hava a @n to declare its sigla -->
+             <bibl n="JFF1"><ptr target="bib:Fleet1876_05"/><!--CHECK: This is SOCI 013. The IDs of items with Fleet1867 are a mess in Zotero at the time I encode this reference.--></bibl>
+             <bibl n="JFF2"><ptr target="bib:Fleet1879_02"/></bibl>
+             <bibl n="FLK"><ptr target="bib:Kielhorn1900-1901_01"/></bibl>
            </listBibl>
            <listBibl type="secondary">
-             <bibl/><!-- one <bibl/> per item of secondary bibliography -->
+             <bibl></bibl><!-- one <bibl/> per item of secondary bibliography -->
            </listBibl>
         </div>
       </body>

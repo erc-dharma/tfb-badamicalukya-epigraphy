@@ -16,11 +16,7 @@
          </respStmt>
          <respStmt>
                <resp>intellectual authorship of edition</resp>
-               <persName>
-                  <forename>Ganesh Hari</forename>
-                  <surname>Khare</surname>
-               </persName>
-         </respStmt>
+            Edited by Ganesh Hari Khare (         </respStmt>
          </titleStmt>         
          <publicationStmt>
             <authority>DHARMA
@@ -247,10 +243,10 @@ Land comprising twenty-five nivartanas by the royal measure was given to …rāc
            <!--First reported in (<bibl rend="omitname"><ptr target="bib:Jacob1851_01"/></bibl>) p210. Edited in (<bibl rend="omitname"><ptr target="bib:Fleet1879_01."/></bibl>) -->
            </p>
            <listBibl type="primary">
-             <bibl n="siglum"/><!-- one <bibl/> per item of primary bibliography. Every entry mentionned in apparatus  should hava a @n to declare its sigla -->
+             <bibl n="siglum"></bibl><!-- one <bibl/> per item of primary bibliography. Every entry mentionned in apparatus  should hava a @n to declare its sigla -->
            </listBibl>
            <listBibl type="secondary">
-             <bibl/><!-- one <bibl/> per item of secondary bibliography -->
+             <bibl></bibl><!-- one <bibl/> per item of secondary bibliography -->
            </listBibl>
         </div>
       </body>

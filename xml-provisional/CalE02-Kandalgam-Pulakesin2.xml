@@ -206,7 +206,7 @@
              <bibl n="KTT"><ptr target="bib:Telang1885_01"/></bibl>
            </listBibl>
            <listBibl type="secondary">
-             <bibl/><!-- one <bibl/> per item of secondary bibliography -->
+             <bibl></bibl><!-- one <bibl/> per item of secondary bibliography -->
            </listBibl>
         </div>
       </body>

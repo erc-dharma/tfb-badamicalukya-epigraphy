@@ -16,10 +16,10 @@
          </respStmt>
          <respStmt>
                <resp>intellectual authorship of edition</resp>
-               <persName>
-                  <forename>John Faithfull</forename>
-                  <surname>Fleet</surname>
-               </persName>
+            <persName ref="part:daba">
+               <forename>Dániel</forename>
+               <surname>Balogh</surname>
+            </persName>
          </respStmt>
          </titleStmt>         
          <publicationStmt>
@@ -52,9 +52,7 @@
           </msContents>
           <physDesc>
             <handDesc>
-              <p>
-                <!--Halantas.  -->
-                <!--Original punctuation.  -->
+              <p><!--Halantas.  -->The punctuation marks transcribed as daṇḍas are probably short, plain verticals, though most are unclear in my scan. The symbols encloded as "doubledot" are two dots or small circles, one below the other. They resemble visargas and were read as superfluous visargas by Fleet, but they seem always to occur in conjunction with double daṇḍas and to serve as punctuation marks/space fillers. The double vertical occurs without a double dot after 50 in l7. 
                 <!--Other palaeographic observations. -->
                 <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
               <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
@@ -69,7 +67,7 @@
       </fileDesc>
      <revisionDesc>
         <change who="part:daba" when="2020-03-03" status="draft">Initial encoding of the file</change>
-        <change who="part:daba" when="2020-08-12" status="draft">Updated to template v2</change>
+        <change who="part:daba" when="2020-08-13" status="draft">Updated to template v2, encoded bibliography and commentary</change>
 <!-- Add a <change> entry for each significant change to the file. -->
      </revisionDesc>
   </teiHeader>
@@ -78,7 +76,7 @@
          <div type="edition" xml:lang="san-Latn">
 <p>
 <milestone type="pagelike" unit="zone" n="A"/>
-<lb n="A1"/><!--CHECK: may want to revise line numbering scheme. Fleet numbers consecutively. --><g type="indistinct"/> svasti<supplied reason="subaudible">.</supplied> Anuruddha-<choice><sic>ṣ</sic><corr>d</corr></choice>ur<choice><sic>ī</sic><corr>i</corr></choice>todita-n<orig>ru</orig>pa-va<orig>ṁ</orig>ṅśa-prasūta sva-va<orig>ṁ</orig>ṅśa-l<surplus>l</surplus>alāma-bhūta dakṣiṇāpatha<lb
+<lb n="A1"/><g type="indistinct"/> svasti<supplied reason="subaudible">.</supplied> Anuruddha-<choice><sic>ṣ</sic><corr>d</corr></choice>ur<choice><sic>ī</sic><corr>i</corr></choice>todita-n<orig>ru</orig>pa-va<orig>ṁ</orig>ṅśa-prasūta sva-va<orig>ṁ</orig>ṅśa-l<surplus>l</surplus>alāma-bhūta dakṣiṇāpatha<lb
    n="A2" break="no"/>-p<orig>ri</orig>thivyā<supplied reason="omitted">ḥ</supplied> svāmī catur-udadhi-mekhalopārjjita-rājya-śrī pratāpāt<surplus>t</surplus>iśayopanata<surplus><g type="dotDouble">.</g>||</surplus><lb
    n="A3" break="no"/>-samagra-sāma<orig>ṁ</orig>nta-ma<orig>ṁ</orig>ṇḍala p<orig>ri</orig>thivyām apratiratha śrīmā<orig>ṁ</orig> satyāśraya-pulekeśi-vallabha<lb
    n="A4" break="no"/>-mahārāja-rājye varttamāne likhitam iti<supplied reason="subaudible">.</supplied></p>
@@ -88,7 +86,7 @@ dhuti-pure nivarttanāni Aṣṭa <num value="8">8</num><g type="dotDouble">.</g
 Āgariya-pure niva<unclear>rttanā</unclear>ni pa<orig>ṁ</orig>ñca <num value="5">5</num>
 <lb n="A6"/>panasa-vr̥kṣa pa<orig>ṁ</orig>ñca <g type="dotDouble">.</g>||
 kr̥ṣ<choice><orig>n</orig><reg>ṇ</reg></choice>e harasena-mātā-pitro<supplied reason="omitted">ḥ</supplied> pu<orig>ṁ</orig>ṇyopacayāya <unclear>de</unclear>va<unclear>ro</unclear>laka<lb
-   n="A7" break="no"/>-<orig>bhūmyāṁś</orig> ca nivarttanāni pa<orig><unclear>ṁ</unclear></orig>ñcāśat <num value="50"><g type="numeral">50</g></num>|| vinīta-vidagdha-vaiśikācāryyeṇa sthāpitā <gap reason="illegible" quantity="1" unit="character" precision="low"/> ghitā<supplied reason="subaudible">.</supplied></p>
+   n="A7" break="no"/>-<orig>bhūmyāṁś</orig> ca nivarttanāni pa<orig><unclear>ṁ</unclear></orig>ñcāśat <num value="50"><g type="numeral">50</g></num>|| vinīta-vidagdha-vaiśikācāryyeṇa sthāpitā <gap reason="illegible" quantity="1" unit="character" precision="low"/>ghitā<supplied reason="subaudible">.</supplied></p>
 <p><lb
    n="A8"/>kārttikasya <orig>pūnnimāsāṁ</orig> likhitā praśastīti|| saṁvatsarā <gap reason="illegible" quantity="1" unit="character" precision="low"/> <num value="6"><unclear>6</unclear></num> rājya Iti<supplied reason="subaudible">.</supplied> <lb
    n="A9"/>Īś<unclear cert="low">ā</unclear>nena likhitā<supplied reason="subaudible">.</supplied> yad atra pu<orig>ṁ</orig>ṇyaṁ <unclear cert="low">ta</unclear>d bha<add place="below">va</add>tu <gap reason="illegible" quantity="6" unit="character" precision="low"/>
@@ -120,10 +118,10 @@ kr̥ṣ<choice><orig>n</orig><reg>ṇ</reg></choice>e harasena-mātā-pitro<supp
                   </app>
                   <app loc="A5">
                      <lem source="bib:Fleet1898-1899_01">niva<unclear>rttanā</unclear>ni pa<orig>ṁ</orig>ñca</lem>
-                     <note>Only <foreign>niva … ni</foreign> is recognisable in the facsimile, and there seems not to be enough space in between for two characters; possibly only <foreign>nivarttani</foreign> was engraved, unless <foreign>nā</foreign> is both very narrow and faint.</note>
+                     <note>Only <foreign>niva</foreign> and <foreign>ni</foreign> are recognisable in the facsimile, and there seems not to be enough space in between for two characters; possibly only <foreign>nivarttani</foreign> was engraved, unless <foreign>nā</foreign> is both very narrow and faint.</note>
                   </app>
                   <app loc="A6">
-                     <lem source="bib:Fleet1898-1899_01"><unclear>de</unclear>va<unclear>ro</unclear>laka°</lem>
+                     <lem source="bib:Fleet1898-1899_01"><unclear>de</unclear>va<unclear>ro</unclear>laka-</lem>
                      <note>I wonder if Fleet’s <foreign>devarolaka</foreign> could be <foreign>devakaulaka</foreign> or even <foreign>devakulaka</foreign>.</note>
                   </app>
                   <app loc="A7">
@@ -131,7 +129,7 @@ kr̥ṣ<choice><orig>n</orig><reg>ṇ</reg></choice>e harasena-mātā-pitro<supp
                      <note>The scan is indistinct. Possibly read <foreign>bhūmyāś</foreign> or <foreign>bhūṁmyāś</foreign>?</note>
                   </app>
                   <app loc="A7">
-                     <lem source="bib:Fleet1898-1899_01">°vaiśikā°</lem>
+                     <lem source="bib:Fleet1898-1899_01">-vaiśikā°</lem>
                      <note>Or perhaps <foreign>vaidkā°</foreign>?</note>
                   </app>
                   <app loc="A7">
@@ -203,23 +201,24 @@ se consume en enfer pendant six mille années. </p>
 
 
          <div type="commentary">
-<!--DB. If I understand Fleet’s description correctly, the text is inscribed in two areas. The primary area, with the essential text, is on the right, comprising the lines numbered by Fleet as 1 to 10. The secondary area is to the left(!) of the primary one, and contains the imprecatory verses, lines 11 to 19 in Fleet’s numbering. This area is about 2 feet wide, so the primary area must by inference be about 5 feet, 1.5 metres. Only the primary area is reproduced in Fleet’s facsimile in EI05, which is a collotype reduced from inked impressions prepared by Hultzsch for Fleet. There is no published facsimile of the secondary area, though the final letters of some of its lines show in Fleet’s image.  -->
-<!--DB. Throughout this digital edition, unclear markup follows Fleet’s edition. A fair amount of text that he prints as clearly read is unclear to wholly indistinct in my scan of the facsimile. -->
-<!--DB. The inscription uses sub-standard Sanskrit. Fleet adds many standardisations and suggests others in his introduction. I replicate only essential corrections here. -->
-<!--DB. The punctuation marks transcribed as daṇḍas are probably short, plain verticals, though most are unclear in my scan. The symbols encloded as subtype "doubledot" are two dots or small circles, one below the other. They resemble visargas and were read as superfluous visargas by Fleet, but they seem always to occur in conjunction with double daṇḍas and to serve as punctuation marks/space fillers. The double vertical occurs without a double dot after 50 in l7. -->
-
+<p>If I understand Fleet’s description correctly, the text is inscribed in two areas. The primary area, with the essential text, is on the right, comprising the lines numbered by Fleet as 1 to 10 (and here as A1 to A10). The secondary area is to the left(!) of the primary one, and contains the imprecatory verses, lines 11 to 19 in Fleet’s numbering. This area is about 2 feet wide, so the primary area must by inference be about 5 feet, 1.5 metres. Only the primary area is reproduced in Fleet’s facsimile in EI05, which is a collotype reduced from inked impressions prepared by Hultzsch for Fleet. There is no published facsimile of the secondary area, though the final letters of some of its lines show in Fleet’s image.</p>
+<p>Throughout this digital edition, unclear markup follows Fleet’s edition. A fair amount of text that he prints as clearly read is unclear to wholly indistinct in my scan of the facsimile.</p>
+<p>The inscription uses sub-standard Sanskrit. Fleet adds many standardisations and suggests others in his introduction. I replicate only essential corrections here.</p>
+<p>Fleet (<bibl rend="omitname"><ptr target="bib:Fleet1898-1899_01"/><citedRange>7</citedRange></bibl>) mentions another inscription “in similar characters” about 4 feet to the left of this one, speaking about 4 nivartanas of land at a place named Sindavaḷaga(?). If anyone goes for fieldwork, this could be checked and recorded.</p>
          </div>
 
          
          <div type="bibliography">
   <!--bibliography encoded as per section §9.4 -->
   <!-- NB: you are encouraged to experiment with encoding bibliography to the extent you have the bibliographic data available, but it is not mandatory at this stage, because our bibliographic data are normally assembled along with other metadata in spreadsheets and will be imported from there into our xml files by a semi-automated process at a later stage. -->
-           <p><!-- formulate epigraphic lemma here, using the items of primary bibliography --><!--Edited in bib:Fleet1898-1899_01.--></p>
+           <p>First edited by Fleet (<bibl rend="omitname"><ptr target="bib:Fleet1898-1899_01"/></bibl>) with partial inked rubbings and translation. The present edition by Dániel Balogh is based on a collation of Fleet's text with his published facsimile, but see the commentary on the limits of the available facsimile.</p>
            <listBibl type="primary">
-             <bibl n="siglum"/><!-- one <bibl/> per item of primary bibliography. Every entry mentionned in apparatus  should hava a @n to declare its sigla -->
+             <bibl n="JFF">
+               <ptr target="bib:Fleet1898-1899_01"/>
+            </bibl>
            </listBibl>
            <listBibl type="secondary">
-             <bibl/><!-- one <bibl/> per item of secondary bibliography -->
+             <bibl></bibl><!-- one <bibl/> per item of secondary bibliography -->
            </listBibl>
         </div>
       </body>
