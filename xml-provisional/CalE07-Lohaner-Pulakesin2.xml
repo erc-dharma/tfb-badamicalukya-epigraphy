@@ -6,10 +6,7 @@
       <fileDesc>
          <titleStmt>
             <title>Lohaner plates of Pulakeśin II</title>
-      <respStmt>
-            <resp>initial etext</resp>
-            <persName><forename>Perrine</forename><surname>Estienne-Monod</surname></persName>
-            </respStmt>
+      
          <respStmt>
                <resp>EpiDoc encoding</resp>
                <persName ref="part:daba"><forename>Dániel</forename><surname>Balogh</surname></persName>
@@ -351,8 +348,7 @@ pareilles à <supplied reason="subaudible">la nourriture</supplied> mangée puis
          <div type="bibliography">
   <!--bibliography encoded as per section §9.4 -->
   <!-- NB: you are encouraged to experiment with encoding bibliography to the extent you have the bibliographic data available, but it is not mandatory at this stage, because our bibliographic data are normally assembled along with other metadata in spreadsheets and will be imported from there into our xml files by a semi-automated process at a later stage. -->
-           <p>Edited by Ganesh Hari Khare (<bibl rend="omitname"><ptr target="bib:Khare1947-1948_01"/></bibl>) with estampages but without translation. Khare had also edited the inscription earlier, published in Marathi in “Sources of the Medieval History of the Deccan” vol. I. p. 1ff. <note>Not traced; not sure if the entire book is in Marathi or only parts of it. It was apparently published in 3 vols in Pune, 1930 to 1949; the Marathi title may be दक्खनच्या मध्यकालीन इतिहासाची साधने.</note>
-           </p>
+           <p>Edited by Ganesh Hari Khare (<bibl rend="omitname"><ptr target="bib:Khare1947-1948_01"/></bibl>) with estampages but without translation. Khare had also edited the inscription earlier, published in Marathi in “Sources of the Medieval History of the Deccan” vol. I. p. 1ff. <note>Not traced; not sure if the entire book is in Marathi or only parts of it. It was apparently published in 3 vols in Pune, 1930 to 1949; the Marathi title may be दक्खनच्या मध्यकालीन इतिहासाची साधने.</note>  The present edition by Dániel Balogh is based on a collation of Khare's edition with the published facsimile.</p>
            <listBibl type="primary">
              <bibl n="GHK"><ptr target="bib:Khare1947-1948_01"/></bibl>
            </listBibl>

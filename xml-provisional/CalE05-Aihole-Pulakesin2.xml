@@ -6,10 +6,7 @@
       <fileDesc>
          <titleStmt>
             <title>Aihole temple foundation of Ravikīrti of the time of Pulakeśin II</title>
-      <respStmt>
-            <resp>initial etext</resp>
-            <persName><forename>Perrine</forename><surname>Estienne-Monod</surname></persName>
-            </respStmt>
+      
          <respStmt>
                <resp>EpiDoc encoding</resp>
                <persName ref="part:daba"><forename>Dániel</forename><surname>Balogh</surname></persName>
@@ -818,7 +815,8 @@ dont la gloire, en raison de son talent poétique, est celle de Kāḷidāsa et 
              <bibl n="FLK"><ptr target="bib:Kielhorn1900-1901_01"/></bibl>
            </listBibl>
            <listBibl type="secondary">
-             <bibl></bibl><!-- one <bibl/> per item of secondary bibliography -->
+             <bibl><ptr target="bib:BhauDaji1872_01"/><citedRange>315</citedRange></bibl>
+             <bibl><ptr target="bib:BhauDaji1872_01"/><citedRange>315</citedRange></bibl><!-- one <bibl/> per item of secondary bibliography -->
            </listBibl>
         </div>
       </body>
