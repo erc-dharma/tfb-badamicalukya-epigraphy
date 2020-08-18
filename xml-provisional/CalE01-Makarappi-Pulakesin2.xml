@@ -50,8 +50,8 @@
           <physDesc>
             <handDesc>
               <p>The halanta T in L26 is not quite clear in the scan but seems to be a small subscript ta complete with loop, probably with a short vertical, not horizontal, line above it.</p>
-<p>The final punctuation mark (not transcribed by Fleet) is a single horizontal stroke with a strong bulge upward and to the left, like a ? without the dot, rotated 90° counterclockwise.</p>
-<p>There are two different kinds of r̥ mātrā; one resembles subscript r̥ but with more of a curl at the end and not extending back up into body space (what I know as a regular r̥ mark; e.g. l2 mātr̥bhiḥ, mātr̥bhir, l4 bhr̥tāṁ l5 °āvabhr̥tha), and another that bends downward, sort of resembling a subscript l (l4 kr̥tā°, krta). Is this driven by the consonant to which r̥ is attached? There are also two forms of ka: the regular form and what may be a cursive one, where the upper part looks like a mirrored Z. Some of these (l1, kārttikeyā°; l4, kariṣṇu) follow anusvāras and could have been intended for ṅk, but the same shape is fould in l12, śaka. 
+               <p>The final punctuation mark (not transcribed by Fleet) is a single horizontal stroke with a strong bulge upward and to the left, like a ? without the dot, rotated 90° counterclockwise. (Perhaps classify as a minimalist spiral mangala sign of the  The punctuation mark after mahībhr̥tāṁ in line 5, not shown by Fleet, is faint and located below the anusvāra.</p>
+               <p>There are two different kinds of r̥ mātrā; one resembles subscript r̥ but with more of a curl at the end and not extending back up into body space (what I know as a regular r̥ mark; e.g. l2 mātr̥bhiḥ, mātr̥bhir, l4 bhr̥tāṁ l5 °āvabhr̥tha), and another that bends downward, sort of resembling a subscript l (l4 kr̥tā°; l27 kr̥ṣṇāhayo). Is this driven by the consonant to which r̥ is attached? There are also two forms of ka: the regular form and what may be a cursive one, where the upper part looks like a mirrored Z. Some of these (l1, kārttikeyā°; l4, kariṣṇu) follow anusvāras and could have been intended for ṅk, but the same shape is fould in l12, śaka. 
                 <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
               <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
             <summary><p><p/></summary>
@@ -78,26 +78,29 @@
 <lb n="1"/>svasti śrīmatāṁ sakal<choice><sic>o</sic><corr>a</corr></choice>-bhuvana-saṁstūyamāna-mānavya-sagotrāṇāṁ <orig>hārītī</orig>-putrāṇāṁ sa<lb
    n="2" break="no"/>pta-loka-mātr̥bhiḥ sapta-mātr̥bhir abhivarddhitānāṁ<g type="circleLow" >.</g> kārttikeyānugraha-parirakṣaṇa-prā<lb
    n="3" break="no"/>pta-kalyāṇa-paraṁparāṇāṁ bhagavan-nārāyaṇa-prasāda-samāsādita-varāha-lā<lb
-   n="4" break="no"/><space type="binding-hole"/>ñchanekṣaṇa-vaśī-kr̥tāśeṣa-mahībhr̥tāṁ <orig>calikyānāṁ</orig> kulam alaṁkariṣṇ<choice><sic>u</sic><corr>oḥ</corr></choice> <lb 
+   n="4" break="no"/><space type="binding-hole"/>ñchanekṣaṇa-vaśī-kr̥tāśeṣa-mahībhr̥tāṁ<unclear><g type="circleLow" >.</g></unclear> <orig>calikyānāṁ</orig> kulam alaṁkariṣṇ<choice><sic>u</sic><corr>oḥ</corr></choice> <lb 
    n="5"/><space type="binding-hole"/>Aśvamedhāvabhr̥tha-snāna-pavitrī-kr̥ta-gātrasya satyāśraya-śrī<lb 
    n="6" break="no"/>-polekeśi-vallabha-mahārājasya pautraḥ parākramākrānta-vanavā<orig>ś</orig>yādi-para-nr̥<lb
    n="7" break="no"/>pati-maṇḍala-pratibaddha-viśuddha-kīrtti-patākasya kīrttivarmma-vallabha-mahā<lb
-   n="8" break="no"/>rājasya tanayo naya-vinayādi-guṇa-vibhū<surplus><unclear>ḥ</unclear></surplus>ty-āśrayaḥ śrī-satyā<pb
+   n="8" break="no"/>rājasya tanayo naya-vinayādi-guṇa-vibhūty-āśrayaḥ śrī-satyā<pb
+
    n="2r" break="no"/><lb 
    n="9" break="no"/>śraya-p<orig>ri</orig>thivī-vallabha-mahārājaḥ samara-śata-saṁghaṭṭa-saṁsakta-para-<unclear reason="eccentric_ductus">n</unclear>r̥pati-parā<lb
    n="10" break="no"/>jayopalabdha-parameśvarāpara-nāmadheyaḥ sarvvān ājñāpayaty</p>
-<p> astu vo viditaṁ ma<lb
+<p>astu v<unclear>o</unclear> viditaṁ ma<lb
    n="11" break="no"/>yā vātāpī-nagarīm adhitiṣṭhatātmanaḥ pravarddhamāna-rājyābhiṣeka-saṁvatsare tr̥tī<lb
-   n="12" break="no"/><space type="binding-hole"/>ye śaka-nr̥pati-saṁvatsara-śateṣu catustriṁśā<unclear>dh</unclear>ikeṣu pañcasv at<choice><sic>i</sic><corr>ī</corr></choice>teṣu bhādra<lb
-   n="13" break="no"/><space type="binding-hole"/>padāmāvāsyāyāṁ sūryya-grahaṇa-nimittaṁ mātā-pitror ātmanaḥ puṇyā<lb
-   n="14" break="no"/><space type="binding-hole"/>vāptaye vāsiṣṭha-sagotrāya taittirīyāya tagarādhivāsin<orig>o</orig><lb
-   n="15"/>catur-vvedāyoṁbarakheḍa-kula-nāmadheyāya jyeṣṭhaśarmmaṇe rolkū<lb
+   n="12" break="no"/><space type="binding-hole"/>ye śaka-nr̥pati-saṁvatsara-śateṣu catustriṁśā<unclear>dh</unclear>ikeṣu pañcasv at<unclear>ī</unclear>teṣu bhādra<lb
+   n="13" break="no"/><space type="binding-hole"/>padāmāvāsyāyāṁ sūryya-grahaṇa-nimitta<unclear>ṁ</unclear> mātā-pitror ātmanaḥ puṇyā<lb
+   n="14" break="no"/><space type="binding-hole"/>vāptaye vāsiṣṭha-sagotrāya taittirīyāya tagarādhivāsine<lb
+   n="15"/>catur-vvedāyoṁbarakheḍa-kula-nāmadheyāya jyeṣṭhaśarmmaṇe rolku<lb
    n="16" break="no"/>ṟuky-uttarataḥ kadappa-grāma-dakṣiṇataḥ mākarappir nnāma grāmaḥ
-<pb n="2v"/>
+<pb 
+
+n="2v"/>
 <lb n="17"/>sanidhiḥ sopanidhiḥ sakl̥ptaḥ soparikaraḥ pañca-mahā-yajña-nirvvāpa<lb
    n="18" break="no"/>ṇārttham udaka-pūrvvakaṁ dattaḥ</p>
 <p>Ayam asmad-dāyo <supplied reason="subaudible">’</supplied>nyair āgāmi-nr̥patibhir anuma<lb
-   n="19" break="no"/>ntavyo varddhanīyaś ca<supplied reason="subaudible">.</supplied> yo vājñānād ajaram amaraṁ vātmānaṁ manyamāno pra<lb 
+   n="19" break="no"/>ntavyo varddhanīyaś ca<supplied reason="subaudible">.</supplied> yo vājñānād ajaram amaraṁ vātmānaṁ manyamāno <supplied reason="subaudible">’</supplied>pa<lb 
    n="20" break="no"/><space type="binding-hole"/>haret sa pañca-mahā-pātaka-saṁyukta<orig>ḥ</orig> bahūni kalpa-saha<lb
    n="21" break="no"/><space type="binding-hole"/>srāṇi narakaṁ vasati<supplied reason="subaudible">.</supplied> yaḥ pālayati tāny eva svarggaṁ vāsati<supplied reason="subaudible">.</supplied>
 <lb n="22"/>Uktañ ca bhagavatā veda-vyāsena vyāsena
@@ -118,7 +121,7 @@
    <l n="a">ṣaṣṭim varṣa-sahasrāṇi</l>
    <l n="b">svargge <lb n="26"/>modati bhūmi-daḥ</l>
    <l n="c">Ācch<choice><sic>a</sic><corr>e</corr></choice>ttā cānumantā ca</l>
-   <l n="d">tāny <choice><sic>a</sic><corr>e</corr></choice>va narake vaseT</l>
+   <l n="d">tāny eva narake vaseT</l>
 </lg>
 <lg n="4" met="anuṣṭubh">
    <l n="a">vindhyā<lb n="27" break="no"/><space type="binding-hole"/>ṭavīṣv atoyāsu</l>
@@ -151,22 +154,20 @@
                   <app loc="8">
                      <lem>-vibhū<surplus><unclear>ḥ</unclear></surplus>ty-</lem>
                      <rdg source="bib:Fleet1877_01">°vibhū<surplus>ṁ</surplus>ty°</rdg>
-                     <note>The circle Fleet transcribes as a superfluous <foreign>anusvāra</foreign> is at headline height, whereas all other <foreign>anusvāra</foreign>s are well above, including that in <foreign>laṁ</foreign> (l4), 
-                        which is to the right of the character. (The <foreign>anusvāra</foreign> of <foreign>saṁvatsare</foreign>, l11, is practically at baseline height and to the right of <foreign>sa</foreign>, but that is because of <foreign>stu</foreign> hanging down from above. Here there is nothing preventing the circle being higher.)
-                        There is probably another mark below this circle at baseline height, so if it is a superfluous character, then it is probably a <foreign>visarga</foreign>. </note>
+                     <note>The circle Fleet transcribes as a superfluous <foreign>anusvāra</foreign> is at headline height, whereas all other <foreign>anusvāra</foreign>s are well above, including that in <foreign>laṁ</foreign> (l4), which is to the right of the character. (The <foreign>anusvāra</foreign> of <foreign>saṁvatsare</foreign>, l11, is practically at baseline height and to the right of <foreign>sa</foreign>, but that is because of <foreign>stu</foreign> hanging down from above. Here there is nothing preventing the circle being higher.) There is probably another mark below this circle at baseline height, so if it is a superfluous character, then it is probably a <foreign>visarga</foreign>. Neither the circle, nor the fainter, comma-like mark below are visible in Sir Walter Elliot's estampage.</note>
                   </app>
                   <app loc="9">
                      <lem>-p<orig>ri</orig>thivī-</lem>
                      <rdg source="bib:Fleet1877_01">pr̥thivī</rdg>
                   </app>
+                  <app loc="14">
+                     <lem>rolku<lb n="16" break="no"/>ṟuky-</lem>
+                     <rdg source="bib:Fleet1877_01">rolkū<lb n="16" break="no"/>ṟuky-</rdg>
+                  </app>
                   <app loc="15">
                      <lem>°kheḍa-</lem>
                      <rdg source="bib:Fleet1877_01">°khe<choice><sic>da</sic><corr>ḍa</corr></choice>-</rdg>
                      <note>Fleet tentatively emends to <note>ḍa</note>, but the character seems to be <note>ḍa</note> to begin with.</note>
-                  </app>
-                  <app loc="24">
-                     <lem>sva-dattāṁ</lem>
-                     <note>The <foreign>anusvāra</foreign> is to the left of <foreign>ttā</foreign> for no obvious reason. It may have been added subsequently: the <foreign>anusvāra</foreign> of the next <foreign>dattāṁ</foreign> is to the right of the <foreign>ā</foreign> <foreign>mātrā</foreign> but there is little empty space to the right of <foreign>sva-dattā</foreign>’s <foreign>ā</foreign> <foreign>mātrā</foreign>.</note>
                   </app>
                   <app loc="27">
                      <lem>hi</lem>
@@ -231,9 +232,9 @@ semblables au reste de l’offrande que l’on recrache, quel homme de bien s’
 
          </div>
         <div type="bibliography">
-           <p>First edited by J. F. Fleet (<bibl rend="omitname"><ptr target="bib:Fleet1877_01"/></bibl>) with inked rubbings and translation. Fleet reconsidered the date in <bibl><ptr target="bib:Fleet1888_02"/><citedRange unit="page">141</citedRange><citedRange unit="item">8</citedRange></bibl> and in <bibl><ptr target="bib:Fleet1891_03"/><citedRange>2-3</citedRange></bibl>. The present edition by Dániel Balogh is based on a collation of Fleet's text with his published facsimile.</p>
+           <p>First edited by J. F. Fleet (<bibl rend="omitname"><ptr target="bib:Fleet1877_01"/></bibl>) with inked rubbings and translation. Fleet reconsidered the date in <bibl><ptr target="bib:Fleet1888_02"/><citedRange unit="page">141</citedRange><citedRange unit="item">8</citedRange></bibl> and in <bibl><ptr target="bib:Fleet1891_03"/><citedRange>2-3</citedRange></bibl>. The present edition by Dániel Balogh is based on a collation of Fleet's text with his published facsimiles and estampages from the Sir Walter Elliot collection of the British Museum (https://doi.org/10.5281/zenodo.3251781)<!--CHECK Create bibliography?-->.</p>
            <listBibl type="primary">
-             <bibl n="JFF"><ptr target="bib:Fleet1877_01"/></bibl>
+             <bibl n="JFF"><ptr target="bib:Fleet1877_01"/></bibl><!--SOCI 27-->
            </listBibl>
            <listBibl type="secondary">
              <bibl>
