@@ -232,7 +232,7 @@ semblables au reste de l’offrande que l’on recrache, quel homme de bien s’
 
          </div>
         <div type="bibliography">
-           <p>First edited by J. F. Fleet (<bibl rend="omitname"><ptr target="bib:Fleet1877_01"/></bibl>) with inked rubbings and translation. Fleet reconsidered the date in <bibl><ptr target="bib:Fleet1888_02"/><citedRange unit="page">141</citedRange><citedRange unit="item">8</citedRange></bibl> and in <bibl><ptr target="bib:Fleet1891_03"/><citedRange>2-3</citedRange></bibl>. The present edition by Dániel Balogh is based on a collation of Fleet's text with his published facsimiles and estampages from the Sir Walter Elliot collection of the British Museum (https://doi.org/10.5281/zenodo.3251781)<!--CHECK Create bibliography?-->.</p>
+           <p>First edited by J. F. Fleet (<bibl rend="omitname"><ptr target="bib:Fleet1877_01"/></bibl>) with inked rubbings and translation. Fleet reconsidered the date in <bibl><ptr target="bib:Fleet1888_02"/><citedRange unit="page">141</citedRange><citedRange unit="item">8</citedRange></bibl> and in <bibl><ptr target="bib:Fleet1891_03"/><citedRange>2-3</citedRange></bibl>. The present edition by Dániel Balogh is based on a collation of Fleet's text with his published facsimiles and estampages from the Sir Walter Elliot collection of the British Museum (https://doi.org/10.5281/zenodo.3251781)<!--CHECK Create bibliography? CHECK: also included as No. 16 in the Edinburgh collection.-->.</p>
            <listBibl type="primary">
              <bibl n="JFF"><ptr target="bib:Fleet1877_01"/></bibl><!--SOCI 27-->
            </listBibl>
