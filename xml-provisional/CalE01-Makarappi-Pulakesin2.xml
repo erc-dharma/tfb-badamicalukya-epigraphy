@@ -143,8 +143,7 @@ n="2v"/>
                <listApp>
                   <app loc="2">
                      <lem>abhivarddhitānāṁ<g type="circleLow" >.</g></lem>
-                     <note>The uninterpretable character after <foreign>abhivarddhitānāṁ</foreign> is a circle like an <foreign>anusvāra</foreign>, but at baseline level. 
-                        It may be a correction mark to the alternative shape of <foreign>k</foreign> in the next character (see Commentary), or possibly a space filler added subsequently where the scribe spaced characters too widely (along with what is read as a superfluous <foreign>visarga</foreign> in line 8). </note>
+                     <note>The uninterpretable character after <foreign>abhivarddhitānāṁ</foreign> is a circle like an <foreign>anusvāra</foreign>, but at baseline level. It may be a correction mark to the alternative shape of <foreign>k</foreign> in the next character (see Commentary), or possibly a space filler added subsequently where the scribe spaced characters too widely (along with what is read as a superfluous <foreign>visarga</foreign> in line 8). </note>
                   </app>
                   <app loc="6">
                      <lem>-polekeśi-</lem>
@@ -228,7 +227,8 @@ n="2v"/>
             <p rend="stanza" n="5">Autrefois en ce monde des rois firent des dons, qui engendrent dharma, artha et gloire,
 semblables au reste de l’offrande que l’on recrache, quel homme de bien s’en emparerait ?</p>
          </div>
-         <div type="commentary">
+         <div type="commentary"><p>Sir Walter Elliot's note accompanying his rubbings of these plates, preserved in several copies, goes as follows (with minor variation in the copies):
+<q>Copper Sasanam of four plates recording the grant of the village of Makarappi between Caddapa and Rólkúr as a Shradda gift by Satyasreya Cháḷukya of Callian in the year SS_ 534 being the third of his reign. The Sasanam belongs to Mahendra Shanta a Jain Guru of Hyderabad. From General Fraser.</q></p>
 
          </div>
         <div type="bibliography">
