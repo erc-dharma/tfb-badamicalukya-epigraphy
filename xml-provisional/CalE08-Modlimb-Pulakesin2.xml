@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader xml:lang="eng">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Modlimb plates of Pulakeśin II</title>
-      
-         <respStmt>
+            <respStmt>
                <resp>EpiDoc encoding</resp>
-               <persName ref="part:daba"><forename>Dániel</forename><surname>Balogh</surname></persName>
-         </respStmt>
-         <respStmt>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
                <resp>intellectual authorship of edition</resp>
-            <persName ref="part:daba">
-               <forename>Dániel</forename>
-               <surname>Balogh</surname>
-            </persName>
-         </respStmt>
-         </titleStmt>         
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>DHARMA
                <note>This project has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).</note>
@@ -28,49 +30,44 @@
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
-                 <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+                  <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
                </licence>
             </availability>
             <date from="2019" to="2025">2019-2025</date>
          </publicationStmt>
-         <sourceDesc>
-            <!-- only the handDesc can be filled in at this stage -->
-        <msDesc>
-          <!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
-          <msIdentifier>
-            <repository>DHARMAbase</repository>
-            <idno/>
-            <!-- don't modify this -->
-          </msIdentifier>
-          <msContents>
-            <!-- describe the intellectual content of an inscription -->
-            <summary><!-- //// NOT MANDATORY  ////--></summary>
-            <!-- offers the possibility to give a summary of the inscription's content -->
-          </msContents>
-          <physDesc>
-            <handDesc>
-              <p>
-                <!--Halantas.  -->
-                <!--Original punctuation.  -->
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!--Halantas.  --><!--Original punctuation.  -->
                  Other palaeographic observations. Several anusvāras are shifted to the right, appearing above the next character. This is not consistent and does not seem to be driven by availability of space above the character where the anusvāra ought to be, so I encode each as a scribal error, as Gai and Katti have done. 
                 <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
-              <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
             <summary><p><p/></summary>
             <handNote xml:id="Pallava00001_hand1"></handNote>
             <handNote xml:id="Pallava00001_hand2"></handNote>
            -->
-            </handDesc>
-          </physDesc>
-        </msDesc>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
          </sourceDesc>
       </fileDesc>
-     <revisionDesc>
-        <change who="part:daba" when="2020-03-12" status="draft">Initial encoding of the file</change>
-        <change who="part:daba" when="2020-08-13" status="draft">Updated to template v2, encoded bibliography and commentary</change>
-        <!-- Add a <change> entry for each significant change to the file. -->
-     </revisionDesc>
-  </teiHeader>
-  <text xml:space="preserve">
+      <revisionDesc>
+         <change who="part:daba" when="2020-03-12" status="draft">Initial encoding of the file</change>
+         <change who="part:daba" when="2020-08-13" status="draft">Updated to template v2, encoded bibliography and commentary</change>
+         <!-- Add a <change> entry for each significant change to the file. -->
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
       <body>
          <div type="edition" xml:lang="san-Latn">
 <pb n="1r"/>
@@ -83,21 +80,10 @@
    <l n="c">jaladhara I<lb n="3" break="no"/>va<space type="binding-hole"/> vidy<choice><sic>a</sic><corr>u</corr></choice>d-<unclear>vri</unclear>tta-maddhyaika-deśo</l>
    <l n="d">dharaṇi-dhara-nirodhā<choice><sic>s</sic><corr>t</corr></choice> svinna<lb n="4" break="no"/>-vaktro varāha<supplied reason="omitted">ḥ</supplied></l>
 </lg>
-<p>śrī-sv<choice><sic>a</sic><corr>ā</corr></choice>mi-mah<choice><sic>a</sic><corr>ā</corr></choice>sena-pād<choice><sic>a</sic><corr>ā</corr></choice>nuddhyātānāṁ m<choice><sic>a</sic><corr>ā</corr></choice>navya<pb 
-   n="2r" break="no"/><lb 
-   n="5" break="no"/>-sagotr<choice><sic>a</sic><corr>ā</corr></choice>ṇā<unclear>ṁ</unclear> hārītī-putrāṇā<unclear>ṁ</unclear> Agniṣṭomāgnicayana-v<choice><sic>a</sic><corr>ā</corr></choice><lb 
-   n="6" break="no"/>japeya-pauṇ<unclear>ḍ</unclear>ar<choice><sic>i</sic><corr>ī</corr></choice>ka-bahu-suvarṇṇāśvamedhāvabhr̥tha-snā<lb 
-   n="7" break="no"/>na<space type="binding-hole"/>-pavitrī-kr̥ta-śirasāṁ calukyān<choice><sic>o</sic><corr>ā</corr></choice>ṁ va<choice><sic>śeṁ</sic><corr>ṁśe</corr></choice> saṁbhūtaḥ ca<lb 
-   n="8" break="no"/>lukya-<choice><sic>v<unclear>v</unclear>aśā<unclear>ṁ</unclear>baṁra</sic><corr>vaṁśāṁbara</corr></choice>-pūrṇ<unclear>ṇ</unclear>a-candra<supplied reason="omitted">ḥ</supplied> Aparimita-vikramopātta-vipu
-<pb 
-   n="2v" break="no"/><lb 
-   n="9" break="no"/><add place="below">la</add>-yaśovataḥ tasya kīrttivarmm<choice><sic><unclear>ā</unclear></sic><corr>a</corr></choice>ṇa<supplied reason="omitted">ḥ</supplied> putraḥ hira<unclear>ṇ</unclear>ya-<unclear>gar</unclear>bbhasyā<unclear>ś</unclear>vam<unclear>e</unclear><lb 
-   n="10" break="no"/>dh<choice><sic>ā</sic><corr>a</corr></choice><space type="binding-hole"/>-yājina<supplied reason="omitted">ḥ</supplied> pautraḥ sva-bāhu-bala-vikramopātta-rājya<supplied reason="omitted">ḥ</supplied> Ane<lb 
-   n="11" break="no"/>ka-nr̥pati-parameśva<subst><del rend="corrected">ḥ</del><add place="overstrike">raḥ</add></subst></p>
-<p>vai<choice><sic>ṣ</sic><corr>ś</corr></choice>ākha-p<unclear reason="eccentric_ductus">au</unclear>rṇṇamāsy<choice><sic>a</sic><corr>ā</corr></choice>ṁ taṭāk<choice><sic>e</sic><corr>o</corr></choice>dyamane <lb 
-   n="12"/>devagaṇasv<choice><sic>a</sic><corr>ā</corr></choice>mine kāśyapa-sagotrā<choice><sic>ṇāḥ</sic><corr>ya</corr></choice> tiyare-gr<choice><sic>a</sic><corr>ā</corr></choice>ma<supplied reason="omitted">ḥ</supplied>
-<pb n="3r"/><lb 
-n="13"/>sinnā-taṭe Udaka-pū<unclear>r</unclear>vva<supplied reason="omitted">ṁ</supplied> sabhogaḥ<supplied reason="subaudible">.</supplied></p>
+<p>śrī-sv<choice><sic>a</sic><corr>ā</corr></choice>mi-mah<choice><sic>a</sic><corr>ā</corr></choice>sena-pād<choice><sic>a</sic><corr>ā</corr></choice>nuddhyātānāṁ m<choice><sic>a</sic><corr>ā</corr></choice>navya<pb n="2r" break="no"/><lb n="5" break="no"/>-sagotr<choice><sic>a</sic><corr>ā</corr></choice>ṇā<unclear>ṁ</unclear> hārītī-putrāṇā<unclear>ṁ</unclear> Agniṣṭomāgnicayana-v<choice><sic>a</sic><corr>ā</corr></choice><lb n="6" break="no"/>japeya-pauṇ<unclear>ḍ</unclear>ar<choice><sic>i</sic><corr>ī</corr></choice>ka-bahu-suvarṇṇāśvamedhāvabhr̥tha-snā<lb n="7" break="no"/>na<space type="binding-hole"/>-pavitrī-kr̥ta-śirasāṁ calukyān<choice><sic>o</sic><corr>ā</corr></choice>ṁ va<choice><sic>śeṁ</sic><corr>ṁśe</corr></choice> saṁbhūtaḥ ca<lb n="8" break="no"/>lukya-<choice><sic>v<unclear>v</unclear>aśā<unclear>ṁ</unclear>baṁra</sic><corr>vaṁśāṁbara</corr></choice>-pūrṇ<unclear>ṇ</unclear>a-candra<supplied reason="omitted">ḥ</supplied> Aparimita-vikramopātta-vipu
+<pb n="2v" break="no"/><lb n="9" break="no"/><add place="below">la</add>-yaśovataḥ tasya kīrttivarmm<choice><sic><unclear>ā</unclear></sic><corr>a</corr></choice>ṇa<supplied reason="omitted">ḥ</supplied> putraḥ hira<unclear>ṇ</unclear>ya-<unclear>gar</unclear>bbhasyā<unclear>ś</unclear>vam<unclear>e</unclear><lb n="10" break="no"/>dh<choice><sic>ā</sic><corr>a</corr></choice><space type="binding-hole"/>-yājina<supplied reason="omitted">ḥ</supplied> pautraḥ sva-bāhu-bala-vikramopātta-rājya<supplied reason="omitted">ḥ</supplied> Ane<lb n="11" break="no"/>ka-nr̥pati-parameśva<subst><del rend="corrected">ḥ</del><add place="overstrike">raḥ</add></subst></p>
+<p>vai<choice><sic>ṣ</sic><corr>ś</corr></choice>ākha-p<unclear reason="eccentric_ductus">au</unclear>rṇṇamāsy<choice><sic>a</sic><corr>ā</corr></choice>ṁ taṭāk<choice><sic>e</sic><corr>o</corr></choice>dyamane <lb n="12"/>devagaṇasv<choice><sic>a</sic><corr>ā</corr></choice>mine kāśyapa-sagotrā<choice><sic>ṇāḥ</sic><corr>ya</corr></choice> tiyare-gr<choice><sic>a</sic><corr>ā</corr></choice>ma<supplied reason="omitted">ḥ</supplied>
+<pb n="3r"/><lb n="13"/>sinnā-taṭe Udaka-pū<unclear>r</unclear>vva<supplied reason="omitted">ṁ</supplied> sabhogaḥ<supplied reason="subaudible">.</supplied></p>
 <lg n="1" met="anuṣṭubh">
    <l n="a">bahu<surplus>r</surplus>bhir vvasudhā bhukt<choice><sic>a</sic><corr>ā</corr></choice></l>
    <l n="b">rā<lb n="14" break="no"/>ja<choice><sic><unclear>nai</unclear></sic><corr>bhiḥ</corr></choice> sagarādhibhi<supplied reason="omitted">ḥ</supplied></l>
@@ -169,7 +155,7 @@ n="13"/>sinnā-taṭe Udaka-pū<unclear>r</unclear>vva<supplied reason="omitted"
          
          
          
-<div type="translation" xml:lang="eng" resp="part:daba">
+<div type="translation" resp="part:daba">
    <p n="1">Greetings!</p>
    <p rend="stanza" n="1">Victorious is the Boar, who—with his appearance dark like a sky with a bank of clouds or like a blue waterlily, with a great, flashing necklace of gems and jewels swaying on his neck, and with his face sweaty from <supplied reason="subaudible">the effort of</supplied> holding the mountains steady—resembles a cloud whose midsection is partly wrapped in lightning.</p>
 <p n="3-11">In the dynasty of the Calukyas
@@ -212,7 +198,7 @@ renaît ver de terre dans les excréments pendant six mille années.</p>
              <bibl n="GK"><ptr target="bib:Gai+Katti1969_01"/></bibl><!-- one <bibl/> per item of primary bibliography. Every entry mentionned in apparatus  should hava a @n to declare its sigla -->
            </listBibl>
            <listBibl type="secondary">
-             <bibl></bibl><!-- one <bibl/> per item of secondary bibliography -->
+             <bibl/><!-- one <bibl/> per item of secondary bibliography -->
            </listBibl>
         </div>
       </body>

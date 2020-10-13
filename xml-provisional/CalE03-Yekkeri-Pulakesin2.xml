@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader xml:lang="eng">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Yekkeri donation of the time of Pulakeśin II</title>
-      
-         <respStmt>
+            <respStmt>
                <resp>EpiDoc encoding</resp>
-               <persName ref="part:daba"><forename>Dániel</forename><surname>Balogh</surname></persName>
-         </respStmt>
-         <respStmt>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
                <resp>intellectual authorship of edition</resp>
-            <persName ref="part:daba">
-               <forename>Dániel</forename>
-               <surname>Balogh</surname>
-            </persName>
-         </respStmt>
-         </titleStmt>         
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>DHARMA
                <note>This project has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).</note>
@@ -28,65 +30,54 @@
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
-                 <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+                  <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
                </licence>
             </availability>
             <date from="2019" to="2025">2019-2025</date>
          </publicationStmt>
-         <sourceDesc>
-            <!-- only the handDesc can be filled in at this stage -->
-        <msDesc>
-          <!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
-          <msIdentifier>
-            <repository>DHARMAbase</repository>
-            <idno/>
-            <!-- don't modify this -->
-          </msIdentifier>
-          <msContents>
-            <!-- describe the intellectual content of an inscription -->
-            <summary><!-- //// NOT MANDATORY  ////--></summary>
-            <!-- offers the possibility to give a summary of the inscription's content -->
-          </msContents>
-          <physDesc>
-            <handDesc>
-              <p><!--Halantas.  -->The punctuation marks transcribed as daṇḍas are probably short, plain verticals, though most are unclear in my scan. The symbols encloded as "doubledot" are two dots or small circles, one below the other. They resemble visargas and were read as superfluous visargas by Fleet, but they seem always to occur in conjunction with double daṇḍas and to serve as punctuation marks/space fillers. The double vertical occurs without a double dot after 50 in l7. 
-                <!--Other palaeographic observations. -->
-                <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
-              <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!--Halantas.  -->The punctuation marks transcribed as daṇḍas are probably short, plain verticals, though most are unclear in my scan. The symbols encloded as "doubledot" are two dots or small circles, one below the other. They resemble visargas and were read as superfluous visargas by Fleet, but they seem always to occur in conjunction with double daṇḍas and to serve as punctuation marks/space fillers. The double vertical occurs without a double dot after 50 in l7. 
+                <!--Other palaeographic observations. --><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
             <summary><p><p/></summary>
             <handNote xml:id="Pallava00001_hand1"></handNote>
             <handNote xml:id="Pallava00001_hand2"></handNote>
            -->
-            </handDesc>
-          </physDesc>
-        </msDesc>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
          </sourceDesc>
       </fileDesc>
-     <revisionDesc>
-        <change who="part:daba" when="2020-03-03" status="draft">Initial encoding of the file</change>
-        <change who="part:daba" when="2020-08-13" status="draft">Updated to template v2, encoded bibliography and commentary</change>
-<!-- Add a <change> entry for each significant change to the file. -->
-     </revisionDesc>
-  </teiHeader>
-  <text xml:space="preserve">
+      <revisionDesc>
+         <change who="part:daba" when="2020-03-03" status="draft">Initial encoding of the file</change>
+         <change who="part:daba" when="2020-08-13" status="draft">Updated to template v2, encoded bibliography and commentary</change>
+         <!-- Add a <change> entry for each significant change to the file. -->
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
       <body>
          <div type="edition" xml:lang="san-Latn">
 <p>
 <milestone type="pagelike" unit="zone" n="A"/>
-<lb n="A1"/><g type="indistinct"/> svasti<supplied reason="subaudible">.</supplied> Anuruddha-<choice><sic>ṣ</sic><corr>d</corr></choice>ur<choice><sic>ī</sic><corr>i</corr></choice>todita-n<orig>ru</orig>pa-va<orig>ṁ</orig>ṅśa-prasūta sva-va<orig>ṁ</orig>ṅśa-l<surplus>l</surplus>alāma-bhūta dakṣiṇāpatha<lb
-   n="A2" break="no"/>-p<orig>ri</orig>thivyā<supplied reason="omitted">ḥ</supplied> svāmī catur-udadhi-mekhalopārjjita-rājya-śrī pratāpāt<surplus>t</surplus>iśayopanata<surplus><g type="dotDouble">.</g>||</surplus><lb
-   n="A3" break="no"/>-samagra-sāma<orig>ṁ</orig>nta-ma<orig>ṁ</orig>ṇḍala p<orig>ri</orig>thivyām apratiratha śrīmā<orig>ṁ</orig> satyāśraya-pulekeśi-vallabha<lb
-   n="A4" break="no"/>-mahārāja-rājye varttamāne likhitam iti<supplied reason="subaudible">.</supplied></p>
-<p>benīre bhagavato mahādevasya nivarttanāni <lb
-   n="A5"/>catvāri <num value="4">4</num><g type="dotDouble">.</g>||
+<lb n="A1"/><g type="indistinct"/> svasti<supplied reason="subaudible">.</supplied> Anuruddha-<choice><sic>ṣ</sic><corr>d</corr></choice>ur<choice><sic>ī</sic><corr>i</corr></choice>todita-n<orig>ru</orig>pa-va<orig>ṁ</orig>ṅśa-prasūta sva-va<orig>ṁ</orig>ṅśa-l<surplus>l</surplus>alāma-bhūta dakṣiṇāpatha<lb n="A2" break="no"/>-p<orig>ri</orig>thivyā<supplied reason="omitted">ḥ</supplied> svāmī catur-udadhi-mekhalopārjjita-rājya-śrī pratāpāt<surplus>t</surplus>iśayopanata<surplus><g type="dotDouble">.</g>||</surplus><lb n="A3" break="no"/>-samagra-sāma<orig>ṁ</orig>nta-ma<orig>ṁ</orig>ṇḍala p<orig>ri</orig>thivyām apratiratha śrīmā<orig>ṁ</orig> satyāśraya-pulekeśi-vallabha<lb n="A4" break="no"/>-mahārāja-rājye varttamāne likhitam iti<supplied reason="subaudible">.</supplied></p>
+<p>benīre bhagavato mahādevasya nivarttanāni <lb n="A5"/>catvāri <num value="4">4</num><g type="dotDouble">.</g>||
 dhuti-pure nivarttanāni Aṣṭa <num value="8">8</num><g type="dotDouble">.</g>||
 Āgariya-pure niva<unclear>rttanā</unclear>ni pa<orig>ṁ</orig>ñca <num value="5">5</num>
 <lb n="A6"/>panasa-vr̥kṣa pa<orig>ṁ</orig>ñca <g type="dotDouble">.</g>||
-kr̥ṣ<choice><orig>n</orig><reg>ṇ</reg></choice>e harasena-mātā-pitro<supplied reason="omitted">ḥ</supplied> pu<orig>ṁ</orig>ṇyopacayāya <unclear>de</unclear>va<unclear>ro</unclear>laka<lb
-   n="A7" break="no"/>-<orig>bhūmyāṁś</orig> ca nivarttanāni pa<orig><unclear>ṁ</unclear></orig>ñcāśat <num value="50"><g type="numeral">50</g></num>|| vinīta-vidagdha-vaiśikācāryyeṇa sthāpitā <gap reason="illegible" quantity="1" unit="character" precision="low"/>ghitā<supplied reason="subaudible">.</supplied></p>
-<p><lb
-   n="A8"/>kārttikasya <orig>pūnnimāsāṁ</orig> likhitā praśastīti|| saṁvatsarā <gap reason="illegible" quantity="1" unit="character" precision="low"/> <num value="6"><unclear>6</unclear></num> rājya Iti<supplied reason="subaudible">.</supplied> <lb
-   n="A9"/>Īś<unclear cert="low">ā</unclear>nena likhitā<supplied reason="subaudible">.</supplied> yad atra pu<orig>ṁ</orig>ṇyaṁ <unclear cert="low">ta</unclear>d bha<add place="below">va</add>tu <gap reason="illegible" quantity="6" unit="character" precision="low"/>
+kr̥ṣ<choice><orig>n</orig><reg>ṇ</reg></choice>e harasena-mātā-pitro<supplied reason="omitted">ḥ</supplied> pu<orig>ṁ</orig>ṇyopacayāya <unclear>de</unclear>va<unclear>ro</unclear>laka<lb n="A7" break="no"/>-<orig>bhūmyāṁś</orig> ca nivarttanāni pa<orig><unclear>ṁ</unclear></orig>ñcāśat <num value="50"><g type="numeral">50</g></num>|| vinīta-vidagdha-vaiśikācāryyeṇa sthāpitā <gap reason="illegible" quantity="1" unit="character" precision="low"/>ghitā<supplied reason="subaudible">.</supplied></p>
+<p><lb n="A8"/>kārttikasya <orig>pūnnimāsāṁ</orig> likhitā praśastīti|| saṁvatsarā <gap reason="illegible" quantity="1" unit="character" precision="low"/> <num value="6"><unclear>6</unclear></num> rājya Iti<supplied reason="subaudible">.</supplied> <lb n="A9"/>Īś<unclear cert="low">ā</unclear>nena likhitā<supplied reason="subaudible">.</supplied> yad atra pu<orig>ṁ</orig>ṇyaṁ <unclear cert="low">ta</unclear>d bha<add place="below">va</add>tu <gap reason="illegible" quantity="6" unit="character" precision="low"/>
 <lb n="A10" break="no"/>gaṇe<supplied reason="subaudible">.</supplied>
 </p>
 
@@ -155,7 +146,7 @@ kr̥ṣ<choice><orig>n</orig><reg>ṇ</reg></choice>e harasena-mātā-pitro<supp
          
          
          
-         <div type="translation" xml:lang="eng" source="bib:Fleet1898-1899_01">
+         <div type="translation" source="bib:Fleet1898-1899_01">
 <p n="A1-A4">Om! Hail! The reign being current of the Mahārāja, the glorious <persName>Satyāśraya-Pulekeśin <supplied reason="subaudible">II</supplied></persName>,
    the favourite, who has been born in a race of princes who rose to the front by confronting difficulties, who has become the forehead-ornament of his race,
    who is the lord of the <supplied reason="subaudible">whole</supplied> country of the region of the south, who has acquired the sovereignty over the <supplied reason="subaudible">whole earth</supplied> girt about by the four oceans,
@@ -215,7 +206,7 @@ se consume en enfer pendant six mille années. </p>
             </bibl>
            </listBibl>
            <listBibl type="secondary">
-             <bibl></bibl><!-- one <bibl/> per item of secondary bibliography -->
+             <bibl/><!-- one <bibl/> per item of secondary bibliography -->
            </listBibl>
         </div>
       </body>

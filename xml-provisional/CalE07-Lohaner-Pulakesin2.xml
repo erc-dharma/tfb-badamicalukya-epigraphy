@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader xml:lang="eng">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Lohaner plates of Pulakeśin II</title>
-      
-         <respStmt>
+            <respStmt>
                <resp>EpiDoc encoding</resp>
-               <persName ref="part:daba"><forename>Dániel</forename><surname>Balogh</surname></persName>
-         </respStmt>
-         <respStmt>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
                <resp>intellectual authorship of edition</resp>
-            <persName ref="part:daba">
-               <forename>Dániel</forename>
-               <surname>Balogh</surname>
-            </persName>
-         </respStmt>
-         </titleStmt>         
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>DHARMA
                <note>This project has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).</note>
@@ -28,48 +30,45 @@
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
-                 <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+                  <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
                </licence>
             </availability>
             <date from="2019" to="2025">2019-2025</date>
          </publicationStmt>
-         <sourceDesc>
-            <!-- only the handDesc can be filled in at this stage -->
-        <msDesc>
-          <!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
-          <msIdentifier>
-            <repository>DHARMAbase</repository>
-            <idno/>
-            <!-- don't modify this -->
-          </msIdentifier>
-          <msContents>
-            <!-- describe the intellectual content of an inscription -->
-            <summary><!-- //// NOT MANDATORY  ////--></summary>
-            <!-- offers the possibility to give a summary of the inscription's content -->
-          </msContents>
-          <physDesc>
-            <handDesc>
-              <p>Halantas. The alleged T in l31 is not visible in the scan and may not exist at all (see apparatus). The final M looks like a regular ma, but its left arm is extended into an ornamental flourish that seems to bend right and then down. It may be followed by a (full-height) double vertical or another closer symbol, but Khare prints nothing here, and I cannot tell from the scan whether a mark is really present.</p>
-<p>Punctuation marks, where discernible in the scanned rubbing, are short verticals. They are used singly after v1 and v2. None of those on 2verso are visible in the scan, so I assume that the number of daṇḍas shown as original by Khare corresponds to the number of short verticals on the plate, i.e. one after vyāsena in l30, and two at the end of v3. Each of the remaining stanzas ends with a clear, short double vertical.</p>
-<p>Other palaeographic observations. The inscription vacillates between two distinct forms of ṇ. The “southern” form, like a winged na, prevails at the beginning, used in ghoṇā, l2; gotrāṇāṁ, putrāṇāṁ, gaṇā l5; etc, all other instances of ṇ unless noted here. Clear instances of isolated “northern” bat-shaped ṇ occur in kr̥paṇa, l15; moṣiṇī, l19; goviyāṇaka, l20; paramāṇu, l27; kiraṇa, l27; sahasrāṇi, l30. A northern ṇ appears in the upper component of rṇṇa and ṇḍa, l6; rṇṇa, l21; rṇṇi, l23; and as the lower component in ṣṇā, l32. Caraṇa, l11; vraṇā, l14; śuśrūṣaṇa, l16; veṇuka, l25 are unclear but probably southern. Raṇa l15 is unclear but probably northern. Many subscript r-s are calligraphically extended upward on the left of the primary character. Some particularly ornate instances occur in the last line of the first page (l9, putra [first instance], parākramā°) and the first line of the second page (l10, śatru) : these curl upward on the left of the body, then bend over the body and down on the right, twisting a little and then running away to the right. This embellishment does not occur in śrī in line 9, where it would presumably interfere with the vowel mark, nor in the second instance of putra, which is crowded into a rather small space at the end of the line. Some other subscript characters are also enlarged in line 10, notably those in rtti and rmma. In l35, drya is an interesting specimen with an extended subscript r in combination with a subscript y. Interesting: the upper l of lla in vallabha is a “northern” type, with a very short stem and a headmark. The subscript l has a fully curled tail. The la of paṭala in l9 is also northern. Just the other way round, lla in l17 has a curly “southern” l on top, with a short-stemmed and large-bodied “northern” l below. 
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>Halantas. The alleged T in l31 is not visible in the scan and may not exist at all (see apparatus). The final M looks like a regular ma, but its left arm is extended into an ornamental flourish that seems to bend right and then down. It may be followed by a (full-height) double vertical or another closer symbol, but Khare prints nothing here, and I cannot tell from the scan whether a mark is really present.</p>
+                     <p>Punctuation marks, where discernible in the scanned rubbing, are short verticals. They are used singly after v1 and v2. None of those on 2verso are visible in the scan, so I assume that the number of daṇḍas shown as original by Khare corresponds to the number of short verticals on the plate, i.e. one after vyāsena in l30, and two at the end of v3. Each of the remaining stanzas ends with a clear, short double vertical.</p>
+                     <p>Other palaeographic observations. The inscription vacillates between two distinct forms of ṇ. The “southern” form, like a winged na, prevails at the beginning, used in ghoṇā, l2; gotrāṇāṁ, putrāṇāṁ, gaṇā l5; etc, all other instances of ṇ unless noted here. Clear instances of isolated “northern” bat-shaped ṇ occur in kr̥paṇa, l15; moṣiṇī, l19; goviyāṇaka, l20; paramāṇu, l27; kiraṇa, l27; sahasrāṇi, l30. A northern ṇ appears in the upper component of rṇṇa and ṇḍa, l6; rṇṇa, l21; rṇṇi, l23; and as the lower component in ṣṇā, l32. Caraṇa, l11; vraṇā, l14; śuśrūṣaṇa, l16; veṇuka, l25 are unclear but probably southern. Raṇa l15 is unclear but probably northern. Many subscript r-s are calligraphically extended upward on the left of the primary character. Some particularly ornate instances occur in the last line of the first page (l9, putra [first instance], parākramā°) and the first line of the second page (l10, śatru) : these curl upward on the left of the body, then bend over the body and down on the right, twisting a little and then running away to the right. This embellishment does not occur in śrī in line 9, where it would presumably interfere with the vowel mark, nor in the second instance of putra, which is crowded into a rather small space at the end of the line. Some other subscript characters are also enlarged in line 10, notably those in rtti and rmma. In l35, drya is an interesting specimen with an extended subscript r in combination with a subscript y. Interesting: the upper l of lla in vallabha is a “northern” type, with a very short stem and a headmark. The subscript l has a fully curled tail. The la of paṭala in l9 is also northern. Just the other way round, lla in l17 has a curly “southern” l on top, with a short-stemmed and large-bodied “northern” l below. 
                 <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
-              <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
             <summary><p><p/></summary>
             <handNote xml:id="Pallava00001_hand1"></handNote>
             <handNote xml:id="Pallava00001_hand2"></handNote>
            -->
-            </handDesc>
-          </physDesc>
-        </msDesc>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
          </sourceDesc>
       </fileDesc>
-     <revisionDesc>
-        <change who="part:daba" when="2020-03-12" status="draft">Initial encoding of the file</change>
-        <change who="part:daba" when="2020-08-13" status="draft">Updated to template v2, encoded bibliography and commentary</change>
-        <!-- Add a <change> entry for each significant change to the file. -->
-     </revisionDesc>
-  </teiHeader>
-  <text xml:space="preserve">
+      <revisionDesc>
+         <change who="part:daba" when="2020-03-12" status="draft">Initial encoding of the file</change>
+         <change who="part:daba" when="2020-08-13" status="draft">Updated to template v2, encoded bibliography and commentary</change>
+         <!-- Add a <change> entry for each significant change to the file. -->
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
       <body>
          <div type="edition" xml:lang="san-Latn">
 <pb n="1r"/>
@@ -88,38 +87,14 @@
    <l n="cd">satyāśrayasya bāhur jjayati jagaj-janita-bahumānaḥ,</l>
 </lg>
 
-<p>asti mānavya-sago<lb 
-   n="5" break="no"/>trāṇāṁ<space type="binding-hole"/> hārīti-putrāṇāṁ kauśikī-saṁvarddhitānāṁ mātr̥-gaṇābhiṣiktānāṁ svāmi-mahāse<lb 
-      n="6" break="no"/>na-pādā<space type="binding-hole"/>nuddhyātānāṁ <sic>culu<unclear cert="low">tki</unclear>kīnām</sic> anvaye bahu-suvarṇṇakāśvamedha-pauṇḍarīka<lb 
-         n="7" break="no"/>-vājapeyādi-yāgāvabhr̥tha-snāna-pavitrī-kr̥ta-śirasāṁ manu-nr̥ga-nahuṣa-yayāti-dhundhumārā<lb 
-            n="8" break="no"/>mbarīṣa-dilīpa-nābhāga-pratimaḥ śrī-raṇavikrama-dvitīya-nāmā pulakeśi-vallabha-<del>ma</del><lb 
-               n="9"/>mahārājas<supplied reason="subaudible">.</supplied> tasya putraḥ para-gaja-ghana-paṭala-pavana<supplied reason="omitted">ḥ</supplied> śrī-parākrāmāparā<choice><sic>n</sic><corr>kh</corr></choice>yaḥ kīrttivarmmā<supplied reason="subaudible">.</supplied> tasya putra<unclear>ḥ</unclear>
+<p>asti mānavya-sago<lb n="5" break="no"/>trāṇāṁ<space type="binding-hole"/> hārīti-putrāṇāṁ kauśikī-saṁvarddhitānāṁ mātr̥-gaṇābhiṣiktānāṁ svāmi-mahāse<lb n="6" break="no"/>na-pādā<space type="binding-hole"/>nuddhyātānāṁ <sic>culu<unclear cert="low">tki</unclear>kīnām</sic> anvaye bahu-suvarṇṇakāśvamedha-pauṇḍarīka<lb n="7" break="no"/>-vājapeyādi-yāgāvabhr̥tha-snāna-pavitrī-kr̥ta-śirasāṁ manu-nr̥ga-nahuṣa-yayāti-dhundhumārā<lb n="8" break="no"/>mbarīṣa-dilīpa-nābhāga-pratimaḥ śrī-raṇavikrama-dvitīya-nāmā pulakeśi-vallabha-<del>ma</del><lb n="9"/>mahārājas<supplied reason="subaudible">.</supplied> tasya putraḥ para-gaja-ghana-paṭala-pavana<supplied reason="omitted">ḥ</supplied> śrī-parākrāmāparā<choice><sic>n</sic><corr>kh</corr></choice>yaḥ kīrttivarmmā<supplied reason="subaudible">.</supplied> tasya putra<unclear>ḥ</unclear>
 <pb n="2r"/>
-<lb n="10"/>praddhvasta-prabala-śatr<unclear>u</unclear>-mahimā himācalānukārī vipula-sthairyyonnati<supplied reason="omitted">ḥ</supplied> nata-parama-sāmanta<lb 
-   n="11" break="no"/>-samupacaritaś carita-tapaś-caraṇa<supplied reason="omitted">ḥ</supplied> bhr̥tya-labdha-prasādaḥ sādaram ivānanya-manasā vi<lb 
-   n="12" break="no"/>dhātrā vinirmmito mita-hita-viśada-satya-vacanopanyāso nyāsa iva jagatyās caryyāṇāṁ prathama<lb 
-   n="13" break="no"/>-yuga-manuja-pati-muni-carita<supplied reason="omitted">ḥ</supplied> vijayī vimala-gagana-gata I<supplied reason="omitted">va</supplied> śaradīndur <choice><sic>ū</sic><corr>u</corr></choice>paśamita-sakala<lb 
-   n="14" break="no"/>-jagad-as<unclear>u</unclear><space type="binding-hole"/>khaḥ sāhas<choice><sic>au</sic><corr>ai</corr></choice>ka-ratir aneka-cāturddanta-sa<supplied reason="omitted">ṁ</supplied>grāma-janita-vraṇāṅkāṅgatayā <lb 
-      n="15"/>sva-bhu<space type="binding-hole"/>ja-bala-labdha-raṇavikrāmākhyaḥ suhr̥d-avana<supplied reason="omitted">ḥ</supplied> dīnāndha-kr̥paṇa-samu<lb 
-      n="16" break="no"/>pabhujyamāna-vibhavaḥ pūrvvāparāmbu-nāthaḥ deva-dvija-guru-śūśrūṣaṇa-paraḥ <lb 
-      n="17"/>parama-bhāgavataḥ prasabhābhimr̥ṣṭānya-rāja-śrī<supplied reason="omitted">ḥ</supplied> śrī-satyāśraya-pr̥thivī-vallabha<lb 
-      n="18"/>-mahārāja<supplied reason="omitted">ḥ</supplied> sarvvān eva rāja-sāmanta-bhogika-viṣayapati-rāṣṭrakūṭa-grāmāyukta<pb 
-      n="2v" break="no"/><lb 
-      n="19" break="no"/>kādīn sammānayaty</p>
-<p>astu vo viditam asmābhi<supplied reason="omitted">ḥ</supplied> moṣiṇī-pathakāntarggata<supplied reason="omitted">ḥ</supplied> Asikheṭaka-grāma<lb 
-      n="20" break="no"/>-pratyāsanna-goviyāṇaka-grāmaḥ sarvva-rāja-kulādeya-sahitaḥ Acāṭa-bhaṭa-prā<lb 
-      n="21" break="no"/>veśya ācandrārkkārṇṇava-kṣiti-sthiti-samakālīna<supplied reason="omitted">ḥ</supplied> bali-caru-vaiśvadevāgnihotra-k<choice><orig>r̥</orig><reg>ri</reg></choice><lb 
-      n="22" break="no"/>yā-pañca-mahā-yajñotsarppaṇārthaṁ girinagara-vinirggata-lohanagara-vāstavyāya sāva<lb 
-      n="23" break="no"/>rṇṇi-sago<space type="binding-hole"/>tra-maitrāya<choice><sic>n</sic><corr>ṇ</corr></choice>ika-vārāhaka-sabrahmacāri-dāmadīkṣitāya U<lb 
-      n="24" break="no"/>dakātisargge<choice><sic>n</sic><corr>ṇ</corr></choice>a pratipāditaḥ<supplied reason="subaudible">.</supplied>
+<lb n="10"/>praddhvasta-prabala-śatr<unclear>u</unclear>-mahimā himācalānukārī vipula-sthairyyonnati<supplied reason="omitted">ḥ</supplied> nata-parama-sāmanta<lb n="11" break="no"/>-samupacaritaś carita-tapaś-caraṇa<supplied reason="omitted">ḥ</supplied> bhr̥tya-labdha-prasādaḥ sādaram ivānanya-manasā vi<lb n="12" break="no"/>dhātrā vinirmmito mita-hita-viśada-satya-vacanopanyāso nyāsa iva jagatyās caryyāṇāṁ prathama<lb n="13" break="no"/>-yuga-manuja-pati-muni-carita<supplied reason="omitted">ḥ</supplied> vijayī vimala-gagana-gata I<supplied reason="omitted">va</supplied> śaradīndur <choice><sic>ū</sic><corr>u</corr></choice>paśamita-sakala<lb n="14" break="no"/>-jagad-as<unclear>u</unclear><space type="binding-hole"/>khaḥ sāhas<choice><sic>au</sic><corr>ai</corr></choice>ka-ratir aneka-cāturddanta-sa<supplied reason="omitted">ṁ</supplied>grāma-janita-vraṇāṅkāṅgatayā <lb n="15"/>sva-bhu<space type="binding-hole"/>ja-bala-labdha-raṇavikrāmākhyaḥ suhr̥d-avana<supplied reason="omitted">ḥ</supplied> dīnāndha-kr̥paṇa-samu<lb n="16" break="no"/>pabhujyamāna-vibhavaḥ pūrvvāparāmbu-nāthaḥ deva-dvija-guru-śūśrūṣaṇa-paraḥ <lb n="17"/>parama-bhāgavataḥ prasabhābhimr̥ṣṭānya-rāja-śrī<supplied reason="omitted">ḥ</supplied> śrī-satyāśraya-pr̥thivī-vallabha<lb n="18"/>-mahārāja<supplied reason="omitted">ḥ</supplied> sarvvān eva rāja-sāmanta-bhogika-viṣayapati-rāṣṭrakūṭa-grāmāyukta<pb n="2v" break="no"/><lb n="19" break="no"/>kādīn sammānayaty</p>
+<p>astu vo viditam asmābhi<supplied reason="omitted">ḥ</supplied> moṣiṇī-pathakāntarggata<supplied reason="omitted">ḥ</supplied> Asikheṭaka-grāma<lb n="20" break="no"/>-pratyāsanna-goviyāṇaka-grāmaḥ sarvva-rāja-kulādeya-sahitaḥ Acāṭa-bhaṭa-prā<lb n="21" break="no"/>veśya ācandrārkkārṇṇava-kṣiti-sthiti-samakālīna<supplied reason="omitted">ḥ</supplied> bali-caru-vaiśvadevāgnihotra-k<choice><orig>r̥</orig><reg>ri</reg></choice><lb n="22" break="no"/>yā-pañca-mahā-yajñotsarppaṇārthaṁ girinagara-vinirggata-lohanagara-vāstavyāya sāva<lb n="23" break="no"/>rṇṇi-sago<space type="binding-hole"/>tra-maitrāya<choice><sic>n</sic><corr>ṇ</corr></choice>ika-vārāhaka-sabrahmacāri-dāmadīkṣitāya U<lb n="24" break="no"/>dakātisargge<choice><sic>n</sic><corr>ṇ</corr></choice>a pratipāditaḥ<supplied reason="subaudible">.</supplied>
 </p>
-<p>yato <supplied reason="subaudible">’</supplied>smad-va<supplied reason="omitted">ṁ</supplied>śyair anyair vvāgāmi-nr̥pati-bhoga-patibhir nna<lb 
-   n="25" break="no"/>la-veṇu-kadal<unclear reason="eccentric_ductus">ā</unclear>sāraṁ saṁsāram upalabhya Udadhi-jala-vīc<orig>ī</orig>-cañcalāṁś ca viṣayā<orig>ṁ</orig>n ava<lb 
-   n="26" break="no"/>nidhara-śikhara-kaṭaka-taṭa-lasita-salila-raya-gatvarañ ca jīvitam avagamya mahā-bhūta<lb 
-   n="27"/>-paramāṇu-sthāsnu ca mahat-phalaṁ śarac-candra-kiraṇa-dhavalaṁ yaśo nirūpyāyam asmad-dāyo 
+<p>yato <supplied reason="subaudible">’</supplied>smad-va<supplied reason="omitted">ṁ</supplied>śyair anyair vvāgāmi-nr̥pati-bhoga-patibhir nna<lb n="25" break="no"/>la-veṇu-kadal<unclear reason="eccentric_ductus">ā</unclear>sāraṁ saṁsāram upalabhya Udadhi-jala-vīc<orig>ī</orig>-cañcalāṁś ca viṣayā<orig>ṁ</orig>n ava<lb n="26" break="no"/>nidhara-śikhara-kaṭaka-taṭa-lasita-salila-raya-gatvarañ ca jīvitam avagamya mahā-bhūta<lb n="27"/>-paramāṇu-sthāsnu ca mahat-phalaṁ śarac-candra-kiraṇa-dhavalaṁ yaśo nirūpyāyam asmad-dāyo 
 <pb n="3r"/>
-<lb n="28"/><supplied reason="subaudible">’</supplied>numantavyaḫ paripālayitavyaś ca<supplied reason="subaudible">.</supplied>  yo vājñāna-timira-paṭalāvr̥ta-matir ācchindyād ā<lb 
-   n="29" break="no"/>cchidyamānaṁ vānumodeta sa pañcabhir mmahā-pātakais saṁyukta<supplied reason="omitted">ḥ</supplied> syād<supplied reason="subaudible">.</supplied> uktañ ca bhagavatā <lb n="30"/>veda-vyāsena vyāsena<unclear>,</unclear>
+<lb n="28"/><supplied reason="subaudible">’</supplied>numantavyaḫ paripālayitavyaś ca<supplied reason="subaudible">.</supplied>  yo vājñāna-timira-paṭalāvr̥ta-matir ācchindyād ā<lb n="29" break="no"/>cchidyamānaṁ vānumodeta sa pañcabhir mmahā-pātakais saṁyukta<supplied reason="omitted">ḥ</supplied> syād<supplied reason="subaudible">.</supplied> uktañ ca bhagavatā <lb n="30"/>veda-vyāsena vyāsena<unclear>,</unclear>
 </p>
 <lg n="3" met="anuṣṭubh">
    <l n="a">ṣaṣṭiṁ varṣṣa-sahasrāṇi</l>
@@ -247,7 +222,7 @@
          
          
          
-<div type="translation" xml:lang="eng" resp="part:daba">
+<div type="translation" resp="part:daba">
    <p n="1">Greetings!</p>
    <p rend="stanza" n="1">Victorious is He—well endowed with tusks gleaming like the tip<note>The simile is based on the resemblance of a tusk to the curved tip of the crescent moon. However, the alternative meaning “like a million immaculate crescent moons” did surely not escape the composer and would in my opinion have been the first interpretation occurring to an audience to the stanza – to be replaced subsequently in an aha! moment with the less straightforward, but in the context far more apt alternative sense.</note> of an immaculate crescent moon, begrimed in the shoulder with mud originating from the netherworld <supplied reason="explanation"><foreign>rasātala</foreign></supplied>, mane bristling—the boar form of Hari when he has just recovered the Earth from amidst the sea ebbing away in a thunderous riptide set off by a flick of His snout in the water.</p>
    <p rend="stanza" n="2">After Him, victorious is the arm of Satyāśraya, studded with white pearls<note>Pearls inside the skulls of elephants (here depicted as scattering while the heroic king butchers enemy elephants) are a common poetic convention, but it does seem to have a core of truth. Apparently, very old elephants can indeed have tiny, rounded pieces of ivory in the cavities at the root of their tusks, and these are valued as talismans.</note> that slipped from the heads of the elephants of powerful vanquished foes, which has earned great respect throughout the world.</p>
@@ -283,7 +258,7 @@ His Majesty Satyāśraya Pr̥thivīvallabha—
 sends his respects to each and every subordinate king <supplied reason="explanation"><foreign>rājan</foreign></supplied>, <foreign>vassal</foreign> <supplied reason="explanation"><foreign>sāmanta</foreign></supplied>, steward <supplied reason="explanation"><foreign>bhogika</foreign></supplied>, governor <supplied reason="explanation"><foreign>viṣayapati</foreign></supplied>, territorial overseer <supplied reason="explanation"><foreign>rāṣṭrakūṭa</foreign></supplied>, village headman <supplied reason="explanation"><foreign>grāmāyuktaka</foreign></supplied> and so on <supplied reason="explanation">and informs them as follows</supplied>:</p>
 <p n="19-24">Let it be known to you that with a ceremonial pouring of water we have presented the village Goviyāṇaka in the vicinity of Asikheṭaka village in the Moṣiṇī district <supplied reason="explanation"><foreign>pathaka</foreign></supplied>
 —along with all its dues payable to the royal household, <supplied reason="explanation">as a perpetual holding</supplied> inaccessible to armsmen <supplied reason="explanation"><foreign>bhaṭa</foreign></supplied> and officers <supplied reason="explanation"><foreign>cāṭa</foreign></supplied>, for as long as the moon, sun, ocean and earth remain,
-<supplied reason="explanation">as an endowment</supplied> for the offering of the five great sacrifices, <supplied reason="subaudible">viz.</supplied> the rites <supplied reason="explanation"><foreign>kriyā</foreign></supplied> of Bali, Caru, Vaiśvadeva and Agnihotra<note>As I interpret the text, only four rites are explicitly named. According to Sircar <bibl><ptr target="bib:Sircar1966_01"></ptr>s.v.</bibl><!--OR encode with citedRange unit="entry"? I see no need.-->, the <foreign>pañcamahāyajña</foreign> comprises <foreign>bali</foreign>, <foreign>caru</foreign>, <foreign>vaiśvadeva</foreign>, <foreign>agnihotra</foreign> and <foreign>atithi</foreign>. PEM interprets <foreign>kriyā</foreign> to mean a particular fifth sacrifice, noting that according to the editor it is equivalent to <foreign>kratu</foreign>. (I could not find such a statement in Khare’s article.) See also PEM’s notes for references on these sacrifices.</note>—
+<supplied reason="explanation">as an endowment</supplied> for the offering of the five great sacrifices, <supplied reason="subaudible">viz.</supplied> the rites <supplied reason="explanation"><foreign>kriyā</foreign></supplied> of Bali, Caru, Vaiśvadeva and Agnihotra<note>As I interpret the text, only four rites are explicitly named. According to Sircar <bibl><ptr target="bib:Sircar1966_01"/>s.v.</bibl><!--OR encode with citedRange unit="entry"? I see no need.-->, the <foreign>pañcamahāyajña</foreign> comprises <foreign>bali</foreign>, <foreign>caru</foreign>, <foreign>vaiśvadeva</foreign>, <foreign>agnihotra</foreign> and <foreign>atithi</foreign>. PEM interprets <foreign>kriyā</foreign> to mean a particular fifth sacrifice, noting that according to the editor it is equivalent to <foreign>kratu</foreign>. (I could not find such a statement in Khare’s article.) See also PEM’s notes for references on these sacrifices.</note>—
 to Dāmadīkṣita, who is of the Sāvarṇi <foreign>gotra</foreign> and a follower of the Maitrāyaṇika and Vārāhaka doctrines, and who hails from Girinagara and resides in Lohanagara.</p>
 <p n="24-29">Hence, future kings and territorial lords <supplied reason="explanation"><foreign>bhogapati</foreign></supplied> belonging to our dynasty or otherwise—
 perceiving that material existence <supplied reason="explanation"><foreign>saṁsāra</foreign></supplied> is as insubstantial as wild cane, bamboo or plantain stem,<note>The reason these plants are named here may be that all have stems that are either hollow or herbaceous. Alternatively, what makes them appropriate may be that they, like the body, perish after flowering; compare <title>Mahābhārata</title> <title>Āraṇyakaparvan</title> 252.9ab, <foreign>yathā ca veṇuḥ kadalī nalo vā phalanty abhāvāya na bhūtaye ’’tmanaḥ</foreign>.</note> 
@@ -353,7 +328,7 @@ pareilles à <supplied reason="subaudible">la nourriture</supplied> mangée puis
              <bibl n="GHK"><ptr target="bib:Khare1947-1948_01"/></bibl>
            </listBibl>
            <listBibl type="secondary">
-             <bibl></bibl><!-- one <bibl/> per item of secondary bibliography -->
+             <bibl/><!-- one <bibl/> per item of secondary bibliography -->
            </listBibl>
         </div>
       </body>

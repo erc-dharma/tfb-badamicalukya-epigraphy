@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader xml:lang="eng">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Nerūr plates of Pulakeśin II</title>
-      
-         <respStmt>
+            <respStmt>
                <resp>EpiDoc encoding</resp>
-               <persName ref="part:daba"><forename>Dániel</forename><surname>Balogh</surname></persName>
-         </respStmt>
-         <respStmt>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
                <resp>intellectual authorship of edition</resp>
-           <persName ref="part:daba">
-             <forename>Dániel</forename>
-             <surname>Balogh</surname>
-           </persName>
-         </respStmt>
-         </titleStmt>         
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>DHARMA
                <note>This project has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).</note>
@@ -28,47 +30,43 @@
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
-                 <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+                  <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
                </licence>
             </availability>
             <date from="2019" to="2025">2019-2025</date>
          </publicationStmt>
-         <sourceDesc>
-            <!-- only the handDesc can be filled in at this stage -->
-        <msDesc>
-          <!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
-          <msIdentifier>
-            <repository>DHARMAbase</repository>
-            <idno/>
-            <!-- don't modify this -->
-          </msIdentifier>
-          <msContents>
-            <!-- describe the intellectual content of an inscription -->
-            <summary><!-- //// NOT MANDATORY  ////--></summary>
-            <!-- offers the possibility to give a summary of the inscription's content -->
-          </msContents>
-          <physDesc>
-            <handDesc>
-              <p>Halantas. The halanta M is a slightly reduced and simplified form; instead of a line above, it has the left arm extended into a circular stroke resembling an i mātrā but open on the right bottom. The halanta N looks like a full-sized regular na.</p>
-<p>Original punctuation. All punctuation marks (unless otherwise noted) are double verticals. 
-                <!--Other palaeographic observations. -->
-                <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
-              <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>Halantas. The halanta M is a slightly reduced and simplified form; instead of a line above, it has the left arm extended into a circular stroke resembling an i mātrā but open on the right bottom. The halanta N looks like a full-sized regular na.</p>
+                     <p>Original punctuation. All punctuation marks (unless otherwise noted) are double verticals. 
+                <!--Other palaeographic observations. --><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
             <summary><p><p/></summary>
             <handNote xml:id="Pallava00001_hand1"></handNote>
             <handNote xml:id="Pallava00001_hand2"></handNote>
            -->
-            </handDesc>
-          </physDesc>
-        </msDesc>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
          </sourceDesc>
       </fileDesc>
-     <revisionDesc>
-        <change who="part:daba" when="2020-03-13" status="draft">Initial encoding of the file</change>
-        <change who="part:daba" when="2020-08-14" status="draft">Updated to template v2, encoded bibliography and commentary</change>
-     </revisionDesc>
-  </teiHeader>
-  <text xml:space="preserve">
+      <revisionDesc>
+         <change who="part:daba" when="2020-03-13" status="draft">Initial encoding of the file</change>
+         <change who="part:daba" when="2020-08-14" status="draft">Updated to template v2, encoded bibliography and commentary</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
       <body>
          <div type="edition" xml:lang="san-Latn">
 <pb n="1v"/>
@@ -78,24 +76,16 @@
 </ab>
 <lg n="1" met="mālinī">
    <l n="a"><lb n="1"/>jayati vima<choice><orig>ḷ</orig><reg>l</reg></choice>a-daṁṣṭrā-rājitaṁ loka-bharttuḥ||</l>
-   <l n="b">praśamita-ripu-<seg met="+++-++"><gap reason="lost" quantity="6" unit="character" /></seg> <supplied reason="lost" cert="low">mu</supplied> <lb n="2"/>rāreḥ||</l>
-   <l n="c">Avani-ta<choice><orig>ḷ</orig><reg>l</reg></choice>a-vi<seg met="+"><gap reason="illegible" quantity="1" unit="character" /></seg>tābhinna-pātāla-mūlaM||</l>
-   <l n="d">sva-bhuja-<seg met="---++"><gap reason="lost" quantity="5" unit="character" /></seg><lb n="3" break="no"/>d ūrddhvam <choice><sic>ū</sic><corr>u</corr></choice>rvv<choice><sic>i</sic><corr>ī</corr></choice>n dadhānaṁ||</l>
+   <l n="b">praśamita-ripu-<seg met="+++-++"><gap reason="lost" quantity="6" unit="character"/></seg> <supplied reason="lost" cert="low">mu</supplied> <lb n="2"/>rāreḥ||</l>
+   <l n="c">Avani-ta<choice><orig>ḷ</orig><reg>l</reg></choice>a-vi<seg met="+"><gap reason="illegible" quantity="1" unit="character"/></seg>tābhinna-pātāla-mūlaM||</l>
+   <l n="d">sva-bhuja-<seg met="---++"><gap reason="lost" quantity="5" unit="character"/></seg><lb n="3" break="no"/>d ūrddhvam <choice><sic>ū</sic><corr>u</corr></choice>rvv<choice><sic>i</sic><corr>ī</corr></choice>n dadhānaṁ||</l>
 </lg>
 <lg n="2" met="mālinī">
    <l n="a">tad anu jayati nityaṁ vallabhasyāpi bāhu<supplied reason="lost">ḥ||</supplied></l>
-   <l n="b"><seg met="------++"><gap reason="lost" quantity="8" unit="character" /></seg><lb n="4" />harṣṣa-viccheda-hetuḥ||</l>
+   <l n="b"><seg met="------++"><gap reason="lost" quantity="8" unit="character"/></seg><lb n="4"/>harṣṣa-viccheda-hetuḥ||</l>
    <l n="c">dvija-vara-kr̥ta-śāntiḥ sarvva-lokasya pā<choice><orig>ḷ</orig><reg>l</reg></choice>aḥ||</l>
 </lg>
-<p>a<unclear>ne</unclear><supplied reason="lost" cert="low">ka-rāja-parājayopārjjita</supplied><lb 
-   n="5" break="no"/>-kīrttīnāṁ deva-dvija-<unclear>g</unclear><supplied reason="lost">u</supplied><unclear>r</unclear><supplied reason="lost">u</supplied>-<gap reason="lost" quantity="6" unit="character" precision="low"/> <supplied reason="lost">hā</supplied>ritī-putrāṇāṁ mānavya-sa<unclear>g</unclear><supplied reason="lost">otrāṇām</supplied> <gap reason="lost" quantity="6" unit="character" precision="low"/><pb 
-      n="2r" break="no"/><lb 
-         n="6" break="no"/><gap reason="lost" quantity="5" unit="character" precision="low"/>ṣāṁ bahu-<unclear>s</unclear>u<supplied reason="lost">varṇ</supplied>ṇ<supplied reason="lost">a</supplied> <gap reason="lost" quantity="5" unit="character" precision="low"/> dakṣiṇopeta-<unclear cert="low">gu</unclear> <gap reason="lost" quantity="12" unit="character" precision="low"/><lb 
-   n="7"/><unclear cert="low">-yā</unclear>gāvabhr̥tha-snānodaka-pavitrī-kr̥<unclear cert="low">ta-śa</unclear>rīraḥ<supplied reason="subaudible">.</supplied> tasya putraḥ srī-kīrttirājaḥ<supplied reason="subaudible">.</supplied> <supplied reason="lost">tasyātmajaḥ srī-sa</supplied><lb 
-      n="8" break="no"/>tyāśrayaḥ polekesi-vallabha-māharājaḥ <sic>kuva<unclear cert="low">ḷālaha</unclear>su</sic> <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="6" unit="character" precision="low"/><lb 
-      n="9"/>mahā-dānaṁ viprebhyaḥ dattavān|| tadā kāle idam api śāsanaṁ|| va<unclear cert="low">cca</unclear>-sagotra-<gap reason="lost" quantity="7" unit="character" precision="low"/><lb 
-      n="10" break="no"/>rācāryyasya pañca-viṅśati-nivarttan<choice><sic>ā</sic><corr>a</corr></choice>ṁ rāja-mānena kṣetraṁ dattaṁ<supplied reason="subaudible">.</supplied> tatra pa <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character" precision="low"/><lb 
-         n="11"/><supplied reason="lost">1</supplied> <gap reason="illegible" quantity="1" unit="character"/> <unclear cert="low">vātā</unclear>pī-grāme <gap reason="lost" quantity="15" unit="character" precision="low"/> <unclear>mahā-patha</unclear>-<gap reason="lost" quantity="6" unit="character" precision="low"/>
+<p>a<unclear>ne</unclear><supplied reason="lost" cert="low">ka-rāja-parājayopārjjita</supplied><lb n="5" break="no"/>-kīrttīnāṁ deva-dvija-<unclear>g</unclear><supplied reason="lost">u</supplied><unclear>r</unclear><supplied reason="lost">u</supplied>-<gap reason="lost" quantity="6" unit="character" precision="low"/> <supplied reason="lost">hā</supplied>ritī-putrāṇāṁ mānavya-sa<unclear>g</unclear><supplied reason="lost">otrāṇām</supplied> <gap reason="lost" quantity="6" unit="character" precision="low"/><pb n="2r" break="no"/><lb n="6" break="no"/><gap reason="lost" quantity="5" unit="character" precision="low"/>ṣāṁ bahu-<unclear>s</unclear>u<supplied reason="lost">varṇ</supplied>ṇ<supplied reason="lost">a</supplied> <gap reason="lost" quantity="5" unit="character" precision="low"/> dakṣiṇopeta-<unclear cert="low">gu</unclear> <gap reason="lost" quantity="12" unit="character" precision="low"/><lb n="7"/><unclear cert="low">-yā</unclear>gāvabhr̥tha-snānodaka-pavitrī-kr̥<unclear cert="low">ta-śa</unclear>rīraḥ<supplied reason="subaudible">.</supplied> tasya putraḥ srī-kīrttirājaḥ<supplied reason="subaudible">.</supplied> <supplied reason="lost">tasyātmajaḥ srī-sa</supplied><lb n="8" break="no"/>tyāśrayaḥ polekesi-vallabha-māharājaḥ <sic>kuva<unclear cert="low">ḷālaha</unclear>su</sic> <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="6" unit="character" precision="low"/><lb n="9"/>mahā-dānaṁ viprebhyaḥ dattavān|| tadā kāle idam api śāsanaṁ|| va<unclear cert="low">cca</unclear>-sagotra-<gap reason="lost" quantity="7" unit="character" precision="low"/><lb n="10" break="no"/>rācāryyasya pañca-viṅśati-nivarttan<choice><sic>ā</sic><corr>a</corr></choice>ṁ rāja-mānena kṣetraṁ dattaṁ<supplied reason="subaudible">.</supplied> tatra pa <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character" precision="low"/><lb n="11"/><supplied reason="lost">1</supplied> <gap reason="illegible" quantity="1" unit="character"/> <unclear cert="low">vātā</unclear>pī-grāme <gap reason="lost" quantity="15" unit="character" precision="low"/> <unclear>mahā-patha</unclear>-<gap reason="lost" quantity="6" unit="character" precision="low"/>
 </p>
          </div>
 
@@ -110,12 +100,12 @@
                      <note>Fleet translates, “who allayed … the hostile … enemies of the gods.” I believe that <foreign>murāreḥ</foreign> is a much more likely restoration. As Fleet agrees, the subject must be a lost word meaning “the form”, and it is easily conceivable that <foreign>loka-bharttuḥ</foreign> is in apposition to the possessor of that “form” in the genitive. The line may have run something like <foreign>praśamita-ripu-śakti kroḍa-rūpaṁ murāreḥ</foreign>, but I prefer not to show such a conjectural restoration in the text.</note>
                   </app>
                   <app loc="2">
-                     <lem>vi<seg met="+"><gap reason="illegible" quantity="1" unit="character" /></seg>tābhinna</lem>
+                     <lem>vi<seg met="+"><gap reason="illegible" quantity="1" unit="character"/></seg>tābhinna</lem>
                      <rdg source="bib:Fleet1879_01">vi<unclear cert="low">ghā</unclear>tābhinna</rdg>
                      <note>The gap does not seem to be wide enough for <foreign>ghā</foreign> (unless it was compressed horizontally), although there may have been three vertical strokes in this glyph. From the vestiges, the consonant <foreign>p</foreign> seems more likely, but <foreign>vipāta</foreign> is not attested, though <foreign>vi-pat</foreign> “burst asunder” is. The vowel may well be <foreign>ā</foreign>, though <foreign>o</foreign> and <foreign>ī</foreign> are also quite conceivable. See the commentary for further speculation.</note>
                   </app>
                  <app loc="2">
-                    <lem source="bib:Fleet1879_01">-bhuja-<seg met="---++"><gap reason="lost" quantity="5" unit="character" /></seg></lem>
+                    <lem source="bib:Fleet1879_01">-bhuja-<seg met="---++"><gap reason="lost" quantity="5" unit="character"/></seg></lem>
                     <note>The lacuna may be restored along the lines of <foreign>bala-gurutvā</foreign>, again too conjectural to show in the edition.</note>
                  </app>
                   <app loc="3">
@@ -175,7 +165,7 @@
          
          
          
-<div type="translation" xml:lang="eng" source="bib:Fleet1879_01">
+<div type="translation" source="bib:Fleet1879_01">
    <p n="01-02">Hail! <supplied reason="subaudible">May there be</supplied> good fortune!</p>
    <p rend="stanza" n="1"> Victorious is <supplied reason="lost">the form, which was that of a boar,</supplied> of the lord of the world,who allayed <gap reason="lost"/> the hostile <gap reason="lost"/> enemies of the gods,—which was adorned by spotless tusks; which had the unbroken foundations of hell <gap reason="lost"/> the surface of the earth; which <gap reason="lost"/> by its own arms; and which lifted up the world on high!</p>
    <p rend="stanza" n="2">After that, victorious for ever is also the arm of <persName>Vallabha</persName>,—which is the cause of the interruption of the joy<note>There is evidently a punning allusion here to the conquest of Harsha or Harshavardhana.</note>
@@ -204,7 +194,7 @@ Là <gap reason="lost"/> dans le village de Vātāpī <gap reason="lost"/> sur l
 </div>
 
 
-<div type="translation" xml:lang="eng" resp="part:daba">
+<div type="translation" resp="part:daba">
    <p n="01-02">Glory! Greetings!</p>
    <p rend="stanza" n="1">Victorious is that <supplied reason="lost">boar form of</supplied> the lord of the world <supplied reason="lost" cert="low">Mu</supplied>rāri <supplied reason="explanation">Viṣṇu</supplied>,
 which has suppressed the <supplied reason="lost" cert="low">might</supplied> of its enemies,

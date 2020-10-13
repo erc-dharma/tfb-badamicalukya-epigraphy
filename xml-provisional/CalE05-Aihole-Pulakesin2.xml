@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader xml:lang="eng">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Aihole temple foundation of Ravikīrti of the time of Pulakeśin II</title>
-      
-         <respStmt>
+            <respStmt>
                <resp>EpiDoc encoding</resp>
-               <persName ref="part:daba"><forename>Dániel</forename><surname>Balogh</surname></persName>
-         </respStmt>
-         <respStmt>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
                <resp>intellectual authorship of edition</resp>
-            <persName ref="part:daba">
-               <forename>Dániel</forename>
-               <surname>Balogh</surname>
-            </persName>
-         </respStmt>
-         </titleStmt>         
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>DHARMA
                <note>This project has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).</note>
@@ -28,49 +30,42 @@
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
-                 <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+                  <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
                </licence>
             </availability>
             <date from="2019" to="2025">2019-2025</date>
          </publicationStmt>
-         <sourceDesc>
-            <!-- only the handDesc can be filled in at this stage -->
-        <msDesc>
-          <!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
-          <msIdentifier>
-            <repository>DHARMAbase</repository>
-            <idno/>
-            <!-- don't modify this -->
-          </msIdentifier>
-          <msContents>
-            <!-- describe the intellectual content of an inscription -->
-            <summary><!-- //// NOT MANDATORY  ////--></summary>
-            <!-- offers the possibility to give a summary of the inscription's content -->
-          </msContents>
-          <physDesc>
-            <handDesc>
-              <p>
-                <!--Halantas.  -->
-                <!--Original punctuation.  -->
-                 <!--Other palaeographic observations. The ya of l3 calukyānvayaḥ seems to be a cursive bipartite form, but the rubbing is not quite clear. A bipartite y is definitely used in ye of yena, l11.-->
-                <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
-              <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!--Halantas.  --><!--Original punctuation.  --><!--Other palaeographic observations. The ya of l3 calukyānvayaḥ seems to be a cursive bipartite form, but the rubbing is not quite clear. A bipartite y is definitely used in ye of yena, l11.--><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
             <summary><p><p/></summary>
             <handNote xml:id="Pallava00001_hand1"></handNote>
             <handNote xml:id="Pallava00001_hand2"></handNote>
            -->
-            </handDesc>
-          </physDesc>
-        </msDesc>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
          </sourceDesc>
       </fileDesc>
-     <revisionDesc>
-        <change who="part:daba" when="2020-03-05" status="draft">Initial encoding of the file</change>
-        <change who="part:daba" when="2020-08-13" status="draft">Updated to template v2, encoded bibliography and commentary</change>
-<!-- Add a <change> entry for each significant change to the file. -->
-     </revisionDesc>
-  </teiHeader>
-  <text xml:space="preserve">
+      <revisionDesc>
+         <change who="part:daba" when="2020-03-05" status="draft">Initial encoding of the file</change>
+         <change who="part:daba" when="2020-08-13" status="draft">Updated to template v2, encoded bibliography and commentary</change>
+         <!-- Add a <change> entry for each significant change to the file. -->
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
       <body>
          <div type="edition" xml:lang="san-Latn">
 <lg n="1" met="āryā">
@@ -432,7 +427,7 @@ dakṣi<unclear>ṇato</unclear>
          
          
          
-         <div type="translation" xml:lang="eng" source="bib:Kielhorn1900-1901_01">
+         <div type="translation" source="bib:Kielhorn1900-1901_01">
 <p rend="stanza" n="1">Victorious is the holy <persName>Jinendra</persName>—he who is exempt from old age, death and birth—in the sea of whose knowledge the whole world is comprised like an island.</p>
             <p rend="stanza" n="2">And next, long victorious is the immeasurable, wide ocean of the <persName>Calukya</persName> family, which is the birth-place of jewels of men that are ornaments of the diadem of the earth.</p>
             <p rend="stanza" n="3">And victorious for very long is <persName>Satyāśraya</persName>, who in bestowing gifts and honours on the brave and on the learned, both together on either, observes not the rule of correspondency of number.
@@ -510,7 +505,7 @@ dakṣi<unclear>ṇato</unclear>
          
          
          
-         <div type="translation" xml:lang="eng" source="bib:Fleet1879_02">
+         <div type="translation" source="bib:Fleet1879_02">
             <note type="credit">Of Fleet's translation, only the appended passage is reproduced here, as this is not translated by Kielhorn.</note>
             <p n="18-19">This is the possession of this <supplied reason="explanation">god</supplied>;—<supplied reason="explanation"><seg cert="low">The hamlet of</seg></supplied> <placeName>Mūlavaḷḷi</placeName>; <supplied reason="explanation">the town of</supplied> <placeName>Veḷmaḻtikavāḍa</placeName>; <supplied reason="explanation">the village of?<!--add certainty low?--></supplied> <placeName>Paccanūr</placeName>; <supplied reason="explanation">the village of</supplied> <placeName>Gaṅgavūr</placeName>; <supplied reason="explanation">the village of</supplied> <placeName>Puḷigeṟe</placeName>; <supplied reason="explanation">and the village of</supplied> <placeName>Gaṇḍavagrāma</placeName>. 
                To the west of the slope of the mountain, <supplied reason="explanation"><seg cert="low">there is</seg></supplied> <supplied reason="explanation">the field called</supplied> <placeName>Nimūvāri</placeName> extending up to the boundary of <supplied reason="explanation">the city of</supplied> <placeName>Mahāpathāntapura</placeName>;<note>Or, ‘of the city which is at the edge of the main road’</note> and on the north and on the south. ...<note>The last word of the inscription is only partly legible, and the effaced letters cannot be supplied. It is probably the name of some place.</note>

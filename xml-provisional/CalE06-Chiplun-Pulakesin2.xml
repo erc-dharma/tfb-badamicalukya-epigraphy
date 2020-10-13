@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader xml:lang="eng">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Cipḷūṇ plates of Pulakeśin II</title>
-      
-         <respStmt>
+            <respStmt>
                <resp>EpiDoc encoding</resp>
-               <persName ref="part:daba"><forename>Dániel</forename><surname>Balogh</surname></persName>
-         </respStmt>
-         <respStmt>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
                <resp>intellectual authorship of edition</resp>
-            <persName ref="part:daba">
-               <forename>Dániel</forename>
-               <surname>Balogh</surname>
-            </persName>
-         </respStmt>
-         </titleStmt>         
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>DHARMA
                <note>This project has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).</note>
@@ -28,48 +30,44 @@
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
-                 <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+                  <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
                </licence>
             </availability>
             <date from="2019" to="2025">2019-2025</date>
          </publicationStmt>
-         <sourceDesc>
-            <!-- only the handDesc can be filled in at this stage -->
-        <msDesc>
-          <!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
-          <msIdentifier>
-            <repository>DHARMAbase</repository>
-            <idno/>
-            <!-- don't modify this -->
-          </msIdentifier>
-          <msContents>
-            <!-- describe the intellectual content of an inscription -->
-            <summary><!-- //// NOT MANDATORY  ////--></summary>
-            <!-- offers the possibility to give a summary of the inscription's content -->
-          </msContents>
-          <physDesc>
-            <handDesc>
-               <p>Halantas. The halanta T in L8 is a small subscript form with a horizontal line above. L13, slightly reduced, aligned with footline, and has a large horizontal line above it, at or slightly above headline height. L14, also slightly reduced, but is aligned to the headline, and its horizontal line is higher up. L16, is also slightly reduced, aligned to the footline, with a horizontal above, aligned to headline.</p>
-<p>Original punctuation. L18. The punctuation mark after ādadīta is indistinct in the scan; if may be a single vertical followed by a single horizontal, but that would be unique. Fleet transliterates it as a double daṇḍa. The mark after mahīyate l19 mark may be a progression of diminishing verticals like that at the very end. The spiral at the end, which Fleet transcribes as om, is a dextrorse spiral starting downward from the centre and ending around 10 o’clock after about one and a half circles. The sign following it seems to be a series of 5 or so progressively shortening verticals.  
-                <!--Other palaeographic observations. -->
-                <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
-              <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>Halantas. The halanta T in L8 is a small subscript form with a horizontal line above. L13, slightly reduced, aligned with footline, and has a large horizontal line above it, at or slightly above headline height. L14, also slightly reduced, but is aligned to the headline, and its horizontal line is higher up. L16, is also slightly reduced, aligned to the footline, with a horizontal above, aligned to headline.</p>
+                     <p>Original punctuation. L18. The punctuation mark after ādadīta is indistinct in the scan; if may be a single vertical followed by a single horizontal, but that would be unique. Fleet transliterates it as a double daṇḍa. The mark after mahīyate l19 mark may be a progression of diminishing verticals like that at the very end. The spiral at the end, which Fleet transcribes as om, is a dextrorse spiral starting downward from the centre and ending around 10 o’clock after about one and a half circles. The sign following it seems to be a series of 5 or so progressively shortening verticals.  
+                <!--Other palaeographic observations. --><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
             <summary><p><p/></summary>
             <handNote xml:id="Pallava00001_hand1"></handNote>
             <handNote xml:id="Pallava00001_hand2"></handNote>
            -->
-            </handDesc>
-          </physDesc>
-        </msDesc>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
          </sourceDesc>
       </fileDesc>
-     <revisionDesc>
-        <change who="part:daba" when="2020-03-11" status="draft">Initial encoding of the file</change>
-        <change who="part:daba" when="2020-08-13" status="draft">Updated to template v2, encoded bibliography and commentary</change>
-        <!-- Add a <change> entry for each significant change to the file. -->
-     </revisionDesc>
-  </teiHeader>
-  <text xml:space="preserve">
+      <revisionDesc>
+         <change who="part:daba" when="2020-03-11" status="draft">Initial encoding of the file</change>
+         <change who="part:daba" when="2020-08-13" status="draft">Updated to template v2, encoded bibliography and commentary</change>
+         <!-- Add a <change> entry for each significant change to the file. -->
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
       <body>
          <div type="edition" xml:lang="san-Latn">
 <pb n="1r"/>
@@ -80,14 +78,8 @@
    <l n="cd"><unclear cert="low">na</unclear>ta-<unclear cert="low">na</unclear> <gap reason="illegible" quantity="2" unit="character" precision="low"/> <unclear cert="low">ṇa</unclear> <gap reason="illegible" quantity="4" unit="character" precision="low"/> ṇa-nakhā<unclear>ṁ</unclear>śu-jaṭilaṁ padaṁ viṣṇoḥ
    </l>
 </lg>
-<p>mānavya-sago<lb 
-   n="2" break="no"/>t<unclear>rā</unclear>ṇ<unclear>ā</unclear>ṁ <unclear>hāri</unclear>ti-putrāṇā<supplied reason="omitted">ṁ</supplied> c<orig>i</orig><unclear>lukyā</unclear>n<unclear>ā</unclear>m an<supplied reason="omitted">v</supplied>avāye vātā<orig>b</orig>yāḫ prathama-vidhātur anekāddhvarāvabhr̥tha-snāna-samārdr<choice><sic>i</sic><corr>ī</corr></choice>kr̥ta-puṇya-m<choice><sic>a</sic><corr>ū</corr></choice>rtt<unclear cert="low">eḥ</unclear>
-sarvva<lb 
-   n="3" break="no"/>-maṅgalāyatanasya vallabha-nr̥pateẖ k<choice><sic>i</sic><corr>ī</corr></choice><sic>rty</sic>ā yuktasya k<choice><sic>i</sic><corr>ī</corr></choice>rttivarmmaṇaḫ putraḥ samanuṣṭhita-pati-devatā-vrata-kamalālayā-vipula-payo<lb 
-   n="4" break="no"/>dhara-vi<choice><sic>p</sic><corr>l</corr></choice>upta-candanālepaḥ surendra-mandira-gata-kinnarāṅgan<unclear>o</unclear>pagīyamāna-vimala-kīrttiḥ sva-radana-kuliśa-vibhinna-ripu-hr̥dayo<lb 
-      n="5" break="no"/>dgat<choice><sic>ā</sic><corr>a</corr></choice>-rudhira-dhārā-snapita-mastaka-matta-mātaṅgodaya-parvvata-taruṇa-raviḥ nigr̥hīta-duṣṭa-janaḫ parigr̥hīta-vidvat-sa<choice><sic>h</sic><corr>kh</corr></choice>o <supplied reason="subaudible">’</supplied>nu<lb 
-         n="6" break="no"/>gr̥hīta-bhr̥tya-varggaḥ kara-gata-khaḍgottr̥tta-para-nr̥pa-danti-dantotthita-vahni-śikhoddīpita-raṇa-bhūmir vvara-yuvati-nayana-sāyakai<lb 
-            n="7" break="no"/>ka-lakṣo vividha-śāstrārttha-tatva-vicāra-kṣama-sūkṣma-buddhiś calukya-kula-tilakaḥ sarvva-sad-guṇāśrayo ripu-daridraś śrī-satyāśrayo nāma<supplied reason="subaudible">.</supplied>
+<p>mānavya-sago<lb n="2" break="no"/>t<unclear>rā</unclear>ṇ<unclear>ā</unclear>ṁ <unclear>hāri</unclear>ti-putrāṇā<supplied reason="omitted">ṁ</supplied> c<orig>i</orig><unclear>lukyā</unclear>n<unclear>ā</unclear>m an<supplied reason="omitted">v</supplied>avāye vātā<orig>b</orig>yāḫ prathama-vidhātur anekāddhvarāvabhr̥tha-snāna-samārdr<choice><sic>i</sic><corr>ī</corr></choice>kr̥ta-puṇya-m<choice><sic>a</sic><corr>ū</corr></choice>rtt<unclear cert="low">eḥ</unclear>
+sarvva<lb n="3" break="no"/>-maṅgalāyatanasya vallabha-nr̥pateẖ k<choice><sic>i</sic><corr>ī</corr></choice><sic>rty</sic>ā yuktasya k<choice><sic>i</sic><corr>ī</corr></choice>rttivarmmaṇaḫ putraḥ samanuṣṭhita-pati-devatā-vrata-kamalālayā-vipula-payo<lb n="4" break="no"/>dhara-vi<choice><sic>p</sic><corr>l</corr></choice>upta-candanālepaḥ surendra-mandira-gata-kinnarāṅgan<unclear>o</unclear>pagīyamāna-vimala-kīrttiḥ sva-radana-kuliśa-vibhinna-ripu-hr̥dayo<lb n="5" break="no"/>dgat<choice><sic>ā</sic><corr>a</corr></choice>-rudhira-dhārā-snapita-mastaka-matta-mātaṅgodaya-parvvata-taruṇa-raviḥ nigr̥hīta-duṣṭa-janaḫ parigr̥hīta-vidvat-sa<choice><sic>h</sic><corr>kh</corr></choice>o <supplied reason="subaudible">’</supplied>nu<lb n="6" break="no"/>gr̥hīta-bhr̥tya-varggaḥ kara-gata-khaḍgottr̥tta-para-nr̥pa-danti-dantotthita-vahni-śikhoddīpita-raṇa-bhūmir vvara-yuvati-nayana-sāyakai<lb n="7" break="no"/>ka-lakṣo vividha-śāstrārttha-tatva-vicāra-kṣama-sūkṣma-buddhiś calukya-kula-tilakaḥ sarvva-sad-guṇāśrayo ripu-daridraś śrī-satyāśrayo nāma<supplied reason="subaudible">.</supplied>
 </p>
 <lg n="2" met="anuṣṭubh">
    <l n="a"><lb n="8"/>yaḫ padaṁ nyasya ś<choice><sic>o</sic><corr>a</corr></choice>trūṇā<supplied reason="omitted">ṁ</supplied></l>
@@ -95,13 +87,10 @@ sarvva<lb
    <l n="c">prakr̥tyā puṁścalīṁ lakṣmīṁ</l>
    <l n="d">satī-vratam aśikṣayaT</l>
 </lg>
-<p>sa mahīpatir avaretikā-vi<choice><sic>m</sic><corr>ṣ</corr></choice>aya-vāsinas sa<lb 
-   n="9" break="no"/>mājñāpayati yathāyaṁ mama mātulas samadhigatāryya-mārgg<choice><sic>a U</sic><corr>o</corr></choice>nmā<space type="binding-hole"/>rggaḥ sva-vikkrama-kkraya-kkrīta-viśāla-kīrtti-vitāna-naddha-sarvva-digantara<unclear cert="low">ḥ</unclear> <lb 
-      n="10"/>sendrakāṇāṁ tilaka-bhūtaḫ parama-māheśvaraś śrī-vallabha-senāna<space type="binding-hole"/>ndarājas <orig>tena rājñā</orig> mātā-pitror ātmanaś ca puṇyopacayārttha<unclear cert="low">ṁ</unclear>
+<p>sa mahīpatir avaretikā-vi<choice><sic>m</sic><corr>ṣ</corr></choice>aya-vāsinas sa<lb n="9" break="no"/>mājñāpayati yathāyaṁ mama mātulas samadhigatāryya-mārgg<choice><sic>a U</sic><corr>o</corr></choice>nmā<space type="binding-hole"/>rggaḥ sva-vikkrama-kkraya-kkrīta-viśāla-kīrtti-vitāna-naddha-sarvva-digantara<unclear cert="low">ḥ</unclear> <lb n="10"/>sendrakāṇāṁ tilaka-bhūtaḫ parama-māheśvaraś śrī-vallabha-senāna<space type="binding-hole"/>ndarājas <orig>tena rājñā</orig> mātā-pitror ātmanaś ca puṇyopacayārttha<unclear cert="low">ṁ</unclear>
 <pb n="2r"/>
 <lb n="11"/>
-Ātreya-sagotrāya kr̥ṣṇasvāmi-sūnave m<surplus>m</surplus>aheśvarāyeṣṭa-yajñ<unclear cert="low">ā</unclear><space type="binding-hole"/>ya Āmravaṭavaka-grāmo tathā <add place="bottom" rend="mark"><choice><unclear>v</unclear><unclear>c</unclear></choice>ārubennāyāṁ</add> Av<subst><del rend="corrected">ā</del><add place="overstrike">a</add></subst>ñcapalyāṁ vi<unclear cert="low">ṁ</unclear>śati<lb 
-   n="12" break="no"/>ś cāṭ<choice><sic>ā</sic><corr>a</corr></choice>-bhaṭa-dūta-rāja-puru<choice><sic>m</sic><corr>ṣ</corr></choice>āṇām apraveśanīyaṁ<space type="binding-hole"/> dvayam etat <orig>prādāT</orig><supplied reason="subaudible">.</supplied>
+Ātreya-sagotrāya kr̥ṣṇasvāmi-sūnave m<surplus>m</surplus>aheśvarāyeṣṭa-yajñ<unclear cert="low">ā</unclear><space type="binding-hole"/>ya Āmravaṭavaka-grāmo tathā <add place="bottom" rend="mark"><choice><unclear>v</unclear><unclear>c</unclear></choice>ārubennāyāṁ</add> Av<subst><del rend="corrected">ā</del><add place="overstrike">a</add></subst>ñcapalyāṁ vi<unclear cert="low">ṁ</unclear>śati<lb n="12" break="no"/>ś cāṭ<choice><sic>ā</sic><corr>a</corr></choice>-bhaṭa-dūta-rāja-puru<choice><sic>m</sic><corr>ṣ</corr></choice>āṇām apraveśanīyaṁ<space type="binding-hole"/> dvayam etat <orig>prādāT</orig><supplied reason="subaudible">.</supplied>
 </p>
 <lg n="3" met="anuṣṭubh">
    <l n="a">vidit<choice><sic>a</sic><corr>ā</corr></choice>s santu rājānas</l>
@@ -226,7 +215,7 @@ sarvva<lb
          
          
          
-         <div type="translation" xml:lang="eng" source="bib:Fleet1894-1895_02">
+         <div type="translation" source="bib:Fleet1894-1895_02">
 <p rend="stanza" n="1">Victorious is the footprint, interspersed with the brightness of the toe-nails … … … bowed down, of <supplied reason="explanation">the god</supplied> Viṣṇu, the creator of the <supplied reason="explanation">three</supplied> worlds, who traversed the whole universe in three strides!</p>
             <p n="1-3">— In the lineage of the <persName>Calukyas</persName>, who are of the <persName>Mānavya</persName> <foreign>gotra</foreign> <supplied reason="subaudible">and</supplied> are <persName>Hāritiputras</persName>,— of <persName>Kīrtivarman</persName> <supplied reason="explanation">I.</supplied>, the first maker of <placeName>Vātāpī</placeName>, whose pious form was thoroughly well moistened by ablutions performed after celebrating many sacrifices, who was the abode of all auspiciousness, who was the king of favourites, <supplied reason="subaudible">and</supplied> who was endowed with fame, the son <supplied reason="subaudible">is</supplied>—</p>
             <p n="3-7">— That ornament of the family of the <persName>Calukyas</persName>, that asylum of all good qualities, that person who has but few foes, the glorious <persName>Satyāśraya</persName>-<supplied reason="explanation">Pulikeśin II</supplied> by name, whose besmearing with sandal-wood oil is rubbed off by <supplied reason="explanation">the clinging of</supplied> the bulky breasts of the goddess of fortune who practises <supplied reason="explanation">towards him</supplied> the vow of treating a husband like a god; whose pure fame is belong<note resp="part:daba">This must be a typo for <q>being</q>.</note> sung by the women of the Kinnaras in the hall of <supplied reason="explanation">Indra</supplied> the lord of the gods; who is a very sun just risen above the mountain of dawn which is <supplied reason="subaudible">his</supplied> elephant, infuriated with rut, the head of which is bathed in the trickling stream of blood that flows forth from the hearts of the enemies which are cleft open by the thunderbold that is its tusk; who punishes wicked people; who receives with hospitality learned people and friends; who confers favours upon servants; who has lit up the field of battle with the flames of the fire that rises from the tusks of the elephants of the hostile kings which are split by the sword that is held in <supplied reason="subaudible">his</supplied> hand; who is the sole aim of the arrows which are the eyes of nice young women; whose keen intellect is fit to examine the essence of the meaning of various Śāstras;</p>
@@ -294,7 +283,7 @@ aussi longtemps que les mondes créés par le soleil, est honoré dans le ciel.
              <bibl n="JFF"><ptr target="bib:Fleet1894-1895_02"/></bibl>
            </listBibl>
            <listBibl type="secondary">
-             <bibl></bibl><!-- one <bibl/> per item of secondary bibliography -->
+             <bibl/><!-- one <bibl/> per item of secondary bibliography -->
            </listBibl>
         </div>
       </body>

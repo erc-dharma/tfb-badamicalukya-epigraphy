@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader xml:lang="eng">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Kopparam plates of Pulakeśin II</title>
-      
-         <respStmt>
+            <respStmt>
                <resp>EpiDoc encoding</resp>
-               <persName ref="part:daba"><forename>Dániel</forename><surname>Balogh</surname></persName>
-         </respStmt>
-         <respStmt>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
                <resp>intellectual authorship of edition</resp>
-            <persName ref="part:daba">
-               <forename>Dániel</forename>
-               <surname>Balogh</surname>
-            </persName>
-         </respStmt>
-         </titleStmt>         
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
          <publicationStmt>
             <authority>DHARMA
                <note>This project has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).</note>
@@ -28,71 +30,53 @@
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
-                 <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+                  <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
                </licence>
             </availability>
             <date from="2019" to="2025">2019-2025</date>
          </publicationStmt>
-         <sourceDesc>
-            <!-- only the handDesc can be filled in at this stage -->
-        <msDesc>
-          <!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
-          <msIdentifier>
-            <repository>DHARMAbase</repository>
-            <idno/>
-            <!-- don't modify this -->
-          </msIdentifier>
-          <msContents>
-            <!-- describe the intellectual content of an inscription -->
-            <summary><!-- //// NOT MANDATORY  ////--></summary>
-            <!-- offers the possibility to give a summary of the inscription's content -->
-          </msContents>
-          <physDesc>
-            <handDesc>
-              <p>
-                <!--Halantas.  -->
-                <!--Original punctuation.  -->
-                <!--Other palaeographic observations. -->
-                <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
-              <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!--Halantas.  --><!--Original punctuation.  --><!--Other palaeographic observations. --><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
             <summary><p><p/></summary>
             <handNote xml:id="Pallava00001_hand1"></handNote>
             <handNote xml:id="Pallava00001_hand2"></handNote>
            -->
-            </handDesc>
-          </physDesc>
-        </msDesc>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
          </sourceDesc>
       </fileDesc>
-     <revisionDesc>
-        <change who="part:daba" when="2020-03-04" status="draft">Initial encoding of the file</change>
-        <change who="part:daba" when="2020-08-13" status="draft">Updated to template v2, encoded bibliography and commentary</change>
-<!-- Add a <change> entry for each significant change to the file. -->
-     </revisionDesc>
-  </teiHeader>
-  <text xml:space="preserve">
+      <revisionDesc>
+         <change who="part:daba" when="2020-03-04" status="draft">Initial encoding of the file</change>
+         <change who="part:daba" when="2020-08-13" status="draft">Updated to template v2, encoded bibliography and commentary</change>
+         <!-- Add a <change> entry for each significant change to the file. -->
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
       <body>
          <div type="edition" xml:lang="san-Latn">
 <pb n="1r"/>
 <p>
 <pb n="1v"/>
-<lb n="1"/>svasti<supplied reason="subaudible">.</supplied> śrīmatāṁ sakala-bhu<supplied reason="omitted">va</supplied>na-sa<unclear>ṁ</unclear>st<subst><del rend="corrected">u</del><add place="overstrike">ū</add></subst>yamāna-mānavya-sagotrāṇā<supplied reason="omitted">ṁ</supplied> hārīti-putrāṇā<supplied reason="omitted">ṁ</supplied> sapta-loka-mātr̥bhi<supplied reason="omitted">ḥ</supplied> sapta-mā<lb
-   n="2" break="no"/>tr̥bhi<supplied reason="omitted">ḥ</supplied> <unclear>sa</unclear>m<unclear>ya</unclear>g abhivarddhitānā<supplied reason="omitted">ṁ</supplied> kārtikeya-paripālanādhigata-kalyāṇa-paramparāṇā<supplied reason="omitted">ṁ</supplied> bhagavan-nārāyaṇa-prasā<lb
-   n="3" break="no"/>da-s<choice><sic>ā</sic><corr>a</corr></choice>mās<unclear>ā</unclear>d<choice><sic>a</sic><corr>i</corr></choice>ta-varāha-lāñchanekṣaṇa-kṣaṇa-vaśī-kr̥tāśeṣa-mahībhr̥tām anekāśvamedhāvabhr̥<choice><sic>t</sic><corr>th</corr></choice>a-snā<lb
-   n="4" break="no"/>na-pavitrī-kr̥ta-vapuṣā<supplied reason="omitted">ṁ</supplied> calukyānā<supplied reason="omitted">ṁ</supplied> kulam abhyalaṁkariṣṇo<supplied reason="omitted">ḥ</supplied> prathita-kī<unclear>r</unclear>tt<subst><del rend="corrected">i</del><add place="overstrike">e</add></subst><supplied reason="omitted">ḥ</supplied> śrī-kīrttivarmma-pr̥thiv<orig>i</orig>-vallabha-ma<supplied reason="lost">hārā</supplied><pb
-      n="2r" break="no"/><lb
-   n="5" break="no"/><unclear>ja</unclear>sya priya-p<choice><sic>au</sic><corr>u</corr></choice>tra<supplied reason="omitted">ḥ</supplied> praṇatāneka-mah<unclear>ī</unclear>pati-makuṭa-taṭa-vilagna-maṇi-makarikā-ghr̥ṣṭa-pādāravinda-<unclear>d</unclear>va<unclear>ya</unclear><lb
-   n="6" break="no"/>sya pratigatārāti-cakra-vidhva<supplied reason="omitted">ṁ</supplied>sana-vi<choice><sic>v</sic><corr>dh</corr></choice>i-viśāradasya deva-dvija-guru-vr̥ddhāpacāyina<supplied reason="omitted">ḥ</supplied> pit<choice><orig>ai</orig><reg>e</reg></choice><add place="below">va</add> śūra<supplied reason="omitted">ḥ</supplied> sa<lb
-   n="7" break="no"/>tyāśray<choice><sic>a</sic><corr>o</corr></choice><space type="binding-hole"/> <supplied reason="subaudible">’</supplied>pratihatājña<supplied reason="omitted">ḥ</supplied> śrī-pul<unclear cert="low">e</unclear>keśi-p<orig>ri</orig>thiv<orig>i</orig>-vallabha-mahārāj<choice><orig>a</orig><reg>o</reg></choice> <choice><orig>yathāruha</orig><reg>yathārhaṁ</reg></choice> <orig>sanmānayati</orig><supplied reason="subaudible">.</supplied></p>
-<p>vidit<choice><sic>i</sic><corr>a</corr></choice><lb
-   n="8" break="no"/>m as<unclear>t</unclear>u va<unclear>lla</unclear>bha sama<unclear>kṣ</unclear>āvas<choice><sic>t</sic><corr>th</corr></choice>ite vidhiv<choice><sic>i</sic><corr>a</corr></choice><add place="above">t</add> sa<supplied reason="omitted">ṁ</supplied>pradattā <sic>marnta kali-kulanām</sic> aneka-saṁgrāma-sāhasa-dakṣeṇa
+<lb n="1"/>svasti<supplied reason="subaudible">.</supplied> śrīmatāṁ sakala-bhu<supplied reason="omitted">va</supplied>na-sa<unclear>ṁ</unclear>st<subst><del rend="corrected">u</del><add place="overstrike">ū</add></subst>yamāna-mānavya-sagotrāṇā<supplied reason="omitted">ṁ</supplied> hārīti-putrāṇā<supplied reason="omitted">ṁ</supplied> sapta-loka-mātr̥bhi<supplied reason="omitted">ḥ</supplied> sapta-mā<lb n="2" break="no"/>tr̥bhi<supplied reason="omitted">ḥ</supplied> <unclear>sa</unclear>m<unclear>ya</unclear>g abhivarddhitānā<supplied reason="omitted">ṁ</supplied> kārtikeya-paripālanādhigata-kalyāṇa-paramparāṇā<supplied reason="omitted">ṁ</supplied> bhagavan-nārāyaṇa-prasā<lb n="3" break="no"/>da-s<choice><sic>ā</sic><corr>a</corr></choice>mās<unclear>ā</unclear>d<choice><sic>a</sic><corr>i</corr></choice>ta-varāha-lāñchanekṣaṇa-kṣaṇa-vaśī-kr̥tāśeṣa-mahībhr̥tām anekāśvamedhāvabhr̥<choice><sic>t</sic><corr>th</corr></choice>a-snā<lb n="4" break="no"/>na-pavitrī-kr̥ta-vapuṣā<supplied reason="omitted">ṁ</supplied> calukyānā<supplied reason="omitted">ṁ</supplied> kulam abhyalaṁkariṣṇo<supplied reason="omitted">ḥ</supplied> prathita-kī<unclear>r</unclear>tt<subst><del rend="corrected">i</del><add place="overstrike">e</add></subst><supplied reason="omitted">ḥ</supplied> śrī-kīrttivarmma-pr̥thiv<orig>i</orig>-vallabha-ma<supplied reason="lost">hārā</supplied><pb n="2r" break="no"/><lb n="5" break="no"/><unclear>ja</unclear>sya priya-p<choice><sic>au</sic><corr>u</corr></choice>tra<supplied reason="omitted">ḥ</supplied> praṇatāneka-mah<unclear>ī</unclear>pati-makuṭa-taṭa-vilagna-maṇi-makarikā-ghr̥ṣṭa-pādāravinda-<unclear>d</unclear>va<unclear>ya</unclear><lb n="6" break="no"/>sya pratigatārāti-cakra-vidhva<supplied reason="omitted">ṁ</supplied>sana-vi<choice><sic>v</sic><corr>dh</corr></choice>i-viśāradasya deva-dvija-guru-vr̥ddhāpacāyina<supplied reason="omitted">ḥ</supplied> pit<choice><orig>ai</orig><reg>e</reg></choice><add place="below">va</add> śūra<supplied reason="omitted">ḥ</supplied> sa<lb n="7" break="no"/>tyāśray<choice><sic>a</sic><corr>o</corr></choice><space type="binding-hole"/> <supplied reason="subaudible">’</supplied>pratihatājña<supplied reason="omitted">ḥ</supplied> śrī-pul<unclear cert="low">e</unclear>keśi-p<orig>ri</orig>thiv<orig>i</orig>-vallabha-mahārāj<choice><orig>a</orig><reg>o</reg></choice> <choice><orig>yathāruha</orig><reg>yathārhaṁ</reg></choice> <orig>sanmānayati</orig><supplied reason="subaudible">.</supplied></p>
+<p>vidit<choice><sic>i</sic><corr>a</corr></choice><lb n="8" break="no"/>m as<unclear>t</unclear>u va<unclear>lla</unclear>bha sama<unclear>kṣ</unclear>āvas<choice><sic>t</sic><corr>th</corr></choice>ite vidhiv<choice><sic>i</sic><corr>a</corr></choice><add place="above">t</add> sa<supplied reason="omitted">ṁ</supplied>pradattā <sic>marnta kali-kulanām</sic> aneka-saṁgrāma-sāhasa-dakṣeṇa
 <pb n="2v"/>
 <lb n="9"/>
-ni<supplied reason="omitted">ṣ</supplied>kr̥ṣṭa-maṇḍalāgr<choice><sic>ā</sic><corr>a</corr></choice>-sanāthena sva-bāhunā vipakṣa-maṇḍala<supplied reason="omitted">ṁ</supplied> nirjitya sva-sutānvaye pratiṣ<choice><sic>ṭ</sic><corr>ṭh</corr></choice> āpita-rā<lb
-   n="10" break="no"/>jyasya <orig>prithividuvarājam āṇatti</orig><supplied reason="subaudible">.</supplied>
-mūgamūr-vv<choice><sic>a</sic><corr>ā</corr></choice>stavyāya <orig>ch</orig>āṇḍilyāyana-gotrasya Āpasta<unclear>mba</unclear><lb
-   n="11"/>-sūtrasya <space type="binding-hole"/> viprasya vedaśarmmaṇa<supplied reason="omitted">ḥ</supplied> karmma-rāṣṭre Irbuli-grāme Aṣṭa-śa<add place="below" rend="mark">ta</add><add place="above"><unclear>ṁ</unclear></add> kṣetraṁ dat<supplied reason="omitted">t</supplied>aṁ<supplied reason="subaudible">.</supplied> balāka-<choice><sic>b</sic><corr>p</corr></choice>alva<lb
-      n="12" break="no"/>lā<supplied reason="omitted">t</supplied> pūrvvata<supplied reason="omitted">ḥ</supplied> karmmakara-taṭākā<supplied reason="omitted">t</supplied> paścimata<supplied reason="omitted">ḥ</supplied> koṇḍa<unclear>ce</unclear>ṟupū<unclear>r</unclear>-pathā<supplied reason="omitted">d</supplied> dakṣiṇata<supplied reason="omitted">ḥ</supplied> viṟparu-pathā<supplied reason="omitted">d</supplied> <unclear>Uttara</unclear>ta<supplied reason="omitted">ḥ</supplied><supplied reason="subaudible">.</supplied></p>
+ni<supplied reason="omitted">ṣ</supplied>kr̥ṣṭa-maṇḍalāgr<choice><sic>ā</sic><corr>a</corr></choice>-sanāthena sva-bāhunā vipakṣa-maṇḍala<supplied reason="omitted">ṁ</supplied> nirjitya sva-sutānvaye pratiṣ<choice><sic>ṭ</sic><corr>ṭh</corr></choice> āpita-rā<lb n="10" break="no"/>jyasya <orig>prithividuvarājam āṇatti</orig><supplied reason="subaudible">.</supplied>
+mūgamūr-vv<choice><sic>a</sic><corr>ā</corr></choice>stavyāya <orig>ch</orig>āṇḍilyāyana-gotrasya Āpasta<unclear>mba</unclear><lb n="11"/>-sūtrasya <space type="binding-hole"/> viprasya vedaśarmmaṇa<supplied reason="omitted">ḥ</supplied> karmma-rāṣṭre Irbuli-grāme Aṣṭa-śa<add place="below" rend="mark">ta</add><add place="above"><unclear>ṁ</unclear></add> kṣetraṁ dat<supplied reason="omitted">t</supplied>aṁ<supplied reason="subaudible">.</supplied> balāka-<choice><sic>b</sic><corr>p</corr></choice>alva<lb n="12" break="no"/>lā<supplied reason="omitted">t</supplied> pūrvvata<supplied reason="omitted">ḥ</supplied> karmmakara-taṭākā<supplied reason="omitted">t</supplied> paścimata<supplied reason="omitted">ḥ</supplied> koṇḍa<unclear>ce</unclear>ṟupū<unclear>r</unclear>-pathā<supplied reason="omitted">d</supplied> dakṣiṇata<supplied reason="omitted">ḥ</supplied> viṟparu-pathā<supplied reason="omitted">d</supplied> <unclear>Uttara</unclear>ta<supplied reason="omitted">ḥ</supplied><supplied reason="subaudible">.</supplied></p>
 <p>
 <pb n="3r"/>
 <lb n="13"/>
@@ -100,7 +84,7 @@ mūgamūr-vv<choice><sic>a</sic><corr>ā</corr></choice>stavyāya <orig>ch</orig
 <lb n="14" break="no"/>śaste mu<space type="binding-hole"/>hūrtte <supplied reason="omitted">’</supplied>syā datt<choice><sic>i</sic><corr>e</corr></choice>r ājñapti<supplied reason="omitted">ḥ</supplied><supplied reason="subaudible">.</supplied>
 </p>
 <lg n="1" met="anuṣṭubh">
-   <l n="a">bhūmi-dānā<del>ta<gap reason="lost" quantity="2" unit="character"></gap></del>t paran dā<supplied reason="omitted">na</supplied>n</l>
+   <l n="a">bhūmi-dānā<del>ta<gap reason="lost" quantity="2" unit="character"/></del>t paran dā<supplied reason="omitted">na</supplied>n</l>
    <l n="b">na bhūta<supplied reason="omitted">ṁ</supplied> na bha<supplied reason="omitted">vi</supplied>ṣyati</l>
    <l n="c">tasyaiva ha<unclear>raṇā</unclear><unclear cert="low">t pā</unclear><lb n="15" break="no"/>pan</l>
    <l n="d">na bhūta<supplied reason="omitted">ṁ</supplied> na bhaviṣyati</l>
@@ -185,7 +169,7 @@ mūgamūr-vv<choice><sic>a</sic><corr>ā</corr></choice>stavyāya <orig>ch</orig
                    <note>I cannot tell clearly from my scanned estampage, but there may be a small <foreign>t</foreign> engraved on top of <foreign>sa</foreign>, in which case we have scribal correction here, executed in the same way as for <foreign>vidhivat</foreign> in line 8.</note>
                 </app>
                   <app loc="14">
-                     <lem>-dānā<del>ta<gap reason="lost" quantity="2" unit="character"></gap></del>t paran</lem>
+                     <lem>-dānā<del>ta<gap reason="lost" quantity="2" unit="character"/></del>t paran</lem>
                      <rdg source="bib:Hultzsch1925-1926_02 ">-dānā<surplus>T</surplus>tparan</rdg>
                      <note>Hultzsch's editor notes that there is a "vacant space" after <foreign>dānāT</foreign>, while Lakshmana Rao suggests that some characters were struck out here. This definitely seems to be the case. The first of these appears to be <foreign>ta</foreign> (not <foreign>T</foreign>), while the other two are now illegible. Whatever was mistakenly engraved, the correction was made immediately, and the scribe continued with <foreign>tpara</foreign> after the deletion. Another scenario, slightly more complex but perhaps more likely, is that <foreign>dānācchreyo</foreign> (and perhaps <foreign>nu</foreign> as well) was engraved here by eyeskip. The vestiges sort of suggest <foreign>cchr</foreign>. This was then beaten out, and the engraver first began to write <foreign>tpa</foreign> after <foreign>dānā</foreign> (the legible <foreign>ta</foreign> is a bit closer to <foreign>nā</foreign> than normal character spacing), then decided not to try to write over the corrected area, and continued with <foreign>tpara</foreign> after that.</note>
                   </app>
@@ -208,7 +192,7 @@ mūgamūr-vv<choice><sic>a</sic><corr>ā</corr></choice>stavyāya <orig>ch</orig
          
          
          
-         <div type="translation" xml:lang="eng" source="bib:Hultzsch1925-1926_02">
+         <div type="translation" source="bib:Hultzsch1925-1926_02">
 <!--Lakshmana Rao also gives a translation, but since his readings are in many places inferior to Hultzsch’s, I ignore that here-->
 <p n="1-6">Hail!
    The dear grandson <supplied reason="explanation">read: son</supplied> of the glorious <persName>Kīrtivarma-Pr̥thivivallabha</persName>-Mahārāja who adorned the family of the glorious <persName>Calukyas</persName>, etc.; whose fame was <supplied reason="subaudible">widely</supplied> spread; whose pair of lotus-feet was rubbed by the <foreign>makara</foreign> ornaments<note>According to Cowell and Thomas (Translation of the Harṣacarita, p. 266), “the word makarikā appears to denote a makara-shaped forehead ornament.” [DB: Possibly; my thought was earrings, probably on the basis of Gītagovinda, maṇimaya-makara-manohara-kuṇḍala (not checked).]</note> of jewels attached to the slopes of the diadems of many prostrate princes; who was proficient in achieving the destrucition of the circle of opposing enemies; <supplied reason="subaudible">and</supplied> who honoured the gods, the twice-born, the Gurus, and the aged;</p>
