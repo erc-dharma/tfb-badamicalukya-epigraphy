@@ -70,25 +70,50 @@
    <text xml:space="preserve">
       <body>
          <div type="edition" xml:lang="san-Latn">
-<pb n="1r"/>
+<pb 
+
+n="1r"/>
 <ab>
-<pb n="1v"/>
-<lb n="1"/>sva<choice><sic>ts</sic><corr>st</corr></choice>i<supplied reason="subaudible">.</supplied></ab>
+<pb 
+
+n="1v"/>
+<lb 
+n="1"/>sva<choice><sic>ts</sic><corr>st</corr></choice>i<supplied reason="subaudible">.</supplied></ab>
 <lg n="1" met="mālinī">
    <l n="a">jayati jalada-<orig>b</orig>r̥nda-vyoma-nīlotpalābhaḥ</l>
-   <l n="b">sphu<lb n="2" break="no"/>ra<space type="binding-hole"/>d-uru-maṇi-ratna-srak-samāviddha-kaṇṭhaḥ</l>
-   <l n="c">jaladhara I<lb n="3" break="no"/>va<space type="binding-hole"/> vidy<choice><sic>a</sic><corr>u</corr></choice>d-<unclear>vri</unclear>tta-maddhyaika-deśo</l>
-   <l n="d">dharaṇi-dhara-nirodhā<choice><sic>s</sic><corr>t</corr></choice> svinna<lb n="4" break="no"/>-vaktro varāha<supplied reason="omitted">ḥ</supplied></l>
+   <l n="b">sphu<lb 
+n="2" break="no"/>ra<space type="binding-hole"/>d-uru-maṇi-ratna-srak-samāviddha-kaṇṭhaḥ</l>
+   <l n="c">jaladhara I<lb 
+n="3" break="no"/>va<space type="binding-hole"/> vidy<choice><sic>a</sic><corr>u</corr></choice>d-<unclear>vri</unclear>tta-maddhyaika-deśo</l>
+   <l n="d">dharaṇi-dhara-nirodhā<choice><sic>s</sic><corr>t</corr></choice> svinna<lb 
+n="4" break="no"/>-vaktro varāha<supplied reason="omitted">ḥ</supplied></l>
 </lg>
-<p>śrī-sv<choice><sic>a</sic><corr>ā</corr></choice>mi-mah<choice><sic>a</sic><corr>ā</corr></choice>sena-pād<choice><sic>a</sic><corr>ā</corr></choice>nuddhyātānāṁ m<choice><sic>a</sic><corr>ā</corr></choice>navya<pb n="2r" break="no"/><lb n="5" break="no"/>-sagotr<choice><sic>a</sic><corr>ā</corr></choice>ṇā<unclear>ṁ</unclear> hārītī-putrāṇā<unclear>ṁ</unclear> Agniṣṭomāgnicayana-v<choice><sic>a</sic><corr>ā</corr></choice><lb n="6" break="no"/>japeya-pauṇ<unclear>ḍ</unclear>ar<choice><sic>i</sic><corr>ī</corr></choice>ka-bahu-suvarṇṇāśvamedhāvabhr̥tha-snā<lb n="7" break="no"/>na<space type="binding-hole"/>-pavitrī-kr̥ta-śirasāṁ calukyān<choice><sic>o</sic><corr>ā</corr></choice>ṁ va<choice><sic>śeṁ</sic><corr>ṁśe</corr></choice> saṁbhūtaḥ ca<lb n="8" break="no"/>lukya-<choice><sic>v<unclear>v</unclear>aśā<unclear>ṁ</unclear>baṁra</sic><corr>vaṁśāṁbara</corr></choice>-pūrṇ<unclear>ṇ</unclear>a-candra<supplied reason="omitted">ḥ</supplied> Aparimita-vikramopātta-vipu
-<pb n="2v" break="no"/><lb n="9" break="no"/><add place="below">la</add>-yaśovataḥ tasya kīrttivarmm<choice><sic><unclear>ā</unclear></sic><corr>a</corr></choice>ṇa<supplied reason="omitted">ḥ</supplied> putraḥ hira<unclear>ṇ</unclear>ya-<unclear>gar</unclear>bbhasyā<unclear>ś</unclear>vam<unclear>e</unclear><lb n="10" break="no"/>dh<choice><sic>ā</sic><corr>a</corr></choice><space type="binding-hole"/>-yājina<supplied reason="omitted">ḥ</supplied> pautraḥ sva-bāhu-bala-vikramopātta-rājya<supplied reason="omitted">ḥ</supplied> Ane<lb n="11" break="no"/>ka-nr̥pati-parameśva<subst><del rend="corrected">ḥ</del><add place="overstrike">raḥ</add></subst></p>
-<p>vai<choice><sic>ṣ</sic><corr>ś</corr></choice>ākha-p<unclear reason="eccentric_ductus">au</unclear>rṇṇamāsy<choice><sic>a</sic><corr>ā</corr></choice>ṁ taṭāk<choice><sic>e</sic><corr>o</corr></choice>dyamane <lb n="12"/>devagaṇasv<choice><sic>a</sic><corr>ā</corr></choice>mine kāśyapa-sagotrā<choice><sic>ṇāḥ</sic><corr>ya</corr></choice> tiyare-gr<choice><sic>a</sic><corr>ā</corr></choice>ma<supplied reason="omitted">ḥ</supplied>
-<pb n="3r"/><lb n="13"/>sinnā-taṭe Udaka-pū<unclear>r</unclear>vva<supplied reason="omitted">ṁ</supplied> sabhogaḥ<supplied reason="subaudible">.</supplied></p>
+<p>śrī-sv<choice><sic>a</sic><corr>ā</corr></choice>mi-mah<choice><sic>a</sic><corr>ā</corr></choice>sena-pād<choice><sic>a</sic><corr>ā</corr></choice>nuddhyātānāṁ m<choice><sic>a</sic><corr>ā</corr></choice>navya<pb 
+
+n="2r" break="no"/><lb 
+n="5" break="no"/>-sagotr<choice><sic>a</sic><corr>ā</corr></choice>ṇā<unclear>ṁ</unclear> hārītī-putrāṇā<unclear>ṁ</unclear> Agniṣṭomāgnicayana-v<choice><sic>a</sic><corr>ā</corr></choice><lb 
+n="6" break="no"/>japeya-pauṇ<unclear>ḍ</unclear>ar<choice><sic>i</sic><corr>ī</corr></choice>ka-bahu-suvarṇṇāśvamedhāvabhr̥tha-snā<lb 
+n="7" break="no"/>na<space type="binding-hole"/>-pavitrī-kr̥ta-śirasāṁ calukyān<choice><sic>o</sic><corr>ā</corr></choice>ṁ va<choice><sic>śeṁ</sic><corr>ṁśe</corr></choice> saṁbhūtaḥ ca<lb 
+n="8" break="no"/>lukya-<choice><sic>v<unclear>v</unclear>aśā<unclear>ṁ</unclear>baṁra</sic><corr>vaṁśāṁbara</corr></choice>-pūrṇ<unclear>ṇ</unclear>a-candra<supplied reason="omitted">ḥ</supplied> Aparimita-vikramopātta-vipu
+<pb 
+
+n="2v" break="no"/><lb 
+n="9" break="no"/><add place="below">la</add>-yaśovataḥ tasya kīrttivarmm<choice><sic><unclear>ā</unclear></sic><corr>a</corr></choice>ṇa<supplied reason="omitted">ḥ</supplied> putraḥ hira<unclear>ṇ</unclear>ya-<unclear>gar</unclear>bbhasyā<unclear>ś</unclear>vam<unclear>e</unclear><lb 
+n="10" break="no"/>dh<choice><sic>ā</sic><corr>a</corr></choice><space type="binding-hole"/>-yājina<supplied reason="omitted">ḥ</supplied> pautraḥ sva-bāhu-bala-vikramopātta-rājya<supplied reason="omitted">ḥ</supplied> Ane<lb 
+n="11" break="no"/>ka-nr̥pati-parameśva<subst><del rend="corrected">ḥ</del><add place="overstrike">raḥ</add></subst></p>
+<p>vai<choice><sic>ṣ</sic><corr>ś</corr></choice>ākha-p<unclear reason="eccentric_ductus">au</unclear>rṇṇamāsy<choice><sic>a</sic><corr>ā</corr></choice>ṁ taṭāk<choice><sic>e</sic><corr>o</corr></choice>dyamane <lb 
+n="12"/>devagaṇasv<choice><sic>a</sic><corr>ā</corr></choice>mine kāśyapa-sagotrā<choice><sic>ṇāḥ</sic><corr>ya</corr></choice> tiyare-gr<choice><sic>a</sic><corr>ā</corr></choice>ma<supplied reason="omitted">ḥ</supplied>
+<pb 
+
+n="3r"/><lb 
+n="13"/>sinnā-taṭe Udaka-pū<unclear>r</unclear>vva<supplied reason="omitted">ṁ</supplied> sabhogaḥ<supplied reason="subaudible">.</supplied></p>
 <lg n="1" met="anuṣṭubh">
    <l n="a">bahu<surplus>r</surplus>bhir vvasudhā bhukt<choice><sic>a</sic><corr>ā</corr></choice></l>
-   <l n="b">rā<lb n="14" break="no"/>ja<choice><sic><unclear>nai</unclear></sic><corr>bhiḥ</corr></choice> sagarādhibhi<supplied reason="omitted">ḥ</supplied></l>
+   <l n="b">rā<lb 
+n="14" break="no"/>ja<choice><sic><unclear>nai</unclear></sic><corr>bhiḥ</corr></choice> sagarādhibhi<supplied reason="omitted">ḥ</supplied></l>
    <l n="c">yasya yasya yadā bhūmi<supplied reason="omitted">ḥ</supplied></l>
-   <l n="d">tasya ta<lb n="15" break="no"/><unclear>sya ta</unclear>dā phalaṁ</l>
+   <l n="d">tasya ta<lb 
+n="15" break="no"/><unclear>sya ta</unclear>dā phalaṁ</l>
 </lg>
 <lg n="2" met="anuṣṭubh">
    <l n="a">sva-dattāṁ para-dattā<unclear>ṁ</unclear> vā</l>
@@ -96,7 +121,9 @@
    <l n="c"><unclear cert="low">ṣa</unclear>ṣ<unclear>ṭ</unclear>i<choice><sic>vaṁ</sic><corr>ṁ va</corr></choice>va<surplus>ri</surplus>rṣa-s<choice><sic>ā</sic><corr>a</corr></choice>hasr<choice><sic>a</sic><corr>ā</corr></choice>ṇi</l>
    <l n="d">viṣ<choice><sic>ṭ</sic><corr>ṭh</corr></choice>āy<choice><sic>a</sic><corr>ā</corr></choice><supplied reason="omitted">ṁ</supplied> j<choice><sic>a</sic><corr>ā</corr></choice>yate k<orig>ri</orig><unclear>m</unclear>i<supplied reason="omitted">ḥ</supplied>||</l>
 </lg>
-<pb n="3v"/>
+<pb 
+
+n="3v"/>
          </div>
 
 
@@ -138,7 +165,8 @@
                    <note>I see no superfluous <foreign>anusvāra</foreign> here; there is a conspicuous dot above and to the left of <foreign>ga</foreign>, but that is not a position <foreign>anusvāra</foreign> takes anywhere else in the plates, so I take it to be an artefact of the raising of the edge.</note>
                 </app>
                 <app loc="13">
-                   <lem source="bib:Gai+Katti1969_01">rā<lb n="14" break="no"/>ja<choice><sic><unclear>nai</unclear></sic><corr>bhiḥ</corr></choice></lem>
+                   <lem source="bib:Gai+Katti1969_01">rā<lb 
+n="14" break="no"/>ja<choice><sic><unclear>nai</unclear></sic><corr>bhiḥ</corr></choice></lem>
                    <note>The second character is completely obscured in the scanned photo by a blotch, except for part of a headmark and a small vowel mark (for <foreign>e</foreign> or part of <foreign>ai</foreign>) on the left of that. I assume Gai and Katti's reading is correct, but wonder if perhaps <foreign>rājakaiḥ</foreign> was in fact inscribed.</note>
                 </app>
                 <app loc="16">
