@@ -199,10 +199,8 @@ n="3v"/>
                      <note>In my scanned estampage there is no trace of an <foreign>i</foreign> over the <foreign>l</foreign>. Khare may be correct, but verifying his reading needs an autopsy.</note>
                   </app>
                   <app loc="8">
-                     <lem>-<del>ma</del><lb 
-n="9"/>mahārājas</lem>
-                     <rdg source="bib:Khare1947-1948_01">-ma<lb 
-n="9" break="no"/><surplus>ma</surplus>mahārājas</rdg>
+                     <lem>-<del>ma</del><lb n="9"/>mahārājas</lem>
+                     <rdg source="bib:Khare1947-1948_01">-ma<lb n="9" break="no"/><surplus>ma</surplus>mahārājas</rdg>
                      <note>The <foreign>ma</foreign> at the end of l8 is faint and squeezed into quite a small space. I believe this one may have been deleted already by the engraver, who at first tried to write <foreign>ma</foreign> here to fill up the space up to the margin, then realised it was too narrow and beat it out, starting again in the next line.</note>
                   </app>
                   <app loc="9">

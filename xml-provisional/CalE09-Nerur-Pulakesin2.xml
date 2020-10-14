@@ -112,10 +112,8 @@ n="11"/><supplied reason="lost">1</supplied> <gap reason="illegible" quantity="1
          <div type="apparatus">
                <listApp>
                   <app loc="1">
-                     <lem><supplied reason="lost" cert="low">mu</supplied> <lb 
-n="2"/>rāreḥ</lem>
-                     <rdg source="bib:Fleet1879_01"><supplied reason="lost">su</supplied> <lb 
-n="2"/>rāreḥ</rdg>
+                     <lem><supplied reason="lost" cert="low">mu</supplied> <lb n="2"/>rāreḥ</lem>
+                     <rdg source="bib:Fleet1879_01"><supplied reason="lost">su</supplied> <lb n="2"/>rāreḥ</rdg>
                      <note>Fleet translates, “who allayed … the hostile … enemies of the gods.” I believe that <foreign>murāreḥ</foreign> is a much more likely restoration. As Fleet agrees, the subject must be a lost word meaning “the form”, and it is easily conceivable that <foreign>loka-bharttuḥ</foreign> is in apposition to the possessor of that “form” in the genitive. The line may have run something like <foreign>praśamita-ripu-śakti kroḍa-rūpaṁ murāreḥ</foreign>, but I prefer not to show such a conjectural restoration in the text.</note>
                   </app>
                   <app loc="2">
@@ -152,8 +150,7 @@ n="2"/>rāreḥ</rdg>
                   </app>
                   <app loc="7">
                      <lem source="bib:Fleet1879_01"><supplied reason="lost">tasyātmajaḥ srī-sa</supplied>
-<lb 
-n="8" break="no"/>tyāśrayaḥ</lem>
+<lb n="8" break="no"/>tyāśrayaḥ</lem>
                      <note>While Fleet’s restoration is perfectly plausible, it is not necessarily accurate in every detail. Line 8 begins with an indent of 3 to 4 characters because of the binding hole, and while no vestiges are visible in the scanned facsimile to the left of the hole, it is possible that <foreign>sa</foreign> was in fact inscribed there. Moreover, Fleet apparently used this restoration as a basis for estimating the length of the lacunae at the ends of other lines, but it seems possible that each of those lacunae are in fact a few characters longer.</note>
                   </app>
                   <app loc="8">
