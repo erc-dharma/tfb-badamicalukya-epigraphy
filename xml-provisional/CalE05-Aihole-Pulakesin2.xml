@@ -22,9 +22,7 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <authority>DHARMA
-               <note>This project has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).</note>
-            </authority>
+            <authority>DHARMA</authority>
             <pubPlace>Berlin</pubPlace>
             <idno type="filename">CalE05-Aihole-Pulakesin2</idno>
             <availability>
@@ -59,7 +57,32 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_V01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
       <revisionDesc>
+         <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
          <change who="part:daba" when="2020-03-05" status="draft">Initial encoding of the file</change>
          <change who="part:daba" when="2020-08-13" status="draft">Updated to template v2, encoded bibliography and commentary</change>
          <!-- Add a <change> entry for each significant change to the file. -->
@@ -69,8 +92,7 @@
       <body>
          <div type="edition" xml:lang="san-Latn">
 <lg n="1" met="āryā">
-   <l n="ab"><lb 
-n="1"/>jayati bhagavā<orig>n</orig> jinendro <unclear>vī</unclear>ta-ja<unclear>rā-ma</unclear>raṇa-janmano yasya</l>
+   <l n="ab"><lb n="1"/>jayati bhagavā<orig>n</orig> jinendro <unclear>vī</unclear>ta-ja<unclear>rā-ma</unclear>raṇa-janmano yasya</l>
    <l n="cd">jñāna-samudrāntargga<unclear>ta</unclear>m akhilañ jagad antarīpam iva<unclear>|</unclear></l>
 </lg>
 <lg n="2" met="āryā">
@@ -79,8 +101,7 @@ n="1"/>jayati bhagavā<orig>n</orig> jinendro <unclear>vī</unclear>ta-ja<unclea
 </lg>
 <lg n="3" met="āryā">
    <l n="ab">śūre viduṣi ca vibhajan dānam mānañ ca yugapad ekatra<unclear><g type="dashPlain">.</g></unclear></l>
-   <l n="cd"><lb 
-n="2"/>Avihita-yāthāsaṁ<unclear>kh</unclear>y<unclear>o ja</unclear>yati ca satyāśrayas suciraM||</l>
+   <l n="cd"><lb n="2"/>Avihita-yāthāsaṁ<unclear>kh</unclear>y<unclear>o ja</unclear>yati ca satyāśrayas suciraM||</l>
 </lg>
 <lg n="4" met="āryā">
    <l n="ab">pr̥thivī-vallabha-śabdo yeṣām anvartthatāñ cirañ jātaḥ</l>
@@ -89,8 +110,7 @@ n="2"/>Avihita-yāthāsaṁ<unclear>kh</unclear>y<unclear>o ja</unclear>yati ca 
 <lg n="5" met="śārdūlavikrīḍita">
    <l n="a">nānā-heti-śatābhighāta-patita-bhrāntāśva-patti-dvipe <space/></l>
    <l n="b">nr̥tyad-bhīma-kavandha-kh<subst><del rend="corrected">ā</del><add place="overstrike">a</add></subst>ḍga-kiraṇa-jvālā-sahasr<unclear>e</unclear> raṇe</l>
-   <l n="c"><lb 
-n="3"/>lakṣmīr bhāvita-cāpalāpi ca kr̥tā śauryyeṇa yenātmasāT</l>
+   <l n="c"><lb n="3"/>lakṣmīr bhāvita-cāpalāpi ca kr̥tā śauryyeṇa yenātmasāT</l>
    <l n="d">rājāsīj jayasi<orig>ṅ</orig>ha-vallabha Iti khyātaś calukyānvayaḥ<unclear>||</unclear></l>
 </lg>
 <lg n="6" met="upajāti">
@@ -101,8 +121,7 @@ n="3"/>lakṣmīr bhāvita-cāpalāpi ca kr̥tā śauryyeṇa yenātmasāT</l>
 </lg>
 <lg n="7" met="āryā">
    <l n="ab">tasyābhavat tanūjaḫ pol<choice><unclear>e</unclear><unclear>i</unclear></choice>keś<choice><sic>i</sic><corr>ī</corr></choice> <add place="above">ya</add><supplied reason="omitted">ḥ</supplied> śritendu-kāntir api</l>
-   <l n="cd"><lb 
-n="4"/>śrī-vallabho <supplied reason="omitted">’</supplied>py ayāsīd vātāpipurī-vadhū-varatāM<unclear>||</unclear></l>
+   <l n="cd"><lb n="4"/>śrī-vallabho <supplied reason="omitted">’</supplied>py ayāsīd vātāpipurī-vadhū-varatāM<unclear>||</unclear></l>
 </lg>
 <lg n="8" met="rathoddhatā">
    <l n="a">yat-tri-vargga-padavīm alaṁ kṣitau <space/></l>
@@ -114,8 +133,7 @@ n="4"/>śrī-vallabho <supplied reason="omitted">’</supplied>py ayāsīd vāt�
    <l n="a">na<choice><orig>ḷ</orig><reg>l</reg></choice>a-mauryya-kadamba-kā<choice><orig>ḷ</orig><reg>l</reg></choice>arātriḥ</l>
    <l n="b"><surplus>s</surplus>tanayas tasya babhū<unclear>va</unclear> kīrttivarmmā</l>
    <l n="c">para-dāra-nivr̥tta-citt<subst><del rend="corrected">e</del><add place="overstrike">a</add></subst>-<add place="below" rend="mark">vr̥tt<unclear>e</unclear></add>r</l>
-   <l n="d">api dhī<orig>r y</orig>asya ripu-śri<lb 
-n="5" break="no"/>yānukr̥ṣṭā||</l>
+   <l n="d">api dhī<orig>r y</orig>asya ripu-śri<lb n="5" break="no"/>yānukr̥ṣṭā||</l>
 </lg>
 <lg n="10" met="drutavilambita">
    <l n="a">raṇa-parākkrama-labdha-jaya-śriyā <space/></l>
@@ -131,8 +149,7 @@ n="5" break="no"/>yānukr̥ṣṭā||</l>
 </lg>
 <lg n="12" met="vaṁśastha">
    <l n="a">sphuran-mayūkhair asi-dīpikā-śataiḥ</l>
-   <l n="b"><lb 
-n="6"/>vyudasya mātaṅga-tamisra-sañcayaM</l>
+   <l n="b"><lb n="6"/>vyudasya mātaṅga-tamisra-sañcayaM</l>
    <l n="c">avāptavān yo raṇa-raṅga-mandire</l>
    <l n="d">ka<orig>ṭ</orig>accuri-śrī-lalanā-parigrahaM</l>
 </lg>
@@ -144,8 +161,7 @@ n="6"/>vyudasya mātaṅga-tamisra-sañcayaM</l>
 </lg>
 <lg n="14" met="vasantatilakā">
    <l n="a">tasyāgrajasya tanaye nahuṣānubhā<choice><sic>g</sic><corr>v</corr></choice>e</l>
-   <l n="b">lakṣmyā kilābhi<lb 
-n="7" break="no"/>laṣite p<subst><del rend="corrected">u</del><add place="overstrike">o</add></subst>l<choice><unclear>e</unclear><unclear>i</unclear></choice>keśi-nāmni</l>
+   <l n="b">lakṣmyā kilābhi<lb n="7" break="no"/>laṣite p<subst><del rend="corrected">u</del><add place="overstrike">o</add></subst>l<choice><unclear>e</unclear><unclear>i</unclear></choice>keśi-nāmni</l>
    <l n="c">sāsūyam ātmani bhavantam ataḫ pitr̥vyaM</l>
    <l n="d">jñātvāparuddha-carita-vyavasāya-buddhau</l>
 </lg>
@@ -157,8 +173,7 @@ n="7" break="no"/>laṣite p<subst><del rend="corrected">u</del><add place="over
 </lg>
 <lg n="16" met="sragdharā">
    <l n="a">tāvat tac-cha<orig>tr</orig>a-bhaṅge jagad akhilam arātyandhakāroparuddhaṁ</l>
-   <l n="b"><lb 
-n="8"/>yasyāsahya-pratāpa-dyuti-tatibhir ivākkrāntam āsīt prabhātaM</l>
+   <l n="b"><lb n="8"/>yasyāsahya-pratāpa-dyuti-tatibhir ivākkrāntam āsīt prabhātaM</l>
    <l n="c">nr̥tyad-vidyut-patākaiḫ prajavini maruti kṣuṇṇa-pa<unclear>r</unclear>yyanta-bhāgair</l>
    <l n="d">ggarjjadbhir <orig>vvāri-vāsair</orig> a<choice><orig>ḷ</orig><reg>l</reg></choice>i-kula-malinaṁ vyoma yātaṁ kadā vā||</l>
 </lg>
@@ -166,8 +181,7 @@ n="8"/>yasyāsahya-pratāpa-dyuti-tatibhir ivākkrāntam āsīt prabhātaM</l>
    <l n="a">labdh<supplied reason="omitted">v</supplied>ā kālaṁ bhuvam upagate jetum āppāyikākhye</l>
    <l n="b">govinde ca dvirada-nikarair uttarām bhaimarathyāḥ</l>
    <l n="c">yasyānīkair yudhi bhaya-rasa-jñatvam ekaḫ prayātas</l>
-   <l n="d">tatrāvāptam phalam upakr̥tasyā<lb 
-n="9" break="no"/>pareṇāpi sadyaḥ<unclear>|</unclear></l>
+   <l n="d">tatrāvāptam phalam upakr̥tasyā<lb n="9" break="no"/>pareṇāpi sadyaḥ<unclear>|</unclear></l>
 </lg>
 <lg n="18" met="mattebhavikrīḍita">
    <l n="a">varadā-tuṅga-taraṅga-raṅga-vilasad-dhaṁsā<unclear>va</unclear><choice><orig><unclear>ḷ</unclear></orig><reg>l</reg></choice><unclear>ī-mekhalāṁ</unclear></l>
@@ -179,8 +193,7 @@ n="9" break="no"/>pareṇāpi sadyaḥ<unclear>|</unclear></l>
    <l n="a">gaṅgāḷupendrā vyasanāni sapta</l>
    <l n="b">hitvā puropārjjita-sampado <supplied reason="subaudible">’</supplied>pi</l>
    <l n="c">yasyānubhāvopanatās sadāsann</l>
-   <l n="d">ā<lb 
-n="10" break="no"/>sanna-sevāmr̥ta-pāna-śauṇḍ<choice><sic>a</sic><corr>ā</corr></choice>ḥ</l>
+   <l n="d">ā<lb n="10" break="no"/>sanna-sevāmr̥ta-pāna-śauṇḍ<choice><sic>a</sic><corr>ā</corr></choice>ḥ</l>
 </lg>
 <lg n="20" met="anuṣṭubh">
    <l n="b" enjamb="yes">koṅkaṇeṣu yad-ādiṣṭa</l>
@@ -192,8 +205,7 @@ n="10" break="no"/>sanna-sevāmr̥ta-pāna-śauṇḍ<choice><sic>a</sic><corr>�
    <l n="a">Apara-jaladher llakṣmī<unclear>ṁ</unclear> yasmin purīm purabhit-prabhe</l>
    <l n="b">mada-gaja-ghaṭākārair nnāvāṁ śatair avamr̥dnati</l>
    <l n="c">jalada-paṭalānīkāk<choice><sic>i</sic><corr>ī</corr></choice>rṇṇan navotpala-mecakañ</l>
-   <l n="d">jala-nidhir iva vyoma vyomnas sa<lb 
-n="11" break="no"/>mo <supplied reason="subaudible">’</supplied>bhavad ambu<choice><sic>bh</sic><corr>dh</corr></choice>iḥ</l>
+   <l n="d">jala-nidhir iva vyoma vyomnas sa<lb n="11" break="no"/>mo <supplied reason="subaudible">’</supplied>bhavad ambu<choice><sic>bh</sic><corr>dh</corr></choice>iḥ</l>
 </lg>
 <lg n="22" met="anuṣṭubh">
    <l n="a">pratāpopanatā yasya</l>
@@ -208,8 +220,7 @@ n="11" break="no"/>mo <supplied reason="subaudible">’</supplied>bhavad ambu<ch
    <l n="d">bhaya-viga<choice><orig>ḷ</orig><reg>l</reg></choice>ita-harṣo yena cākāri harṣaḥ||</l>
 </lg>
 <lg n="24" met="mālinī">
-   <l n="a" enjamb="yes">bhuvam urubhir anīkaiś śā<lb 
-n="12" break="no"/>sato yasya rev<choice><sic>o</sic><corr>ā</corr></choice></l>
+   <l n="a" enjamb="yes">bhuvam urubhir anīkaiś śā<lb n="12" break="no"/>sato yasya rev<choice><sic>o</sic><corr>ā</corr></choice></l>
    <l n="b">-vividha-pu<choice><orig>ḷ</orig><reg>l</reg></choice>ina-śobhāvandhya-vindhyopakaṇṭh<choice><sic>ā</sic><corr>aḥ</corr></choice></l>
    <l n="c">Adhikataram arājat svena tejo-mahimnā</l>
    <l n="d">śikharibhir ibha-varjy<choice><sic>ā</sic><corr>o</corr></choice> var<unclear>ṣ</unclear>maṇā sparddhayeva</l>
@@ -221,8 +232,7 @@ n="12" break="no"/>sato yasya rev<choice><sic>o</sic><corr>ā</corr></choice></l
     <l n="d">navanavati-sahasra-grāma-bhājāṁ trayāṇā<unclear>ṁ</unclear> <space/></l>
 </lg>
 <lg n="26" met="mālabhāriṇī">
-   <l n="a">gr̥hiṇāṁ <surplus>sva</surplus><lb 
-n="13"/>sva-guṇais trivargga-tuṅgā</l>
+   <l n="a">gr̥hiṇāṁ <surplus>sva</surplus><lb n="13"/>sva-guṇais trivargga-tuṅgā</l>
    <l n="b">vihitānya-kṣiti-pāla-māna-bhaṅgā<unclear>ḥ</unclear></l>
    <l n="c">Abhavann upajāta-bhīti-liṅgā</l>
    <l n="d">yad-anīkena sa-ko<supplied reason="omitted">sa</supplied>lāẖ kaliṅgā<supplied reason="omitted">ḥ</supplied></l>
@@ -237,8 +247,7 @@ n="13"/>sva-guṇais trivargga-tuṅgā</l>
    <l n="a">sannaddha-vāraṇa-ghaṭā-sthagitāntarā<choice><orig>ḷ</orig><reg>l</reg></choice>aM</l>
    <l n="b">nānāyudha-kṣata-nara-kṣatajāṅgarāgaM</l>
    <l n="c">Āsīj jalaṁ yad-avamardditam abhra-garbhaṁ</l>
-   <l n="d">kaunāḷam a<lb 
-n="14" break="no"/>mbaram ivo<choice><sic><unclear cert="low">j</unclear></sic><corr>d</corr></choice>ita-sāndhya-rāgaM<g type="dashDouble">.</g></l>
+   <l n="d">kaunāḷam a<lb n="14" break="no"/>mbaram ivo<choice><sic><unclear cert="low">j</unclear></sic><corr>d</corr></choice>ita-sāndhya-rāgaM<g type="dashDouble">.</g></l>
 </lg>
 <lg n="29" met="śārdūlavikrīḍita">
    <l n="a">Uddhūtāmala-<orig>cā<unclear>ṁ</unclear>vara</orig>-dhvaja-śata-cchatrāndhakārair <orig>vv</orig>alaiḥ</l>
@@ -249,8 +258,7 @@ n="14" break="no"/>mbaram ivo<choice><sic><unclear cert="low">j</unclear></sic><
 <lg n="30" met="praharṣiṇī">
    <l n="a">kāverī d<choice><sic>r̥</sic><corr>ru</corr></choice>ta-śapharī-vilola-netrā</l>
    <l n="b">coḷānāṁ sapadi jayodyatasya yasya<unclear><g type="dashPlain">.</g></unclear></l>
-   <l n="c">praścyotan-mada-gaja-se<lb 
-n="15" break="no"/>tu-ruddha-nīrā</l>
+   <l n="c">praścyotan-mada-gaja-se<lb n="15" break="no"/>tu-ruddha-nīrā</l>
    <l n="d">saṁsparśaṁ pariharati sma ratna-rāśeḥ|</l>
 </lg>
 <lg n="31" met="anuṣṭubh">
@@ -263,8 +271,7 @@ n="15" break="no"/>tu-ruddha-nīrā</l>
    <l n="a">Utsāha-prabhu-mantra-śakti-sahite yasmin samastā diśo</l>
    <l n="b">jitvā bhūmi-patīn visr̥jya mahitān ārāddhya deva-dvijāN</l>
    <l n="c">vātāpīn nagarīm praviśya nagarīm ekām ivorvvīm imā<add place="above">M</add></l>
-   <l n="d">cañcan-nīradh<choice><sic>ī</sic><corr>i</corr></choice>-nīla-nīra-parikhāṁ <lb 
-n="16"/>satyāśraye śāsati||</l>
+   <l n="d">cañcan-nīradh<choice><sic>ī</sic><corr>i</corr></choice>-nīla-nīra-parikhāṁ <lb n="16"/>satyāśraye śāsati||</l>
 </lg>
 <lg n="33" met="anuṣṭubh">
    <l n="a">triṁśatsu tri-sahasreṣu <space/></l>
@@ -280,8 +287,7 @@ n="16"/>satyāśraye śāsati||</l>
 </lg>
 <lg n="35" met="vasantatilakā">
    <l n="a">tasyāmbudhi-traya-nivārita-śāsanasya</l>
-   <l n="b"><lb 
-n="17"/>satyāśrayasya param āptavatā prasādaṁ</l>
+   <l n="b"><lb n="17"/>satyāśrayasya param āptavatā prasādaṁ</l>
    <l n="c">śailañ jinendrabhavanam bhavana<del>ṁ</del>m mahimnān</l>
    <l n="d">nirmmāpitam matimatā ravikīrttinedaM||</l>
 </lg>
@@ -293,14 +299,12 @@ n="17"/>satyāśrayasya param āptavatā prasādaṁ</l>
 </lg>
 <lg n="37" met="āryāgīti">
    <l n="ab">yenāyoji nave <supplied reason="subaudible">’</supplied>śma-sthiram arttha-vidhau vivekinā jina-veśma</l>
-   <l n="cd">sa vijayatāṁ ravikīrttiẖ kavitā<lb 
-n="18" break="no"/>śrita-kā<choice><orig>ḷ</orig><reg>l</reg></choice>idāsa-bhāravi-kīrttiḥ|<unclear><g type="spiralL"/></unclear></l>
+   <l n="cd">sa vijayatāṁ ravikīrttiẖ kavitā<lb n="18" break="no"/>śrita-kā<choice><orig>ḷ</orig><reg>l</reg></choice>idāsa-bhāravi-kīrttiḥ|<unclear><g type="spiralL"/></unclear></l>
 </lg>
 <p>mūlavaḷḷi-veḷmaḻtikavāḍa-<choice><unclear>m</unclear><unclear>p</unclear></choice>a<unclear>cc</unclear>anūr-ggaṅgavūr-puḷigeṟe-ga<unclear>ṇḍ</unclear>ava-grāma Iti Asya bhukti<supplied reason="subaudible">.</supplied>
 gir<choice><sic>i</sic><corr>e</corr></choice><unclear>s ta</unclear>ṭāt paścim<choice><sic>a</sic><corr>ā</corr></choice>bhigata nimūvārir <orig>yyāva</orig> mahā-pathānta-purasya s<choice><sic>i</sic><corr>ī</corr></choice>mā Uttarataḥ
 dakṣi<unclear>ṇato</unclear>
-<lb 
-n="19"/><gap reason="illegible" quantity="2" unit="character" precision="low"/> ga <gap reason="illegible" quantity="1" unit="character" precision="low"/> na <g type="spiralR"/>
+<lb n="19"/><gap reason="illegible" quantity="2" unit="character" precision="low"/> ga <gap reason="illegible" quantity="1" unit="character" precision="low"/> na <g type="spiralR"/>
 </p>
 
          </div>

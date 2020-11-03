@@ -22,9 +22,7 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <authority>DHARMA
-               <note>This project has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).</note>
-            </authority>
+            <authority>DHARMA</authority>
             <pubPlace>Berlin</pubPlace>
             <idno type="filename">CalE01-Makarappi-Pulakesin2</idno>
             <availability>
@@ -62,7 +60,32 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_V01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
       <revisionDesc>
+         <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
          <change who="part:daba" when="2020-03-02" status="draft">Initial encoding of the file</change>
          <change who="part:daba" when="2020-08-12" status="draft">Updated to template v2, encoded bibliography.</change>
          <!-- Add a <change> entry for each significant change to the file. -->
@@ -71,91 +94,49 @@
    <text xml:space="preserve">
       <body>
          <div type="edition" xml:lang="san-Latn">
-<pb 
-
-n="1r"/>
+<pb n="1r"/>
 <p>
-<pb 
-
-n="1v"/>
-<lb 
-n="1"/>svasti śrīmatāṁ sakal<choice><sic>o</sic><corr>a</corr></choice>-bhuvana-saṁstūyamāna-mānavya-sagotrāṇāṁ <orig>hārītī</orig>-putrāṇāṁ sa<lb 
-n="2" break="no"/>pta-loka-mātr̥bhiḥ sapta-mātr̥bhir abhivarddhitānāṁ<g type="circleLow">.</g> kārttikeyānugraha-parirakṣaṇa-prā<lb 
-n="3" break="no"/>pta-kalyāṇa-paraṁparāṇāṁ bhagavan-nārāyaṇa-prasāda-samāsādita-varāha-lā<lb 
-n="4" break="no"/><space type="binding-hole"/>ñchanekṣaṇa-vaśī-kr̥tāśeṣa-mahībhr̥tāṁ<unclear><g type="circleLow">.</g></unclear> <orig>calikyānāṁ</orig> kulam alaṁkariṣṇ<choice><sic>u</sic><corr>oḥ</corr></choice> <lb 
-n="5"/><space type="binding-hole"/>Aśvamedhāvabhr̥tha-snāna-pavitrī-kr̥ta-gātrasya satyāśraya-śrī<lb 
-n="6" break="no"/>-polekeśi-vallabha-mahārājasya pautraḥ parākramākrānta-vanavā<orig>ś</orig>yādi-para-nr̥<lb 
-n="7" break="no"/>pati-maṇḍala-pratibaddha-viśuddha-kīrtti-patākasya kīrttivarmma-vallabha-mahā<lb 
-n="8" break="no"/>rājasya tanayo naya-vinayādi-guṇa-vibhūty-āśrayaḥ śrī-satyā<pb 
-
-n="2r" break="no"/><lb 
-n="9" break="no"/>śraya-p<orig>ri</orig>thivī-vallabha-mahārājaḥ samara-śata-saṁghaṭṭa-saṁsakta-para-<unclear reason="eccentric_ductus">n</unclear>r̥pati-parā<lb 
-n="10" break="no"/>jayopalabdha-parameśvarāpara-nāmadheyaḥ sarvvān ājñāpayaty</p>
-<p>astu v<unclear>o</unclear> viditaṁ ma<lb 
-n="11" break="no"/>yā vātāpī-nagarīm adhitiṣṭhatātmanaḥ pravarddhamāna-rājyābhiṣeka-saṁvatsare tr̥tī<lb 
-n="12" break="no"/><space type="binding-hole"/>ye śaka-nr̥pati-saṁvatsara-śateṣu catustriṁśā<unclear>dh</unclear>ikeṣu pañcasv at<unclear>ī</unclear>teṣu bhādra<lb 
-n="13" break="no"/><space type="binding-hole"/>padāmāvāsyāyāṁ sūryya-grahaṇa-nimitta<unclear>ṁ</unclear> mātā-pitror ātmanaḥ puṇyā<lb 
-n="14" break="no"/><space type="binding-hole"/>vāptaye vāsiṣṭha-sagotrāya taittirīyāya tagarādhivāsine<lb 
-n="15"/>catur-vvedāyoṁbarakheḍa-kula-nāmadheyāya jyeṣṭhaśarmmaṇe rolku<lb 
-n="16" break="no"/>ṟuky-uttarataḥ kadappa-grāma-dakṣiṇataḥ mākarappir nnāma grāmaḥ
-<pb 
-
-n="2v"/>
-<lb 
-n="17"/>sanidhiḥ sopanidhiḥ sakl̥ptaḥ soparikaraḥ pañca-mahā-yajña-nirvvāpa<lb 
-n="18" break="no"/>ṇārttham udaka-pūrvvakaṁ dattaḥ</p>
-<p>Ayam asmad-dāyo <supplied reason="subaudible">’</supplied>nyair āgāmi-nr̥patibhir anuma<lb 
-n="19" break="no"/>ntavyo varddhanīyaś ca<supplied reason="subaudible">.</supplied> yo vājñānād ajaram amaraṁ vātmānaṁ manyamāno <supplied reason="subaudible">’</supplied>pa<lb 
-n="20" break="no"/><space type="binding-hole"/>haret sa pañca-mahā-pātaka-saṁyukta<orig>ḥ</orig> bahūni kalpa-saha<lb 
-n="21" break="no"/><space type="binding-hole"/>srāṇi narakaṁ vasati<supplied reason="subaudible">.</supplied> yaḥ pālayati tāny eva svarggaṁ vāsati<supplied reason="subaudible">.</supplied>
-<lb 
-n="22"/>Uktañ ca bhagavatā veda-vyāsena vyāsena
+<pb n="1v"/>
+<lb n="1"/>svasti śrīmatāṁ sakal<choice><sic>o</sic><corr>a</corr></choice>-bhuvana-saṁstūyamāna-mānavya-sagotrāṇāṁ <orig>hārītī</orig>-putrāṇāṁ sa<lb n="2" break="no"/>pta-loka-mātr̥bhiḥ sapta-mātr̥bhir abhivarddhitānāṁ<g type="circleLow">.</g> kārttikeyānugraha-parirakṣaṇa-prā<lb n="3" break="no"/>pta-kalyāṇa-paraṁparāṇāṁ bhagavan-nārāyaṇa-prasāda-samāsādita-varāha-lā<lb n="4" break="no"/><space type="binding-hole"/>ñchanekṣaṇa-vaśī-kr̥tāśeṣa-mahībhr̥tāṁ<unclear><g type="circleLow">.</g></unclear> <orig>calikyānāṁ</orig> kulam alaṁkariṣṇ<choice><sic>u</sic><corr>oḥ</corr></choice> <lb n="5"/><space type="binding-hole"/>Aśvamedhāvabhr̥tha-snāna-pavitrī-kr̥ta-gātrasya satyāśraya-śrī<lb n="6" break="no"/>-polekeśi-vallabha-mahārājasya pautraḥ parākramākrānta-vanavā<orig>ś</orig>yādi-para-nr̥<lb n="7" break="no"/>pati-maṇḍala-pratibaddha-viśuddha-kīrtti-patākasya kīrttivarmma-vallabha-mahā<lb n="8" break="no"/>rājasya tanayo naya-vinayādi-guṇa-vibhūty-āśrayaḥ śrī-satyā<pb n="2r" break="no"/><lb n="9" break="no"/>śraya-p<orig>ri</orig>thivī-vallabha-mahārājaḥ samara-śata-saṁghaṭṭa-saṁsakta-para-<unclear reason="eccentric_ductus">n</unclear>r̥pati-parā<lb n="10" break="no"/>jayopalabdha-parameśvarāpara-nāmadheyaḥ sarvvān ājñāpayaty</p>
+<p>astu v<unclear>o</unclear> viditaṁ ma<lb n="11" break="no"/>yā vātāpī-nagarīm adhitiṣṭhatātmanaḥ pravarddhamāna-rājyābhiṣeka-saṁvatsare tr̥tī<lb n="12" break="no"/><space type="binding-hole"/>ye śaka-nr̥pati-saṁvatsara-śateṣu catustriṁśā<unclear>dh</unclear>ikeṣu pañcasv at<unclear>ī</unclear>teṣu bhādra<lb n="13" break="no"/><space type="binding-hole"/>padāmāvāsyāyāṁ sūryya-grahaṇa-nimitta<unclear>ṁ</unclear> mātā-pitror ātmanaḥ puṇyā<lb n="14" break="no"/><space type="binding-hole"/>vāptaye vāsiṣṭha-sagotrāya taittirīyāya tagarādhivāsine<lb n="15"/>catur-vvedāyoṁbarakheḍa-kula-nāmadheyāya jyeṣṭhaśarmmaṇe rolku<lb n="16" break="no"/>ṟuky-uttarataḥ kadappa-grāma-dakṣiṇataḥ mākarappir nnāma grāmaḥ
+<pb n="2v"/>
+<lb n="17"/>sanidhiḥ sopanidhiḥ sakl̥ptaḥ soparikaraḥ pañca-mahā-yajña-nirvvāpa<lb n="18" break="no"/>ṇārttham udaka-pūrvvakaṁ dattaḥ</p>
+<p>Ayam asmad-dāyo <supplied reason="subaudible">’</supplied>nyair āgāmi-nr̥patibhir anuma<lb n="19" break="no"/>ntavyo varddhanīyaś ca<supplied reason="subaudible">.</supplied> yo vājñānād ajaram amaraṁ vātmānaṁ manyamāno <supplied reason="subaudible">’</supplied>pa<lb n="20" break="no"/><space type="binding-hole"/>haret sa pañca-mahā-pātaka-saṁyukta<orig>ḥ</orig> bahūni kalpa-saha<lb n="21" break="no"/><space type="binding-hole"/>srāṇi narakaṁ vasati<supplied reason="subaudible">.</supplied> yaḥ pālayati tāny eva svarggaṁ vāsati<supplied reason="subaudible">.</supplied>
+<lb n="22"/>Uktañ ca bhagavatā veda-vyāsena vyāsena
 </p>
 <lg n="1" met="anuṣṭubh">
    <l n="a">bahubhir vvasudhā bhuktā</l>
-   <l n="b"><lb 
-n="23"/>rājabhis sagarādibhiḥ</l>
+   <l n="b"><lb n="23"/>rājabhis sagarādibhiḥ</l>
    <l n="c">yasya yasya yadā bhūmis</l>
-   <l n="d">tasya tasya <pb 
-
-n="3r"/><lb 
-n="24"/>tadā phala<orig>ṁ</orig></l>
+   <l n="d">tasya tasya <pb n="3r"/><lb n="24"/>tadā phala<orig>ṁ</orig></l>
 </lg>
 <lg n="2" met="anuṣṭubh">
    <l n="a">sva-dattāṁ para-dattāṁ vā</l>
    <l n="b">yatnād rakṣa yudhiṣṭhira</l>
-   <l n="c">mahīṁ mahī<lb 
-n="25" break="no"/>matāṁ śreṣṭha<surplus>ṁ</surplus></l>
+   <l n="c">mahīṁ mahī<lb n="25" break="no"/>matāṁ śreṣṭha<surplus>ṁ</surplus></l>
    <l n="d">dānāc cchreyo <supplied reason="subaudible">’</supplied>nupālana<orig>ṁ</orig></l>
 </lg>
 <lg n="3" met="anuṣṭubh">
    <l n="a">ṣaṣṭim varṣa-sahasrāṇi</l>
-   <l n="b">svargge <lb 
-n="26"/>modati bhūmi-daḥ</l>
+   <l n="b">svargge <lb n="26"/>modati bhūmi-daḥ</l>
    <l n="c">Ācch<choice><sic>a</sic><corr>e</corr></choice>ttā cānumantā ca</l>
    <l n="d">tāny eva narake vaseT</l>
 </lg>
 <lg n="4" met="anuṣṭubh">
-   <l n="a">vindhyā<lb 
-n="27" break="no"/><space type="binding-hole"/>ṭavīṣv atoyāsu</l>
+   <l n="a">vindhyā<lb n="27" break="no"/><space type="binding-hole"/>ṭavīṣv atoyāsu</l>
    <l n="b">śuṣka-koṭara-vāsinaḥ</l>
-   <l n="c">kr̥ṣṇāhayo hi jā<lb 
-n="28" break="no"/>yante</l>
+   <l n="c">kr̥ṣṇāhayo hi jā<lb n="28" break="no"/>yante</l>
    <l n="d">bhūmi-dānaṁ haranti ye<g type="circleHigh">.</g></l>
 </lg>
 <lg n="5" met="indravajrā">
    <l n="a">dattāni yānīha purā narendraiḥ</l>
-   <l n="b">dānāni dha<lb 
-n="29" break="no"/>rmmārttha-yaśas-karāṇi<space/></l>
+   <l n="b">dānāni dha<lb n="29" break="no"/>rmmārttha-yaśas-karāṇi<space/></l>
    <l n="c">nirmālya-vānta-pratimāni tāni<space/></l>
-   <l n="d">ko nāma sā<lb 
-n="30" break="no" style="text-align: center"/>dhuḫ punar ādadīta<surplus>ḥ</surplus><g type="circleHigh">.</g></l>
+   <l n="d">ko nāma sā<lb n="30" break="no" style="text-align: center"/>dhuḫ punar ādadīta<surplus>ḥ</surplus><g type="circleHigh">.</g></l>
 </lg>
 <ab>Iti<g type="dashConvex">.</g>
 </ab>
-<pb 
-
-n="3v"/>
+<pb n="3v"/>
          </div>
          <div type="apparatus">
                <listApp>
