@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Cipḷūṇ plates of Pulakeśin II</title>
+            <respStmt>
+               <resp>EpiDoc encoding</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Berlin</pubPlace>
+            <idno type="filename">CalE06-Chiplun-Pulakesin2</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>Halantas. The halanta T in L8 is a small subscript form with a horizontal line above. L13, slightly reduced, aligned with footline, and has a large horizontal line above it, at or slightly above headline height. L14, also slightly reduced, but is aligned to the headline, and its horizontal line is higher up. L16, is also slightly reduced, aligned to the footline, with a horizontal above, aligned to headline.</p>
+                     <p>Original punctuation. L18. The punctuation mark after ādadīta is indistinct in the scan; if may be a single vertical followed by a single horizontal, but that would be unique. Fleet transliterates it as a double daṇḍa. The mark after mahīyate l19 mark may be a progression of diminishing verticals like that at the very end. The spiral at the end, which Fleet transcribes as om, is a dextrorse spiral starting downward from the centre and ending around 10 o’clock after about one and a half circles. The sign following it seems to be a series of 5 or so progressively shortening verticals.  
+                <!--Other palaeographic observations. --><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+            <summary><p><p/></summary>
+            <handNote xml:id="Pallava00001_hand1"></handNote>
+            <handNote xml:id="Pallava00001_hand2"></handNote>
+           -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_V01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
+         <change who="part:daba" when="2020-03-11" status="draft">Initial encoding of the file</change>
+         <change who="part:daba" when="2020-08-13" status="draft">Updated to template v2, encoded bibliography and commentary</change>
+         <!-- Add a <change> entry for each significant change to the file. -->
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="san-Latn">
+<pb n="1r"/>
+<lg n="1" met="āryā">
+   <l n="ab">
+   <pb n="1v"/>
+   <lb n="1"/>jayati jagatāṁ vidhātus tri-vikkramākkrānta-saka<unclear>la</unclear>-bhuva<unclear cert="low">na</unclear><unclear>s</unclear>ya</l>
+   <l n="cd"><unclear cert="low">na</unclear>ta-<unclear cert="low">na</unclear> <gap reason="illegible" quantity="2" unit="character" precision="low"/> <unclear cert="low">ṇa</unclear> <gap reason="illegible" quantity="4" unit="character" precision="low"/> ṇa-nakhā<unclear>ṁ</unclear>śu-jaṭilaṁ padaṁ viṣṇoḥ
+   </l>
+</lg>
+<p>mānavya-sago<lb n="2" break="no"/>t<unclear>rā</unclear>ṇ<unclear>ā</unclear>ṁ <unclear>hāri</unclear>ti-putrāṇā<supplied reason="omitted">ṁ</supplied> c<orig>i</orig><unclear>lukyā</unclear>n<unclear>ā</unclear>m an<supplied reason="omitted">v</supplied>avāye vātā<orig>b</orig>yāḫ prathama-vidhātur anekāddhvarāvabhr̥tha-snāna-samārdr<choice><sic>i</sic><corr>ī</corr></choice>kr̥ta-puṇya-m<choice><sic>a</sic><corr>ū</corr></choice>rtt<unclear cert="low">eḥ</unclear>
+sarvva<lb n="3" break="no"/>-maṅgalāyatanasya vallabha-nr̥pateẖ k<choice><sic>i</sic><corr>ī</corr></choice><sic>rty</sic>ā yuktasya k<choice><sic>i</sic><corr>ī</corr></choice>rttivarmmaṇaḫ putraḥ samanuṣṭhita-pati-devatā-vrata-kamalālayā-vipula-payo<lb n="4" break="no"/>dhara-vi<choice><sic>p</sic><corr>l</corr></choice>upta-candanālepaḥ surendra-mandira-gata-kinnarāṅgan<unclear>o</unclear>pagīyamāna-vimala-kīrttiḥ sva-radana-kuliśa-vibhinna-ripu-hr̥dayo<lb n="5" break="no"/>dgat<choice><sic>ā</sic><corr>a</corr></choice>-rudhira-dhārā-snapita-mastaka-matta-mātaṅgodaya-parvvata-taruṇa-raviḥ nigr̥hīta-duṣṭa-janaḫ parigr̥hīta-vidvat-sa<choice><sic>h</sic><corr>kh</corr></choice>o <supplied reason="subaudible">’</supplied>nu<lb n="6" break="no"/>gr̥hīta-bhr̥tya-varggaḥ kara-gata-khaḍgottr̥tta-para-nr̥pa-danti-dantotthita-vahni-śikhoddīpita-raṇa-bhūmir vvara-yuvati-nayana-sāyakai<lb n="7" break="no"/>ka-lakṣo vividha-śāstrārttha-tatva-vicāra-kṣama-sūkṣma-buddhiś calukya-kula-tilakaḥ sarvva-sad-guṇāśrayo ripu-daridraś śrī-satyāśrayo nāma<supplied reason="subaudible">.</supplied>
+</p>
+<lg n="2" met="anuṣṭubh">
+   <l n="a"><lb n="8"/>yaḫ padaṁ nyasya ś<choice><sic>o</sic><corr>a</corr></choice>trūṇā<supplied reason="omitted">ṁ</supplied></l>
+   <l n="b">śauryyeṇopari pārtth<choice><sic>a</sic><corr>i</corr></choice>vaḥ</l>
+   <l n="c">prakr̥tyā puṁścalīṁ lakṣmīṁ</l>
+   <l n="d">satī-vratam aśikṣayaT</l>
+</lg>
+<p>sa mahīpatir avaretikā-vi<choice><sic>m</sic><corr>ṣ</corr></choice>aya-vāsinas sa<lb n="9" break="no"/>mājñāpayati yathāyaṁ mama mātulas samadhigatāryya-mārgg<choice><sic>a U</sic><corr>o</corr></choice>nmā<space type="binding-hole"/>rggaḥ sva-vikkrama-kkraya-kkrīta-viśāla-kīrtti-vitāna-naddha-sarvva-digantara<unclear cert="low">ḥ</unclear> <lb n="10"/>sendrakāṇāṁ tilaka-bhūtaḫ parama-māheśvaraś śrī-vallabha-senāna<space type="binding-hole"/>ndarājas <orig>tena rājñā</orig> mātā-pitror ātmanaś ca puṇyopacayārttha<unclear cert="low">ṁ</unclear>
+<pb n="2r"/>
+<lb n="11"/>
+Ātreya-sagotrāya kr̥ṣṇasvāmi-sūnave m<surplus>m</surplus>aheśvarāyeṣṭa-yajñ<unclear cert="low">ā</unclear><space type="binding-hole"/>ya Āmravaṭavaka-grāmo tathā <add place="bottom" rend="mark"><choice><unclear>v</unclear><unclear>c</unclear></choice>ārubennāyāṁ</add> Av<subst><del rend="corrected">ā</del><add place="overstrike">a</add></subst>ñcapalyāṁ vi<unclear cert="low">ṁ</unclear>śati<lb n="12" break="no"/>ś cāṭ<choice><sic>ā</sic><corr>a</corr></choice>-bhaṭa-dūta-rāja-puru<choice><sic>m</sic><corr>ṣ</corr></choice>āṇām apraveśanīyaṁ<space type="binding-hole"/> dvayam etat <orig>prādāT</orig><supplied reason="subaudible">.</supplied>
+</p>
+<lg n="3" met="anuṣṭubh">
+   <l n="a">vidit<choice><sic>a</sic><corr>ā</corr></choice>s santu rājānas</l>
+   <l n="b">sarvv<unclear cert="low">e</unclear> mad-vaṁśa<lb n="13" break="no"/>-saṁbhavāḥ</l>
+   <l n="c">Anye ca pr̥thivī-pālās</l>
+   <l n="d">sāmantāś ca mahītale<g type="dashDouble">.</g></l>
+</lg>
+<lg n="4" met="anuṣṭubh">
+   <l n="a">yaẖ kaścit pr̥thivīpālo</l>
+   <l n="b">bhogam asya nivārayeT</l>
+   <l n="c"><lb n="14"/>mahatāṁ pātakānān tu</l>
+   <l n="d">karttus tasya phalaṁ bhaveT</l>
+</lg>
+<p>Uktaṁ ca<unclear>|</unclear></p>
+<lg n="5" met="anuṣṭubh">
+   <l n="a">bahubhir vvasudhā bhuktā</l>
+   <l n="b">rājabhis sagarādibhiḥ</l>
+   <l n="c">yasya <lb n="15"/>yasya yadā bhūmis</l>
+   <l n="d">tasya tadā phalaṁ||<g type="dotMid">.</g></l>
+</lg>
+<lg n="6" met="anuṣṭubh">
+   <l n="a">ṣaṣṭiṁ varṣa-sahasrāṇi</l>
+   <l n="b">svargge modati bhūmi-daḥ</l>
+   <l n="c">Ācchettā cānumant<choice><sic>a</sic><corr>ā</corr></choice> ca</l>
+   <l n="d"><lb n="16"/>tāny eva narake vaseT</l>
+</lg>
+<lg n="7" met="anuṣṭubh">
+   <l n="a">pūrvva-dattāṁ dvijātibhyo</l>
+   <l n="b">yatnād rakṣa yudhiṣṭhira<surplus>ḥ</surplus></l>
+   <l n="c">mahīṁ mahīmat<choice><sic>a</sic><corr>ā</corr></choice>ṁ śreṣṭha</l>
+   <l n="d">dānāc chreyo  <supplied reason="subaudible">’</supplied>nupālanaṁ</l>
+</lg>
+<lg n="8" met="anuṣṭubh">
+   <l n="a"><lb n="17"/>sva-dattāṁ para-dattāṁ vā</l>
+   <l n="b">yo hareta vasundharāṁ <space/></l>
+   <l n="c">śva-viṣṭhāyāṁ kr̥mir <choice><sic>v</sic><corr>b</corr></choice>bhūtvā</l>
+   <l n="d">pitr̥bhis saha pacyate<g type="dashDouble">.</g></l>
+</lg>
+<lg n="9" met="anuṣṭubh">
+   <l n="a">yā<choice><sic>hi</sic><corr>nī</corr></choice>ha dattāni purā <lb n="18"/>narendrair</l>
+   <l n="b"><orig>d</orig>ānāni dharmmārttha-yaśas-karāṇi<g type="dashDouble">.</g></l>
+   <l n="c">nirbbhukta-mālya-pratimāni tāni</l>
+   <l n="d">ko nāma sādhuḫ punar ādadīta<unclear>|<g type="dashPlain">.</g></unclear></l>
+</lg>
+<lg n="10" met="anuṣṭubh">
+   <l n="a"><lb n="19"/><unclear>ph</unclear>āla-k<unclear>r̥</unclear>ṣṭāṁ māhī<supplied reason="omitted">ṁ</supplied> dadyāt</l>
+   <l n="b">sab<choice><sic>i</sic><corr>ī</corr></choice>jāṁ sasya-mā<surplus>ṁ</surplus>linīm</l>
+   <l n="b">yāvat s<choice><sic>u</sic><corr>ū</corr></choice>ryya-kr̥tā lokās</l>
+   <l n="d">tāva<supplied reason="omitted">t</supplied> svargge mahīyate<unclear>||</unclear></l>
+</lg>
+<p><lb n="20"/><unclear>s</unclear>vasty astu lekhaka-vācaka-śrotr̥bhyaḥ<unclear>||</unclear> <g type="spiralR"/><g type="gomutraFinalBars"/></p>
+<pb n="2v"/>
+         </div>
+
+
+
+
+         <div type="apparatus">
+               <listApp>
+                  <app loc="1">
+                     <lem><unclear cert="low">na</unclear>ta-<unclear cert="low">na</unclear> <gap reason="illegible" quantity="2" unit="character" precision="low"/> <unclear cert="low">ṇa</unclear> <gap reason="illegible" quantity="4" unit="character" precision="low"/> ṇa-</lem>
+                     <rdg source="bib:Fleet1894-1895_02">nata-na <seg met="---"><gap reason="illegible" quantity="3" unit="character"/></seg> ṇa <seg met="----"><gap reason="illegible" quantity="4" unit="character"/></seg> ṇa-</rdg>
+                     <note>The gap as a whole is more likely only 7 characters long, and if Fleet’s <foreign>ṇa</foreign> in the middle of this gap is where I think I see it in the rubbing (straight above <foreign>tu</foreign> in <foreign>vidhātur</foreign>), then there are more likely to be only 2, not 3 lost characters before it. I thus prefer to mark up lacunae of approximate length and unknown prosody, since the single long syllable required could be in multiple places. The last syllables of the gap may be tentatively restored as <foreign>cara</foreign> to produce <foreign>caraṇa-nakha</foreign>, which may have also been Fleet’s opinion, since he has “toenails” in his translation.</note>
+                  </app>
+                  <app loc="2">
+                     <lem>-m<choice><sic>a</sic><corr>ū</corr></choice>rtt<unclear cert="low">eḥ</unclear></lem>
+                     <rdg source="bib:Fleet1894-1895_02">-<choice><sic>matti|</sic><corr>mūrtteḥ</corr></choice></rdg>
+                     <note>What Fleet reads as a <foreign>daṇḍa</foreign> could, at least on the basis of the scanned estampage, be a <foreign>visarga</foreign>. The mark atop <foreign>tt</foreign> looks more like a <foreign>repha</foreign> (with a small but distinct headmark of its own) and an <foreign>e</foreign> marker on top of that, than an <foreign>i</foreign> marker.</note>
+                  </app>
+                  <!-- DB L3. Fleet: kīrtyā and kīrttivarmmaṇaḫ. Both these ī-s seem short to me. Fleet further emends kīrtyā to kīrttyā, but I’m averse to such intervention and only add sic markup. I think this needn't be recorded in the apparatus.  -->
+                  <!-- DB L3. Fleet reads and deletes a superfluous anusvāra: -vrataṁ kamalālayā etc. The scan only shows a small dot that may well be noise. -->
+                  <app loc="4">
+                     <lem>°āṅgan<unclear>o</unclear>pagīyamāna-</lem>
+                     <rdg source="bib:Fleet1894-1895_02">°āṅgan<choice><sic>ā</sic><corr>o</corr></choice>pagīyamāna-</rdg>
+                     <note>Here too I prefer to give the engraver the benefit of doubt: it is plausible to assume that an <foreign>o</foreign> <foreign>mātrā</foreign> was present, and its left arm is mostly obliterated.</note>
+                  </app>
+                  <app loc="8">
+                     <lem source="bib:Fleet1894-1895_02"> ś<choice><sic>o</sic><corr>a</corr></choice>trūṇā<supplied reason="omitted">ṁ</supplied></lem>
+                     <note>Perhaps a partial eyeskip for <foreign>śauryyeṇa</foreign>.</note>
+                  </app>
+                  <app loc="9">
+                     <lem source="bib:Fleet1894-1895_02">-mārgg<choice><sic>a U</sic><corr>o</corr></choice>nmā<space type="binding-hole"/>rggaḥ</lem>
+                     <note>I retain Fleet’s emendation because I see no way of construing <foreign>unmārggaḥ</foreign> as a separate adjective to Senānanda. Still, it is a strange mistake to make. However, <foreign>hr̥dayodgatā rudhira-dhārā</foreign> (for <foreign>hr̥dayodgata-rudhira-dhārā</foreign>) may be a parallel to it, both indicating that the scribe had some knowledge of Sanskrit, but did not fully understand the text.</note>
+                  </app>
+                 <app loc="11">
+                    <lem>-sūnave m<surplus>m</surplus>aheśvarāye°</lem>
+                    <note>It seems possible that this is a correction from <foreign>sunor mmaheśvarāye°</foreign>. Neither an <foreign>o</foreign> nor a <foreign>repha</foreign> can be made out in the scan, but <foreign>ve</foreign> is squeezed into a very small space, no larger than what may have been left blank initially between <foreign>na</foreign> and <foreign>mma</foreign>.</note>
+                 </app>
+                  <app loc="11">
+                     <lem><add place="bottom" rend="mark"><choice><unclear>v</unclear><unclear>c</unclear></choice>ārubennāyāṁ</add></lem>
+                     <note>The locus of the insertion is marked by a large <foreign>kākapada</foreign> shaped like a cross or dagger. The text to be is inserted is in the blank space after the end of the last line at the bottom of the plate. The first character is completely indistinct in the scan, only its <foreign>ā</foreign> <foreign>mātrā</foreign> and headmark are visible. Fleet’s primary reading is <foreign>vā</foreign>, with <foreign>cā</foreign> noted in brackets with a question mark.</note>
+                  </app>
+                  <app loc="13">
+                     <lem>mahītale<g type="dashDouble">.</g></lem>
+                     <rdg source="bib:Fleet1894-1895_02">mahītale<surplus>ḥ</surplus><supplied reason="subaudible">.</supplied></rdg>
+                     <note>The sign after <foreign>le</foreign> is a short double horizontal, quite unlike most <foreign>visarga</foreign>s up to this point. However, the definite punctuation mark after <foreign>phalaṁ</foreign> in l15 is a double vertical, and some visargas on this second plate are similar: that of <foreign>ādibhiḥ</foreign> in l14 is neither a proper double circle, nor a double dash; that after <foreign>bhūmidaḥ</foreign> in l15 is a double dash. I still prefer to read this one as a punctuation mark.</note>
+                  </app>
+                  <app loc="16">
+                     <lem source="bib:Fleet1894-1895_02">yudhiṣṭhira<surplus>ḥ</surplus></lem>
+                     <note>Here I agree with Fleet about the presence of a superfluous <foreign>visarga</foreign> (rather than a punctuation mark). The rubbing is unclear, but the sign seems to be a double circle.</note>
+                  </app>
+                  <app loc="17">
+                     <lem>pacyate<g type="dashDouble">.</g></lem>
+                     <rdg source="bib:Fleet1894-1895_02">pacyate<surplus>ḥ</surplus><supplied reason="subaudible">.</supplied></rdg>
+                     <note>See note to line 13 above.</note>
+                  </app>
+                  <app loc="18">
+                     <lem>-karāṇi<g type="dashDouble">.</g></lem>
+                     <rdg source="bib:Fleet1894-1895_02">karāṇi</rdg>
+                     <note>Here Fleet reads no <foreign>visarga</foreign>, though a double dash is definitely present.</note>
+                  </app>
+                  <app loc="19">
+                     <lem><unclear>ph</unclear>āla-</lem>
+                     <rdg source="bib:Fleet1894-1895_02"><choice><sic>ḍh</sic><corr>ph</corr></choice>āla</rdg>
+                     <note>Fleet suggests emending to <foreign>phāla</foreign> or <foreign>hāla</foreign>. The character is unclear in the scan, but I think <foreign>ḍhā</foreign> and <foreign>phā</foreign> would be very hard to distinguish even in a clear facsimile, so I show this as an unclear <foreign>phā</foreign>, giving the engraver the benefit of the doubt. An originally engraved <foreign>hā</foreign> seems unlikely.</note>
+                  </app>
+                  
+                  
+                  
+               </listApp>
+         </div>
+         
+         
+         
+         <div type="translation" source="bib:Fleet1894-1895_02">
+<p rend="stanza" n="1">Victorious is the footprint, interspersed with the brightness of the toe-nails … … … bowed down, of <supplied reason="explanation">the god</supplied> Viṣṇu, the creator of the <supplied reason="explanation">three</supplied> worlds, who traversed the whole universe in three strides!</p>
+            <p n="1-3">— In the lineage of the <persName>Calukyas</persName>, who are of the <persName>Mānavya</persName> <foreign>gotra</foreign> <supplied reason="subaudible">and</supplied> are <persName>Hāritiputras</persName>,— of <persName>Kīrtivarman</persName> <supplied reason="explanation">I.</supplied>, the first maker of <placeName>Vātāpī</placeName>, whose pious form was thoroughly well moistened by ablutions performed after celebrating many sacrifices, who was the abode of all auspiciousness, who was the king of favourites, <supplied reason="subaudible">and</supplied> who was endowed with fame, the son <supplied reason="subaudible">is</supplied>—</p>
+            <p n="3-7">— That ornament of the family of the <persName>Calukyas</persName>, that asylum of all good qualities, that person who has but few foes, the glorious <persName>Satyāśraya</persName>-<supplied reason="explanation">Pulikeśin II</supplied> by name, whose besmearing with sandal-wood oil is rubbed off by <supplied reason="explanation">the clinging of</supplied> the bulky breasts of the goddess of fortune who practises <supplied reason="explanation">towards him</supplied> the vow of treating a husband like a god; whose pure fame is belong<note resp="part:daba">This must be a typo for <q>being</q>.</note> sung by the women of the Kinnaras in the hall of <supplied reason="explanation">Indra</supplied> the lord of the gods; who is a very sun just risen above the mountain of dawn which is <supplied reason="subaudible">his</supplied> elephant, infuriated with rut, the head of which is bathed in the trickling stream of blood that flows forth from the hearts of the enemies which are cleft open by the thunderbold that is its tusk; who punishes wicked people; who receives with hospitality learned people and friends; who confers favours upon servants; who has lit up the field of battle with the flames of the fire that rises from the tusks of the elephants of the hostile kings which are split by the sword that is held in <supplied reason="subaudible">his</supplied> hand; who is the sole aim of the arrows which are the eyes of nice young women; whose keen intellect is fit to examine the essence of the meaning of various Śāstras;</p>
+            <p rend="stanza" n="2"><supplied reason="subaudible">and</supplied> who, <supplied reason="explanation">indeed</supplied> a king, having bravely planted <supplied reason="subaudible">his</supplied> footstep over <supplied reason="subaudible">his</supplied> enemies, has taught the goddess of fortune, who is fickle by nature, the observances of a true and faithful wife.</p>
+            <p n="8-12">— He, the king, issues a command to the inhabitants of the <placeName>Averetikā viṣaya</placeName> to this effect:—“My maternal uncle, the ornament of the Sendrakas, the most devout worshipper of <supplied reason="explanation">the god</supplied> <persName>Maheśvara</persName>, <persName>Śrīvallabha-Senānandarāja</persName>, who has acquired <supplied reason="explanation">a knowledge of all</supplied> the proper and improper practices of noble people, <supplied reason="subaudible">and</supplied> who has covered all the spaces between the quarters of the compass with the canopy of <supplied reason="subaudible">his</supplied> fame that was purchased by the price of his valour,—he, the king, in order to increase the religious merit of <supplied reason="subaudible">his</supplied> parents and of himself, has given to <persName>Maheśvara</persName>, the son of <persName>Kr̥ṣṇasvāmin</persName>, of the <persName>Ātreya</persName> <foreign>gotra</foreign>, who has performed sacrifices, these two things, free from the right of entry by the irregular and regular troops, by messengers, and by the king’s servants,—<supplied reason="subaudible">viz.</supplied> the village of <placeName>Āmravaṭavaka</placeName>, and twenty at <supplied reason="explanation">the village of</supplied> <placeName>Avañcapalī</placeName> on the <supplied reason="explanation">river</supplied> <placeName>Vārubennā</placeName>.<note>Or, perhaps, Cārubennā. — The text indicates an allotment of land, measured by twenty <foreign>nivartana</foreign>s or some other measure so well known that it was thought unnecessary to specify it. [DB: I do not know why Fleet is so sure that this is a river.]</note></p>
+            <p rend="stanza" n="3-4">Let all kings, born in my race, and other rulers of the earth, and <supplied reason="explanation">all</supplied> feudatory chiefs in the world, be made to know <supplied reason="subaudible">that</supplied> any ruler of the earth who may obstruct the enjoyment of this <supplied reason="explanation">grant</supplied>,—to him will attach the penalty of one who commits the five sins.”<note resp="part:daba">Fleet probably meant “who commits (the five) great sins” here. It is not like him to translate so loosely.</note></p>
+            <p n="14">—And it has been said:—</p>
+            <p rend="stanza" n="5">The earth has been enjoyed by many kings, commencing with Sagara; whosoever at any time possesses the earth, to him belongs, at that time, the reward <supplied reason="explanation">of this grant that is now made, if he continue it</supplied>!</p>
+            <p rend="stanza" n="6">The giver of land enjoys happiness in heaven for sixty thousand years; <supplied reason="subaudible">but</supplied> the confiscator <supplied reason="explanation">of a grant</supplied>, and he who assents to <supplied reason="explanation">an act of confiscation</supplied>, shall dwell for the same number of years in hell!</p>
+            <p rend="stanza" n="7">O Yudhiṣṭhira, best of kings, carefully preserve land that has previously been given to the twice-born; <supplied reason="explanation">verily</supplied> the preservation <supplied reason="explanation">of a grant</supplied> is more meritorious than making a grant!</p>
+            <p rend="stanza" n="8">Whosoever confiscates land that has been given, whether by himself or by another,—he is born as a worm in ordure,<note>Fleet is lax again; the text has <foreign>śvaviṣṭhāyām</foreign>, not <foreign>sa viṣṭhāyāṁ</foreign>.</note> and is consumed together with <supplied reason="subaudible">his</supplied> deceased ancestors!</p>
+            <p rend="stanza" n="9">Those grants, productive of religion and wealth and fame, which have been formerly given here <supplied reason="explanation">on earth</supplied> by <supplied reason="explanation">previous</supplied> kings, <supplied reason="subaudible">are</supplied> like worn-out garlands; verily, what good man would take them back again?</p>
+            <p rend="stanza" n="10">He who grants land, <supplied reason="explanation">whether simply</supplied> ploughed, <supplied reason="explanation">or</supplied> planted with seed, <supplied reason="explanation">or</supplied> full of crops,—he is treated with honour in heaven, for as long as the worlds, created by the sun, endure!</p>
+            <p n="20">—Let prosperity attend the writer, the reader, and the hearers! Om!</p>
+           </div>
+         
+         
+         <div type="translation" xml:lang="fra" source="bib:Estienne-Monod2008_01">
+<p rend="stanza" n="1">Il est le créatuer : vainqueur est le pied de Viṣṇu, que couronnent les rayons émanant de ses ongles, lui qui a traversé l’univers entier en trois pas * * *</p>
+            <p n="1-7">Appartenant à la lignée des Calukya, du gotra de Manu, fils de Hāriti, il est le fils de Kīrtivarman, - premier fondateur de Vātāpī, dont le corps<note>ou si l’on retient la leçon <foreign>mateḥ</foreign> : « dont la pensée ». Mais ceci est peu vraisemblable car dans le corpus on rencontre à cette place <foreign>vapus-</foreign>.</note> saint fut lavé par le bain purificatoire des nombreux sacrifices, temple de tous les bons augures, seigneur favori, pourvu de gloire.
+De Kamalālayā, qui a (envers lui) accompli le vœu d’être une épouse fidèle, les seins charnus ont essuyé l’onguent de santal (étalé) sur sa poitrine. Sa gloire immaculée s’unissait<note resp="part:daba">PEM reads <foreign>kinnarāṅgaṇā-patīyamāna</foreign> in line 4. The reading is clearly wrong, but it seems to be the basis of this translation.</note> aux femmes des Kinnara venues dans le pavillon du roi des dieux, soleil levant sur cette montagne d’orient qu’est son éléphant furieux, dont la tête est baignée par les flots de sang s’écoulant de la poitrine des ennemis, éventrée par les haches que sont ses défenses. Il réprime les mauvais hommes, accueille les savants et les amis, gratifie l’armée des serviteurs. Tranchées par l’épée que tient sa main, les défenses des éléphants ennemis émettent des flammes dont s’embrase le champ de bataille. Unique cible des flèches que sont les yeux des belles jeunes femmes, lui dont l’esprit subtil est apte à examiner l’essence de la signification des différentes sciences, ornement de la lignée des Calukya, refuge de toutes les saintes vertues, dépourvu d’ennemi, portant le nom illustre de Satyāśraya,
+</p>
+            <p rend="stanza" n="2">ce roi, qui posa le pied avec bravoure sur ses ennemis, le roi apprit à Lakṣmī, frivole par sa nature, à être une épouse fidèle et dévouée.</p>
+            <p n="8-12">Ce maître de la terre ordonne aux habitants du viṣaya d’Avaretikā ceci : mon oncle maternel que voici, ayant compris ce que sont le bon et le mauvais chemins pour les hommes nobles, ayant ceint tous les horizons du dais qu’est sa vaste gloire, achetée au prix de son propre courage, être qui est l’ornement des Sendraka, grand dévôt de Maheśvara, l’illustreVallabha Senānandarājas, ce roi,<note>anacoluthe : le donataire est indiqué au nominatif puis à l’instrumental, puis l’objet est au nominatif mais le verbe transitif est à la voix active.Cette erreur de construction semble démontrer que l’auteur de la praśasti est différent, et plus instruit en sanskrit, que celui de la partie opératoire.</note> pour accroître les mérites de sa mère et de son père, ainsi que les siens, a donné au fils de Kr̥ṣṇasvāmi, du gotra des Ātreya, à Maheśvara, qui accomplit des sacrifices, le village d’Āmravaṭavaka ainsi que vingt (arpents de terre) dans Avañcapali sur les bord de la Vārubennā,<note>Le texte est elliptique, le nombre <foreign>viṁśatiś</foreign> évoque sans doute une mesure connue du rédacteur (N. D. T.). Selon Fleet, Avañcapalī est un village.</note> deux biens dont l’entrée est interdite aux troupes régulières et irrégulières, aux messagers et aux serviteurs du roi.
+</p>
+            <p rend="stanza" n="3">Qu’on fasse savoir à tous les rois nés dans ma lignée
+et aux autres protecteurs de la terre, ainsi qu’aux feudataires dans le monde : </p>
+            <p rend="stanza" n="4">quel que soit le roi qui empêche la jouissance de ceci
+il recevra le fruit de celui qui commet les cinq crimes fondamentaux.</p>
+            <p n="14">Et on dit :</p>
+            <p rend="stanza" n="5">beaucoup de rois ont joui de la terre, Sagara le premier ;
+celui qui possède la terre en possède le fruit.
+</p>
+            <p rend="stanza" n="6">Celui qui donne une terre vit heureux dans le ciel pendant six mille années,
+celui qui l’interrompt et celui qui le permet vivent dans l’enfer pendant le même nombre d’année.
+</p>
+            <p rend="stanza" n="7">Autrefois donnée aux deux-fois-nés, ô Yudhiṣṭhira, protège avec soin cette terre
+ô le meilleur des possesseurs de la terre, la préservation d’une terre est plus méritoire que le don ! 
+</p>
+            <p rend="stanza" n="8">Qu’elle soit donnée par lui ou par un autre, celui qui prend une terre
+renaît ver de terre dans les excréments et se consume avec ses ancêtres.
+</p>
+            <p rend="stanza" n="9">Autrefois en ce monde des rois firent des dons, qui engendrent dharma, artha et gloire,
+semblables à des guirlandes usées, quel homme de bien s’en emparerait ?
+</p>
+            <p rend="stanza" n="10">Celui qui donne une terre labourée, ensemencée et couverte de céréales,
+aussi longtemps que les mondes créés par le soleil, est honoré dans le ciel.
+</p>
+            <p n="20">Prospérité aux graveurs, récitants et auditeurs<note>Mention très rare et très intéressante qui prouverait que les inscriptions étaient lues à haute voix. On trouve la même mention dans l’inscription n° 3 sur rocher de Pulakeśin II.</note> ! om !</p>
+         </div>
+
+
+         <div type="commentary">
+<p n="1">Fleet shows all transliterated characters as clear and present; I’m marking up unclear and restoration on the basis of the scanned rubbing, which is quite poor. More may be legible in the original rubbing.</p>
+<p n="6">PEM on -ottr̥tta: Cette forme de l’adjectif verbal de TR̥D- n’est pas recensée, la forme attendue est tr̥ṇṇa.</p>
+<p n="10">Fleet: emend tena rājñā to sa rājā OR emend prādāt (l12) to pradattam. I choose not to make either emendation in the text, but indeed, one or the other is required to correct the syntax.
+         </p></div>
+
+         
+         <div type="bibliography">
+  <!--bibliography encoded as per section §9.4 -->
+  <!-- NB: you are encouraged to experiment with encoding bibliography to the extent you have the bibliographic data available, but it is not mandatory at this stage, because our bibliographic data are normally assembled along with other metadata in spreadsheets and will be imported from there into our xml files by a semi-automated process at a later stage. -->
+           <p>Edited by J. F. Fleet (<bibl rend="omitname"><ptr target="bib:Fleet1894-1895_02"/></bibl>) with a translation and inked estampages. Fleet says the plates were once edited by Bhagwanlal Indraji, whose paper on them was sent to the BBRAS and mislaid. Fleet stumbled on the original plates in 1889 in the library of the BBRAS and re-edited them.<note>Incidentally, this means that EI3, theoretically 1894-95, was published no sooner than 1889.</note> The present edition by Dániel Balogh is based on a collation of Fleet’s edition with the published facsimile.</p>
+           <listBibl type="primary">
+             <bibl n="JFF"><ptr target="bib:Fleet1894-1895_02"/></bibl>
+           </listBibl>
+           <listBibl type="secondary">
+             <bibl/><!-- one <bibl/> per item of secondary bibliography -->
+           </listBibl>
+        </div>
+      </body>
+  </text>
+</TEI>
