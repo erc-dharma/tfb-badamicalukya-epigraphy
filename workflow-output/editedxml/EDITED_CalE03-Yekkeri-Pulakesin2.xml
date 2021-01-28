@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
    <teiHeader>
       <fileDesc>
@@ -149,7 +152,7 @@ kr̥ṣ<choice><orig>n</orig><reg>ṇ</reg></choice>e harasena-mātā-pitro<supp
                   </app>
                   <app loc="A8">
                      <lem source="bib:Fleet1898-1899_01">saṁvatsarā <gap reason="illegible" quantity="1" unit="character" precision="low"/> <num value="6"><unclear>6</unclear></num></lem>
-                     <note>Fleet <bibl rend="omitname"><ptr target="Fleet1898-1899_01"/><citedRange>6-7 n. 3</citedRange></bibl> discusses at length the numeral he reads as 6, saying it looks like 8, but since we have a definite 8 above that looks different, it must be 6. The facsimile is wholly indistinct. In his commentary he suggests <foreign>ṇi</foreign> or <foreign>ṇāṁ</foreign> for the lacuna preceding the numeral, but also notes that another numeral representing tens may have been here.</note>
+                     <note>Fleet <bibl rend="omitname"><ptr target="bib:Fleet1898-1899_01"/><citedRange>6-7 n. 3</citedRange></bibl> discusses at length the numeral he reads as 6, saying it looks like 8, but since we have a definite 8 above that looks different, it must be 6. The facsimile is wholly indistinct. In his commentary he suggests <foreign>ṇi</foreign> or <foreign>ṇāṁ</foreign> for the lacuna preceding the numeral, but also notes that another numeral representing tens may have been here.</note>
                   </app>
                   <app loc="A9">
                      <lem source="bib:Fleet1898-1899_01">puṁṇyaṁ</lem>
