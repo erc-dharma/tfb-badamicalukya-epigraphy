@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
    <teiHeader>
       <fileDesc>
@@ -94,46 +97,28 @@
          <div type="edition" xml:lang="san-Latn">
 <p>
 <milestone type="pagelike" unit="zone" n="A"/>
-<lb 
-n="A1"/><g type="indistinct"/> svasti<supplied reason="subaudible">.</supplied> Anuruddha-<choice><sic>ṣ</sic><corr>d</corr></choice>ur<choice><sic>ī</sic><corr>i</corr></choice>todita-n<orig>ru</orig>pa-va<orig>ṁ</orig>ṅśa-prasūta sva-va<orig>ṁ</orig>ṅśa-l<surplus>l</surplus>alāma-bhūta dakṣiṇāpatha<lb 
-n="A2" break="no"/>-p<orig>ri</orig>thivyā<supplied reason="omitted">ḥ</supplied> svāmī catur-udadhi-mekhalopārjjita-rājya-śrī pratāpāt<surplus>t</surplus>iśayopanata<surplus><g type="dotDouble">.</g>||</surplus><lb 
-n="A3" break="no"/>-samagra-sāma<orig>ṁ</orig>nta-ma<orig>ṁ</orig>ṇḍala p<orig>ri</orig>thivyām apratiratha śrīmā<orig>ṁ</orig> satyāśraya-pulekeśi-vallabha<lb 
-n="A4" break="no"/>-mahārāja-rājye varttamāne likhitam iti<supplied reason="subaudible">.</supplied></p>
-<p>benīre bhagavato mahādevasya nivarttanāni <lb 
-n="A5"/>catvāri <num value="4">4</num><g type="dotDouble">.</g>||
+<lb n="A1"/><g type="indistinct"/> svasti<supplied reason="subaudible">.</supplied> Anuruddha-<choice><sic>ṣ</sic><corr>d</corr></choice>ur<choice><sic>ī</sic><corr>i</corr></choice>todita-n<orig>ru</orig>pa-va<orig>ṁ</orig>ṅśa-prasūta sva-va<orig>ṁ</orig>ṅśa-l<surplus>l</surplus>alāma-bhūta dakṣiṇāpatha<lb n="A2" break="no"/>-p<orig>ri</orig>thivyā<supplied reason="omitted">ḥ</supplied> svāmī catur-udadhi-mekhalopārjjita-rājya-śrī pratāpāt<surplus>t</surplus>iśayopanata<surplus><g type="dotDouble">.</g>||</surplus><lb n="A3" break="no"/>-samagra-sāma<orig>ṁ</orig>nta-ma<orig>ṁ</orig>ṇḍala p<orig>ri</orig>thivyām apratiratha śrīmā<orig>ṁ</orig> satyāśraya-pulekeśi-vallabha<lb n="A4" break="no"/>-mahārāja-rājye varttamāne likhitam iti<supplied reason="subaudible">.</supplied></p>
+<p>benīre bhagavato mahādevasya nivarttanāni <lb n="A5"/>catvāri <num value="4">4</num><g type="dotDouble">.</g>||
 dhuti-pure nivarttanāni Aṣṭa <num value="8">8</num><g type="dotDouble">.</g>||
 Āgariya-pure niva<unclear>rttanā</unclear>ni pa<orig>ṁ</orig>ñca <num value="5">5</num>
-<lb 
-n="A6"/>panasa-vr̥kṣa pa<orig>ṁ</orig>ñca <g type="dotDouble">.</g>||
-kr̥ṣ<choice><orig>n</orig><reg>ṇ</reg></choice>e harasena-mātā-pitro<supplied reason="omitted">ḥ</supplied> pu<orig>ṁ</orig>ṇyopacayāya <unclear>de</unclear>va<unclear>ro</unclear>laka<lb 
-n="A7" break="no"/>-<orig>bhūmyāṁś</orig> ca nivarttanāni pa<orig><unclear>ṁ</unclear></orig>ñcāśat <num value="50"><g type="numeral">50</g></num>|| vinīta-vidagdha-vaiśikācāryyeṇa sthāpitā <gap reason="illegible" quantity="1" unit="character" precision="low"/>ghitā<supplied reason="subaudible">.</supplied></p>
-<p><lb 
-n="A8"/>kārttikasya <orig>pūnnimāsāṁ</orig> likhitā praśastīti|| saṁvatsarā <gap reason="illegible" quantity="1" unit="character" precision="low"/> <num value="6"><unclear>6</unclear></num> rājya Iti<supplied reason="subaudible">.</supplied> <lb 
-n="A9"/>Īś<unclear cert="low">ā</unclear>nena likhitā<supplied reason="subaudible">.</supplied> yad atra pu<orig>ṁ</orig>ṇyaṁ <unclear cert="low">ta</unclear>d bha<add place="below">va</add>tu <gap reason="illegible" quantity="6" unit="character" precision="low"/>
-<lb 
-n="A10" break="no"/>gaṇe<supplied reason="subaudible">.</supplied>
+<lb n="A6"/>panasa-vr̥kṣa pa<orig>ṁ</orig>ñca <g type="dotDouble">.</g>||
+kr̥ṣ<choice><orig>n</orig><reg>ṇ</reg></choice>e harasena-mātā-pitro<supplied reason="omitted">ḥ</supplied> pu<orig>ṁ</orig>ṇyopacayāya <unclear>de</unclear>va<unclear>ro</unclear>laka<lb n="A7" break="no"/>-<orig>bhūmyāṁś</orig> ca nivarttanāni pa<orig><unclear>ṁ</unclear></orig>ñcāśat <num value="50"><g type="numeral">50</g></num>|| vinīta-vidagdha-vaiśikācāryyeṇa sthāpitā <gap reason="illegible" quantity="1" unit="character" precision="low"/>ghitā<supplied reason="subaudible">.</supplied></p>
+<p><lb n="A8"/>kārttikasya <orig>pūnnimāsāṁ</orig> likhitā praśastīti|| saṁvatsarā <gap reason="illegible" quantity="1" unit="character" precision="low"/> <num value="6"><unclear>6</unclear></num> rājya Iti<supplied reason="subaudible">.</supplied> <lb n="A9"/>Īś<unclear cert="low">ā</unclear>nena likhitā<supplied reason="subaudible">.</supplied> yad atra pu<orig>ṁ</orig>ṇyaṁ <unclear cert="low">ta</unclear>d bha<add place="below">va</add>tu <gap reason="illegible" quantity="6" unit="character" precision="low"/>
+<lb n="A10" break="no"/>gaṇe<supplied reason="subaudible">.</supplied>
 </p>
 
 <milestone type="pagelike" unit="zone" n="B"/>
 <lg n="1" met="anuṣṭubh">
-   <l n="a"><lb 
-n="B1"/><unclear>ba</unclear>hubhir vvasudhā bhuktā</l>
-   <l n="b"><lb 
-n="B2"/><gap reason="illegible" quantity="2" unit="character"/>na sagarādibhi<supplied reason="omitted">ḥ</supplied></l>
-   <l n="c"><lb 
-n="B3"/> <unclear>yas</unclear>y<unclear>a</unclear> yasya yadā bhūmi<lb 
-n="B4" break="no"/>s</l>
+   <l n="a"><lb n="B1"/><unclear>ba</unclear>hubhir vvasudhā bhuktā</l>
+   <l n="b"><lb n="B2"/><gap reason="illegible" quantity="2" unit="character"/>na sagarādibhi<supplied reason="omitted">ḥ</supplied></l>
+   <l n="c"><lb n="B3"/> <unclear>yas</unclear>y<unclear>a</unclear> yasya yadā bhūmi<lb n="B4" break="no"/>s</l>
    <l n="d">tasya tasya tadā phalaṁ</l>
 </lg>
 <lg n="2" met="anuṣṭubh">
-   <l n="a"><lb 
-n="B5"/>sva-dattāṁ para-<unclear>dat</unclear>t<unclear>āṁ</unclear> vā</l>
-   <l n="b"><lb 
-n="B6"/>yo hareta va<unclear>su</unclear><orig>ṁ</orig>ndharāṁ</l>
-   <l n="c"><lb 
-n="B7"/>ṣaṣṭi-varṣa-sa<unclear>hasrā</unclear>ṇi</l>
-   <l n="d"><lb 
-n="B8"/>narake paripacyate</l>
+   <l n="a"><lb n="B5"/>sva-dattāṁ para-<unclear>dat</unclear>t<unclear>āṁ</unclear> vā</l>
+   <l n="b"><lb n="B6"/>yo hareta va<unclear>su</unclear><orig>ṁ</orig>ndharāṁ</l>
+   <l n="c"><lb n="B7"/>ṣaṣṭi-varṣa-sa<unclear>hasrā</unclear>ṇi</l>
+   <l n="d"><lb n="B8"/>narake paripacyate</l>
 </lg>
 <p>s<unclear>v</unclear>asty a<unclear>stu le</unclear>khaka-vācakasya
 </p>
@@ -167,7 +152,7 @@ n="B8"/>narake paripacyate</l>
                   </app>
                   <app loc="A8">
                      <lem source="bib:Fleet1898-1899_01">saṁvatsarā <gap reason="illegible" quantity="1" unit="character" precision="low"/> <num value="6"><unclear>6</unclear></num></lem>
-                     <note>Fleet <bibl rend="omitname"><ptr target="Fleet1898-1899_01"/><citedRange>6-7 n. 3</citedRange></bibl> discusses at length the numeral he reads as 6, saying it looks like 8, but since we have a definite 8 above that looks different, it must be 6. The facsimile is wholly indistinct. In his commentary he suggests <foreign>ṇi</foreign> or <foreign>ṇāṁ</foreign> for the lacuna preceding the numeral, but also notes that another numeral representing tens may have been here.</note>
+                     <note>Fleet <bibl rend="omitname"><ptr target="bib:Fleet1898-1899_01"/><citedRange>6-7 n. 3</citedRange></bibl> discusses at length the numeral he reads as 6, saying it looks like 8, but since we have a definite 8 above that looks different, it must be 6. The facsimile is wholly indistinct. In his commentary he suggests <foreign>ṇi</foreign> or <foreign>ṇāṁ</foreign> for the lacuna preceding the numeral, but also notes that another numeral representing tens may have been here.</note>
                   </app>
                   <app loc="A9">
                      <lem source="bib:Fleet1898-1899_01">puṁṇyaṁ</lem>

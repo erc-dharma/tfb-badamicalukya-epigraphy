@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
    <teiHeader>
       <fileDesc>
@@ -92,40 +95,23 @@
    <text xml:space="preserve">
       <body>
          <div type="edition" xml:lang="san-Latn">
-<pb 
-
-n="1v"/>
+<pb n="1v"/>
 <ab>
-<lb 
-n="01"/><g type="spiralIndistinct"/> śrī
-<lb 
-n="02"/>svasti||
+<lb n="01"/><g type="spiralIndistinct"/> śrī
+<lb n="02"/>svasti||
 </ab>
 <lg n="1" met="mālinī">
-   <l n="a"><lb 
-n="1"/>jayati vima<choice><orig>ḷ</orig><reg>l</reg></choice>a-daṁṣṭrā-rājitaṁ loka-bharttuḥ||</l>
-   <l n="b">praśamita-ripu-<seg met="+++-++"><gap reason="lost" quantity="6" unit="character"/></seg> <supplied reason="lost" cert="low">mu</supplied> <lb 
-n="2"/>rāreḥ||</l>
+   <l n="a"><lb n="1"/>jayati vima<choice><orig>ḷ</orig><reg>l</reg></choice>a-daṁṣṭrā-rājitaṁ loka-bharttuḥ||</l>
+   <l n="b">praśamita-ripu-<seg met="+++-++"><gap reason="lost" quantity="6" unit="character"/></seg> <supplied reason="lost" cert="low">mu</supplied> <lb n="2"/>rāreḥ||</l>
    <l n="c">Avani-ta<choice><orig>ḷ</orig><reg>l</reg></choice>a-vi<seg met="+"><gap reason="illegible" quantity="1" unit="character"/></seg>tābhinna-pātāla-mūlaM||</l>
-   <l n="d">sva-bhuja-<seg met="---++"><gap reason="lost" quantity="5" unit="character"/></seg><lb 
-n="3" break="no"/>d ūrddhvam <choice><sic>ū</sic><corr>u</corr></choice>rvv<choice><sic>i</sic><corr>ī</corr></choice>n dadhānaṁ||</l>
+   <l n="d">sva-bhuja-<seg met="---++"><gap reason="lost" quantity="5" unit="character"/></seg><lb n="3" break="no"/>d ūrddhvam <choice><sic>ū</sic><corr>u</corr></choice>rvv<choice><sic>i</sic><corr>ī</corr></choice>n dadhānaṁ||</l>
 </lg>
 <lg n="2" met="mālinī">
    <l n="a">tad anu jayati nityaṁ vallabhasyāpi bāhu<supplied reason="lost">ḥ||</supplied></l>
-   <l n="b"><seg met="------++"><gap reason="lost" quantity="8" unit="character"/></seg><lb 
-n="4"/>harṣṣa-viccheda-hetuḥ||</l>
+   <l n="b"><seg met="------++"><gap reason="lost" quantity="8" unit="character"/></seg><lb n="4"/>harṣṣa-viccheda-hetuḥ||</l>
    <l n="c">dvija-vara-kr̥ta-śāntiḥ sarvva-lokasya pā<choice><orig>ḷ</orig><reg>l</reg></choice>aḥ||</l>
 </lg>
-<p>a<unclear>ne</unclear><supplied reason="lost" cert="low">ka-rāja-parājayopārjjita</supplied><lb 
-n="5" break="no"/>-kīrttīnāṁ deva-dvija-<unclear>g</unclear><supplied reason="lost">u</supplied><unclear>r</unclear><supplied reason="lost">u</supplied>-<gap reason="lost" quantity="6" unit="character" precision="low"/> <supplied reason="lost">hā</supplied>ritī-putrāṇāṁ mānavya-sa<unclear>g</unclear><supplied reason="lost">otrāṇām</supplied> <gap reason="lost" quantity="6" unit="character" precision="low"/><pb 
-
-n="2r" break="no"/><lb 
-n="6" break="no"/><gap reason="lost" quantity="5" unit="character" precision="low"/>ṣāṁ bahu-<unclear>s</unclear>u<supplied reason="lost">varṇ</supplied>ṇ<supplied reason="lost">a</supplied> <gap reason="lost" quantity="5" unit="character" precision="low"/> dakṣiṇopeta-<unclear cert="low">gu</unclear> <gap reason="lost" quantity="12" unit="character" precision="low"/><lb 
-n="7"/><unclear cert="low">-yā</unclear>gāvabhr̥tha-snānodaka-pavitrī-kr̥<unclear cert="low">ta-śa</unclear>rīraḥ<supplied reason="subaudible">.</supplied> tasya putraḥ srī-kīrttirājaḥ<supplied reason="subaudible">.</supplied> <supplied reason="lost">tasyātmajaḥ srī-sa</supplied><lb 
-n="8" break="no"/>tyāśrayaḥ polekesi-vallabha-māharājaḥ <sic>kuva<unclear cert="low">ḷālaha</unclear>su</sic> <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="6" unit="character" precision="low"/><lb 
-n="9"/>mahā-dānaṁ viprebhyaḥ dattavān|| tadā kāle idam api śāsanaṁ|| va<unclear cert="low">cca</unclear>-sagotra-<gap reason="lost" quantity="7" unit="character" precision="low"/><lb 
-n="10" break="no"/>rācāryyasya pañca-viṅśati-nivarttan<choice><sic>ā</sic><corr>a</corr></choice>ṁ rāja-mānena kṣetraṁ dattaṁ<supplied reason="subaudible">.</supplied> tatra pa <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character" precision="low"/><lb 
-n="11"/><supplied reason="lost">1</supplied> <gap reason="illegible" quantity="1" unit="character"/> <unclear cert="low">vātā</unclear>pī-grāme <gap reason="lost" quantity="15" unit="character" precision="low"/> <unclear>mahā-patha</unclear>-<gap reason="lost" quantity="6" unit="character" precision="low"/>
+<p>a<unclear>ne</unclear><supplied reason="lost" cert="low">ka-rāja-parājayopārjjita</supplied><lb n="5" break="no"/>-kīrttīnāṁ deva-dvija-<unclear>g</unclear><supplied reason="lost">u</supplied><unclear>r</unclear><supplied reason="lost">u</supplied>-<gap reason="lost" quantity="6" unit="character" precision="low"/> <supplied reason="lost">hā</supplied>ritī-putrāṇāṁ mānavya-sa<unclear>g</unclear><supplied reason="lost">otrāṇām</supplied> <gap reason="lost" quantity="6" unit="character" precision="low"/><pb n="2r" break="no"/><lb n="6" break="no"/><gap reason="lost" quantity="5" unit="character" precision="low"/>ṣāṁ bahu-<unclear>s</unclear>u<supplied reason="lost">varṇ</supplied>ṇ<supplied reason="lost">a</supplied> <gap reason="lost" quantity="5" unit="character" precision="low"/> dakṣiṇopeta-<unclear cert="low">gu</unclear> <gap reason="lost" quantity="12" unit="character" precision="low"/><lb n="7"/><unclear cert="low">-yā</unclear>gāvabhr̥tha-snānodaka-pavitrī-kr̥<unclear cert="low">ta-śa</unclear>rīraḥ<supplied reason="subaudible">.</supplied> tasya putraḥ srī-kīrttirājaḥ<supplied reason="subaudible">.</supplied> <supplied reason="lost">tasyātmajaḥ srī-sa</supplied><lb n="8" break="no"/>tyāśrayaḥ polekesi-vallabha-māharājaḥ <sic>kuva<unclear cert="low">ḷālaha</unclear>su</sic> <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="6" unit="character" precision="low"/><lb n="9"/>mahā-dānaṁ viprebhyaḥ dattavān|| tadā kāle idam api śāsanaṁ|| va<unclear cert="low">cca</unclear>-sagotra-<gap reason="lost" quantity="7" unit="character" precision="low"/><lb n="10" break="no"/>rācāryyasya pañca-viṅśati-nivarttan<choice><sic>ā</sic><corr>a</corr></choice>ṁ rāja-mānena kṣetraṁ dattaṁ<supplied reason="subaudible">.</supplied> tatra pa <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character" precision="low"/><lb n="11"/><supplied reason="lost">1</supplied> <gap reason="illegible" quantity="1" unit="character"/> <unclear cert="low">vātā</unclear>pī-grāme <gap reason="lost" quantity="15" unit="character" precision="low"/> <unclear>mahā-patha</unclear>-<gap reason="lost" quantity="6" unit="character" precision="low"/>
 </p>
          </div>
 
@@ -135,10 +121,8 @@ n="11"/><supplied reason="lost">1</supplied> <gap reason="illegible" quantity="1
          <div type="apparatus">
                <listApp>
                   <app loc="1">
-                     <lem><supplied reason="lost" cert="low">mu</supplied> <lb 
-n="2"/>rāreḥ</lem>
-                     <rdg source="bib:Fleet1879_01"><supplied reason="lost">su</supplied> <lb 
-n="2"/>rāreḥ</rdg>
+                     <lem><supplied reason="lost" cert="low">mu</supplied> <lb n="2"/>rāreḥ</lem>
+                     <rdg source="bib:Fleet1879_01"><supplied reason="lost">su</supplied> <lb n="2"/>rāreḥ</rdg>
                      <note>Fleet translates, “who allayed … the hostile … enemies of the gods.” I believe that <foreign>murāreḥ</foreign> is a much more likely restoration. As Fleet agrees, the subject must be a lost word meaning “the form”, and it is easily conceivable that <foreign>loka-bharttuḥ</foreign> is in apposition to the possessor of that “form” in the genitive. The line may have run something like <foreign>praśamita-ripu-śakti kroḍa-rūpaṁ murāreḥ</foreign>, but I prefer not to show such a conjectural restoration in the text.</note>
                   </app>
                   <app loc="2">
@@ -175,8 +159,7 @@ n="2"/>rāreḥ</rdg>
                   </app>
                   <app loc="7">
                      <lem source="bib:Fleet1879_01"><supplied reason="lost">tasyātmajaḥ srī-sa</supplied>
-<lb 
-n="8" break="no"/>tyāśrayaḥ</lem>
+<lb n="8" break="no"/>tyāśrayaḥ</lem>
                      <note>While Fleet’s restoration is perfectly plausible, it is not necessarily accurate in every detail. Line 8 begins with an indent of 3 to 4 characters because of the binding hole, and while no vestiges are visible in the scanned facsimile to the left of the hole, it is possible that <foreign>sa</foreign> was in fact inscribed there. Moreover, Fleet apparently used this restoration as a basis for estimating the length of the lacunae at the ends of other lines, but it seems possible that each of those lacunae are in fact a few characters longer.</note>
                   </app>
                   <app loc="8">
