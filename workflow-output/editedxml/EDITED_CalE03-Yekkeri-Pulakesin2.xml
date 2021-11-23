@@ -94,7 +94,7 @@
    </teiHeader>
    <text xml:space="preserve">
       <body>
-         <div type="edition" xml:lang="san-Latn">
+         <div type="edition" xml:lang="san-Latn" rendition="class:83225 maturity:83213">
 <p>
 <milestone type="pagelike" unit="zone" n="A"/>
 <lb n="A1"/><g type="indistinct"/> svasti<supplied reason="subaudible">.</supplied> Anuruddha-<choice><sic>ṣ</sic><corr>d</corr></choice>ur<choice><sic>ī</sic><corr>i</corr></choice>todita-n<orig>ru</orig>pa-va<orig>ṁ</orig>ṅśa-prasūta sva-va<orig>ṁ</orig>ṅśa-l<surplus>l</surplus>alāma-bhūta dakṣiṇāpatha<lb n="A2" break="no"/>-p<orig>ri</orig>thivyā<supplied reason="omitted">ḥ</supplied> svāmī catur-udadhi-mekhalopārjjita-rājya-śrī pratāpāt<surplus>t</surplus>iśayopanata<surplus><g type="dotDouble">.</g>||</surplus><lb n="A3" break="no"/>-samagra-sāma<orig>ṁ</orig>nta-ma<orig>ṁ</orig>ṇḍala p<orig>ri</orig>thivyām apratiratha śrīmā<orig>ṁ</orig> satyāśraya-pulekeśi-vallabha<lb n="A4" break="no"/>-mahārāja-rājye varttamāne likhitam iti<supplied reason="subaudible">.</supplied></p>

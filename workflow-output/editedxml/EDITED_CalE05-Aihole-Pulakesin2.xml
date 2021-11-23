@@ -93,7 +93,7 @@
    </teiHeader>
    <text xml:space="preserve">
       <body>
-         <div type="edition" xml:lang="san-Latn">
+         <div type="edition" xml:lang="san-Latn" rendition="class:83225 maturity:83213">
 <lg n="1" met="āryā">
    <l n="ab"><lb n="1"/>jayati bhagavā<orig>n</orig> jinendro <unclear>vī</unclear>ta-ja<unclear>rā-ma</unclear>raṇa-janmano yasya</l>
    <l n="cd">jñāna-samudrāntargga<unclear>ta</unclear>m akhilañ jagad antarīpam iva<unclear>|</unclear></l>
