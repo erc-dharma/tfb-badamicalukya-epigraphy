@@ -94,7 +94,7 @@
    </teiHeader>
    <text xml:space="preserve">
       <body>
-         <div type="edition" xml:lang="san-Latn">
+         <div type="edition" xml:lang="san-Latn" rendition="class:83225 maturity:83213">
 <p>
 <milestone type="pagelike" unit="zone" n="A"/>
 <lb 
