@@ -65,7 +65,7 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p>This project DHARMA has received funding from the European Research Council (ERC)
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
                         under the European Union's Horizon 2020 research and innovation programme (grant
                         agreement no 809994).</p>
          </projectDesc>
@@ -212,7 +212,7 @@ n="16" break="no"/>ṟuky-</rdg>
                   <app loc="15">
                      <lem>°kheḍa-</lem>
                      <rdg source="bib:Fleet1877_02">°khe<choice><sic>da</sic><corr>ḍa</corr></choice>-</rdg>
-                     <note>Fleet tentatively emends to <note>ḍa</note>, but the character seems to be <note>ḍa</note> to begin with.</note>
+                     <note>Fleet tentatively emends to <foreign>ḍa</foreign>, but the character seems to be <foreign>ḍa</foreign> to begin with.</note>
                   </app>
                   <app loc="27">
                      <lem>hi</lem>
