@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Kopparam plates of Pulakeśin II</title>
+            <respStmt>
+               <resp>EpiDoc encoding</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Berlin</pubPlace>
+            <idno type="filename">DHARMA_INSBadamiCalukya00004</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p><!--Halantas.  --><!--Original punctuation.  --><!--Other palaeographic observations. --><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+            <summary><p><p/></summary>
+            <handNote xml:id="Pallava00001_hand1"></handNote>
+            <handNote xml:id="Pallava00001_hand2"></handNote>
+           -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
+         <change who="part:daba" when="2020-03-04" status="draft">Initial encoding of the file</change>
+         <change who="part:daba" when="2020-08-13" status="draft">Updated to template v2, encoded bibliography and commentary</change>
+         <!-- Add a <change> entry for each significant change to the file. -->
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="san-Latn" rendition="class:83225 maturity:83213">
+<pb 
+
+n="1r"/>
+<p>
+<pb 
+
+n="1v"/>
+<lb 
+n="1"/>svasti<supplied reason="subaudible">.</supplied> śrīmatāṁ sakala-bhu<supplied reason="omitted">va</supplied>na-sa<unclear>ṁ</unclear>st<subst><del rend="corrected">u</del><add place="overstrike">ū</add></subst>yamāna-mānavya-sagotrāṇā<supplied reason="omitted">ṁ</supplied> hārīti-putrāṇā<supplied reason="omitted">ṁ</supplied> sapta-loka-mātr̥bhi<supplied reason="omitted">ḥ</supplied> sapta-mā<lb 
+n="2" break="no"/>tr̥bhi<supplied reason="omitted">ḥ</supplied> <unclear>sa</unclear>m<unclear>ya</unclear>g abhivarddhitānā<supplied reason="omitted">ṁ</supplied> kārtikeya-paripālanādhigata-kalyāṇa-paramparāṇā<supplied reason="omitted">ṁ</supplied> bhagavan-nārāyaṇa-prasā<lb 
+n="3" break="no"/>da-s<choice><sic>ā</sic><corr>a</corr></choice>mās<unclear>ā</unclear>d<choice><sic>a</sic><corr>i</corr></choice>ta-varāha-lāñchanekṣaṇa-kṣaṇa-vaśī-kr̥tāśeṣa-mahībhr̥tām anekāśvamedhāvabhr̥<choice><sic>t</sic><corr>th</corr></choice>a-snā<lb 
+n="4" break="no"/>na-pavitrī-kr̥ta-vapuṣā<supplied reason="omitted">ṁ</supplied> calukyānā<supplied reason="omitted">ṁ</supplied> kulam abhyalaṁkariṣṇo<supplied reason="omitted">ḥ</supplied> prathita-kī<unclear>r</unclear>tt<subst><del rend="corrected">i</del><add place="overstrike">e</add></subst><supplied reason="omitted">ḥ</supplied> śrī-kīrttivarmma-pr̥thiv<orig>i</orig>-vallabha-ma<supplied reason="lost">hārā</supplied><pb 
+
+n="2r" break="no"/><lb 
+n="5" break="no"/><unclear>ja</unclear>sya priya-p<choice><sic>au</sic><corr>u</corr></choice>tra<supplied reason="omitted">ḥ</supplied> praṇatāneka-mah<unclear>ī</unclear>pati-makuṭa-taṭa-vilagna-maṇi-makarikā-ghr̥ṣṭa-pādāravinda-<unclear>d</unclear>va<unclear>ya</unclear><lb 
+n="6" break="no"/>sya pratigatārāti-cakra-vidhva<supplied reason="omitted">ṁ</supplied>sana-vi<choice><sic>v</sic><corr>dh</corr></choice>i-viśāradasya deva-dvija-guru-vr̥ddhāpacāyina<supplied reason="omitted">ḥ</supplied> pit<choice><orig>ai</orig><reg>e</reg></choice><add place="below">va</add> śūra<supplied reason="omitted">ḥ</supplied> sa<lb 
+n="7" break="no"/>tyāśray<choice><sic>a</sic><corr>o</corr></choice><space type="binding-hole"/> <supplied reason="subaudible">’</supplied>pratihatājña<supplied reason="omitted">ḥ</supplied> śrī-pul<unclear cert="low">e</unclear>keśi-p<orig>ri</orig>thiv<orig>i</orig>-vallabha-mahārāj<choice><orig>a</orig><reg>o</reg></choice> <choice><orig>yathāruha</orig><reg>yathārhaṁ</reg></choice> <orig>sanmānayati</orig><supplied reason="subaudible">.</supplied></p>
+<p>vidit<choice><sic>i</sic><corr>a</corr></choice><lb 
+n="8" break="no"/>m as<unclear>t</unclear>u va<unclear>lla</unclear>bha sama<unclear>kṣ</unclear>āvas<choice><sic>t</sic><corr>th</corr></choice>ite vidhiv<choice><sic>i</sic><corr>a</corr></choice><add place="above">t</add> sa<supplied reason="omitted">ṁ</supplied>pradattā <sic>marnta kali-kulanām</sic> aneka-saṁgrāma-sāhasa-dakṣeṇa
+<pb 
+
+n="2v"/>
+<lb 
+n="9"/>
+ni<supplied reason="omitted">ṣ</supplied>kr̥ṣṭa-maṇḍalāgr<choice><sic>ā</sic><corr>a</corr></choice>-sanāthena sva-bāhunā vipakṣa-maṇḍala<supplied reason="omitted">ṁ</supplied> nirjitya sva-sutānvaye pratiṣ<choice><sic>ṭ</sic><corr>ṭh</corr></choice> āpita-rā<lb 
+n="10" break="no"/>jyasya <orig>prithividuvarājam āṇatti</orig><supplied reason="subaudible">.</supplied>
+mūgamūr-vv<choice><sic>a</sic><corr>ā</corr></choice>stavyāya <orig>ch</orig>āṇḍilyāyana-gotrasya Āpasta<unclear>mba</unclear><lb 
+n="11"/>-sūtrasya <space type="binding-hole"/> viprasya vedaśarmmaṇa<supplied reason="omitted">ḥ</supplied> karmma-rāṣṭre Irbuli-grāme Aṣṭa-śa<add place="below" rend="mark">ta</add><add place="above"><unclear>ṁ</unclear></add> kṣetraṁ dat<supplied reason="omitted">t</supplied>aṁ<supplied reason="subaudible">.</supplied> balāka-<choice><sic>b</sic><corr>p</corr></choice>alva<lb 
+n="12" break="no"/>lā<supplied reason="omitted">t</supplied> pūrvvata<supplied reason="omitted">ḥ</supplied> karmmakara-taṭākā<supplied reason="omitted">t</supplied> paścimata<supplied reason="omitted">ḥ</supplied> koṇḍa<unclear>ce</unclear>ṟupū<unclear>r</unclear>-pathā<supplied reason="omitted">d</supplied> dakṣiṇata<supplied reason="omitted">ḥ</supplied> viṟparu-pathā<supplied reason="omitted">d</supplied> <unclear>Uttara</unclear>ta<supplied reason="omitted">ḥ</supplied><supplied reason="subaudible">.</supplied></p>
+<p>
+<pb 
+
+n="3r"/>
+<lb 
+n="13"/>
+<unclear>pravarddhamāna-vi</unclear>jaya-rājya-<choice><orig>savasare</orig><reg>saṁvatsare</reg></choice> Ekavi<supplied reason="omitted">ṁ</supplied>śati kārttika-māse mah<unclear>ā-nava</unclear><supplied reason="lost">m</supplied>y<supplied reason="lost">āṁ</supplied> <unclear>br̥</unclear><supplied reason="omitted">ha</supplied>s<unclear>p</unclear>ati-vāre pra
+<lb 
+n="14" break="no"/>śaste mu<space type="binding-hole"/>hūrtte <supplied reason="omitted">’</supplied>syā datt<choice><sic>i</sic><corr>e</corr></choice>r ājñapti<supplied reason="omitted">ḥ</supplied><supplied reason="subaudible">.</supplied>
+</p>
+<lg n="1" met="anuṣṭubh">
+   <l n="a">bhūmi-dānā<del>ta<gap reason="lost" quantity="2" unit="character"/></del>t paran dā<supplied reason="omitted">na</supplied>n</l>
+   <l n="b">na bhūta<supplied reason="omitted">ṁ</supplied> na bha<supplied reason="omitted">vi</supplied>ṣyati</l>
+   <l n="c">tasyaiva ha<unclear>raṇā</unclear><unclear cert="low">t pā</unclear><lb 
+n="15" break="no"/>pan</l>
+   <l n="d">na bhūta<supplied reason="omitted">ṁ</supplied> na bhaviṣyati</l>
+</lg>
+<lg n="2" met="anuṣṭubh">
+   <l n="a">bahubir vvasudhā dattā</l>
+   <l n="b">bahu<unclear>bhiś cānu</unclear>pālitā</l>
+   <l n="c">yasya yasya yadā bhūmi<supplied reason="omitted">s</supplied></l>
+   <l n="d">tasya <lb 
+n="16"/>tasya tadā phala<supplied reason="omitted">ṁ</supplied></l>
+</lg>
+<lg n="3" met="anuṣṭubh">
+   <l n="a"><unclear>sva-da</unclear>t<supplied reason="omitted">t</supplied>ā<supplied reason="omitted">ṁ</supplied> para-dat<supplied reason="omitted">t</supplied>ā<supplied reason="omitted">ṁ</supplied> vā</l>
+   <l n="b">yatnād rakṣa yudhiṣṭhira</l>
+   <l n="c">mahī<supplied reason="omitted">ṁ</supplied> mah<choice><sic>i</sic><corr>ī</corr></choice><unclear>bhu</unclear>jā<supplied reason="omitted">ṁ</supplied> śreṣ<unclear>ṭha</unclear></l>
+   <l n="d"><unclear cert="low">dānā</unclear><unclear>t śr</unclear>e<supplied reason="omitted">yo nupālanam</supplied></l>
+</lg>
+<pb 
+
+n="3v"/>
+         </div>
+
+
+
+
+         <div type="apparatus">
+               <listApp>
+                  <app loc="4">
+                     <lem>-kī<unclear>r</unclear>tt<subst><del rend="corrected">i</del><add place="overstrike">e</add></subst><supplied reason="omitted">ḥ</supplied></lem>
+                     <rdg source="bib:Hultzsch1925-1926_04">-kīrtte<supplied reason="omitted">ḥ</supplied></rdg>
+                     <rdg source="bib:LakshmanaRao1922_01">-kīrtti<supplied reason="omitted">ḥ</supplied></rdg>
+                     <note>Hultzsch: “An i is also affixed to the <foreign>tt</foreign> of <foreign>ttē</foreign>” [his reading is <foreign>rtte</foreign>, not <foreign>tte</foreign>]. The <foreign>repha</foreign> is not visible in the scan. There is an <foreign>i</foreign> <foreign>mātrā</foreign> floating above the top of the character, at the distance expected for a <foreign>repha</foreign>. I assume that there was an original <foreign>repha</foreign> that is now worn faint, and that an initially engraved <foreign>rtti</foreign> (eyeskip for <foreign>kīrttivarmma</foreign>) was corrected to <foreign>rtte</foreign>. </note>
+                  </app>
+                  <app loc="5">
+                     <lem source="bib:Hultzsch1925-1926_04 bib:LakshmanaRao1922_01">-p<choice><sic>au</sic><corr>u</corr></choice>tra<supplied reason="omitted">ḥ</supplied></lem>
+                     <note>Hultzsch agrees with LakshmanaRao that <foreign>pautra</foreign> must be “a stupid error” for putra. Estienne-Monod is more careful: “Ce terme est incohérent car Pulakeśin est le fils de Kīrtivarman.”</note>
+                  </app>
+                  <app loc="7">
+                     <lem>-pul<unclear cert="low">e</unclear>keśi</lem>
+                     <rdg source="bib:Hultzsch1925-1926_04 bib:LakshmanaRao1922_01">-pulakeśi</rdg>
+                     <note>There is definitely something atop the <foreign>l</foreign> that looks like a serif in the scanned rubbing, extending symmetrically to a short distance on both sides. The printed facsimile or the original may decide if there really is an <foreign>e</foreign> <foreign>mātrā</foreign> here.</note>
+                  </app>
+                  <app loc="7">
+                     <lem><orig>sanmānayati</orig></lem>
+                     <note>Hultzsch emends to <foreign>sammānayati</foreign> which is of course plausible, but I think <foreign>san+mānayati</foreign> is conceivable if not very nice syntactically.For a parallel, <foreign>sanmānitā</foreign> also occurs in the Mandsaur inscription of Kumāravarman<!--CHECK add ref-->. At the very least, the mistake is probably influenced by the word <foreign>sat</foreign>. Lakshmana Rao reads <foreign>sanmāyati</foreign> (typo) and does not emend. </note>
+                  </app>
+                  <app loc="8">
+                     <lem>va<unclear>lla</unclear>bha sama<unclear>kṣ</unclear>āvas<choice><sic>t</sic><corr>th</corr></choice>ite</lem>
+                     <rdg source="bib:Hultzsch1925-1926_04 bib:LakshmanaRao1922_01">vallabh<choice><sic>a</sic><corr>e</corr></choice> sama<unclear>kṣ</unclear>āvas<choice><sic>t</sic><corr>th</corr></choice>ite</rdg>
+                     <note>The unclear notation on <foreign>lla</foreign> applies to the scanned rubbing; the character may be clear in the original or a good rubbing, but it is barely discernible in the scan. Hultzsch translates his emended text with “Vallabha (i.e. Pulakeśin II) being present in person.” PEM accepts this, translating, “<foreign xml:lang="fra">qu’il soit connu qu’en présence de Vallabha l’exécution est confiée</foreign>.” I have doubts about this; the language is badly garbled in several places, and I think that even if <foreign>vallabha</foreign> is clear, the intent may rather have been <foreign>bhavadbhiḥ samakṣāvasthitaiḥ</foreign>. Note also that Pr̥thivīvallabha is speaking here; would he speak so of himself?</note>
+                  </app>
+                  <app loc="8">
+                     <lem>vidhiv<choice><sic>i</sic><corr>a</corr></choice><add place="above">t</add> sa<supplied reason="omitted">ṁ</supplied>pradattā</lem>
+                     <note><foreign>Sa</foreign> is a regular character at body height, while <foreign>t</foreign> is engraved on top of it.</note>
+                  </app>
+                  <app loc="8">
+                     <lem><sic>marnta kali-kulanām</sic></lem>
+                     <rdg source="bib:Hultzsch1925-1926_04">ma<choice><sic>rnta</sic><corr>thā</corr></choice> kali-<choice><sic>kula</sic><corr>khalā</corr></choice>nām</rdg>
+                     <rdg source="bib:LakshmanaRao1922_01">ma<choice><unclear>ntā</unclear><unclear>rnta</unclear></choice> kali-kul<choice><sic>a</sic><corr>ā</corr></choice>nām</rdg>
+                     <note>See the commentary.</note>
+                  </app>
+                  <app loc="10">
+                     <lem><orig>prithividuvarājam āṇatti</orig><supplied reason="subaudible">.</supplied></lem>
+                     <rdg source="bib:Hultzsch1925-1926_04"><choice><sic>prithividuvarājam āṇatti</sic><corr>pr̥thivīyuvarājasyājñaptiḥ</corr></choice><supplied reason="subaudible">.</supplied></rdg>
+                     <rdg source="bib:LakshmanaRao1922_01"><choice><sic>prithividuvarājam āṇatti</sic><corr>pr̥thividuvarājavarmaṇātti</corr></choice>-</rdg>
+                     <note>See the commentary.</note>
+                  </app>
+                  <app loc="11">
+                     <lem source="bib:Hultzsch1925-1926_04">vedaśarmmaṇa<supplied reason="omitted">ḥ</supplied></lem>
+                     <rdg source="bib:LakshmanaRao1922_01">vedaśarmmaṇ<choice><sic>a</sic><corr>e</corr></choice></rdg>
+                     <note>Hultzsch’s editor thinks the name is Aiḷaśarman rather than Vedaśarman. He may be right: the first character’s body is a bit larger than expected for <foreign>v</foreign>, and the arm on the left does not start from the top, as expected for a vowel mark attached to a consonant, but from the stem at a slightly lower point. The second character could very well be <foreign>da</foreign>, but there is a little stub (in the scan, maybe more in the actual rubbing and the original) that may belong to the c-shaped end of <foreign>ḷa</foreign>.</note>
+                  </app>
+                  <app loc="11">
+                     <lem>-śa<add place="below" rend="mark">ta</add><add place="above"><unclear>ṁ</unclear></add></lem>
+                     <note><foreign>ta</foreign> is added below <foreign>śa</foreign>. Two <foreign>kākapada</foreign>s shaped like + signs are placed above <foreign>śa</foreign>, on its left and right, presumably to identify the locus of insertion, as Hultzsch’s editor notes. The ed. also notes that there seems to be no <foreign>anusvāra</foreign> here, though H. reads one. There is a small dot to the right of the <foreign>kākapada</foreign>s, which Hultzsch, whom I follow here, presumably interpreted as an added <foreign>anusvāra</foreign> to be read with the added <foreign>ta</foreign>, though other <foreign>anusvāra</foreign>s are proper circles.</note>
+                  </app>
+                  <app loc="12">
+                     <lem>koṇḍa<unclear>ce</unclear>ṟupū<unclear>r</unclear>-</lem>
+                     <rdg source="bib:Hultzsch1925-1926_04 bib:LakshmanaRao1922_01">koṇḍaveṟupū<unclear>r</unclear></rdg>
+                     <note>The reading with <foreign>ce</foreign> was suggested by Hultzsch's editor in EI.</note>
+                  </app>
+                <app loc="13">
+                   <lem source="bib:LakshmanaRao1922_01">-<choice><orig>savasare</orig><reg>saṁvatsare</reg></choice></lem>
+                   <rdg source="bib:Hultzsch1925-1926_04">-<choice><orig>savatsare</orig><reg>saṁvatsare</reg></choice></rdg>
+                   <note>I cannot tell clearly from my scanned estampage, but there may be a small <foreign>t</foreign> engraved on top of <foreign>sa</foreign>, in which case we have scribal correction here, executed in the same way as for <foreign>vidhivat</foreign> in line 8.</note>
+                </app>
+                  <app loc="14">
+                     <lem>-dānā<del>ta<gap reason="lost" quantity="2" unit="character"/></del>t paran</lem>
+                     <rdg source="bib:Hultzsch1925-1926_04">-dānā<surplus>T</surplus>tparan</rdg>
+                     <note>Hultzsch's editor notes that there is a "vacant space" after <foreign>dānāT</foreign>, while Lakshmana Rao suggests that some characters were struck out here. This definitely seems to be the case. The first of these appears to be <foreign>ta</foreign> (not <foreign>T</foreign>), while the other two are now illegible. Whatever was mistakenly engraved, the correction was made immediately, and the scribe continued with <foreign>tpara</foreign> after the deletion. Another scenario, slightly more complex but perhaps more likely, is that <foreign>dānācchreyo</foreign> (and perhaps <foreign>nu</foreign> as well) was engraved here by eyeskip. The vestiges sort of suggest <foreign>cchr</foreign>. This was then beaten out, and the engraver first began to write <foreign>tpa</foreign> after <foreign>dānā</foreign> (the legible <foreign>ta</foreign> is a bit closer to <foreign>nā</foreign> than normal character spacing), then decided not to try to write over the corrected area, and continued with <foreign>tpara</foreign> after that.</note>
+                  </app>
+                  <app loc="16">
+                     <lem source="bib:LakshmanaRao1922_01"><unclear>sva-da</unclear>t<supplied reason="omitted">t</supplied>ā<supplied reason="omitted">ṁ</supplied> para-dat<supplied reason="omitted">t</supplied>ā<supplied reason="omitted">ṁ</supplied></lem>
+                     <rdg source="bib:Hultzsch1925-1926_04"><unclear>sva-da</unclear>t<unclear>t</unclear>ā<supplied reason="omitted">ṁ</supplied> para-dat<unclear>t</unclear>ā<supplied reason="omitted">ṁ</supplied></rdg>
+                     <note>Hultzsch prints the two subscript <foreign>t</foreign>-s as unclear. The bottom of the plate is damaged and I cannot exclude the possibility that they were engraved, but since Lakshmana Rao does not read them and there are other instances of a missing subscript <foreign>t</foreign> in the plates, I find it more likely that they were not.</note>
+                  </app>
+                  <app loc="16">
+                     <lem><unclear cert="low">dānā</unclear><unclear>t śr</unclear>e</lem>
+                     <rdg source="bib:Hultzsch1925-1926_04"><unclear>dānā</unclear>te</rdg>
+                     <rdg source="bib:LakshmanaRao1922_01">dā tśre</rdg>
+                     <note>Though apparently dismissed by Hultzsch, Lakshmana Rao seems to be correct in reading <foreign>tśre</foreign>. His omission of <foreign>nā</foreign> may be a typo. The ligature <foreign>tś</foreign> is attested in some inscriptions, including <foreign>tśrī</foreign> in the Oṁgoḍu Grant of Siṁhavarman II (<!--CHECK: encode web reference or look up publication; add word and line number.-->http://www.indoskript.org/manuscripts/details/119), very close in space, time and script to the present plates. Neither editor attempts to explain why the stanza is cut off before the end, though Lakshmana Rao at least remarks that it is. Could <foreign>yo nupālanam iti</foreign>, and perhaps something more, be engraved on the verso? And, being the back cover, perhaps it was so worn that it was not noticed?</note>
+                  </app>
+                  
+                  
+                  
+               </listApp>
+         </div>
+         
+         
+         
+         <div type="translation" source="bib:Hultzsch1925-1926_04">
+<!--Lakshmana Rao also gives a translation, but since his readings are in many places inferior to Hultzsch’s, I ignore that here-->
+<p n="1-6">Hail!
+   The dear grandson <supplied reason="explanation">read: son</supplied> of the glorious <persName>Kīrtivarma-Pr̥thivivallabha</persName>-Mahārāja who adorned the family of the glorious <persName>Calukyas</persName>, etc.; whose fame was <supplied reason="subaudible">widely</supplied> spread; whose pair of lotus-feet was rubbed by the <foreign>makara</foreign> ornaments<note>According to Cowell and Thomas (Translation of the Harṣacarita, p. 266), “the word makarikā appears to denote a makara-shaped forehead ornament.” [DB: Possibly; my thought was earrings, probably on the basis of Gītagovinda, maṇimaya-makara-manohara-kuṇḍala (not checked).]</note> of jewels attached to the slopes of the diadems of many prostrate princes; who was proficient in achieving the destrucition of the circle of opposing enemies; <supplied reason="subaudible">and</supplied> who honoured the gods, the twice-born, the Gurus, and the aged;</p>
+<p n="6-7">the glorious <persName>Pulakeśi-Pr̥thivivallabha</persName>-Mahārāja <supplied reason="subaudible">who</supplied>, like <supplied reason="subaudible">his</supplied> father, <supplied reason="subaudible">is</supplied> a hero, the abode of truth <supplied reason="subaudible"><persName>Satyāśraya</persName></supplied>,<note>This was the favourite surname of Pulakeśin II. See Fleet’s Dyn. of the Kan. Districts, sec. ed., p. 351.</note> whose commands are unopposed, suitably honours <supplied reason="subaudible">the officials of this district and informs them as follows</supplied>:</p>
+<p n="7-10">“Be it known <supplied reason="subaudible">to you that</supplied>, <persName>Vallabha</persName> being present in person, the execution <supplied reason="subaudible">of the present grant</supplied> was formally bestowed on <persName>Pr̥thividuvarāja</persName> <supplied reason="explanation">i.e. <persName>Pr̥thiviyuvarāja</persName></supplied> who, having defeated the circle of enemies by his arm <supplied reason="subaudible">which was</supplied> a churning-stick of the wicked <supplied reason="subaudible">people</supplied> of the Kali <supplied reason="subaudible">age</supplied>, which was skilled in daring <supplied reason="subaudible">deeds</supplied> in many battles, <supplied reason="subaudible">and</supplied> which was wielding the drawn sword, has secured the kingdom to the lineage of his son.”</p>
+<p n="10-12">“To the Brāhmaṇa <persName>Vedaśarman</persName> who resides at Mūgamūr, belongs to the Śāṇḍilyāyana-<foreign>gotra</foreign>, <supplied reason="subaudible">and</supplied> follows the Āpastamba-<foreign>sūtra</foreign>, a field of eight hundred <supplied reason="subaudible"><foreign>nivartanas</foreign></supplied> in the village of Irbuli in <supplied reason="subaudible">the district of</supplied> Karma-rāṣṭra has been given. <supplied reason="subaudible">This field lies</supplied> to the east of the Balāka-palvala <supplied reason="subaudible">pond</supplied>, to the west of the Karmakāra-taṭāka <supplied reason="subaudible">tank</supplied>, to the south of the road to Koṇḍav[e]ṟupūr, <supplied reason="subaudible">and</supplied> to the north of the road to Virpaṟu.”</p>
+<p n="13-14">“In the year twenty-one of the reign of increasing victory, in the month of Kārttika, on the great ninth <supplied reason="subaudible"><foreign>tithi</foreign></supplied>, on a Thursday, at an auspicious moment, the execution of this grant <supplied reason="subaudible">was bestowed on Pr̥thiviyuvarāja</supplied>.”</p>
+<p n="14-16"><gap reason="ellipsis"/><note resp="part:daba">Hultzsch does not translate the rest of the text, summarising it as <q>three of the customary verses</q>.</note>
+</p>
+         </div>
+
+
+         <div type="translation" xml:lang="fra" source="bib:Estienne-Monod2008_01">
+<p n="1-7">Prospérité ! Satyāśraya, lui dont les ordres ne connaissent pas d’opposition, l’illustre Pulekeśi Pr̥thivi Vallabha, grand roi, cher fils de l’illustre grand souverain Kīrtivarman Pr̥thivi Vallabha, dont la gloire s’est répandue, aux pieds de lotus polis par les parures composées de pierres précieuses suspendues à l’orbe des diadèmes des nombreux rois inclinés,<note>Ce composé est gravé au début du recto de la deuxième plaque. La cohérence de la traduction ne permet pas de conserver l’ordre du texte.</note> qui est expert dans la manière de détruire le cercle des assaillants ennemis, honorant les dieux, les deux-fois-nés, les maîtres et les anciens, ornement de la lignée des Calukya, illustres, du même gotra que les descendants de Manu, loués dans l’univers entier, fils de Hārīti, bien fortifiés par les Sept Mères, mères des sept mondes, eux qui, les uns après les autres, possédèrent la prospérité venue de la protection de Kārtikeya, maîtres de tous les rois, soumis en un instant à la vue du signe du sanglier, faveur octroyée par le bienheureux Nārāyaṇa, eux dont les corps furent lavés par les bains purificatoires de nombreux aśvamedha, <supplied reason="subaudible">Pulekeśin</supplied> héroïque comme son père, s’adresse avec le respect qui convient à chacun :</p>
+<p n="7-12">qu’il soit connu qu’en présence de Vallabha l’exécution est confiée selon la règle à Pr̥thiviyuvarāja,<note>Cette formulation est inusuelle : habituellement un nominatif est apposé à <foreign>ājñaptiḥ</foreign>, non un génitif. Ici <foreign>ājñaptiḥ</foreign> est un nom féminin signifiant « commandement » qui a pour complément Pr̥thiviyuvarāja.</note> bâton qui baratte les multitudes de l’âge Kali, téméraire et agile dans de nombreux combats, qui a vaincu le cercle de ses ennemis<note>Le fait que l’agent de l’absolutif <foreign>nirjitya</foreign> ne soit pas mentionné entraîne deux interprétations possibles. L’agent peut être le roi ou Pr̥thiviyuvarāja. L’absolutif peut porter sur le procès exprimé par <foreign>pratiṣṭhāpita-rājasya</foreign>. Dans ce cas <foreign>nirjitya</foreign> et <foreign>pratiṣṭhāpita</foreign> ont le même agent. L’ambiguïté demeure puisque cet agent peut être le roi ou Pr̥thiviyuvarāja. Toutefois l’emploi répété de sva en premier élément de composé accrédite la deuxième hypothèse. Ce passage étant consacré à la présentation de l’exécuteur, dont il s’agit de faire l’éloge, nous optons pour la deuxième hypothèse.
+</note> de son bras armé du cimeterre <supplied reason="subaudible">qu’il avait</supplied> dégaîné, qui a affermi son royaume pour la succession de ses fils; <supplied reason="subaudible">celui-ci</supplied> donne au brahmane Vedaśarman, résidant à Mūgamūr, du gotra de Śāṇḍilyāyana, qui suit les sūtra Āpastamba, dans le Karmarāṣṭra, dans le village d’Irbuli, un terrain de huit cents <supplied reason="explanation"><foreign>nivartana</foreign></supplied>.
+<!--mark this up as a list?-->
+à l’est de la mare Balāka,
+à l’ouest de l’étang Karmakara,
+au sud de la route de Koṇḍaveṟupūr,
+au nord de la route de Viṟparu.</p>
+<p n="13-14"> 
+La vingt-et-unième année de l’auguste règne victoirieux, au mois de Kārtika, le grand neuvième jour, le jour de Br̥haspati, à un moment recommandé, l’exécution de ce don (a été faite).</p>
+<p rend="stanza" n="1">Il n’existe pas et n’existera pas de don égal à celui d’une terre,
+Il n’existe pas et n’existera pas de crime égal à celui de son vol.</p>
+<p rend="stanza" n="2">Beaucoup ont donné une terre et beaucoup l’on protégée ;
+celui qui possède cette terre en possède le fruit.</p>
+<p rend="stanza" n="3">Qu’elle soit donnée par toi ou par un autre, Yudhiṣṭhira, préserve avec soin la terre !
+ô le meilleur des rois, la préservation d’une terre est plus méritoire que sa donation.</p>
+         </div>
+
+
+         <div type="commentary"><p n="6">Estienne-Monod: "L’éditeur lit viśaradasyadeva-dvija-guru-vr̥ddhāpacāyina. Cette lecture pose un problème car apacāyin signifie « qui n’honore pas », le composé n’a alors pas de sens. La lecture du fac-simile permet de corriger en °viśaradasyādeva-dvija-guru-vr̥dhapacāyina. soit a-deva-dvija-guru-vr̥ddhāpacāyina, « qui n’est pas sans honorer les dieux, les deux-fois-nés, les maîtres et les anciens »." I disagree. The ā of ddhā is indistinct in my scanned facsimile, but the right-hand side of the headmark does seem to extend to the right and bend down, and there is a dot below the bend that is probably the endpoint of the vowel mark. I’m not sure if there is a basis to the Monier-Williams entry (referring to a MBh locus) claiming that apa-cāyin [probably hyphenated precisely to highlight the understanding that apa is a privative prefix here] means "not rendering due respect," but I am sure that apacāyin can, and normally does, mean "rendering due respect", as shown by the related formations apacāyaka and apacāyita in MW and by the verb apa-ci itself, while Estienne-Monod’s interpretation with the double negative is very awkward.</p>
+<p n="8">For marnta kalikulanām, Hultzsch suggests mathā kali-khalānām, noting (p258) that he thinks this qualifies svabāhunā, “by his arm … (which was) a churning-stick of the wicked (people) of the Kali (age).” (the stem is mathin, irregular declension, ins. mathā). PEM seems to prefer the smaller emendation kulānām, translating “bâton qui baratte les multitudes de l’âge Kali,” and seems (but my French is too poor to be sure) to understand this in apposition to Pr̥thiviyuvarāja (which is impossible if we accept mathā and suppose that the syntax is legitimate). She notes, “Hultzsch propose une autre correction :  khalānām, mais elle est plus éloignée du texte original et n’apporte pas un sens plus pertinent.” I think khalānām is much more pertinent than “multitudes,” especially in conjunction with the phrase “kaliyuga-khala-nirmathanaiḥ … caritaiḥ” cited by Hultzsch from the Sātāra plates of Viṣṇuvardhana I. That said, I have strong doubts about Hultzsch’s emendation and prefer to resrve judgement. Possibly marnta should be emended to mayā: Pr̥thivivallabha is saying, “I have offically conferred the authority of execution on Pr̥thividuvarāja”. But then again, I’m actually beginning to like Hultzsch’s mathā in apposition to bāhunā. (The spelling perhaps influenced by mathnā, instrumental of mathan, attested in the sense of fire stick but not a churning stick.) Lakshmana Rao prefers the reading mantā and mentions marnta (unless it is martta; my scan is not very good) in a footnote. His translation is "who is death to Kali-Kula", strangely at odds with his commentary's mention that some later Rāṣṭrakūṭas bore the title kalivallabha, which may in fact be relevant here.</p>
+<p n="10">Hultzsch em. pr̥thivīyuvarājasyājñaptiḥ, the ājñapti was given to him. He notes that Lakshmana Rao identifies duvarāja as Satyāśraya Dhruvarāja Indravarman (Goa plates, śaka 532). But H says duvarāja is a known Dravidian tadbhava of yuvarāja (ref. EI4 p180 n5). He understands the passage to mean that it was Pr̥thivīyuvarāja who secured the kingdom to the lineage of his son and thus the name refers to Viṣṇuvardhana I, younger brother of Pulakeśin II who was already a yuvarāja in year 8 of Pulakeśin II’s reign, but a mahārāja in year 18 of his own reign (632 CE). At any rate, the m may be non-standard sandhi, with the intent that prithividuvarāja is the āṇatti.</p>
+<p n="10">As Hultzsch and PEM note, for precision’s sake the dative vāstavyāya could be emended to a genitive; or the following genitives to datives.</p>
+<p n="10">For Mugamūr, Lakshmana Rao suggests the modern village Mūṅgamūr in Kandukar Taluk of Nellore district, though his reading is slightly different and he emends that to something different again. He also notes (pp 48-49) that karmakāra-taṭāka must be a Sanskrit translation of Telugu Kammari-vaṇla kuṁṭa/ceruvu, “tank of the iron-smiths.” He identifies Koṇḍaveṟupūr as modern Vipparla village near Kondavidu.</p></div>
+
+         
+         <div type="bibliography">
+  <!--bibliography encoded as per section §9.4 -->
+  <!-- NB: you are encouraged to experiment with encoding bibliography to the extent you have the bibliographic data available, but it is not mandatory at this stage, because our bibliographic data are normally assembled along with other metadata in spreadsheets and will be imported from there into our xml files by a semi-automated process at a later stage. -->
+           <p>Reported in <bibl n="ARIE 1922-1923"><ptr target="bib:ARIE1922-1923"/><citedRange unit="page">12</citedRange><citedRange unit="appendix">A/1922-23</citedRange><citedRange unit="item">14</citedRange></bibl> First edited by K. V. Lakshmana Rao (<bibl rend="omitname"><ptr target="bib:LakshmanaRao1922_01"/></bibl>) with inked rubbings<note>Only 2r, 3r and 3v appear in my scan, but the printed edition may have plates for all inscribed pages.</note> and translation. Re-edited by E. Hultzsch (<bibl rend="omitname"><ptr target="bib:Hultzsch1925-1926_04"/></bibl>) with (probably) different rubbings and a new translation. The present edition by Dániel Balogh is based on a collation of Hultzsch's text with his published facsimile.</p>
+           <listBibl type="primary">
+             <bibl n="EH">
+               <ptr target="bib:Hultzsch1925-1926_04"/>
+            </bibl>
+             <bibl n="LR">
+               <ptr target="bib:LakshmanaRao1922_01"/>
+            </bibl>
+           </listBibl>
+           <listBibl type="secondary">
+<bibl n="ARIE 1922-1923">
+<ptr target="bib:ARIE1922-1923"/>
+<citedRange unit="page">12</citedRange>
+<citedRange unit="appendix">A/1922-23</citedRange>
+<citedRange unit="item">14</citedRange>
+</bibl>
+           </listBibl>
+        </div>
+      </body>
+  </text>
+</TEI>
