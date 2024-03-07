@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Nerūr plates of Pulakeśin II</title>
+            <respStmt>
+               <resp>EpiDoc encoding</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Berlin</pubPlace>
+            <idno type="filename">DHARMA_INSBadamiCalukya00009</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>Halantas. The halanta M is a slightly reduced and simplified form; instead of a line above, it has the left arm extended into a circular stroke resembling an i mātrā but open on the right bottom. The halanta N looks like a full-sized regular na.</p>
+                     <p>Original punctuation. All punctuation marks (unless otherwise noted) are double verticals. 
+                <!--Other palaeographic observations. --><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+            <summary><p><p/></summary>
+            <handNote xml:id="Pallava00001_hand1"></handNote>
+            <handNote xml:id="Pallava00001_hand2"></handNote>
+           -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
+         <change who="part:daba" when="2020-03-13" status="draft">Initial encoding of the file</change>
+         <change who="part:daba" when="2020-08-14" status="draft">Updated to template v2, encoded bibliography and commentary</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="san-Latn" rendition="class:83225 maturity:83213">
+<pb n="1v"/>
+<ab>
+<lb n="01"/><g type="spiralIndistinct"/> śrī
+<lb n="02"/>svasti||
+</ab>
+<lg n="1" met="mālinī">
+   <l n="a"><lb n="1"/>jayati vima<choice><orig>ḷ</orig><reg>l</reg></choice>a-daṁṣṭrā-rājitaṁ loka-bharttuḥ||</l>
+   <l n="b">praśamita-ripu-<seg met="+++-++"><gap reason="lost" quantity="6" unit="character"/></seg> <supplied reason="lost" cert="low">mu</supplied> <lb n="2"/>rāreḥ||</l>
+   <l n="c">Avani-ta<choice><orig>ḷ</orig><reg>l</reg></choice>a-vi<seg met="+"><gap reason="illegible" quantity="1" unit="character"/></seg>tābhinna-pātāla-mūlaM||</l>
+   <l n="d">sva-bhuja-<seg met="---++"><gap reason="lost" quantity="5" unit="character"/></seg><lb n="3" break="no"/>d ūrddhvam <choice><sic>ū</sic><corr>u</corr></choice>rvv<choice><sic>i</sic><corr>ī</corr></choice>n dadhānaṁ||</l>
+</lg>
+<lg n="2" met="mālinī">
+   <l n="a">tad anu jayati nityaṁ vallabhasyāpi bāhu<supplied reason="lost">ḥ||</supplied></l>
+   <l n="b"><seg met="------++"><gap reason="lost" quantity="8" unit="character"/></seg><lb n="4"/>harṣṣa-viccheda-hetuḥ||</l>
+   <l n="c">dvija-vara-kr̥ta-śāntiḥ sarvva-lokasya pā<choice><orig>ḷ</orig><reg>l</reg></choice>aḥ||</l>
+</lg>
+<p>a<unclear>ne</unclear><supplied reason="lost" cert="low">ka-rāja-parājayopārjjita</supplied><lb n="5" break="no"/>-kīrttīnāṁ deva-dvija-<unclear>g</unclear><supplied reason="lost">u</supplied><unclear>r</unclear><supplied reason="lost">u</supplied>-<gap reason="lost" quantity="6" unit="character" precision="low"/> <supplied reason="lost">hā</supplied>ritī-putrāṇāṁ mānavya-sa<unclear>g</unclear><supplied reason="lost">otrāṇām</supplied> <gap reason="lost" quantity="6" unit="character" precision="low"/><pb n="2r" break="no"/><lb n="6" break="no"/><gap reason="lost" quantity="5" unit="character" precision="low"/>ṣāṁ bahu-<unclear>s</unclear>u<supplied reason="lost">varṇ</supplied>ṇ<supplied reason="lost">a</supplied> <gap reason="lost" quantity="5" unit="character" precision="low"/> dakṣiṇopeta-<unclear cert="low">gu</unclear> <gap reason="lost" quantity="12" unit="character" precision="low"/><lb n="7"/><unclear cert="low">-yā</unclear>gāvabhr̥tha-snānodaka-pavitrī-kr̥<unclear cert="low">ta-śa</unclear>rīraḥ<supplied reason="subaudible">.</supplied> tasya putraḥ srī-kīrttirājaḥ<supplied reason="subaudible">.</supplied> <supplied reason="lost">tasyātmajaḥ srī-sa</supplied><lb n="8" break="no"/>tyāśrayaḥ polekesi-vallabha-māharājaḥ <sic>kuva<unclear cert="low">ḷālaha</unclear>su</sic> <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="6" unit="character" precision="low"/><lb n="9"/>mahā-dānaṁ viprebhyaḥ dattavān|| tadā kāle idam api śāsanaṁ|| va<unclear cert="low">cca</unclear>-sagotra-<gap reason="lost" quantity="7" unit="character" precision="low"/><lb n="10" break="no"/>rācāryyasya pañca-viṅśati-nivarttan<choice><sic>ā</sic><corr>a</corr></choice>ṁ rāja-mānena kṣetraṁ dattaṁ<supplied reason="subaudible">.</supplied> tatra pa <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character" precision="low"/><lb n="11"/><supplied reason="lost">1</supplied> <gap reason="illegible" quantity="1" unit="character"/> <unclear cert="low">vātā</unclear>pī-grāme <gap reason="lost" quantity="15" unit="character" precision="low"/> <unclear>mahā-patha</unclear>-<gap reason="lost" quantity="6" unit="character" precision="low"/>
+</p>
+         </div>
+
+
+
+
+         <div type="apparatus">
+               <listApp>
+                  <app loc="1">
+                     <lem><supplied reason="lost" cert="low">mu</supplied> <lb n="2"/>rāreḥ</lem>
+                     <rdg source="bib:Fleet1879_01"><supplied reason="lost">su</supplied> <lb n="2"/>rāreḥ</rdg>
+                     <note>Fleet translates, “who allayed … the hostile … enemies of the gods.” I believe that <foreign>murāreḥ</foreign> is a much more likely restoration. As Fleet agrees, the subject must be a lost word meaning “the form”, and it is easily conceivable that <foreign>loka-bharttuḥ</foreign> is in apposition to the possessor of that “form” in the genitive. The line may have run something like <foreign>praśamita-ripu-śakti kroḍa-rūpaṁ murāreḥ</foreign>, but I prefer not to show such a conjectural restoration in the text.</note>
+                  </app>
+                  <app loc="2">
+                     <lem>vi<seg met="+"><gap reason="illegible" quantity="1" unit="character"/></seg>tābhinna</lem>
+                     <rdg source="bib:Fleet1879_01">vi<unclear cert="low">ghā</unclear>tābhinna</rdg>
+                     <note>The gap does not seem to be wide enough for <foreign>ghā</foreign> (unless it was compressed horizontally), although there may have been three vertical strokes in this glyph. From the vestiges, the consonant <foreign>p</foreign> seems more likely, but <foreign>vipāta</foreign> is not attested, though <foreign>vi-pat</foreign> “burst asunder” is. The vowel may well be <foreign>ā</foreign>, though <foreign>o</foreign> and <foreign>ī</foreign> are also quite conceivable. See the commentary for further speculation.</note>
+                  </app>
+                 <app loc="2">
+                    <lem source="bib:Fleet1879_01">-bhuja-<seg met="---++"><gap reason="lost" quantity="5" unit="character"/></seg></lem>
+                    <note>The lacuna may be restored along the lines of <foreign>bala-gurutvā</foreign>, again too conjectural to show in the edition.</note>
+                 </app>
+                  <app loc="3">
+                     <lem>bāhu<supplied reason="lost">ḥ||</supplied></lem>
+                     <rdg source="bib:Fleet1879_01">bāhu<supplied reason="lost">r</supplied></rdg>
+                  </app>
+                 <app loc="4">
+                    <lem source="bib:Fleet1879_01">a<unclear>ne</unclear><supplied reason="lost" cert="low">ka-rāja-parājayopārjjita</supplied>-</lem>
+                    <note>Fleet prints <foreign>ne</foreign> as clear, but none of it is discernible in the scanned estampage, and at least part of it must be broken off. Fleet’s restoration seems a bit long compared to the earlier lines. </note>
+                 </app>
+                  <app loc="5">
+                     <lem>-<unclear>g</unclear><supplied reason="lost">u</supplied><unclear>r</unclear><supplied reason="lost">u</supplied>-<gap reason="lost" quantity="6" unit="character" precision="low"/></lem>
+                     <rdg source="bib:Fleet1879_01">-<unclear>guru</unclear>-<supplied reason="lost" cert="low">pādānuddhyātānāṁ</supplied></rdg>
+                     <note>Since we now know that <foreign>pādānuddhyāta</foreign> does not normally mean “meditating at the feet of”, I think Fleet’s restoration must be discarded. Instead, I suggest <foreign>vr̥ddhāpacāyināṁ</foreign> on the basis of the <ref n="tfb-badamicalukya-epigraphy" target="DHARMA_INSBadamiCalukya00004.xml">Kopparam plates of Pulakeśin II</ref>, but there are other possibilities such as <foreign>sādhubhaktānāṁ</foreign>, etc.</note>
+                  </app>
+                  <app loc="6">
+                     <lem><gap reason="lost" quantity="5" unit="character" precision="low"/>ṣāṁ</lem>
+                     <rdg source="bib:Fleet1879_01"><gap reason="lost" quantity="3" unit="character" precision="low"/>-<supplied reason="lost" cert="low">yaju</supplied>ṣāṁ</rdg>
+                     <note>Fleet’s suggestion does not seem very plausible. Compare <foreign>aśvamedhāvabhr̥tha-snāna-pavitrī-kr̥ta-vapuṣāṁ</foreign> in numerous later Cālukya plates. All this would probably not have fit in the space at the end of l5 and beginning of l6, but something shorter may have, e.g. <foreign>aśvamedha-pavitrī-kr̥ta-vapuṣāṁ</foreign>. The problem is that this restoration is too similar to the compound with <foreign>pavitrī-kr̥ta-śarīraḥ</foreign> below, though that one is for Pulikeśin I, while this is for the dynasty as a whole.</note>
+                  </app>
+                  <app loc="7">
+                     <lem><unclear cert="low">yā</unclear>gāvabhr̥tha</lem>
+                     <rdg source="bib:Fleet1879_01">ga<supplied reason="lost">ṁ</supplied>gāvabhr̥tha</rdg>
+                     <note>The first character is indistinct in the scan but could well be the right-hand part of <foreign>yā</foreign> (most of the right limb, plus a vowel mark bending down on the right-hand side), and <foreign>-yāgā°</foreign> seems to be much more likely in view of related plates.</note>
+                  </app>
+                  <app loc="7">
+                     <lem source="bib:Fleet1879_01"><supplied reason="lost">tasyātmajaḥ srī-sa</supplied>
+<lb n="8" break="no"/>tyāśrayaḥ</lem>
+                     <note>While Fleet’s restoration is perfectly plausible, it is not necessarily accurate in every detail. Line 8 begins with an indent of 3 to 4 characters because of the binding hole, and while no vestiges are visible in the scanned facsimile to the left of the hole, it is possible that <foreign>sa</foreign> was in fact inscribed there. Moreover, Fleet apparently used this restoration as a basis for estimating the length of the lacunae at the ends of other lines, but it seems possible that each of those lacunae are in fact a few characters longer.</note>
+                  </app>
+                  <app loc="8">
+                     <lem source="bib:Fleet1879_01"><sic>kuva<unclear cert="low">ḷālaha</unclear>su</sic> <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="6" unit="character" precision="low"/></lem>
+                     <note>The characters Fleet tentatively reads as <foreign>ḷāla</foreign> are wholly indiscernible in the scan; the following <foreign>ha</foreign> (which Fleet prints as clear) is also unclear and could plausibly be <foreign>h</foreign>, <foreign>ph</foreign>, <foreign>ḍh</foreign> or <foreign>ṣ</foreign> with <foreign>a</foreign> or <foreign>ā</foreign>. For the last, partially extant character he notes that it “must be” <foreign>c</foreign>, <foreign>ḍ</foreign>, <foreign>d</foreign>, <foreign>p</foreign>, <foreign>ph</foreign>, <foreign>m</foreign>, <foreign>ṣ</foreign> or <foreign>h</foreign>, and he proposes <foreign>nāmadheya-grāmaṁ</foreign> for the lacuna (or for the remainder after the partial character). In the scan, the partial character looks likely to be <foreign>va</foreign>, which Fleet for some reason does not mention as a possibility. Perhaps something about <foreign>suvarṇṇa</foreign> rather than the name of a village? It also seems likely that the type of <foreign>mahādāna</foreign> would have been specified before the word. Moreover, if a village was mentioned here, I would expect boundaries and prerogatives, so I think Fleet’s restoration is unlikely. But then of course the extant unintelligible string needs to be interpreted; it could still be a place name, but in the locative, saying where the donation ceremony took place. (The extant <foreign>su</foreign> could even be the ending of that locative, in which case of course there is no <foreign>suvarṇṇa</foreign>.)</note>
+                  </app>
+                  <app loc="9">
+                     <lem>va<unclear cert="low">cca</unclear>-</lem>
+                     <rdg source="bib:Fleet1879_01">va<unclear cert="low">rcca</unclear>-</rdg>
+                     <note>I see no <foreign>r</foreign> in the scan, but Fleet may have had a clearer reading. I assume <foreign>vacca</foreign> is a vernacular form of <foreign>vatsa</foreign>; reading <foreign>vaccha</foreign> may also be possible.</note>
+                  </app>
+                  <app loc="10">
+                     <lem source="bib:Fleet1879_01">tatra pa</lem>
+                     <note>No trace of these characters is visible in my scan. I adopt but Fleet’s reading, but suspect that <foreign>tatrāghāṭāḥ</foreign> may have been engraved, with Fleet’s <foreign>pa</foreign> being the left half of <foreign>ghā</foreign>.</note>
+                  </app>
+                  <app loc="11">
+                     <lem source="bib:Fleet1879_01">-grāme</lem>
+                     <note>Though the reading is clear, it is also possible that <foreign>grāmo</foreign> was engraved, with the right-hand part of the vowel marker lost in the lacuna. As the line may be concerned with the boundaries of the donated land, a nominative is distinctly possible.</note>
+                  </app>
+                  <app loc="11">
+                     <lem><gap reason="lost" quantity="15" unit="character" precision="low"/> mahā-patha-</lem>
+                     <note>Fleet estimates the lacuna at 20 characters. This seems excessive: in the previous line there are about 15 characters across the same span. Also, <foreign>mahā-patha</foreign> (which Fleet prints as clear) is not visible at all in the scan. I do not know how clearly he could see these characters, but perhaps the end may rather have been <foreign>mahā-pātakais saṁyuktas syāt</foreign>.</note>
+                  </app>
+                  
+                  
+                  
+               </listApp>
+         </div>
+         
+         
+         
+<div type="translation" source="bib:Fleet1879_01">
+   <p n="01-02">Hail! <supplied reason="subaudible">May there be</supplied> good fortune!</p>
+   <p rend="stanza" n="1"> Victorious is <supplied reason="lost">the form, which was that of a boar,</supplied> of the lord of the world,who allayed <gap reason="lost"/> the hostile <gap reason="lost"/> enemies of the gods,—which was adorned by spotless tusks; which had the unbroken foundations of hell <gap reason="lost"/> the surface of the earth; which <gap reason="lost"/> by its own arms; and which lifted up the world on high!</p>
+   <p rend="stanza" n="2">After that, victorious for ever is also the arm of <persName>Vallabha</persName>,—which is the cause of the interruption of the joy<note>There is evidently a punning allusion here to the conquest of Harsha or Harshavardhana.</note>
+      <gap reason="lost"/>, and which effects the tranquillity of the best of the twice-born, and which is the protector of all mankind!</p>
+   <p n="4-11"><supplied reason="lost">In the lineage of the <persName>Calukyas</persName></supplied>,—who are possessed of fame <supplied reason="lost">acquired by defeating</supplied> many <supplied reason="lost">kings</supplied>; <supplied reason="lost">who meditate on the feet of</supplied> the gods and the twice-born and spiritual preceptors; who are the descendants of <persName>Hāritī</persName>; who are of the lineage of <persName>Mānavya</persName>; <supplied reason="lost">who sacrifice</supplied> <gap reason="lost"/>; and who <gap reason="lost"/> which cost much gold <gap reason="lost"/> endowed with donations <gap reason="lost"/>,—<supplied reason="subaudible">there was</supplied> <gap reason="lost"/>,whose body was purified by the water of the <supplied reason="subaudible">river</supplied> <persName>Gaṅgā</persName> which was used for his purificatory bathing. His son was <persName>Śrī-Kīrttirāja</persName>.
+His son, <persName>Śrī-Satyāśraya</persName>, the Great King <persName>Polekēśi-Vallabha</persName>, gave to the Brāhmaṇs a great gift, <supplied reason="subaudible">the village named</supplied> <seg cert="low">Kuvaḷālahasu</seg> <gap reason="lost"/> At that same time, also, this charter <supplied reason="subaudible">was given</supplied>.
+A field, <supplied reason="subaudible">of the measure of</supplied> twenty-five nivartanas by the royal measure, was given to <gap reason="lost"/>rācārya of the <seg cert="low"><persName>Varca</persName></seg><note resp="part:daba">Fleet spells “Varcha” here, but his transliteration in the text is “Varchcha.”</note> <foreign>gotra</foreign>. There <gap reason="lost"/> at the village of <seg cert="low">Vātāpī</seg> <gap reason="lost"/> the high-road <gap reason="lost"/>
+</p>
+</div>
+         
+         
+<div type="translation" xml:lang="fra" source="bib:Estienne-Monod2008_01">
+<p n="01-02">Prospérité ! Fortune !</p>
+<p rend="stanza" n="1">Victoire à <supplied reason="lost">la forme</supplied> brillant grâce aux défenses immaculées du maître du monde,
+qui a détruit l’hostile <gap reason="lost"/> les ennemis des dieux !
+qui a brisé le fond intangible du Pātāla <gap reason="lost"/> à la surface de la terre,
+par son propre bras, <gap reason="lost"/> qui porte haut la terre !</p>
+   <p rend="stanza" n="2">Puis, victoire éternelle au bras <gap reason="lost"/> de Vallabha qui causa la mort de Harṣa<note>Harṣavardhana mentionné in insc. n° 5, str. 23.</note> <gap reason="lost"/> !</p>
+   <p n="4-11">Lui qui fait la sérénité des excellents deux-fois nés, protecteur du monde entier, <supplied reason="lost">ornement de la lignée des Calukya, qui ont conquis leur renommée en vainquant les nombreux rois</supplied>,<note>Les termes entre parenthèses traduisent les suggestions de l’éditeur qui reconstitue le texte.</note>  <supplied reason="lost">méditant aux pieds des</supplied> dieux, des deux-fois nés et des savants, fils de Hāritī, du même gotra que les descendants de Manu, <gap reason="lost"/> muni des récompenses <gap reason="lost"/> du <foreign>bahusuvarṇa</foreign>,<note>Sur le terme <foreign>bahusuvarṇa</foreign> cf. insc. n° 7 où il apparaît sous la variante suvarṇaka, il est aussi mentionné sous la forme bahusuvarṇa in insc. n° 8.</note> lui dont le corps fut purifié par l’eau des bains purificatoires faits dans le Gange.
+Son fils fut l’illustre Kīrtirāja.
+Le fils de celui-ci, l’illustre grand roi Satyāśraya Polekeśin Vallabha, fit ce grand don aux brahmanes <supplied reason="subaudible">du village nommé</supplied> Kuvaḷālahasu.
+Et au même moment il donné cet édit.
+Un terrain de vingt-cinq nivartana, calculés selon les mesures du roi,<note>Le <foreign>nivartana</foreign> est le plus souvent calculé en fonction de la longueur du pied du roi.</note> est donné au maître <gap reason="lost"/> du <foreign>gotra</foreign> de Varcca.
+Là <gap reason="lost"/> dans le village de Vātāpī <gap reason="lost"/> sur la grande route <gap reason="lost"/>
+</p>
+</div>
+
+
+<div type="translation" resp="part:daba">
+   <p n="01-02">Glory! Greetings!</p>
+   <p rend="stanza" n="1">Victorious is that <supplied reason="lost">boar form of</supplied> the lord of the world <supplied reason="lost" cert="low">Mu</supplied>rāri <supplied reason="explanation">Viṣṇu</supplied>,
+which has suppressed the <supplied reason="lost" cert="low">might</supplied> of its enemies,
+which has <seg cert="low">uncovered</seg> the fundament of the underworld by <supplied reason="lost" cert="low">striking</supplied> the surface of the earth,<note>My translation is for the restored and emended reading <foreign>avani-tala-vighātodbhinna-pātāla-mūlam</foreign>, which seems to be the most semantically relevant among several alternatives that may be technically more plausible on the basis of the preserved characters.</note>
+and holds the wide earth on high by the <supplied reason="lost" cert="low">great strength</supplied> of his own arms.</p>
+   <p rend="stanza" n="2">After that, also and always victorious is the arm of Vallabha, <gap reason="lost"/> the instrument that cuts off joy <seg rend="pun">has broken Harṣa</seg>, the protector of all the world for which excellent Brahmins have performed propitiatory rites.<note>I am not sure what exactly the composer had in mind when he wrote <foreign>dvija-vara-kr̥ta-śāntiḥ</foreign>. Fleet translates <q>which effects the tranquillity of the best of the twice-born.</q> This is possible, with the commonplace purport that this king protects peace and the status quo, so the priesthood can feel safe. However, it involves an inelegant compound construction, and I expect <foreign>śānti</foreign> to have a ritual connotation when mentioned next to <foreign>dvija</foreign>s. In this case, as translated above, the king’s arm may stand metonymically for the king himself, and the message may be that there are expert ritualists in charge of the metaphysical protection of the king and thus the kingdom from adversities. Finally, there may be a more loaded interpretation intended, and perhaps implied by the literal meaning of <foreign>harṣa-viccheda</foreign> earlier in the verse: perhaps the propitiatory rituals were performed against his arm, to prevent its excessive aggression, and it is the result of this propitiation that this arm is now the protector, rather than the destroyer of the world.</note></p>
+   <p n="4-11"><supplied reason="lost">In the lineage of the Calukyas who have earned their</supplied> fame by vanquishing <supplied reason="lost">many kings</supplied>, who <supplied reason="lost">respect</supplied> the gods, Brahmins, teachers <supplied reason="lost" cert="low">and elders</supplied>, who are the sons of <supplied reason="lost">Hā</supplied>ritī and are of the Mānavya <supplied reason="lost"><foreign>gotra</foreign></supplied>, <gap reason="lost"/> <supplied reason="lost" cert="low">and whose bodies have been purified by sacrifices</supplied> involving gratuities <supplied reason="explanation"><foreign>dakṣiṇā</foreign></supplied> of lots of gold<note>I assume that <foreign>bahusuvarṇa</foreign> is not a technical term here.</note> <gap reason="lost"/>
+<supplied reason="lost">was born Pulikeśin</supplied> whose body has been hallowed by the bathing water of the ablutions of <gap reason="lost"/> sacrifices.<note>It is not clear whom the extant fragments of compounds in lines 5 to 7 qualify. Bodies sanctified by the water of sacrifices were probably mentioned twice, first in connection to the dynasty as a whole, and second in connection with one specific king. This specific king may have been Kīrtirāja; or, as translated above, more likely Pulikeśin I whose name is not preserved but who must have been referred to by some epithet in one of the lost bits of text.</note>
+His son was His Majesty Kīrtirāja.
+<supplied reason="lost">His son, His Majesty</supplied> King <supplied reason="lost">Sa</supplied>tyāśraya Polekeśi Vallabha has given a Great Donation<note><foreign>Mahādāna</foreign> is in all probability a technical term here (q.v. Kane 1930, II: 869ff<!--Encode reference once Kane is sorted out in Zotero.-->), and unlike Fleet, I believe that the land donation recorded here was an ancillary to that Great Gift (which may have been specified in the lacuna at the end of line 8 and the preceding unintelligible text), rather than a great gift in itself. The sentence <foreign>tadā kāle idam api śāsanam</foreign> below is thus in my opinion an explanation that an additional grant has been ordered, instead of a reference to the copper plate itself, as Fleet understands it.</note> <supplied reason="explanation"><foreign>mahādāna</foreign></supplied> to the priests <supplied reason="lost" cert="low">in</supplied> <seg cert="low">Kuvaḷālaha</seg>  …
+At that time this decree too <supplied reason="subaudible">was made</supplied>:
+Land comprising twenty-five nivartanas by the royal measure was given to …rācārya of the <seg cert="low">Vacca</seg> <foreign>gotra</foreign>. With respect to that, <supplied reason="lost" cert="low">the boundaries are</supplied> <gap reason="lost"/> the village <seg cert="low">Vātā</seg>pī <gap reason="lost"/> great road <gap reason="lost"/>
+</p>
+</div>
+
+
+
+         <div type="commentary">
+<p>The plate begins with two short marginal lines distinct from the body text. Fleet does not read the mangala symbol (unclear, apparently a dextrorse spiral resembling a figure 9) in the top left corner and reads svasti (slightly above the level of l2 but well below the level of l1 in the body) at the beginning of l1 and before śrī. I believe śrī belongs with the mangala symbol in the marginal field. In this way the first three lines of the body text have a straight vertical margin just to the right of the hole; the subsequent lines begin further to the left, near the edge of the plate.</p>
+<p n="2">In verse 1, I have some doubts about abhinna, though I do not have a good alternative suggestion, unless -tābhinna is to be emended to -tād bhinna (or read as tobhinna and emended to todbhinna). Could the text be vikhātābhinna, he dug up the entire fundament of hell for [=in search of] the surface of the earth? But a dative tatpuruṣa would be really unusual. An autopsy would be helpful here.</p>
+<p n="5-8">How could this passage work? We certainly want something like calukyānāṁ vaṁśe saṁbhūtaḥ at some point, and if …ṣāṁ in l6 still qualifies the dynasty (and the preceding lacuna can be filled up as I suggested above), then this must come at the end of l6. Or perhaps kulam alaṁkariṣṇuḥ instead of vaṁśe saṁbhūtaḥ. But Pulikeśin I also ought to be introduced at the end of l6, and the space is simply not enough.</p>
+<p>There are only three pādas to stanza 2.</p>
+</div>
+
+
+         
+         <div type="bibliography">
+  <!--bibliography encoded as per section §9.4 -->
+  <!-- NB: you are encouraged to experiment with encoding bibliography to the extent you have the bibliographic data available, but it is not mandatory at this stage, because our bibliographic data are normally assembled along with other metadata in spreadsheets and will be imported from there into our xml files by a semi-automated process at a later stage. -->
+           <p>First reported by General George LeGrand Jacob (<bibl rend="omitname"><ptr target="bib:Jacob1851_01"/><citedRange>210</citedRange></bibl>). Edited by J. F. Fleet (<bibl rend="omitname"><ptr target="bib:Fleet1879_01"/></bibl>) with estampages and translation.  The present edition by Dániel Balogh is based on a collation of Fleet’s edition with the published facsimile.</p>
+           <listBibl type="primary">
+             <bibl n="JFF"><ptr target="bib:Fleet1879_01"/></bibl><!-- one <bibl/> per item of primary bibliography. Every entry mentionned in apparatus  should hava a @n to declare its sigla -->
+           </listBibl>
+           <listBibl type="secondary">
+             <bibl><ptr target="bib:Jacob1851_01"/><citedRange>210</citedRange></bibl><!-- one <bibl/> per item of secondary bibliography -->
+           </listBibl>
+        </div>
+      </body>
+  </text>
+</TEI>

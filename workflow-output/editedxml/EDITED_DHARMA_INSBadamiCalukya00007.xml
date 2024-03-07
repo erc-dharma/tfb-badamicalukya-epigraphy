@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lohaner plates of Pulakeśin II</title>
+            <respStmt>
+               <resp>EpiDoc encoding</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Berlin</pubPlace>
+            <idno type="filename">DHARMA_INSBadamiCalukya00007</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>Halantas. The alleged T in l31 is not visible in the scan and may not exist at all (see apparatus). The final M looks like a regular ma, but its left arm is extended into an ornamental flourish that seems to bend right and then down. It may be followed by a (full-height) double vertical or another closer symbol, but Khare prints nothing here, and I cannot tell from the scan whether a mark is really present.</p>
+                     <p>Punctuation marks, where discernible in the scanned rubbing, are short verticals. They are used singly after v1 and v2. None of those on 2verso are visible in the scan, so I assume that the number of daṇḍas shown as original by Khare corresponds to the number of short verticals on the plate, i.e. one after vyāsena in l30, and two at the end of v3. Each of the remaining stanzas ends with a clear, short double vertical.</p>
+                     <p>Other palaeographic observations. The inscription vacillates between two distinct forms of ṇ. The “southern” form, like a winged na, prevails at the beginning, used in ghoṇā, l2; gotrāṇāṁ, putrāṇāṁ, gaṇā l5; etc, all other instances of ṇ unless noted here. Clear instances of isolated “northern” bat-shaped ṇ occur in kr̥paṇa, l15; moṣiṇī, l19; goviyāṇaka, l20; paramāṇu, l27; kiraṇa, l27; sahasrāṇi, l30. A northern ṇ appears in the upper component of rṇṇa and ṇḍa, l6; rṇṇa, l21; rṇṇi, l23; and as the lower component in ṣṇā, l32. Caraṇa, l11; vraṇā, l14; śuśrūṣaṇa, l16; veṇuka, l25 are unclear but probably southern. Raṇa l15 is unclear but probably northern. Many subscript r-s are calligraphically extended upward on the left of the primary character. Some particularly ornate instances occur in the last line of the first page (l9, putra [first instance], parākramā°) and the first line of the second page (l10, śatru) : these curl upward on the left of the body, then bend over the body and down on the right, twisting a little and then running away to the right. This embellishment does not occur in śrī in line 9, where it would presumably interfere with the vowel mark, nor in the second instance of putra, which is crowded into a rather small space at the end of the line. Some other subscript characters are also enlarged in line 10, notably those in rtti and rmma. In l35, drya is an interesting specimen with an extended subscript r in combination with a subscript y. Interesting: the upper l of lla in vallabha is a “northern” type, with a very short stem and a headmark. The subscript l has a fully curled tail. The la of paṭala in l9 is also northern. Just the other way round, lla in l17 has a curly “southern” l on top, with a short-stemmed and large-bodied “northern” l below. 
+                <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+            <summary><p><p/></summary>
+            <handNote xml:id="Pallava00001_hand1"></handNote>
+            <handNote xml:id="Pallava00001_hand2"></handNote>
+           -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
+         <change who="part:daba" when="2020-03-12" status="draft">Initial encoding of the file</change>
+         <change who="part:daba" when="2020-08-13" status="draft">Updated to template v2, encoded bibliography and commentary</change>
+         <!-- Add a <change> entry for each significant change to the file. -->
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+      <body>
+         <div type="edition" xml:lang="san-Latn" rendition="class:83225 maturity:83213">
+<pb n="1r"/>
+<ab>
+<pb n="1v"/>
+<lb n="1"/><g type="spiralR"/> svasti<supplied reason="subaudible">.</supplied>
+</ab>
+<lg n="1" met="-+---++-++-+-++-=">
+   <l n="a">jayaty amala-bālendu-koṭi-prakāśa-daṁṣṭr̥otkaṭaṁ</l>
+   <l n="b">rasātala-ja-paṅkāṅkita-skandha-de<lb n="2" break="no"/>śam ut-kesaraṁ</l>
+   <l n="c" enjamb="yes">jalālulita-ghoṇāgra-mukta-prabhañjanotsārita</l>
+   <l n="d">-dhvanaj-jaladhi-ma<lb n="3" break="no"/>dhyopalabdhorvvi kola-rūpaṁ hareḥ<g type="comma">.</g></l>
+</lg>
+<lg n="2" met="āryā">
+   <l n="ab">tad-anu jita-balavad-ari-gaja-mastaka-galita-sita-mau<lb n="4" break="no"/>ktika-cchuritas</l>
+   <l n="cd">satyāśrayasya bāhur jjayati jagaj-janita-bahumānaḥ<g type="comma">.</g></l>
+</lg>
+
+<p>asti mānavya-sago<lb n="5" break="no"/>trāṇāṁ<space type="binding-hole"/> hārīti-putrāṇāṁ kauśikī-saṁvarddhitānāṁ mātr̥-gaṇābhiṣiktānāṁ svāmi-mahāse<lb n="6" break="no"/>na-pādā<space type="binding-hole"/>nuddhyātānāṁ <sic>culu<unclear cert="low">tki</unclear>kīnām</sic> anvaye bahu-suvarṇṇakāśvamedha-pauṇḍarīka<lb n="7" break="no"/>-vājapeyādi-yāgāvabhr̥tha-snāna-pavitrī-kr̥ta-śirasāṁ manu-nr̥ga-nahuṣa-yayāti-dhundhumārā<lb n="8" break="no"/>mbarīṣa-dilīpa-nābhāga-pratimaḥ śrī-raṇavikrama-dvitīya-nāmā pulakeśi-vallabha-<del>ma</del><lb n="9"/>mahārājas<supplied reason="subaudible">.</supplied> tasya putraḥ para-gaja-ghana-paṭala-pavana<supplied reason="omitted">ḥ</supplied> śrī-parākrāmāparā<choice><sic>n</sic><corr>kh</corr></choice>yaḥ kīrttivarmmā<supplied reason="subaudible">.</supplied> tasya putra<unclear>ḥ</unclear>
+<pb n="2r"/>
+<lb n="10"/>praddhvasta-prabala-śatr<unclear>u</unclear>-mahimā himācalānukārī vipula-sthairyyonnati<supplied reason="omitted">ḥ</supplied> nata-parama-sāmanta<lb n="11" break="no"/>-samupacaritaś carita-tapaś-caraṇa<supplied reason="omitted">ḥ</supplied> bhr̥tya-labdha-prasādaḥ sādaram ivānanya-manasā vi<lb n="12" break="no"/>dhātrā vinirmmito mita-hita-viśada-satya-vacanopanyāso nyāsa iva jagatyās caryyāṇāṁ prathama<lb n="13" break="no"/>-yuga-manuja-pati-muni-carita<supplied reason="omitted">ḥ</supplied> vijayī vimala-gagana-gata I<supplied reason="omitted">va</supplied> śaradīndur <choice><sic>ū</sic><corr>u</corr></choice>paśamita-sakala<lb n="14" break="no"/>-jagad-as<unclear>u</unclear><space type="binding-hole"/>khaḥ sāhas<choice><sic>au</sic><corr>ai</corr></choice>ka-ratir aneka-cāturddanta-sa<supplied reason="omitted">ṁ</supplied>grāma-janita-vraṇāṅkāṅgatayā <lb n="15"/>sva-bhu<space type="binding-hole"/>ja-bala-labdha-raṇavikrāmākhyaḥ suhr̥d-avana<supplied reason="omitted">ḥ</supplied> dīnāndha-kr̥paṇa-samu<lb n="16" break="no"/>pabhujyamāna-vibhavaḥ pūrvvāparāmbu-nāthaḥ deva-dvija-guru-śūśrūṣaṇa-paraḥ <lb n="17"/>parama-bhāgavataḥ prasabhābhimr̥ṣṭānya-rāja-śrī<supplied reason="omitted">ḥ</supplied> śrī-satyāśraya-pr̥thivī-vallabha<lb n="18"/>-mahārāja<supplied reason="omitted">ḥ</supplied> sarvvān eva rāja-sāmanta-bhogika-viṣayapati-rāṣṭrakūṭa-grāmāyukta<pb n="2v" break="no"/><lb n="19" break="no"/>kādīn sammānayaty</p>
+<p>astu vo viditam asmābhi<supplied reason="omitted">ḥ</supplied> moṣiṇī-pathakāntarggata<supplied reason="omitted">ḥ</supplied> Asikheṭaka-grāma<lb n="20" break="no"/>-pratyāsanna-goviyāṇaka-grāmaḥ sarvva-rāja-kulādeya-sahitaḥ Acāṭa-bhaṭa-prā<lb n="21" break="no"/>veśya ācandrārkkārṇṇava-kṣiti-sthiti-samakālīna<supplied reason="omitted">ḥ</supplied> bali-caru-vaiśvadevāgnihotra-k<choice><orig>r̥</orig><reg>ri</reg></choice><lb n="22" break="no"/>yā-pañca-mahā-yajñotsarppaṇārthaṁ girinagara-vinirggata-lohanagara-vāstavyāya sāva<lb n="23" break="no"/>rṇṇi-sago<space type="binding-hole"/>tra-maitrāya<choice><sic>n</sic><corr>ṇ</corr></choice>ika-vārāhaka-sabrahmacāri-dāmadīkṣitāya U<lb n="24" break="no"/>dakātisargge<choice><sic>n</sic><corr>ṇ</corr></choice>a pratipāditaḥ<supplied reason="subaudible">.</supplied>
+</p>
+<p>yato <supplied reason="subaudible">’</supplied>smad-va<supplied reason="omitted">ṁ</supplied>śyair anyair vvāgāmi-nr̥pati-bhoga-patibhir nna<lb n="25" break="no"/>la-veṇu-kadal<unclear reason="eccentric_ductus">ā</unclear>sāraṁ saṁsāram upalabhya Udadhi-jala-vīc<orig>ī</orig>-cañcalāṁś ca viṣayā<orig>ṁ</orig>n ava<lb n="26" break="no"/>nidhara-śikhara-kaṭaka-taṭa-lasita-salila-raya-gatvarañ ca jīvitam avagamya mahā-bhūta<lb n="27"/>-paramāṇu-sthāsnu ca mahat-phalaṁ śarac-candra-kiraṇa-dhavalaṁ yaśo nirūpyāyam asmad-dāyo 
+<pb n="3r"/>
+<lb n="28"/><supplied reason="subaudible">’</supplied>numantavyaḫ paripālayitavyaś ca<supplied reason="subaudible">.</supplied>  yo vājñāna-timira-paṭalāvr̥ta-matir ācchindyād ā<lb n="29" break="no"/>cchidyamānaṁ vānumodeta sa pañcabhir mmahā-pātakais saṁyukta<supplied reason="omitted">ḥ</supplied> syād<supplied reason="subaudible">.</supplied> uktañ ca bhagavatā <lb n="30"/>veda-vyāsena vyāsena<unclear><g type="comma">.</g></unclear>
+</p>
+<lg n="3" met="anuṣṭubh">
+   <l n="a">ṣaṣṭiṁ varṣṣa-sahasrāṇi</l>
+   <l n="b">svargge tiṣṭhati bhūmidaḥ</l>
+   <l n="c">Ācchettā <lb n="31"/>cānumantā ca</l>
+   <l n="d">tāny eva narake vase<unclear>T<g type="comma">.</g><g type="comma">.</g></unclear></l>
+</lg>
+<lg n="4" met="anuṣṭubh">
+   <l n="a">vindhyāṭavīṣv atoyāsu</l>
+   <l n="b">śuṣka-koṭara-vāsinaḥ</l>
+   <l n="c">kr̥<lb n="32" break="no"/>ṣṇāha<space type="binding-hole"/>yo hi jāyante</l>
+   <l n="d">bhūmi-dāyaṁ haranti ye<g type="comma">.</g><g type="comma">.</g></l>
+</lg>
+<lg n="5" met="anuṣṭubh">
+   <l n="a">sva-dattāṁ para-dattāṁ <unclear>vā</unclear></l>
+   <l n="b">yatnā<lb n="33" break="no"/>d rakṣa yu<space type="binding-hole"/>dhiṣṭhira<supplied reason="omitted"><g type="comma">.</g></supplied></l>
+   <l n="c">mahīṁ mahīmatāṁ śreṣṭha</l>
+   <l n="d">dānāc chreyo <supplied reason="omitted">’</supplied>nupālanaṁ<g type="comma">.</g><g type="comma">.</g></l>
+</lg>
+<lg n="6" met="anuṣṭubh">
+   <l n="a">bahubhir vvasudhā <lb n="34"/>bhuktā</l>
+   <l n="b">rājabhis sagarādibhi<supplied reason="omitted">ḥ</supplied></l>
+   <l n="c">yasya yasya yadā bhūm<choice><sic>a</sic><corr>i</corr></choice>s</l>
+   <l n="d">tasya tasya tadā phalaṁ<g type="comma">.</g><g type="comma">.</g></l>
+</lg>
+<lg n="7" met="upajāti">
+   <l n="a">yānī<lb n="35" break="no"/>ha dāridrya-bhayā<supplied reason="omitted">n</supplied> narendrair</l>
+   <l n="b">ddhanāni dharmmāyatanī-kr̥tāni</l>
+   <l n="c">nirbhukta-vānta-pratimāni tāni</l>
+   <l n="d">ko <lb n="36"/>nāma sādhuḥ punar ādadīta<g type="comma">.</g><g type="comma">.</g></l>
+</lg>
+<p>dvi-pañcāśadadhike <orig>śakābda-pañcake</orig> likhitaṁ tāmra-<unclear>ś</unclear>āsanaM
+</p>
+<pb n="3v"/>
+         </div>
+
+
+
+
+         <div type="apparatus">
+               <listApp>
+                  <app loc="2">
+                     <lem>-dhvanaj-jaladhi-</lem>
+                     <rdg source="bib:Khare1947-1948_01">-dhvaner jjaladhi-</rdg>
+                  </app>
+                  <app loc="6">
+                     <lem><sic>culu<unclear cert="low">tki</unclear>kīnām</sic></lem>
+                     <rdg source="bib:Khare1947-1948_01"><sic>culu<choice><unclear>ki</unclear><unclear>tki</unclear></choice>kīnām</sic></rdg>
+                     <note>Khare’s primary reading is <foreign>culukikīnām</foreign>, noting that the character he reads as <foreign>ki</foreign> could also be <foreign>tki</foreign>. It definitely looks like a ligature, with something resembling a <foreign>t</foreign> at regular height, and the <foreign>k</foreign> component is subscript. It may be <foreign>tki</foreign>, or possibly <foreign>ṅka</foreign> or <foreign>kki</foreign>. Khare does not comment on the weird form of the name. I suspect that this ligature may be aborted and perhaps even hammered out; I cannot tell without seeing the original, but plain <foreign>culukīnām</foreign> would be much closer to what we expect.</note>
+                  </app>
+                  <app loc="8">
+                     <lem>pulakeśi-</lem>
+                     <rdg source="bib:Khare1947-1948_01">pulikeśi-</rdg>
+                     <note>In my scanned estampage there is no trace of an <foreign>i</foreign> over the <foreign>l</foreign>. Khare may be correct, but verifying his reading needs an autopsy.</note>
+                  </app>
+                  <app loc="8">
+                     <lem>-<del>ma</del><lb n="9"/>mahārājas</lem>
+                     <rdg source="bib:Khare1947-1948_01">-ma<lb n="9" break="no"/><surplus>ma</surplus>mahārājas</rdg>
+                     <note>The <foreign>ma</foreign> at the end of l8 is faint and squeezed into quite a small space. I believe this one may have been deleted already by the engraver, who at first tried to write <foreign>ma</foreign> here to fill up the space up to the margin, then realised it was too narrow and beat it out, starting again in the next line.</note>
+                  </app>
+                  <app loc="9">
+                     <lem>-ghana-paṭala-pavana<supplied reason="omitted">ḥ</supplied></lem>
+                     <rdg source="bib:Khare1947-1948_01">-ghana-paṭala-pavanaḥ</rdg>
+                     <note>These characters are conspicuously compressed, occupying about as much horizontal space as <foreign>śrīraṇavikra</foreign> above. There is no indication of a deleted earlier text here (though <foreign>gha</foreign> actually looks more like <foreign>pha</foreign>), but there must be something going on here. Also, <foreign>la</foreign> is a “northern” form with a short stem and a headmark; interestingly, the body is below the baseline, extending into the space below the preceding <foreign>ṭa</foreign>. This seems to be yet another measure to compress the text horizontally as far as possible. I see neither any trace of a <foreign>visarga</foreign> at the end, nor sufficient space for one.</note>
+                  </app>
+                  <app loc="10">
+                     <lem>-praddhvasta</lem>
+                     <rdg source="bib:Khare1947-1948_01">-pra<choice><sic>d</sic><corr>dh</corr></choice>vasta</rdg>
+                  </app>
+                  <app loc="10">
+                     <lem>-śatr<unclear>u</unclear>-</lem>
+                     <note>If an <foreign>u</foreign> marker is present here, it is attached on the right-hand side of the ornamental extension of the subscript <foreign>r</foreign>, not at its usual place of attachment.</note>
+                  </app>
+                  <app loc="13">
+                     <lem source="bib:Khare1947-1948_01">śaradīndur <choice><sic>ū</sic><corr>u</corr></choice>paśamita</lem>
+                     <note>I fully endorse Khare’s emendation (whereas PEM emends to <foreign>śarad-indu-rūpa-śamita</foreign>, and <foreign>śaradīndu-rūpaḥ śamita</foreign> is also conceivable and least invasive). Although inscribing <foreign>rū</foreign> instead of <foreign>ru</foreign> seems to be an unlikely mistake. I assume that the engraver was at least somewhat Sanskrit-literate, and he must have “emended” what he read as <foreign>rupa</foreign> to <foreign>rūpa</foreign>, without being aware of the context.</note>
+                  </app>
+                  <app loc="14">
+                     <lem>-as<unclear>u</unclear><space type="binding-hole"/>khaḥ</lem>
+                     <rdg source="bib:Khare1947-1948_01">-a<unclear>sukhaḥ</unclear></rdg>
+                     <note>The reading is clear in the facsimile with the exception of <foreign>u</foreign>, which is barely visible. The reason for Khare’s hesitation may have been a short curving stroke within the space left around the binding hole. This is probably the top of an aborted <foreign>kha</foreign>: the engraver must have decided it was too close to the hole, and started the character again a bit to the right.</note>
+                  </app>
+              <app loc="14">
+                 <lem>sāhas<choice><sic>au</sic><corr>ai</corr></choice>ka-</lem>
+                 <rdg source="bib:Khare1947-1948_01">sāhasaika-</rdg>
+              </app>
+               <app loc="16">
+                  <lem>°āmbu</lem>
+                  <rdg source="bib:Khare1947-1948_01">°āmbu<supplied reason="omitted">dhi</supplied></rdg>
+                  <note>Khare’s emendation is plausible, but since it is not essential, I prefer not to show it in the text.</note>
+               </app>
+               <app loc="25">
+                  <lem>-kadal<unclear reason="eccentric_ductus">ā</unclear>sāraṁ</lem>
+                  <rdg source="bib:Khare1947-1948_01">-kadalosāraṁ</rdg>
+                  <note><foreign>lā</foreign> has two vowel marks, both on top of the curve, both short and both bending to the right. Khare reads <foreign>lo</foreign> and neither emends nor comments. PEM types (and translates) <foreign>dala-sāraṁ</foreign>. Since <foreign>lā</foreign> was clearly intended, I assume the vowel mark is unusually placed and for some reason engraved twice.</note>
+               </app>
+               <app loc="31">
+                  <lem>vase<unclear>T<g type="comma">.</g><g type="comma">.</g></unclear></lem>
+                  <rdg source="bib:Khare1947-1948_01">vaseT,,</rdg>
+                  <note>Neither the punctuation sign, nor a <foreign>halanta</foreign> <foreign>T</foreign> are visible in the scan. There is a long curving verticalish line in the space next to <foreign>se</foreign>, which I assume to be an ornamental extension of the vowel mark of the following <foreign>vi</foreign>. If this is so, then the <foreign>halanta</foreign> character and punctuation mark, if present, must be tiny. Perhaps more likely, the reading could be <foreign>vase</foreign> with or without a short vertical punctuation mark.</note>
+               </app>
+            <app loc="32">
+               <lem><unclear>vā</unclear></lem>
+               <note>This character is obscured by additional strokes/scratches; this may be damage, or perhaps a correction to or from something else. (Perhaps <foreign>pa</foreign> engraved by eyeskip and then corrected to <foreign>vā</foreign>?)</note>
+            </app>
+            <app loc="35">
+               <lem>-bhayā<supplied reason="omitted">n</supplied></lem>
+               <note>Khare suggests first <foreign>bhiyā</foreign>, second <foreign>bhayān</foreign> as plausible emendations. I prefer <foreign>bhayān</foreign> because omitting the final <foreign>t</foreign> of ablatives is quite a common tendency. PEM further proposes <foreign>bhaye</foreign>, which I find inferior.</note>
+            </app>
+            <app loc="36">
+               <lem><orig>śakābda-pañcake</orig></lem>
+               <rdg source="bib:Khare1947-1948_01">śa<choice><sic>k</sic><corr>t</corr></choice>ābda-pañcake</rdg>
+               <note>Khare’s editor suggests that <foreign>śakābdaśata</foreign> would be a better emendation. Indeed, <foreign>śaka</foreign> and <foreign>śata</foreign> were probably both intended to be present. With another alternative, <foreign>śakaśatābda</foreign>, eyeskip could explain the omission. Note that <foreign>śakābda-śata-pañcake</foreign> and <foreign>likhitaṁ tāmra-śāsanam</foreign> are both legitimate <foreign>anuṣṭubh</foreign> <foreign>pāda</foreign>s, so it seems possible that the date was modelled on a different date that was actually versified in that metre.</note>
+            </app>
+            <app loc="36">
+               <lem>-<unclear>ś</unclear>āsanaM</lem>
+               <rdg source="bib:Khare1947-1948_01">-<choice><sic>ṣ</sic><corr>ś</corr></choice>āsanam</rdg>
+               <note>The unclear character is definitely not <foreign>ṣā</foreign>. It is a clear <foreign>gā</foreign> in the scan, and I assume that its cross-stroke was present in the original. It is also possible that the cross-stroke was indeed omitted, and Khare’s text is a typo, where he had intended to read <foreign>gā</foreign> and emend to <foreign>śā</foreign>.</note>
+            </app>
+                  
+                  
+                  
+               </listApp>
+         </div>
+         
+         
+         
+<div type="translation" resp="part:daba">
+   <p n="1">Greetings!</p>
+   <p rend="stanza" n="1">Victorious is He—well endowed with tusks gleaming like the tip<note>The simile is based on the resemblance of a tusk to the curved tip of the crescent moon. However, the alternative meaning “like a million immaculate crescent moons” did surely not escape the composer and would in my opinion have been the first interpretation occurring to an audience to the stanza – to be replaced subsequently in an aha! moment with the less straightforward, but in the context far more apt alternative sense.</note> of an immaculate crescent moon, begrimed in the shoulder with mud originating from the netherworld <supplied reason="explanation"><foreign>rasātala</foreign></supplied>, mane bristling—the boar form of Hari when he has just recovered the Earth from amidst the sea ebbing away in a thunderous riptide set off by a flick of His snout in the water.</p>
+   <p rend="stanza" n="2">After Him, victorious is the arm of Satyāśraya, studded with white pearls<note>Pearls inside the skulls of elephants (here depicted as scattering while the heroic king butchers enemy elephants) are a common poetic convention, but it does seem to have a core of truth. Apparently, very old elephants can indeed have tiny, rounded pieces of ivory in the cavities at the root of their tusks, and these are valued as talismans.</note> that slipped from the heads of the elephants of powerful vanquished foes, which has earned great respect throughout the world.</p>
+   <p n="4-19">In the dynasty of the Culukis<note>See also the apparatus entry for this word in line 6.</note>
+—who are of the Mānavya gotra, who are the sons of Hārīti,
+who were nourished by Kauśikī,
+who were anointed by the host of Mother Goddesses,
+who were deliberately appointed <supplied reason="explanation">to kingship</supplied> by the Lord Mahāsena,
+and whose heads have been hallowed through washing in the purificatory ablutions <supplied reason="explanation"><foreign>avabhr̥tha</foreign></supplied> of sacrifices such as the Bahusuvarṇaka, the Aśvamedha, the Pauṇḍarīka and the Vājapeya<note>See the note in PEM’s translation for references on these sacrifices.</note>—there is a king <supplied reason="explanation"><foreign>mahārāja</foreign></supplied> Pulikeśi Vallabha,
+whose second name is His Majesty Raṇavikrama <supplied reason="explanation">Bold in Battle</supplied>,
+who takes after Manu, Nr̥ga, Nahuṣa, Yayāti, Dhundhumāra, Ambarīṣa, Dilīpa and Nābhāga.
+His son is Kīrtivarman, a gale to the shroud of clouds that are enemy elephants, whose other appellation is His Majesty Parākrama <supplied reason="explanation">Courage</supplied>.
+His son—who has eradicated the greatness of powerful enemies,
+who imitates the Himalayas in solidity and greatness,
+to whom the greatest of feudatories bow in service,
+who has followed vows of asceticism,
+who finds satisfaction in his underlings,
+who was, it seems, reverently designed by the Creator in utter concentration <supplied reason="subaudible">on the task</supplied>,
+who utters words that are measured, beneficent, pure and true,<note>Or, assuming <foreign>amita</foreign> instead of <foreign>mita</foreign>, “words that are immeasurably beneficient, pure and true.”</note> 
+a foundation as it were for the proper behaviour of all beings,
+who behaves like the royal sages<note>Or, “kings and sages.” But I take <foreign>manujapati-muni</foreign> as equivalent to <foreign>rājarṣi</foreign>.</note> of the First Age,
+triumphant,
+who eases the troubles of all the world like the autumnal moon in a clear sky,
+who delights in daring alone,
+whose body is marked by scars acquired in battles with many elephants,<note>I take <foreign>cāturdanta</foreign> to mean a descendant or relative of the four-tusked one, i.e. Airāvata.</note> whereby he <supplied reason="subaudible">too</supplied> has earned the name Raṇavikrama <supplied reason="explanation">Bold in Battle</supplied> by the strength of his own arms,
+who supports his friends,
+whose wealth is consumed by the destitute, the blind and the miserable,
+lord of the eastern and western water,<note>Or, emending to <foreign>ambudhi</foreign>, “ocean.”</note> 
+bent on obeying gods, Brahmins and elders,
+supreme devotee of the Bhagavat <supplied reason="explanation">Viṣṇu</supplied>, 
+who has forcefully rubbed out the glory <supplied reason="explanation"><foreign>śrī</foreign></supplied> of other kings,<note>Is there a suggestion of sexual rape here? I find the word <foreign>abhimr̥ṣṭa</foreign> unusual and feel that it may (also) mean “who has forcefully rubbed up against the Śrīs of other kings.”</note>
+His Majesty Satyāśraya Pr̥thivīvallabha—
+sends his respects to each and every subordinate king <supplied reason="explanation"><foreign>rājan</foreign></supplied>, <foreign>vassal</foreign> <supplied reason="explanation"><foreign>sāmanta</foreign></supplied>, steward <supplied reason="explanation"><foreign>bhogika</foreign></supplied>, governor <supplied reason="explanation"><foreign>viṣayapati</foreign></supplied>, territorial overseer <supplied reason="explanation"><foreign>rāṣṭrakūṭa</foreign></supplied>, village headman <supplied reason="explanation"><foreign>grāmāyuktaka</foreign></supplied> and so on <supplied reason="explanation">and informs them as follows</supplied>:</p>
+<p n="19-24">Let it be known to you that with a ceremonial pouring of water we have presented the village Goviyāṇaka in the vicinity of Asikheṭaka village in the Moṣiṇī district <supplied reason="explanation"><foreign>pathaka</foreign></supplied>
+—along with all its dues payable to the royal household, <supplied reason="explanation">as a perpetual holding</supplied> inaccessible to armsmen <supplied reason="explanation"><foreign>bhaṭa</foreign></supplied> and officers <supplied reason="explanation"><foreign>cāṭa</foreign></supplied>, for as long as the moon, sun, ocean and earth remain,
+<supplied reason="explanation">as an endowment</supplied> for the offering of the five great sacrifices, <supplied reason="subaudible">viz.</supplied> the rites <supplied reason="explanation"><foreign>kriyā</foreign></supplied> of Bali, Caru, Vaiśvadeva and Agnihotra<note>As I interpret the text, only four rites are explicitly named. According to Sircar <bibl><ptr target="bib:Sircar1966_01"/>s.v.</bibl><!--OR encode with citedRange unit="entry"? I see no need.-->, the <foreign>pañcamahāyajña</foreign> comprises <foreign>bali</foreign>, <foreign>caru</foreign>, <foreign>vaiśvadeva</foreign>, <foreign>agnihotra</foreign> and <foreign>atithi</foreign>. PEM interprets <foreign>kriyā</foreign> to mean a particular fifth sacrifice, noting that according to the editor it is equivalent to <foreign>kratu</foreign>. (I could not find such a statement in Khare’s article.) See also PEM’s notes for references on these sacrifices.</note>—
+to Dāmadīkṣita, who is of the Sāvarṇi <foreign>gotra</foreign> and a follower of the Maitrāyaṇika and Vārāhaka doctrines, and who hails from Girinagara and resides in Lohanagara.</p>
+<p n="24-29">Hence, future kings and territorial lords <supplied reason="explanation"><foreign>bhogapati</foreign></supplied> belonging to our dynasty or otherwise—
+perceiving that material existence <supplied reason="explanation"><foreign>saṁsāra</foreign></supplied> is as insubstantial as wild cane, bamboo or plantain stem,<note>The reason these plants are named here may be that all have stems that are either hollow or herbaceous. Alternatively, what makes them appropriate may be that they, like the body, perish after flowering; compare <title>Mahābhārata</title> <title>Āraṇyakaparvan</title> 252.9ab, <foreign>yathā ca veṇuḥ kadalī nalo vā phalanty abhāvāya na bhūtaye’’tmanaḥ</foreign>.</note> 
+understanding that the objects of senses <supplied reason="explanation"><foreign>viṣaya</foreign></supplied> are as fickle as the waves on the water of the ocean and that life is as quick to depart as a rush of water splashing off the edge of a cliff on a mountaintop,
+and bearing in mind <supplied reason="subaudible">on the other hand</supplied> that a reputation bright like the rays of the autumnal moon yields great fruit and is as permanent as the atoms of the great elements <supplied reason="explanation"><foreign>mahābhūta</foreign></supplied>,
+—should respect and uphold this grant of ours.
+But if one whose mind is enshrouded in a veil of the darkness of ignorance should seize it or condone its being seized, the five great sins shall be visited upon him.
+So too did the reverend Vyāsa, the redactor <supplied reason="explanation"><foreign>vyāsa</foreign></supplied> of the Vedas speak:</p>
+   <p rend="stanza" n="3">A donor of land stays in heaven for sixty millennia, <supplied reason="subaudible">while</supplied> a seizer <supplied reason="explanation">of granted land</supplied> and a condoner <supplied reason="explanation">of such seizure</supplied> shall reside in hell for just as many.</p>
+   <p rend="stanza" n="4">Those who usurp a land grant will be born as black snakes dwelling in dry holes in the waterless wilderness of the Vindhyas.</p>
+   <p rend="stanza" n="5">O Yudhiṣṭhira, diligently preserve land that has been donated, whether by yourself or another. O best of land-possessors, preserving <supplied reason="subaudible">a grant</supplied> is superior to making a grant.</p>
+   <p rend="stanza" n="6">Many kings, beginning with Sagara, have enjoyed the bountiful land. Whosoever at any time owns the land, the fruit <seg rend="pun">reward <supplied reason="explanation">accrued of granting it</supplied></seg> belongs to him at that time.</p>
+   <p rend="stanza" n="7">Whatever assets in this world kings have turned into foundations of moral order <supplied reason="explanation"><foreign>dharma</foreign></supplied> for fear of poverty <supplied reason="explanation">in the transcendent world</supplied> are like something that has been eaten and vomited—what decent man would partake of them again?</p>
+   <p n="36"><supplied reason="subaudible">This</supplied> copper edict was written in the Śaka year five hundred and fifty-two.<note>The text actually inscribed lacks a word for “hundred” but one was definitely intended. See also the apparatus entry for the date.</note></p>
+           </div>
+         
+         
+         <div type="translation" xml:lang="fra" source="bib:Estienne-Monod2008_01">
+<p n="1">Om ! prospérité !</p>
+<p rend="stanza" n="1">Ses défenses brillantes la grandissent comme un croissant de jeune lune immaculée, la boue du Rasātala souille ses épaules, la crinière dressée, du milieu de l’océan elle recueille la terre, du bout de son groin, frôlant l’eau, elle libère une tempête dont l’écho remonte : victorieuse est la forme de sanglier que revêt Hari !</p>
+<p rend="stanza" n="2">après cela, serti de perles blanches tombées de la têtes des éléphants des puissants ennemis vaincus, victorieux est le bras de Satyāśraya, qui fait naître un grand respect dans le monde !</p>
+<p n="4-19">Il y eut, dans la descendance des Calukya, du même gotra que les descendants de Manu, fils de Hārīti, nourris par Kauśikī, consacrés par la troupe des Mères,
+méditant aux pieds du seigneur Mahāsena, eux dont les têtes furent lavées par le bain purificatoire de nombreux sacrifices, à commencer par le <foreign>suvarṇaka</foreign>,<note>Ce terme désigne sans doute une donation d’or émise par le roi. Il est mentionné sous la variante <foreign>bahusuvarṇa</foreign> aussi in insc. nos 8 et 9. Kane ne le répertorie pas dans les <foreign>mahādāna</foreign>.</note> 
+   l’<foreign>aśvamedha</foreign>, le <foreign>pauṇḍarīka</foreign> et le <foreign>vājapeya</foreign>,<note>Sur ces sacrifices cf. P.V. Kane, 1974, II, part. II : le <foreign>vājapeya</foreign>, p. 1206-7 : Āp. XVIII. 1.4 ; l’<foreign>aśvamedha</foreign>, p. 1228-39 : Śat. Br. XIII. 1-5, Tai. Br. III. 8-9 ; le <foreign>pauṇḍarīka</foreign>, p. 839 : Śat. Br. X. Sacrifices mentionnés aussi in insc. nos 8 (pour les <foreign>vājapeya</foreign> et <foreign>pauṇḍarīka</foreign>), 20 (pour le <foreign>pauṇḍarīka</foreign>). L’<foreign>aśvamedha</foreign> est mentionné dans presque toutes les insc. du corpus.</note> 
+   un grand roi semblable à Manu, Nr̥ga, Nahūṣa, Yayāti, Dhundhumāra, Ambarīṣa, Dilīpa et Nābhāga : Pulikeśin Vallabha, portant comme second nom celui de l’illustre Raṇa Vikrama, vent qui disperse la masse des nuages que sont les éléphants ennemis, nommé aussi l’illustre Parākrāma.
+Il eut pour fils Kīrtivarman, dont la grandeur détruit les puissants ennemis, imitateur du mont Himālaya, qui possède une grande fermeté et noblesse, honoré par les plus grands feudataires, inclinés <supplied reason="subaudible">devant lui</supplied>, qui pratique l’ascèse, dont les serviteurs gagnent la faveur, créé par le créateur qui le dota d’un esprit sans pareil, avec respect semble-t-il, qui, proférant des paroles modérées, vertueuses, pures et sincères, est pareil à l’établissement des conduites du monde,<note>Le roi est comparé à Manu, créé par Brahmā, premier ordonnateur de la société humaine.</note> 
+   qui se comporte en sage, seigneur des hommes du Premier Age, victorieux, qui paraît êtres venu du ciel, dont la beauté de lune automnale apaise toutes les souffrances de l’univers, dont le seul plaisir est l’audace, qui a gagné par la force de son bras le nom de Raṇa Vikrama, ses membres étant marqués par les callosités nées des nombreux combats au cours desquels <supplied reason="subaudible">il a chevauché</supplied> l’Eléphant aux Quatre Défenses,<note>Airāvata.</note> 
+   dont l’orgueil et la puissance se marient avec la compassion envers les aveugles et les affligés, maître des océans de l’est et de l’ouest, voué à l’obéissance aux dieux, aux deux-fois nés et aux sages, excellent dévôt du Bienheureux,<note>Bouddha. [DB : why ?]</note> 
+   qui efface avec force la fortune des autres rois, Satyāśraya Pr̥thivī Vallabha, grand roi, s’adresse avec respect aux rois, aux feudataires, aux <foreign>bhogika</foreign>,<note>chefs de district.</note> aux chefs des <foreign>viṣaya</foreign>,<note>chefs de circonscriptions.</note> aux <foreign>rāṣṭrakūṭa</foreign>,<note>chefs de plusieurs villages.</note> à tous les chefs de villages, etc., de même qu’à tous <supplied reason="subaudible">les autres</supplied> :</p>
+<p n="19-24"> que ceci soit connu de vous : 
+   Nous avons fait don, après avoir versé de l’eau, dans le voisinage du village d’Asikheṭaka, inclus dans le pathaka<note>groupe de villages.</note> de Moṣiṇī, du village de Goviyāṇaka, avec tous les revenus de la famille royale, village dont l’entrée est interdite aux troupes régulières et irrégulières, aussi longtemps que subsisteront la lune, le soleil, l’océan et la terre, 
+   pour lui permettre d’accomplir des cinq grands sacrifices, à savoir le <foreign>bali</foreign>, le <foreign>caru</foreign>, le <foreign>vaiśvadeva</foreign>,<note>Sur ces sacrifices, cf. insc. n°2. Le <foreign>bali</foreign>, le <foreign>caru</foreign> et le <foreign>vaiśvadeva</foreign> sont aussi mentionnés in insc. nos 2 et 10.</note> l’<foreign>agnihotra</foreign>,<note>Sur l’<foreign>agnihotra</foreign>, sacrifice védique consistant en une offrande de lait bouilli, cf. Gaut. III 20 et P.V. Kane, 1974, II, part. II, p. 998-1001. Sacrifice mentionné aussi in insc. n° 10.</note> 
+   le <foreign>kriyā</foreign>,<note>Selon l’éditeur, sans doute équivalent du <foreign>kratu</foreign>. Seule occurrence de ce terme dans notre corpus. Sur le <foreign>kratu</foreign>, cf. Ait. Br. ŚBr. xi, Āśv Śr. &amp;c., références données in Monier-Williams.</note> à Dāmādīkṣita, qui réside à Lohanagara, à l’extérieur de Girinagara, du même <foreign>gotra</foreign> que Sāvarṇi, qui est disciple des écoles de Maitrāyaṇika et de Vārāhaka. »</p>
+<p n="24-29">Ainsi, les rois de notre lignée, ou les autres souverains et gouverneurs de <foreign>bhoga</foreign> à venir, ayant compris que le cycle des existences qui a la solidité d’un pétal de roseau, et que les objets des sens sont aussi instables que les vagues de l’océan,<note>Même idée in insc. n°10.</note> ayant perçu que la vie est périssable comme le torrent surgissant, depuis le sommet, le flanc pentu, ayant saisi que la gloire, ce grand fruit, splendide rayon de lune automnal, est aussi permanent qu’un atome par rapport aux éléments, doivent approuver et défendre ce don qui vient de nous.
+Que celui qui, l’esprit obscurci par le voile ténébreux de l’ignorance, transgresse <supplied reason="subaudible">cet édit</supplied>, ou approuve qu’il soit transgressé,
+soit lié aux cinq grands crimes, le bienheureux Vyāsa qui a exposé les Veda, l’a dit.</p>
+<p rend="stanza" n="3">Le donateur de la terre séjourne soixante mille ans dans le ciel,
+Celui qui la prend et qui le permet demeure aussi longtemps en enfer !</p>
+<p rend="stanza" n="4">Habitant des grottes arides dans les forêts sans eau du Vindhya,
+ceux qui s’emparent d’une donation de terre renaissent comme serpents noirs.</p>
+<p rend="stanza" n="5">Qu’elle soit donnée par toi ou par un autre, ô Yudhiṣṭhira, protège avec force cette terre !
+ô meilleur des possesseurs de la terre, la préservation est plus grande que le don.</p>
+<p rend="stanza" n="6">Beaucoup de rois ont joui de la terre, à commencer par Sagara,
+celui qui possède la terre en possède le fruit.</p>
+<p rend="stanza" n="7">Les richesses qu’en ce monde des rois, par crainte de la pauvreté, ont transformées en réceptacles du dharma,
+pareilles à <supplied reason="subaudible">la nourriture</supplied> mangée puis régurgitée, quel homme de bien les reprendrait ?</p>
+<p rend="stanza" n="36">Cet édit de cuivre a été gravé en 552 de l’ère <foreign>śaka</foreign>.
+</p>
+         </div>
+
+
+         <div type="commentary">
+<p>These plates were discussed prior to their publication by Khare (<bibl rend="omitname"><ptr target="bib:Khare1947-1948_01"/></bibl>), particularly as regards their implications on the history of the war between Harṣa and Polekeśi(e.g. <bibl><ptr target="bib:Chattopadhyaya1939_01"/><citedRange>601-603</citedRange></bibl>).</p>
+<p>Stanza 1 is a samacatuṣpadī of 17 syllables (atyaṣṭi), with the quarters following this prosodic pattern: - + - - - + + - + + - + - + + - = (ja sa ra ra ya la ga). Khare admits to not knowing this metre and remarks on its similarity to pr̥thvī (also 17 syllables, - + - - - + - +:   - -  - + - + + - = with the first 6 and last 7 syllables having the same scansion). The metre is not in Apte’s appendix. Note compound straddling cd pāda boundary in a long metre. (Reminds me of v7 in the Allahabad pillar of Samudragupta, where the same thing happens in pr̥thvī, and the topic is also a torrent of water - I think both are quite deliberate enjambements.)</p>
+<p n="10">Khare supplies r after -onnati but I prefer to supply a visarga in spite of standard sandhi requirements; if an r had been intended, then the following n would have been doubled.</p>
+<p n="11">Likewise, in l11 Khare emends to caraṇo, l13 to carito, l15 to avano. I feel vindicated by the clear -nāthaḥ deva in l16.</p>
+<p n="19">As above, I prefer to insert visargas instead of restoring standard sandhi. Khare emends to asmābhir moṣiṇī and -antarggato ‘sikheṭaka.</p>
+<p>Most of plate 3(recto) is faint in the facsimile, or at least in the scan; many characters are completely indistinct. I follow Khare’s readings here. Of these, the following may be problematic: l30, ḫ pa (nothing of this character is discernible, and this is the only ḫ in the text, compare sādhuḥ punar in l36); l31, vaseT,, (noted in the apparatus); l32, vā (noted in apparatus); l35, rddhanāni (perhaps rddānāni?); l35, nirbhukta (looks like just nibhukta).
+         </p></div>
+
+         
+         <div type="bibliography">
+  <!--bibliography encoded as per section §9.4 -->
+  <!-- NB: you are encouraged to experiment with encoding bibliography to the extent you have the bibliographic data available, but it is not mandatory at this stage, because our bibliographic data are normally assembled along with other metadata in spreadsheets and will be imported from there into our xml files by a semi-automated process at a later stage. -->
+           <p>Edited by Ganesh Hari Khare (<bibl rend="omitname"><ptr target="bib:Khare1947-1948_01"/></bibl>) with estampages but without translation. Khare had also edited the inscription earlier, published in Marathi in “Sources of the Medieval History of the Deccan” vol. I. p. 1ff. <note>Not traced; not sure if the entire book is in Marathi or only parts of it. It was apparently published in 3 vols in Pune, 1930 to 1949; the Marathi title may be दक्खनच्या मध्यकालीन इतिहासाची साधने.</note>  The present edition by Dániel Balogh is based on a collation of Khare’s edition with the published facsimile.</p>
+           <listBibl type="primary">
+             <bibl n="GHK"><ptr target="bib:Khare1947-1948_01"/></bibl>
+           </listBibl>
+           <listBibl type="secondary">
+             <bibl/><!-- one <bibl/> per item of secondary bibliography -->
+           </listBibl>
+        </div>
+      </body>
+  </text>
+</TEI>
