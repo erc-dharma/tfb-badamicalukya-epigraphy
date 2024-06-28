@@ -164,7 +164,7 @@ n="2"/>rāreḥ</rdg>
                   <app loc="5">
                      <lem>-<unclear>g</unclear><supplied reason="lost">u</supplied><unclear>r</unclear><supplied reason="lost">u</supplied>-<gap reason="lost" quantity="6" unit="character" precision="low"/></lem>
                      <rdg source="bib:Fleet1879_01">-<unclear>guru</unclear>-<supplied reason="lost" cert="low">pādānuddhyātānāṁ</supplied></rdg>
-                     <note>Since we now know that <foreign>pādānuddhyāta</foreign> does not normally mean “meditating at the feet of”, I think Fleet's restoration must be discarded. Instead, I suggest <foreign>vr̥ddhāpacāyināṁ</foreign> on the basis of the <ref n="tfb-badamicalukya-epigraphy" target="DHARMA_INSBadamiCalukya00004.xml">Kopparam plates of Pulakeśin II</ref>, but there are other possibilities such as <foreign>sādhubhaktānāṁ</foreign>, etc.</note>
+                     <note>Since we now know that <foreign>pādānuddhyāta</foreign> does not normally mean “meditating at the feet of”, I think Fleet's restoration must be discarded. Instead, I suggest <foreign>vr̥ddhāpacāyināṁ</foreign> on the basis of the <ref target="DHARMA_INSBadamiCalukya00004.xml">Kopparam plates of Pulakeśin II</ref>, but there are other possibilities such as <foreign>sādhubhaktānāṁ</foreign>, etc.</note>
                   </app>
                   <app loc="6">
                      <lem><gap reason="lost" quantity="5" unit="character" precision="low"/>ṣāṁ</lem>
