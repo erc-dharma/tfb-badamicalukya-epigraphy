@@ -91,7 +91,7 @@
          <div type="edition" xml:lang="san-Latn" rendition="class:83225 maturity:83213">
 <pb n="1v"/>
 <ab>
-<lb n="01"/><g ref="sym:spiral" type="symbol">*</g><!--CHECK SYMBOL encoding and content, <unclear> may need to be added--> śrī
+<lb n="01"/><unclear><g ref="sym:spiral" type="symbol">*</g></unclear> śrī
 <lb n="02"/>svasti||
 </ab>
 <lg n="1" met="mālinī">
