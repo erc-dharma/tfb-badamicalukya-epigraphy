@@ -10,14 +10,7 @@
          <titleStmt>
             <title>Aihole temple foundation of Ravikīrti of the time of Pulakeśin II</title>
             <respStmt>
-               <resp key="contributor">EpiDoc encoding</resp>
-               <persName ref="part:daba">
-                  <forename>Dániel</forename>
-                  <surname>Balogh</surname>
-               </persName>
-            </respStmt>
-            <respStmt>
-               <resp key="creator">intellectual authorship of edition</resp>
+               <resp key="creator"/>
                <persName ref="part:daba">
                   <forename>Dániel</forename>
                   <surname>Balogh</surname>
@@ -413,7 +406,7 @@ dakṣi<unclear>ṇato</unclear>
                      <note>According to Kielhorn, a second <foreign>le</foreign> may have been engraved in this space, and then struck out. The vestiges/scratches visible in the scan do not look like <foreign>le</foreign>, but I cannot exclude the possibility. I can also imagine that we have a horizontal punctuation mark here, or an aborted character overstruck with one.</note>
                   </app>
                   <app loc="18">
-                     <lem>-<choice><unclear>p</unclear></choice>a<unclear>cc</unclear>anūr-</lem>
+                     <lem>-<choice><unclear>m</unclear><unclear>p</unclear></choice>a<unclear>cc</unclear>anūr-</lem>
                      <rdg source="bib:Kielhorn1900-1901_01">-paccanūr-</rdg>
                      <rdg source="bib:Fleet1876_05">-sarvvanūr-</rdg>
                      <rdg source="bib:Fleet1879_02">-pa<choice><unclear>cc</unclear><unclear>vv</unclear></choice>anūr-</rdg>
